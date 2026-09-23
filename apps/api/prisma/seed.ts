@@ -1,4 +1,5 @@
 import { PrismaClient } from "@prisma/client";
+import { groupForCategory } from "../src/categoryGroups";
 
 const prisma = new PrismaClient();
 
@@ -1724,6 +1725,7 @@ async function main() {
             title: a.title,
             region: a.region,
             category: a.category,
+            categoryGroup: groupForCategory(a.category),
             description: a.description,
             costType: a.costType,
             costEstimate: a.costEstimate,

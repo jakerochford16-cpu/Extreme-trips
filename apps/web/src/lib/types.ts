@@ -18,6 +18,7 @@ export type Activity = {
   title: string;
   region: string;
   category: string;
+  categoryGroup: string;
   description: string;
   costType: CostType;
   costEstimate: string | null;

@@ -28,6 +28,7 @@ model Activity {
   title           String
   region          String
   category        String
+  categoryGroup   String
   description     String
   costType        String
   costEstimate    String?
