@@ -1,6 +1,8 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useMemo, useRef, useState } from "react";
+import { useFavorites } from "@/lib/favorites";
+import { findActivityById } from "@/lib/clientActivities";
 
 type ChatTurn = { role: "user" | "model"; text: string };
 
@@ -17,6 +19,13 @@ export default function PlanPage() {
   const [error, setError] = useState<string | null>(null);
   const bottomRef = useRef<HTMLDivElement>(null);
 
+  const { favoriteIds } = useFavorites();
+  const favoriteActivities = useMemo(
+    () => favoriteIds.map(findActivityById).filter((a) => a !== null),
+    [favoriteIds]
+  );
+  const [useFavoritesContext, setUseFavoritesContext] = useState(true);
+
   async function send(text: string) {
     const trimmed = text.trim();
     if (!trimmed || loading) return;
@@ -31,7 +40,13 @@ export default function PlanPage() {
       const res = await fetch("/api/plan", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ messages: nextTurns }),
+        body: JSON.stringify({
+          messages: nextTurns,
+          favorites:
+            useFavoritesContext && favoriteActivities.length > 0
+              ? favoriteActivities.map((a) => `${a.title} (${a.countryName})`)
+              : undefined,
+        }),
       });
       const data = await res.json();
       if (!res.ok) {
@@ -58,6 +73,24 @@ export default function PlanPage() {
         transport options, costs, and a day-by-day breakdown — not just a list of
         attractions.
       </p>
+
+      {favoriteActivities.length > 0 && (
+        <label className="mt-6 flex cursor-pointer items-start gap-3 rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm text-white/70">
+          <input
+            type="checkbox"
+            checked={useFavoritesContext}
+            onChange={(e) => setUseFavoritesContext(e.target.checked)}
+            className="mt-0.5 h-4 w-4 accent-orange-500"
+          />
+          <span>
+            <span className="font-semibold text-white">
+              Use your {favoriteActivities.length} favorite
+              {favoriteActivities.length === 1 ? "" : "s"} as context
+            </span>{" "}
+            — {favoriteActivities.map((a) => a.title).join(" • ")}
+          </span>
+        </label>
+      )}
 
       {turns.length === 0 && (
         <div className="mt-8 flex flex-wrap gap-2">
