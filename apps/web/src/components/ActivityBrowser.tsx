@@ -3,11 +3,19 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { ActivityCard } from "./ActivityCard";
+import { Select } from "./ui/Select";
 import { extremenessScore } from "@/lib/extremeness";
 import { CATEGORY_GROUPS, labelForGroup } from "@/lib/categoryGroups";
 import type { ActivityWithCountry } from "@/lib/types";
 
 type SortKey = "default" | "most-extreme" | "least-extreme" | "free-first";
+
+const SORT_OPTIONS: { value: SortKey; label: string }[] = [
+  { value: "default", label: "Default order" },
+  { value: "most-extreme", label: "Most extreme first" },
+  { value: "least-extreme", label: "Least extreme first" },
+  { value: "free-first", label: "Free first" },
+];
 
 export function ActivityBrowser({ activities }: { activities: ActivityWithCountry[] }) {
   const [query, setQuery] = useState("");
@@ -77,40 +85,19 @@ export function ActivityBrowser({ activities }: { activities: ActivityWithCountr
             className="w-full rounded-lg border border-white/15 bg-white/[0.04] py-2.5 pl-10 pr-4 text-sm text-white placeholder:text-white/35 outline-none transition focus:border-accent/60 focus:bg-white/[0.06]"
           />
         </div>
-        <select
+        <Select
           value={countrySlug}
-          onChange={(e) => setCountrySlug(e.target.value)}
-          className="rounded-full border border-white/15 bg-white/[0.03] px-4 py-2 text-sm text-white/80 outline-none focus:border-accent"
-        >
-          <option value="all">All countries</option>
-          {countries.map((c) => (
-            <option key={c.slug} value={c.slug}>
-              {c.name}
-            </option>
-          ))}
-        </select>
-        <select
+          onChange={setCountrySlug}
+          className="w-44"
+          options={[{ value: "all", label: "All countries" }, ...countries.map((c) => ({ value: c.slug, label: c.name }))]}
+        />
+        <Select
           value={categorySlug}
-          onChange={(e) => setCategorySlug(e.target.value)}
-          className="rounded-full border border-white/15 bg-white/[0.03] px-4 py-2 text-sm text-white/80 outline-none focus:border-accent"
-        >
-          <option value="all">All categories</option>
-          {groupsPresent.map((g) => (
-            <option key={g.slug} value={g.slug}>
-              {g.label}
-            </option>
-          ))}
-        </select>
-        <select
-          value={sort}
-          onChange={(e) => setSort(e.target.value as SortKey)}
-          className="rounded-full border border-white/15 bg-white/[0.03] px-4 py-2 text-sm text-white/80 outline-none focus:border-accent"
-        >
-          <option value="default">Default order</option>
-          <option value="most-extreme">Most extreme first</option>
-          <option value="least-extreme">Least extreme first</option>
-          <option value="free-first">Free first</option>
-        </select>
+          onChange={setCategorySlug}
+          className="w-44"
+          options={[{ value: "all", label: "All categories" }, ...groupsPresent.map((g) => ({ value: g.slug, label: g.label }))]}
+        />
+        <Select value={sort} onChange={(v) => setSort(v as SortKey)} className="w-48" options={SORT_OPTIONS} />
       </div>
 
       <p className="mb-5 text-sm font-semibold uppercase tracking-widest text-white/40">
