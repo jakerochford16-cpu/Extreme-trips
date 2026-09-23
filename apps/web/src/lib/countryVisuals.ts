@@ -22,6 +22,11 @@ export const COUNTRY_VISUALS: Record<string, { photo: string; accent: string }> 
   bolivia: { photo: "/images/categories/mountain-biking.jpg", accent: "#84cc16" },
   ecuador: { photo: "/images/countries/iceland.jpg", accent: "#ef4444" },
   colombia: { photo: "/images/categories/trekking.jpg", accent: "#22c55e" },
+  mexico: { photo: "/images/categories/diving-whitewater.jpg", accent: "#06b6d4" },
+  "united-states": { photo: "/images/categories/mountaineering-climbing.jpg", accent: "#f97316" },
+  greenland: { photo: "/images/categories/polar.jpg", accent: "#7dd3fc" },
+  "faroe-islands": { photo: "/images/categories/camping.jpg", accent: "#a3e635" },
+  "united-kingdom": { photo: "/images/categories/canyoning-caving.jpg", accent: "#c084fc" },
 };
 
 const FALLBACK = { photo: "/images/countries/switzerland.jpg", accent: "#94a3b8" };
