@@ -98,7 +98,7 @@ export default async function CountryPage({
           ) : (
             <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
               {visibleActivities.map((activity) => (
-                <ActivityCard key={activity.id} activity={activity} />
+                <ActivityCard key={activity.id} activity={activity} countryName={country.name} />
               ))}
             </div>
           )}

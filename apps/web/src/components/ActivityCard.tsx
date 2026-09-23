@@ -1,7 +1,16 @@
 import type { Activity } from "@/lib/types";
 import { CostBadge, DifficultyBadge, RiskBadge } from "./badges";
+import { FavoriteButton } from "./FavoriteButton";
+import { ReviewSection } from "./ReviewSection";
+import { guideSearchUrl } from "@/lib/guideLinks";
 
-export function ActivityCard({ activity }: { activity: Activity }) {
+export function ActivityCard({
+  activity,
+  countryName,
+}: {
+  activity: Activity;
+  countryName: string;
+}) {
   return (
     <article
       id={activity.id}
@@ -14,6 +23,7 @@ export function ActivityCard({ activity }: { activity: Activity }) {
           </p>
           <h3 className="mt-1 text-xl font-bold text-white">{activity.title}</h3>
         </div>
+        <FavoriteButton activityId={activity.id} />
       </div>
 
       <div className="mt-3 flex flex-wrap gap-2">
@@ -59,6 +69,20 @@ export function ActivityCard({ activity }: { activity: Activity }) {
           ))}
         </div>
       )}
+
+      <a
+        href={guideSearchUrl(activity.title, activity.region, countryName)}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-orange-400 hover:text-orange-300"
+      >
+        Find a guide / operator
+        <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M7 17L17 7M7 7h10v10" />
+        </svg>
+      </a>
+
+      <ReviewSection activityId={activity.id} />
     </article>
   );
 }
