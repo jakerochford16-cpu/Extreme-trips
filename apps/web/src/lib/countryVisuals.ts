@@ -32,6 +32,11 @@ export const COUNTRY_VISUALS: Record<string, { photo: string; accent: string }> 
   austria: { photo: "/images/categories/ice-snow.jpg", accent: "#60a5fa" },
   slovenia: { photo: "/images/categories/diving-whitewater.jpg", accent: "#14b8a6" },
   georgia: { photo: "/images/categories/mountaineering-climbing.jpg", accent: "#fb923c" },
+  kyrgyzstan: { photo: "/images/categories/ice-snow.jpg", accent: "#93c5fd" },
+  pakistan: { photo: "/images/countries/nepal.jpg", accent: "#f97316" },
+  india: { photo: "/images/categories/diving-whitewater.jpg", accent: "#fbbf24" },
+  bhutan: { photo: "/images/categories/trekking.jpg", accent: "#4ade80" },
+  mongolia: { photo: "/images/categories/other.jpg", accent: "#eab308" },
 };
 
 const FALLBACK = { photo: "/images/countries/switzerland.jpg", accent: "#94a3b8" };
