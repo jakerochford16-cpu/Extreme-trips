@@ -7973,8 +7973,8 @@
     "continent": "Africa",
     "summary": "North Africa's highest peak under snow half the year, a limestone gorge climbers travel continents for, and a corner of the Sahara where a 4x4 or a camel are genuinely the only ways in.",
     "heroTag": "Atlas & Sahara extremes",
-    "activityCount": 4,
-    "extremenessRating": 1,
+    "activityCount": 7,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "morocco--mount-toubkal-summit-climb",
@@ -8075,6 +8075,81 @@
           "narrow walls",
           "hundreds of routes"
         ]
+      },
+      {
+        "id": "morocco--surfing-taghazout",
+        "countryId": "morocco",
+        "title": "Surfing, Taghazout",
+        "region": "Souss-Massa region",
+        "category": "Surfing",
+        "categoryGroup": "surfing",
+        "description": "Morocco's best-known surf hub, with point breaks that hold consistent, well-shaped waves through the winter Atlantic swell season — a fast-growing surf-travel scene built on reliable conditions and a coastline still relatively cheap and uncrowded by European standards.",
+        "costType": "FREE",
+        "costEstimate": null,
+        "currency": null,
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": false,
+        "guideRequired": false,
+        "bestSeason": "September – April",
+        "latitude": 30.5433,
+        "longitude": -9.7103,
+        "tags": [
+          "point break",
+          "consistent swell",
+          "surf hub",
+          "uncrowded"
+        ]
+      },
+      {
+        "id": "morocco--big-wall-climbing-taghia-gorge",
+        "countryId": "morocco",
+        "title": "Big wall climbing, Taghia Gorge",
+        "region": "Central High Atlas",
+        "category": "Rock Climbing",
+        "categoryGroup": "mountaineering-climbing",
+        "description": "Sheer limestone walls up to 700m tall in one of the most remote inhabited valleys in the High Atlas, reached by mule track from the nearest road — regarded by serious climbers as one of the best big-wall limestone destinations on Earth, and still barely known outside climbing circles.",
+        "costType": "FREE",
+        "costEstimate": null,
+        "currency": null,
+        "difficulty": "INSANE",
+        "riskLevel": "EXTREME",
+        "permitRequired": false,
+        "guideRequired": false,
+        "bestSeason": "April – June, September – October",
+        "latitude": 31.9833,
+        "longitude": -5.75,
+        "tags": [
+          "limestone big wall",
+          "mule track approach",
+          "remote valley",
+          "world-class"
+        ]
+      },
+      {
+        "id": "morocco--mountain-biking-high-atlas",
+        "countryId": "morocco",
+        "title": "Mountain biking, High Atlas",
+        "region": "Toubkal region",
+        "category": "Mountain Biking",
+        "categoryGroup": "mountain-biking",
+        "description": "Multi-day cross-country routes over Berber mule tracks connecting mountain villages above 2,500m, descending thousands of metres of technical singletrack back toward the valleys — logistics (and often bikes) are handled by local guides who know the trail network from growing up on it.",
+        "costType": "PAID",
+        "costEstimate": "Guided multi-day trip ~5,000–8,000",
+        "currency": "MAD",
+        "difficulty": "EXPERT",
+        "riskLevel": "HIGH",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "April – June, September – October",
+        "latitude": 31.05,
+        "longitude": -7.9167,
+        "tags": [
+          "mule track singletrack",
+          "Berber villages",
+          "technical descents",
+          "multi-day"
+        ]
       }
     ]
   },
@@ -8085,7 +8160,7 @@
     "continent": "Asia",
     "summary": "A desert so red and alien that Mars films are shot here, a slot canyon you swim and climb your way up rather than down, and Red Sea reefs a fraction of the distance from Europe of anywhere comparable.",
     "heroTag": "Desert & canyon extremes",
-    "activityCount": 3,
+    "activityCount": 7,
     "extremenessRating": 1,
     "activities": [
       {
@@ -8162,6 +8237,106 @@
           "compact coastline",
           "year-round diving"
         ]
+      },
+      {
+        "id": "jordan--trekking-dana-to-petra",
+        "countryId": "jordan",
+        "title": "Trekking, Dana to Petra",
+        "region": "Dana Biosphere Reserve to Petra",
+        "category": "Wilderness Trekking",
+        "categoryGroup": "trekking",
+        "description": "A multi-day desert trek along part of the Jordan Trail, dropping from a forested highland nature reserve down through sandstone canyons to arrive at Petra on foot — a genuinely different, far quieter approach to the ancient city than the main tourist entrance.",
+        "costType": "PAID",
+        "costEstimate": "3-day guided trek JOD 250–350",
+        "currency": "JOD",
+        "difficulty": "EXPERT",
+        "riskLevel": "MODERATE",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "March – May, September – November",
+        "latitude": 30.6667,
+        "longitude": 35.6,
+        "tags": [
+          "multi-day desert trek",
+          "arrives at Petra on foot",
+          "sandstone canyons",
+          "quiet route"
+        ]
+      },
+      {
+        "id": "jordan--canyoning-wadi-hasa",
+        "countryId": "jordan",
+        "title": "Canyoning, Wadi Hasa",
+        "region": "Central Jordan",
+        "category": "Canyoning",
+        "categoryGroup": "canyoning-caving",
+        "description": "A longer, wilder, far less-visited canyon than Mujib — multi-hour to full-day descents through pools, small waterfalls and narrows fed by thermal springs, with a fraction of the crowds of the more famous Dead Sea canyons.",
+        "costType": "PAID",
+        "costEstimate": "Guided day trip JOD 45–70",
+        "currency": "JOD",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "April – October",
+        "latitude": 31.0333,
+        "longitude": 35.6167,
+        "tags": [
+          "thermal springs",
+          "less-visited canyon",
+          "waterfall pools",
+          "guided"
+        ]
+      },
+      {
+        "id": "jordan--sandboarding-wadi-rum-dunes",
+        "countryId": "jordan",
+        "title": "Sandboarding, Wadi Rum dunes",
+        "region": "Wadi Rum",
+        "category": "Sandboarding",
+        "categoryGroup": "other",
+        "description": "Steep red-sand dune faces within the same protected desert that hosts Jordan's climbing and trekking scene — a lower-key, lower-risk add-on typically combined with a Bedouin-guided jeep tour and overnight desert camp.",
+        "costType": "PAID",
+        "costEstimate": "Combined with jeep tour, JOD 30–50",
+        "currency": "JOD",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": false,
+        "guideRequired": false,
+        "bestSeason": "March – May, September – November",
+        "latitude": 29.5833,
+        "longitude": 35.4167,
+        "tags": [
+          "red sand dunes",
+          "Bedouin-guided",
+          "desert camp",
+          "lower risk"
+        ]
+      },
+      {
+        "id": "jordan--off-road-jeep-expedition-wadi-rum-desert",
+        "countryId": "jordan",
+        "title": "Off-road jeep expedition, Wadi Rum desert",
+        "region": "Wadi Rum",
+        "category": "Off-Road Expedition",
+        "categoryGroup": "volcano-offroad",
+        "description": "Multi-hour to multi-day 4x4 routes deep into the protected desert, tracking between rock arches, ancient petroglyphs and Bedouin campsites — the same Mars-like terrain used in numerous films, genuinely remote once the main tourist loop is left behind.",
+        "costType": "PAID",
+        "costEstimate": "Half-day jeep tour JOD 25–40",
+        "currency": "JOD",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "March – May, September – November",
+        "latitude": 29.55,
+        "longitude": 35.4,
+        "tags": [
+          "4x4 desert expedition",
+          "rock arches",
+          "petroglyphs",
+          "Bedouin-guided"
+        ]
       }
     ]
   },
@@ -8172,8 +8347,8 @@
     "continent": "Asia",
     "summary": "A canyon system Omanis call their own Grand Canyon, a cave chamber big enough to lose an entire jumbo jet inside, and turquoise wadi pools reached only by swimming through a rock tunnel.",
     "heroTag": "Wadi & cave extremes",
-    "activityCount": 3,
-    "extremenessRating": 3,
+    "activityCount": 7,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "oman--canyoning-wadi-shab",
@@ -8249,6 +8424,106 @@
           "150m vertical shaft",
           "technical access"
         ]
+      },
+      {
+        "id": "oman--diving-musandam-peninsula",
+        "countryId": "oman",
+        "title": "Diving, Musandam Peninsula",
+        "region": "Musandam Governorate",
+        "category": "Diving",
+        "categoryGroup": "diving-whitewater",
+        "description": "Steep fjords dropping straight into the Strait of Hormuz have earned this exclave the nickname \"Norway of Arabia\" — dramatic wall diving and strong currents where the Gulf of Oman meets the Arabian Sea, with resident reef sharks and huge schools of pelagic fish.",
+        "costType": "PAID",
+        "costEstimate": "2-tank dive OMR 35–50",
+        "currency": "OMR",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "October – April",
+        "latitude": 26.15,
+        "longitude": 56.25,
+        "tags": [
+          "fjord diving",
+          "strong currents",
+          "reef sharks",
+          "dramatic coastline"
+        ]
+      },
+      {
+        "id": "oman--trekking-jebel-akhdar-terraces",
+        "countryId": "oman",
+        "title": "Trekking, Jebel Akhdar terraces",
+        "region": "Al Hajar Mountains",
+        "category": "Wilderness Trekking",
+        "categoryGroup": "trekking",
+        "description": "Steep, centuries-old rose and pomegranate terraces cut into a 2,000m+ mountain plateau, connected by ancient stone paths that climb directly up cliff faces between villages — a genuinely vertiginous trekking network still used daily by local farmers.",
+        "costType": "FREE",
+        "costEstimate": null,
+        "currency": null,
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": false,
+        "guideRequired": false,
+        "bestSeason": "October – April",
+        "latitude": 23.0667,
+        "longitude": 57.6667,
+        "tags": [
+          "ancient terraces",
+          "cliff-face paths",
+          "high plateau",
+          "working farmland"
+        ]
+      },
+      {
+        "id": "oman--dune-bashing-wahiba-sands",
+        "countryId": "oman",
+        "title": "Dune bashing, Wahiba Sands",
+        "region": "Sharqiyah Sands",
+        "category": "Off-Road Expedition",
+        "categoryGroup": "volcano-offroad",
+        "description": "A genuine sand sea of towering orange dunes stretching over 12,500km², crossed by 4x4 in a high-adrenaline driving style locally called \"dune bashing\" — steep drops and soft-sand recoveries are part of the experience, not a malfunction.",
+        "costType": "PAID",
+        "costEstimate": "Guided half-day OMR 40–60",
+        "currency": "OMR",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "October – April",
+        "latitude": 22.15,
+        "longitude": 58.4667,
+        "tags": [
+          "sand sea",
+          "dune bashing",
+          "4x4 expedition",
+          "steep drops"
+        ]
+      },
+      {
+        "id": "oman--canyoning-wadi-bani-khalid",
+        "countryId": "oman",
+        "title": "Canyoning, Wadi Bani Khalid",
+        "region": "Ash Sharqiyah North Governorate",
+        "category": "Canyoning",
+        "categoryGroup": "canyoning-caving",
+        "description": "A series of spring-fed turquoise pools threading through a rugged mountain wadi, with rappels and jumps connecting each pool to the next — permanent water year-round makes this one of Oman's few canyons that never fully dries out.",
+        "costType": "PAID",
+        "costEstimate": "Guided day trip OMR 25–40",
+        "currency": "OMR",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": false,
+        "guideRequired": false,
+        "bestSeason": "October – April",
+        "latitude": 22.9,
+        "longitude": 59.1667,
+        "tags": [
+          "permanent spring water",
+          "turquoise pools",
+          "cliff jumps",
+          "year-round"
+        ]
       }
     ]
   },
@@ -8259,7 +8534,7 @@
     "continent": "North America",
     "summary": "A rainforest river regularly rated one of the best whitewater trips on the planet, two accessible active volcanoes, and a left-hand surf break so long that riding it end to end has become its own bucket-list challenge.",
     "heroTag": "Rainforest & volcano extremes",
-    "activityCount": 4,
+    "activityCount": 7,
     "extremenessRating": 2,
     "activities": [
       {
@@ -8361,6 +8636,81 @@
           "remote village",
           "seasonal swell"
         ]
+      },
+      {
+        "id": "costa-rica--diving-cocos-island",
+        "countryId": "costa-rica",
+        "title": "Diving, Cocos Island",
+        "region": "Cocos Island National Park",
+        "category": "Diving",
+        "categoryGroup": "diving-whitewater",
+        "description": "A remote, uninhabited UNESCO island 550km off the mainland, liveaboard-only, famous for enormous schooling hammerhead sharks and regular whale shark and manta encounters — consistently ranked among the best big-animal dive destinations on Earth.",
+        "costType": "PAID",
+        "costEstimate": "10-night liveaboard US$5,000–7,000",
+        "currency": "USD",
+        "difficulty": "EXPERT",
+        "riskLevel": "HIGH",
+        "permitRequired": true,
+        "guideRequired": true,
+        "bestSeason": "June – November",
+        "latitude": 5.5333,
+        "longitude": -87.05,
+        "tags": [
+          "schooling hammerheads",
+          "liveaboard only",
+          "remote UNESCO island",
+          "world-class"
+        ]
+      },
+      {
+        "id": "costa-rica--surfing-salsa-brava",
+        "countryId": "costa-rica",
+        "title": "Surfing, Salsa Brava",
+        "region": "Puerto Viejo, Limón Province",
+        "category": "Surfing",
+        "categoryGroup": "surfing",
+        "description": "Costa Rica's heaviest, most dangerous wave — a powerful Caribbean reef break named for the violent \"salsa\" of whitewater it throws, breaking directly over shallow, sharp coral close enough to shore that mistakes are visible from the beach.",
+        "costType": "FREE",
+        "costEstimate": null,
+        "currency": null,
+        "difficulty": "INSANE",
+        "riskLevel": "EXTREME",
+        "permitRequired": false,
+        "guideRequired": false,
+        "bestSeason": "December – March",
+        "latitude": 9.6547,
+        "longitude": -82.7539,
+        "tags": [
+          "heaviest wave in Costa Rica",
+          "shallow reef",
+          "Caribbean coast",
+          "expert-only"
+        ]
+      },
+      {
+        "id": "costa-rica--mountain-biking-la-ruta-de-los-conquistadores",
+        "countryId": "costa-rica",
+        "title": "Mountain biking, La Ruta de los Conquistadores",
+        "region": "Coast to coast, central Costa Rica",
+        "category": "Mountain Biking",
+        "categoryGroup": "mountain-biking",
+        "description": "A legendary multi-day mountain bike route crossing the country from Pacific to Caribbean coast, over volcanic terrain, through cloud forest and coffee farms — originally raced competitively, the full route is now also ridden by strong amateurs as a serious multi-day challenge.",
+        "costType": "PAID",
+        "costEstimate": "Guided multi-day package US$1,800–2,600",
+        "currency": "USD",
+        "difficulty": "EXPERT",
+        "riskLevel": "HIGH",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "November",
+        "latitude": 9.8,
+        "longitude": -83.9,
+        "tags": [
+          "coast to coast route",
+          "volcanic terrain",
+          "multi-day",
+          "legendary race route"
+        ]
       }
     ]
   },
@@ -8371,7 +8721,7 @@
     "continent": "South America",
     "summary": "The Amazon basin at its largest, sheer granite domes rising straight out of the Atlantic coastal rainforest, and a desert of blindingly white dunes that fills with freshwater lagoons every rainy season.",
     "heroTag": "Amazon & granite extremes",
-    "activityCount": 4,
+    "activityCount": 7,
     "extremenessRating": 1,
     "activities": [
       {
@@ -8472,6 +8822,81 @@
           "seasonal lagoons",
           "sandboarding",
           "surreal landscape"
+        ]
+      },
+      {
+        "id": "brazil--paragliding-pedra-bonita",
+        "countryId": "brazil",
+        "title": "Paragliding, Pedra Bonita",
+        "region": "Rio de Janeiro",
+        "category": "Paragliding",
+        "categoryGroup": "air",
+        "description": "One of the most famous urban paragliding flights on Earth — launching from a ramp on Pedra Bonita mountain, descending over the Tijuca rainforest and landing directly on São Conrado beach with the whole city and coastline laid out below.",
+        "costType": "PAID",
+        "costEstimate": "Tandem flight R$450–650",
+        "currency": "BRL",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "Year-round",
+        "latitude": -22.9889,
+        "longitude": -43.2828,
+        "tags": [
+          "urban paragliding",
+          "beach landing",
+          "iconic city views",
+          "tandem flight"
+        ]
+      },
+      {
+        "id": "brazil--kitesurfing-jericoacoara",
+        "countryId": "brazil",
+        "title": "Kitesurfing, Jericoacoara",
+        "region": "Ceará",
+        "category": "Kitesurfing",
+        "categoryGroup": "surfing",
+        "description": "Brazil's kitesurfing capital, with near-constant trade winds funnelling along a coastline of towering dunes and flat-water lagoons — conditions are reliable enough that riders plan entire trips around a season here rather than checking daily forecasts.",
+        "costType": "PAID",
+        "costEstimate": "Course + gear rental R$1,200–1,800",
+        "currency": "BRL",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "July – December",
+        "latitude": -2.7975,
+        "longitude": -40.5136,
+        "tags": [
+          "kitesurfing capital",
+          "constant trade winds",
+          "flat-water lagoons",
+          "reliable season"
+        ]
+      },
+      {
+        "id": "brazil--caving-chapada-diamantina",
+        "countryId": "brazil",
+        "title": "Caving, Chapada Diamantina",
+        "region": "Bahia",
+        "category": "Caving",
+        "categoryGroup": "canyoning-caving",
+        "description": "A dramatic plateau region riddled with caves, underground rivers and crystal-clear pools including Poço Azul, where sunlight through a single opening turns the water an intense electric blue — full cave systems here remain only partially mapped.",
+        "costType": "PAID",
+        "costEstimate": "Guided day tour R$150–250",
+        "currency": "BRL",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": true,
+        "guideRequired": true,
+        "bestSeason": "April – September (dry season)",
+        "latitude": -12.5833,
+        "longitude": -41.4667,
+        "tags": [
+          "underground pools",
+          "electric blue water",
+          "partially mapped",
+          "plateau caves"
         ]
       }
     ]
