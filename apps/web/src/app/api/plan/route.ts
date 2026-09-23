@@ -3,6 +3,9 @@ import { GoogleGenAI } from "@google/genai";
 import { DATASET_CONTEXT } from "@/lib/planner/datasetContext";
 
 export const runtime = "nodejs";
+export const maxDuration = 30;
+
+const MODEL = "gemini-2.5-flash";
 
 const SYSTEM_PROMPT = `You are the trip-planning assistant built into Outer Line, a travel app for extremists — people who want to wild camp on a mountaintop or ride horses across a mountain range, not sightsee.
 
@@ -49,32 +52,49 @@ export async function POST(request: Request) {
     parts: [{ text: m.text }],
   }));
 
-  try {
-    const ai = new GoogleGenAI({ apiKey });
-    const response = await ai.models.generateContent({
-      model: "gemini-flash-latest",
-      contents,
-      config: {
-        systemInstruction: SYSTEM_PROMPT,
-        maxOutputTokens: 2048,
-      },
-    });
+  const ai = new GoogleGenAI({ apiKey });
+  const attempts = 3;
 
-    const text = response.text;
-    if (!text) {
-      return NextResponse.json(
-        { error: "The planner didn't return a response — try rephrasing." },
-        { status: 502 }
-      );
-    }
+  for (let attempt = 1; attempt <= attempts; attempt++) {
+    try {
+      const response = await ai.models.generateContent({
+        model: MODEL,
+        contents,
+        config: {
+          systemInstruction: SYSTEM_PROMPT,
+          maxOutputTokens: 2048,
+        },
+      });
 
-    return NextResponse.json({ reply: text });
-  } catch (error) {
-    console.error("Gemini request failed:", error);
-    const message =
-      error instanceof Error && /quota|rate.?limit|429/i.test(error.message)
+      const text = response.text;
+      if (!text) {
+        return NextResponse.json(
+          { error: "The planner didn't return a response — try rephrasing." },
+          { status: 502 }
+        );
+      }
+
+      return NextResponse.json({ reply: text });
+    } catch (error) {
+      const isOverloaded =
+        error instanceof Error && /503|overloaded|unavailable/i.test(error.message);
+      const isQuota = error instanceof Error && /quota|rate.?limit|429/i.test(error.message);
+
+      console.error(`Gemini request failed (attempt ${attempt}/${attempts}):`, error);
+
+      if (isOverloaded && attempt < attempts) {
+        await new Promise((resolve) => setTimeout(resolve, attempt * 1000));
+        continue;
+      }
+
+      const message = isQuota
         ? "The free planner quota is used up for now — it resets automatically, try again in a bit."
-        : "The trip planner hit an error. Try again in a moment.";
-    return NextResponse.json({ error: message }, { status: 502 });
+        : isOverloaded
+          ? "Google's model is overloaded right now — this is on their end, not yours. Try again in a minute."
+          : "The trip planner hit an error. Try again in a moment.";
+      return NextResponse.json({ error: message }, { status: 502 });
+    }
   }
+
+  return NextResponse.json({ error: "The trip planner hit an error. Try again in a moment." }, { status: 502 });
 }
