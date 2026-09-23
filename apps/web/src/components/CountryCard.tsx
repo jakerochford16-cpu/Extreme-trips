@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import type { CountrySummary } from "@/lib/types";
 import { visualsForCountry } from "@/lib/countryVisuals";
-import { ExtremenessBadge } from "./ExtremenessBadge";
 
 export function CountryCard({ country }: { country: CountrySummary }) {
   const { photo, accent } = visualsForCountry(country.slug);
@@ -27,9 +26,6 @@ export function CountryCard({ country }: { country: CountrySummary }) {
         >
           {country.activityCount} {country.activityCount === 1 ? "line" : "lines"}
         </span>
-        <div className="absolute left-3 top-3">
-          <ExtremenessBadge rating={country.extremenessRating} />
-        </div>
       </div>
 
       <div className="p-6 pt-4">

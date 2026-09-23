@@ -4,7 +4,6 @@ import { notFound } from "next/navigation";
 import { ActivityListSection } from "@/components/ActivityListSection";
 import { CategoryFilterChips } from "@/components/CategoryFilterChips";
 import { CountryMapSection } from "@/components/map/CountryMapSection";
-import { ExtremenessBadge } from "@/components/ExtremenessBadge";
 import { getCountry } from "@/lib/api";
 import { CATEGORY_GROUPS, labelForGroup } from "@/lib/categoryGroups";
 import { visualsForCountry } from "@/lib/countryVisuals";
@@ -62,12 +61,9 @@ export default async function CountryPage({
           >
             {country.continent} &middot; {country.heroTag}
           </p>
-          <div className="mt-2 flex flex-wrap items-center gap-3">
-            <h1 className="text-4xl font-black text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.7)] sm:text-5xl">
-              {country.name}
-            </h1>
-            <ExtremenessBadge rating={country.extremenessRating} />
-          </div>
+          <h1 className="mt-2 text-4xl font-black text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.7)] sm:text-5xl">
+            {country.name}
+          </h1>
         </div>
       </section>
 
