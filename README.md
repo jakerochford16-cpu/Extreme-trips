@@ -20,11 +20,12 @@ apps/
 
 ### Deploying
 
-`apps/web` is a self-contained Next.js app with no external dependencies at
-runtime — it can be deployed to Vercel (or any Next.js host) by pointing at
-this repo with **Root Directory set to `apps/web`**. No environment variables,
-no database, no separate backend to stand up. Every push to the branch Vercel
-watches redeploys automatically.
+`apps/web` is a self-contained Next.js app with no external database or
+backend to stand up — it can be deployed to Vercel (or any Next.js host) by
+pointing at this repo with **Root Directory set to `apps/web`**. Every push to
+the branch Vercel watches redeploys automatically. The only environment
+variable it uses is `GEMINI_API_KEY` (see Trip planner below) — everything
+else works with zero config.
 
 ### Data model
 
@@ -53,6 +54,28 @@ and costs with a local guide or operator before you go.
 filterable by country and category, colored by category, with a popup linking
 into the write-up. Each country page also embeds the same map scoped to its own
 activities (and whatever category filter is active).
+
+### Trip planner (`/plan`)
+
+An AI chat that answers open-ended trip-logistics questions ("I land in
+Bishkek on the 5th, I want to ride horses") — not limited to the 9 curated
+countries, though it'll point into the app's own write-ups when they overlap.
+Runs on the Gemini API (`gemini-flash-latest`), chosen specifically because
+Google's free tier is actually free indefinitely (rate-limited, no credit
+card) rather than a paid trial.
+
+- Get a free key at [aistudio.google.com/apikey](https://aistudio.google.com/apikey)
+- Locally: copy `apps/web/.env.local.example` to `apps/web/.env.local` and
+  paste the key in as `GEMINI_API_KEY`
+- On Vercel: Project Settings → Environment Variables → add `GEMINI_API_KEY`,
+  then redeploy
+
+Without the key set, `/plan` still renders — it just shows a clear "not
+configured yet" message instead of a reply, rather than erroring out.
+
+The system prompt (`apps/web/src/app/api/plan/route.ts`) is given a compact
+summary of every activity in the dataset so it can reference and link to
+existing write-ups; the rest of its knowledge is the model's own.
 
 ### Running it locally
 
