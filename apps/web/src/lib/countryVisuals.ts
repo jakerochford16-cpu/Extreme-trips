@@ -12,6 +12,16 @@ export const COUNTRY_VISUALS: Record<string, { photo: string; accent: string }> 
   peru: { photo: "/images/countries/peru.jpg", accent: "#a78bfa" },
   "south-africa": { photo: "/images/countries/south-africa.jpg", accent: "#22d3ee" },
   canada: { photo: "/images/countries/canada.jpg", accent: "#818cf8" },
+
+  // From here on, countries reuse one of the category photos above as their
+  // card backdrop instead of a unique per-country shot — still a real photo
+  // of a real activity found in that country, just not sourced 1:1 per
+  // country, which isn't realistic at this scale (see activityPhotos.ts).
+  chile: { photo: "/images/categories/ice-snow.jpg", accent: "#60a5fa" },
+  argentina: { photo: "/images/categories/mountaineering-climbing.jpg", accent: "#fb923c" },
+  bolivia: { photo: "/images/categories/mountain-biking.jpg", accent: "#84cc16" },
+  ecuador: { photo: "/images/countries/iceland.jpg", accent: "#ef4444" },
+  colombia: { photo: "/images/categories/trekking.jpg", accent: "#22c55e" },
 };
 
 const FALLBACK = { photo: "/images/countries/switzerland.jpg", accent: "#94a3b8" };
