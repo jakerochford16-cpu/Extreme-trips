@@ -7038,7 +7038,7 @@
     "continent": "Africa",
     "summary": "Africa's highest peak, a river crossing where wildebeest gamble against waiting crocodiles by the thousand, and a volcano that erupts liquid carbonate lava cool and black enough to touch a day after it flows.",
     "heroTag": "Kilimanjaro & savanna extremes",
-    "activityCount": 4,
+    "activityCount": 7,
     "extremenessRating": 2,
     "activities": [
       {
@@ -7140,6 +7140,81 @@
           "warm clear water",
           "uncrowded"
         ]
+      },
+      {
+        "id": "tanzania--wall-diving-pemba-island",
+        "countryId": "tanzania",
+        "title": "Wall diving, Pemba Island",
+        "region": "Pemba Channel, Zanzibar Archipelago",
+        "category": "Diving",
+        "categoryGroup": "diving-whitewater",
+        "description": "Some of the steepest, most dramatic coral wall diving in East Africa, dropping from a few metres to well over 100m into a deep channel — the channel's currents bring in pelagic species rarely seen closer to shore, in far quieter water than neighbouring Zanzibar.",
+        "costType": "PAID",
+        "costEstimate": "2-tank dive US$120–170",
+        "currency": "USD",
+        "difficulty": "EXPERT",
+        "riskLevel": "HIGH",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "October – March",
+        "latitude": -5.1833,
+        "longitude": 39.75,
+        "tags": [
+          "wall diving",
+          "deep channel",
+          "strong currents",
+          "uncrowded"
+        ]
+      },
+      {
+        "id": "tanzania--kitesurfing-paje-beach",
+        "countryId": "tanzania",
+        "title": "Kitesurfing, Paje Beach",
+        "region": "Zanzibar",
+        "category": "Kitesurfing",
+        "categoryGroup": "surfing",
+        "description": "Consistent cross-shore trade winds and a huge shallow lagoon at low tide make this one of the best (and most forgiving) kitesurf learning grounds on Earth — the same winds turn genuinely challenging at the reef edge for riders looking for more.",
+        "costType": "PAID",
+        "costEstimate": "Course + gear rental US$300–500",
+        "currency": "USD",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "December – February, June – September",
+        "latitude": -6.2667,
+        "longitude": 39.4667,
+        "tags": [
+          "kitesurfing",
+          "consistent trade winds",
+          "shallow lagoon",
+          "learner-friendly"
+        ]
+      },
+      {
+        "id": "tanzania--mount-meru-summit-climb",
+        "countryId": "tanzania",
+        "title": "Mount Meru summit climb",
+        "region": "Arusha National Park",
+        "category": "Mountaineering",
+        "categoryGroup": "mountaineering-climbing",
+        "description": "Tanzania's second-highest peak and Kilimanjaro's much quieter neighbour — a genuinely technical final ridge with real exposure, plus lower slopes thick enough with buffalo and elephant that armed rangers escort the first day's trekking.",
+        "costType": "PAID",
+        "costEstimate": "4-day guided climb US$900–1,300",
+        "currency": "USD",
+        "difficulty": "EXPERT",
+        "riskLevel": "HIGH",
+        "permitRequired": true,
+        "guideRequired": true,
+        "bestSeason": "June – October, January – February",
+        "latitude": -3.2378,
+        "longitude": 36.7503,
+        "tags": [
+          "exposed summit ridge",
+          "armed ranger escort",
+          "quieter than Kilimanjaro",
+          "wildlife-rich lower slopes"
+        ]
       }
     ]
   },
@@ -7150,7 +7225,7 @@
     "continent": "Africa",
     "summary": "A technical glaciated peak on the equator, the other side of the same wildebeest river crossing that made Tanzania famous, and a rift valley gorge where you can rock climb metres from grazing zebra.",
     "heroTag": "Rift Valley extremes",
-    "activityCount": 3,
+    "activityCount": 7,
     "extremenessRating": 2,
     "activities": [
       {
@@ -7227,6 +7302,106 @@
           "multi-pitch",
           "unique park"
         ]
+      },
+      {
+        "id": "kenya--whitewater-rafting-tana-river",
+        "countryId": "kenya",
+        "title": "Whitewater rafting, Tana River",
+        "region": "Sagana",
+        "category": "Whitewater",
+        "categoryGroup": "diving-whitewater",
+        "description": "Kenya's main whitewater destination, with Class III–V sections depending on the stretch and season — continuous rapids through a rift valley gorge that's become the country's de facto rafting and kayaking training ground.",
+        "costType": "PAID",
+        "costEstimate": "Full-day trip US$70–110",
+        "currency": "USD",
+        "difficulty": "ADVANCED",
+        "riskLevel": "HIGH",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "Year-round (higher water April – June)",
+        "latitude": -0.6667,
+        "longitude": 37.2,
+        "tags": [
+          "Class V rapids",
+          "rift valley gorge",
+          "year-round",
+          "guided"
+        ]
+      },
+      {
+        "id": "kenya--diving-watamu-marine-park",
+        "countryId": "kenya",
+        "title": "Diving, Watamu Marine Park",
+        "region": "Watamu, Kilifi County",
+        "category": "Diving",
+        "categoryGroup": "diving-whitewater",
+        "description": "A protected reef system on Kenya's north coast with genuinely healthy hard coral cover and resident turtles — Kenya's Indian Ocean coastline is under-dived relative to Tanzania and the Red Sea, meaning quieter sites without the crowds.",
+        "costType": "PAID",
+        "costEstimate": "2-tank dive US$90–130",
+        "currency": "USD",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": true,
+        "guideRequired": true,
+        "bestSeason": "October – March",
+        "latitude": -3.35,
+        "longitude": 40.0167,
+        "tags": [
+          "protected reef",
+          "resident turtles",
+          "uncrowded",
+          "guided"
+        ]
+      },
+      {
+        "id": "kenya--paragliding-kerio-valley",
+        "countryId": "kenya",
+        "title": "Paragliding, Kerio Valley",
+        "region": "Rift Valley, near Iten",
+        "category": "Paragliding",
+        "categoryGroup": "air",
+        "description": "Launch sites on the Elgeyo Escarpment above the Kerio Valley produce some of the strongest, most reliable thermals in East Africa — the same escarpment air that's helped make nearby Iten famous for distance-running altitude training also makes for serious cross-country flying.",
+        "costType": "PAID",
+        "costEstimate": "Tandem flight US$70–100",
+        "currency": "USD",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "December – March, June – September",
+        "latitude": 0.6667,
+        "longitude": 35.5,
+        "tags": [
+          "strong thermals",
+          "escarpment launch",
+          "cross-country flying",
+          "rift valley views"
+        ]
+      },
+      {
+        "id": "kenya--camel-trekking-chalbi-desert",
+        "countryId": "kenya",
+        "title": "Camel trekking, Chalbi Desert",
+        "region": "Marsabit County, Northern Kenya",
+        "category": "Camel Trekking",
+        "categoryGroup": "trekking",
+        "description": "Multi-day camel treks across a genuine desert basin in Kenya's far, sparsely populated north, guided by Rendille and Gabra camel herders — remote enough that logistics, water and heat management matter as much as the trekking itself.",
+        "costType": "PAID",
+        "costEstimate": "4-day guided trek US$500–800",
+        "currency": "USD",
+        "difficulty": "EXPERT",
+        "riskLevel": "HIGH",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "June – September, January – February",
+        "latitude": 3.0833,
+        "longitude": 37.5667,
+        "tags": [
+          "desert crossing",
+          "camel herder guides",
+          "remote north",
+          "multi-day"
+        ]
       }
     ]
   },
@@ -7237,7 +7412,7 @@
     "continent": "Africa",
     "summary": "Some of the tallest sand dunes on Earth, a fog-shrouded shipwreck coast that's swallowed hundreds of vessels, and an underground lake almost nobody has ever seen the far side of.",
     "heroTag": "Desert & coast extremes",
-    "activityCount": 4,
+    "activityCount": 7,
     "extremenessRating": 2,
     "activities": [
       {
@@ -7339,6 +7514,81 @@
           "vertical shaft access",
           "exploratory diving"
         ]
+      },
+      {
+        "id": "namibia--rock-climbing-spitzkoppe",
+        "countryId": "namibia",
+        "title": "Rock climbing, Spitzkoppe",
+        "region": "Erongo Region",
+        "category": "Rock Climbing",
+        "categoryGroup": "mountaineering-climbing",
+        "description": "A cluster of granite inselbergs rising abruptly out of flat desert, nicknamed the \"Matterhorn of Namibia\" — multi-pitch trad routes on rock that heats up fast, so most serious climbing happens at dawn before the desert sun makes the granite unbearable to touch.",
+        "costType": "FREE",
+        "costEstimate": null,
+        "currency": null,
+        "difficulty": "EXPERT",
+        "riskLevel": "HIGH",
+        "permitRequired": false,
+        "guideRequired": false,
+        "bestSeason": "April – September (cooler)",
+        "latitude": -21.8167,
+        "longitude": 15.1833,
+        "tags": [
+          "granite inselberg",
+          "desert climbing",
+          "dawn starts",
+          "multi-pitch"
+        ]
+      },
+      {
+        "id": "namibia--quad-biking-namib-dune-sea",
+        "countryId": "namibia",
+        "title": "Quad biking, Namib dune sea",
+        "region": "Swakopmund",
+        "category": "Off-Road Expedition",
+        "categoryGroup": "volcano-offroad",
+        "description": "Self-driven quad bike routes through one of the oldest and tallest dune systems on Earth, along Namibia's adventure-sports coastal hub — steep dune faces and sudden drop-offs mean routes are strictly guided, not a free-roam.",
+        "costType": "PAID",
+        "costEstimate": "Guided 2.5-hour tour ~800–1,200",
+        "currency": "NAD",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "Year-round",
+        "latitude": -22.6667,
+        "longitude": 14.7,
+        "tags": [
+          "quad biking",
+          "tall dunes",
+          "guided route",
+          "coastal desert"
+        ]
+      },
+      {
+        "id": "namibia--diving-shipwrecks-cape-cross",
+        "countryId": "namibia",
+        "title": "Diving shipwrecks, Cape Cross",
+        "region": "Skeleton Coast, near Swakopmund",
+        "category": "Diving",
+        "categoryGroup": "diving-whitewater",
+        "description": "Cold-water dives among shipwrecks scattered along the same fog-bound coast responsible for Namibia's name for it — visibility and conditions are demanding, and a massive Cape fur seal colony nearby means the occasional curious (and occasionally hunted-by-sharks) visitor mid-dive.",
+        "costType": "PAID",
+        "costEstimate": "Guided dive US$120–180",
+        "currency": "USD",
+        "difficulty": "EXPERT",
+        "riskLevel": "HIGH",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "March – November",
+        "latitude": -21.7667,
+        "longitude": 13.9667,
+        "tags": [
+          "shipwreck diving",
+          "cold water",
+          "seal colony nearby",
+          "demanding conditions"
+        ]
       }
     ]
   },
@@ -7349,7 +7599,7 @@
     "continent": "Africa",
     "summary": "A river delta that floods backwards into the desert once a year, one of the last true wildernesses left for a multi-day 4x4 crossing, and walking safaris through big-cat country with a San Bushman tracker rather than a Land Cruiser.",
     "heroTag": "Delta & Kalahari extremes",
-    "activityCount": 3,
+    "activityCount": 7,
     "extremenessRating": 2,
     "activities": [
       {
@@ -7426,6 +7676,106 @@
           "traditional tracking",
           "on foot"
         ]
+      },
+      {
+        "id": "botswana--walking-safari-linyanti-reserve",
+        "countryId": "botswana",
+        "title": "Walking safari, Linyanti Reserve",
+        "region": "Linyanti / Selinda, northern Botswana",
+        "category": "Wildlife Expedition",
+        "categoryGroup": "wildlife-hunting",
+        "description": "Armed-guide walking safaris through one of southern Africa's highest-density predator areas — lion, leopard and hyena territory covered entirely on foot, at a pace and proximity no vehicle safari can match, with strict protocol for what happens if an encounter turns close.",
+        "costType": "PAID",
+        "costEstimate": "Multi-day walking safari package US$4,000–7,000",
+        "currency": "USD",
+        "difficulty": "EXPERT",
+        "riskLevel": "HIGH",
+        "permitRequired": true,
+        "guideRequired": true,
+        "bestSeason": "May – September",
+        "latitude": -18.35,
+        "longitude": 23.8167,
+        "tags": [
+          "armed walking safari",
+          "high predator density",
+          "on foot",
+          "strict protocol"
+        ]
+      },
+      {
+        "id": "botswana--quad-biking-makgadikgadi-salt-pans",
+        "countryId": "botswana",
+        "title": "Quad biking, Makgadikgadi salt pans",
+        "region": "Makgadikgadi Pans National Park",
+        "category": "Off-Road Expedition",
+        "categoryGroup": "volcano-offroad",
+        "description": "One of the largest salt pan systems on Earth, a blinding white expanse so flat and featureless that quad bike tours here run partly by compass and GPS — full-moon night rides across the pans are a genuinely disorienting, otherworldly experience.",
+        "costType": "PAID",
+        "costEstimate": "Guided day tour ~1,800–2,600",
+        "currency": "BWP",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": true,
+        "guideRequired": true,
+        "bestSeason": "April – October (dry season)",
+        "latitude": -20.6,
+        "longitude": 25.35,
+        "tags": [
+          "salt pan",
+          "GPS navigation",
+          "full-moon rides",
+          "featureless terrain"
+        ]
+      },
+      {
+        "id": "botswana--chobe-river-elephant-safari",
+        "countryId": "botswana",
+        "title": "Chobe River elephant safari",
+        "region": "Chobe National Park",
+        "category": "Wildlife Expedition",
+        "categoryGroup": "wildlife-hunting",
+        "description": "Home to one of the largest elephant populations on the planet — boat-based safaris put you at water level as herds numbering in the hundreds cross the river to drink and bathe, often within a few metres of the boat.",
+        "costType": "PAID",
+        "costEstimate": "Half-day boat safari US$70–120",
+        "currency": "USD",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": true,
+        "guideRequired": true,
+        "bestSeason": "May – October (dry season)",
+        "latitude": -17.8333,
+        "longitude": 25.1167,
+        "tags": [
+          "largest elephant population",
+          "boat-based",
+          "close-range",
+          "dry season concentration"
+        ]
+      },
+      {
+        "id": "botswana--horseback-safari-okavango-delta",
+        "countryId": "botswana",
+        "title": "Horseback safari, Okavango Delta",
+        "region": "Okavango Delta",
+        "category": "Horseback Safari",
+        "categoryGroup": "trekking",
+        "description": "Riding through the same delta floodplains as the mokoro and walking safaris, but on horseback — able to cover far more ground in a day and, for experienced riders, gallop alongside zebra and wildebeest herds under close guide supervision.",
+        "costType": "PAID",
+        "costEstimate": "Multi-day riding safari US$4,500–7,500",
+        "currency": "USD",
+        "difficulty": "EXPERT",
+        "riskLevel": "HIGH",
+        "permitRequired": true,
+        "guideRequired": true,
+        "bestSeason": "May – September",
+        "latitude": -19.2833,
+        "longitude": 22.9833,
+        "tags": [
+          "horseback safari",
+          "experienced riders only",
+          "wildlife alongside",
+          "floodplains"
+        ]
       }
     ]
   },
@@ -7436,8 +7786,8 @@
     "continent": "Africa",
     "summary": "A 'stone forest' of razor-sharp limestone needles that requires via-ferrata cabling just to cross, granite domes rivaling Yosemite, and humpback whales that migrate close enough to the coast to watch from a kayak.",
     "heroTag": "Tsingy & rainforest extremes",
-    "activityCount": 3,
-    "extremenessRating": 2,
+    "activityCount": 7,
+    "extremenessRating": 1,
     "activities": [
       {
         "id": "madagascar--tsingy-de-bemaraha-via-ferrata-trek",
@@ -7512,6 +7862,106 @@
           "kayak-level viewing",
           "regulated distance",
           "seasonal migration"
+        ]
+      },
+      {
+        "id": "madagascar--surfing-anakao-fort-dauphin",
+        "countryId": "madagascar",
+        "title": "Surfing, Anakao & Fort Dauphin",
+        "region": "Southwest / Southeast coast",
+        "category": "Surfing",
+        "categoryGroup": "surfing",
+        "description": "Consistent, uncrowded Indian Ocean reef and point breaks along a coastline most of the world's surfers have never heard of — access to some breaks is by boat or a long 4x4 track, keeping crowds essentially nonexistent even on a good swell.",
+        "costType": "FREE",
+        "costEstimate": null,
+        "currency": null,
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": false,
+        "guideRequired": false,
+        "bestSeason": "April – October",
+        "latitude": -23.65,
+        "longitude": 43.6667,
+        "tags": [
+          "reef break",
+          "uncrowded",
+          "remote access",
+          "point break"
+        ]
+      },
+      {
+        "id": "madagascar--diving-nosy-be",
+        "countryId": "madagascar",
+        "title": "Diving, Nosy Be",
+        "region": "Nosy Be Archipelago",
+        "category": "Diving",
+        "categoryGroup": "diving-whitewater",
+        "description": "Warm, clear volcanic-island diving with healthy coral and a genuine chance of whale shark encounters during the season — Madagascar's most developed dive hub, though still a fraction of the traffic of comparable Indian Ocean destinations.",
+        "costType": "PAID",
+        "costEstimate": "2-tank dive ~180,000–280,000",
+        "currency": "MGA",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "October – December (whale sharks)",
+        "latitude": -13.3167,
+        "longitude": 48.2667,
+        "tags": [
+          "volcanic island reef",
+          "whale shark season",
+          "warm clear water",
+          "guided"
+        ]
+      },
+      {
+        "id": "madagascar--trekking-marojejy-national-park",
+        "countryId": "madagascar",
+        "title": "Trekking, Marojejy National Park",
+        "region": "Sava Region, northeast Madagascar",
+        "category": "Wilderness Trekking",
+        "categoryGroup": "trekking",
+        "description": "Steep, humid primary rainforest trekking to see the critically endangered silky sifaka lemur, among the rarest primates on Earth — the multi-day trek gains serious elevation on slick jungle trail, with genuinely basic camping the whole way.",
+        "costType": "PAID",
+        "costEstimate": "3-day guided trek ~600,000–900,000",
+        "currency": "MGA",
+        "difficulty": "EXPERT",
+        "riskLevel": "MODERATE",
+        "permitRequired": true,
+        "guideRequired": true,
+        "bestSeason": "April – November (dry season)",
+        "latitude": -14.4333,
+        "longitude": 49.75,
+        "tags": [
+          "critically endangered lemur",
+          "primary rainforest",
+          "basic camping",
+          "steep terrain"
+        ]
+      },
+      {
+        "id": "madagascar--caving-ankarana-special-reserve",
+        "countryId": "madagascar",
+        "title": "Caving, Ankarana Special Reserve",
+        "region": "Diana Region, northern Madagascar",
+        "category": "Caving",
+        "categoryGroup": "canyoning-caving",
+        "description": "A limestone tsingy karst riddled with cave systems, underground rivers and bat colonies numbering in the thousands — guided caving routes wind beneath a jagged pinnacle landscape that mirrors the more famous Tsingy de Bemaraha, with far fewer visitors.",
+        "costType": "PAID",
+        "costEstimate": "Guided day tour ~150,000–250,000",
+        "currency": "MGA",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": true,
+        "guideRequired": true,
+        "bestSeason": "April – November (dry season)",
+        "latitude": -12.9167,
+        "longitude": 49.1167,
+        "tags": [
+          "limestone karst caves",
+          "bat colonies",
+          "underground rivers",
+          "low visitor traffic"
         ]
       }
     ]

@@ -42,6 +42,7 @@ const CATEGORY_TO_GROUP: Record<string, string> = {
   "Remote Ruins Trekking": "trekking",
   "Jungle Expedition": "trekking",
   "Camel Trekking": "trekking",
+  "Horseback Safari": "trekking",
 
   "Ice Climbing": "ice-snow",
   "Ice Caving": "ice-snow",
@@ -76,6 +77,7 @@ const CATEGORY_TO_GROUP: Record<string, string> = {
   "Off-Road Expedition": "volcano-offroad",
 
   "Surfing": "surfing",
+  "Kitesurfing": "surfing",
 
   "Polar Expedition": "polar",
   "Dog Sledding": "polar",
