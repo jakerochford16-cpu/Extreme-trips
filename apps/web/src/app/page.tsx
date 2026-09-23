@@ -14,7 +14,7 @@ export default async function HomePage() {
           fill
           priority
           sizes="100vw"
-          className="object-cover object-[center_35%]"
+          className="object-cover object-[72%_78%]"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#06060a] via-[#06060a]/55 to-[#06060a]/15" />
         <div className="relative mx-auto w-full max-w-6xl px-6 pb-14 pt-24">
