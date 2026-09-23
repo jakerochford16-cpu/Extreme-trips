@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { CountryCard } from "@/components/CountryCard";
+import { CountryBrowse } from "@/components/CountryBrowse";
 import { getCountries } from "@/lib/api";
 
 export default async function HomePage() {
@@ -33,19 +33,12 @@ export default async function HomePage() {
       </section>
 
       <section className="mx-auto w-full max-w-6xl px-6 py-16">
-        <h2 className="mb-5 text-sm font-semibold uppercase tracking-widest text-white/40">
-          Countries ({countries.length})
-        </h2>
         {countries.length === 0 ? (
           <p className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 text-white/60">
             No countries in the dataset yet.
           </p>
         ) : (
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {countries.map((country) => (
-              <CountryCard key={country.id} country={country} />
-            ))}
-          </div>
+          <CountryBrowse countries={countries} />
         )}
       </section>
     </main>

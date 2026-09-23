@@ -44,6 +44,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               >
                 Map
               </Link>
+              <Link
+                href="/favorites"
+                className="text-sm font-semibold text-white/70 hover:text-white"
+              >
+                Favorites
+              </Link>
               <p className="hidden text-xs uppercase tracking-widest text-white/40 sm:block">
                 Extreme travel, by country
               </p>
