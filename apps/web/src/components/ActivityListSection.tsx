@@ -17,10 +17,12 @@ const SORT_LABELS: Record<SortKey, string> = {
 export function ActivityListSection({
   activities,
   countryName,
+  countrySlug,
   emptyLabel,
 }: {
   activities: Activity[];
   countryName: string;
+  countrySlug: string;
   emptyLabel: string;
 }) {
   const [sort, setSort] = useState<SortKey>("default");
@@ -64,7 +66,12 @@ export function ActivityListSection({
       </div>
       <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
         {sorted.map((activity) => (
-          <ActivityCard key={activity.id} activity={activity} countryName={countryName} />
+          <ActivityCard
+            key={activity.id}
+            activity={activity}
+            countryName={countryName}
+            countrySlug={countrySlug}
+          />
         ))}
       </div>
     </div>

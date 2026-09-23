@@ -132,7 +132,7 @@ export function ActivityBrowser({ activities }: { activities: ActivityWithCountr
               >
                 {activity.country.name} &rarr;
               </Link>
-              <ActivityCard activity={activity} countryName={activity.country.name} />
+              <ActivityCard activity={activity} countryName={activity.country.name} countrySlug={activity.country.slug} />
             </div>
           ))}
         </div>

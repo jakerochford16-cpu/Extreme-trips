@@ -2,16 +2,20 @@ import Image from "next/image";
 import type { Activity } from "@/lib/types";
 import { CostBadge, DifficultyBadge, RiskBadge } from "./badges";
 import { FavoriteButton } from "./FavoriteButton";
+import { ShareButton } from "./ShareButton";
 import { ReviewSection } from "./ReviewSection";
+import { PackingList } from "./PackingList";
 import { guideSearchUrl } from "@/lib/guideLinks";
 import { photoForCategoryGroup } from "@/lib/activityPhotos";
 
 export function ActivityCard({
   activity,
   countryName,
+  countrySlug,
 }: {
   activity: Activity;
   countryName: string;
+  countrySlug: string;
 }) {
   return (
     <article
@@ -37,7 +41,10 @@ export function ActivityCard({
             </p>
             <h3 className="mt-1 text-xl font-bold text-white">{activity.title}</h3>
           </div>
-          <FavoriteButton activityId={activity.id} />
+          <div className="flex shrink-0 gap-2">
+            <ShareButton title={activity.title} path={`/countries/${countrySlug}#${activity.id}`} />
+            <FavoriteButton activityId={activity.id} />
+          </div>
         </div>
 
         <div className="mt-3 flex flex-wrap gap-2">
@@ -83,6 +90,8 @@ export function ActivityCard({
             ))}
           </div>
         )}
+
+        <PackingList categoryGroup={activity.categoryGroup} />
 
         <a
           href={guideSearchUrl(activity.title, activity.region, countryName)}
