@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ActivityCard } from "@/components/ActivityCard";
@@ -5,6 +6,7 @@ import { CategoryFilterChips } from "@/components/CategoryFilterChips";
 import { CountryMapSection } from "@/components/map/CountryMapSection";
 import { getCountry } from "@/lib/api";
 import { CATEGORY_GROUPS, labelForGroup } from "@/lib/categoryGroups";
+import { visualsForCountry } from "@/lib/countryVisuals";
 
 export default async function CountryPage({
   params,
@@ -35,53 +37,73 @@ export default async function CountryPage({
     ? country.activities.filter((a) => a.categoryGroup === activeGroup)
     : country.activities;
 
-  return (
-    <main className="mx-auto w-full max-w-6xl flex-1 px-6 py-16">
-      <Link href="/" className="text-sm font-medium text-white/50 hover:text-white">
-        &larr; All countries
-      </Link>
+  const { photo, accent } = visualsForCountry(country.slug);
 
-      <section className="mt-4 mb-10">
-        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-orange-400">
-          {country.continent} &middot; {country.heroTag}
-        </p>
-        <h1 className="mt-2 text-4xl font-black text-white sm:text-5xl">{country.name}</h1>
-        <p className="mt-4 max-w-2xl text-lg leading-relaxed text-white/70">
+  return (
+    <main className="flex-1">
+      <section className="relative flex h-[300px] items-end overflow-hidden sm:h-[360px]">
+        <Image
+          src={photo}
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#06060a] via-[#06060a]/50 to-[#06060a]/10" />
+        <div className="relative mx-auto w-full max-w-6xl px-6 pb-8">
+          <Link href="/" className="text-sm font-medium text-white/70 hover:text-white">
+            &larr; All countries
+          </Link>
+          <p
+            className="mt-3 text-sm font-semibold uppercase tracking-[0.2em]"
+            style={{ color: accent }}
+          >
+            {country.continent} &middot; {country.heroTag}
+          </p>
+          <h1 className="mt-2 text-4xl font-black text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.7)] sm:text-5xl">
+            {country.name}
+          </h1>
+        </div>
+      </section>
+
+      <div className="mx-auto w-full max-w-6xl px-6 py-16">
+        <p className="mb-10 max-w-2xl text-lg leading-relaxed text-white/70">
           {country.summary}
         </p>
-      </section>
 
-      <section className="mb-8">
-        <CategoryFilterChips
-          countrySlug={country.slug}
-          groups={groupsPresent}
-          totalCount={country.activities.length}
-          activeSlug={activeGroup}
-        />
-      </section>
+        <section className="mb-8">
+          <CategoryFilterChips
+            countrySlug={country.slug}
+            groups={groupsPresent}
+            totalCount={country.activities.length}
+            activeSlug={activeGroup}
+          />
+        </section>
 
-      <section className="mb-10">
-        <CountryMapSection activities={visibleActivities} />
-      </section>
+        <section className="mb-10">
+          <CountryMapSection activities={visibleActivities} />
+        </section>
 
-      <section>
-        <h2 className="mb-5 text-sm font-semibold uppercase tracking-widest text-white/40">
-          {visibleActivities.length}{" "}
-          {activeGroup ? labelForGroup(activeGroup) : "extreme"}{" "}
-          {visibleActivities.length === 1 ? "line" : "lines"}
-        </h2>
-        {visibleActivities.length === 0 ? (
-          <p className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 text-white/60">
-            Nothing in this category yet for {country.name}.
-          </p>
-        ) : (
-          <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
-            {visibleActivities.map((activity) => (
-              <ActivityCard key={activity.id} activity={activity} />
-            ))}
-          </div>
-        )}
-      </section>
+        <section>
+          <h2 className="mb-5 text-sm font-semibold uppercase tracking-widest text-white/40">
+            {visibleActivities.length}{" "}
+            {activeGroup ? labelForGroup(activeGroup) : "extreme"}{" "}
+            {visibleActivities.length === 1 ? "line" : "lines"}
+          </h2>
+          {visibleActivities.length === 0 ? (
+            <p className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 text-white/60">
+              Nothing in this category yet for {country.name}.
+            </p>
+          ) : (
+            <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
+              {visibleActivities.map((activity) => (
+                <ActivityCard key={activity.id} activity={activity} />
+              ))}
+            </div>
+          )}
+        </section>
+      </div>
     </main>
   );
 }
