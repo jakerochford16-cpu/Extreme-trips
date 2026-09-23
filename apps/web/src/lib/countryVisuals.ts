@@ -52,6 +52,12 @@ export const COUNTRY_VISUALS: Record<string, { photo: string; accent: string }> 
   oman: { photo: "/images/categories/canyoning-caving.jpg", accent: "#0ea5e9" },
   "costa-rica": { photo: "/images/categories/diving-whitewater.jpg", accent: "#22c55e" },
   brazil: { photo: "/images/categories/mountaineering-climbing.jpg", accent: "#16a34a" },
+  fiji: { photo: "/images/categories/surfing.jpg", accent: "#38bdf8" },
+  "papua-new-guinea": { photo: "/images/categories/trekking.jpg", accent: "#65a30d" },
+  sweden: { photo: "/images/categories/ice-snow.jpg", accent: "#93c5fd" },
+  finland: { photo: "/images/categories/polar.jpg", accent: "#a5b4fc" },
+  uganda: { photo: "/images/categories/diving-whitewater.jpg", accent: "#15803d" },
+  rwanda: { photo: "/images/categories/wildlife-hunting.jpg", accent: "#059669" },
 };
 
 const FALLBACK = { photo: "/images/countries/switzerland.jpg", accent: "#94a3b8" };
