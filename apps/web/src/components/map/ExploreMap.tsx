@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 import type { ActivityWithCountry } from "@/lib/types";
 import { CATEGORY_GROUPS } from "@/lib/categoryGroups";
 import { colorForGroup } from "@/lib/categoryColors";
+import { Select } from "@/components/ui/Select";
 
 const MarkerMap = dynamic(() => import("./MarkerMap").then((m) => m.MarkerMap), {
   ssr: false,
@@ -41,30 +42,18 @@ export function ExploreMap({ activities }: { activities: ActivityWithCountry[] }
   return (
     <div>
       <div className="mb-4 flex flex-wrap items-center gap-3">
-        <select
+        <Select
           value={countrySlug}
-          onChange={(e) => setCountrySlug(e.target.value)}
-          className="rounded-full border border-white/15 bg-white/[0.03] px-4 py-2 text-sm text-white/80 outline-none focus:border-accent"
-        >
-          <option value="all">All countries</option>
-          {countries.map((c) => (
-            <option key={c.slug} value={c.slug}>
-              {c.name}
-            </option>
-          ))}
-        </select>
-        <select
+          onChange={setCountrySlug}
+          className="w-44"
+          options={[{ value: "all", label: "All countries" }, ...countries.map((c) => ({ value: c.slug, label: c.name }))]}
+        />
+        <Select
           value={categorySlug}
-          onChange={(e) => setCategorySlug(e.target.value)}
-          className="rounded-full border border-white/15 bg-white/[0.03] px-4 py-2 text-sm text-white/80 outline-none focus:border-accent"
-        >
-          <option value="all">All categories</option>
-          {groupsPresent.map((g) => (
-            <option key={g.slug} value={g.slug}>
-              {g.label}
-            </option>
-          ))}
-        </select>
+          onChange={setCategorySlug}
+          className="w-44"
+          options={[{ value: "all", label: "All categories" }, ...groupsPresent.map((g) => ({ value: g.slug, label: g.label }))]}
+        />
         <span className="text-sm text-white/40">
           {filtered.length} of {activities.length} activities
         </span>

@@ -2,17 +2,18 @@
 
 import { useMemo, useState } from "react";
 import { ActivityCard } from "./ActivityCard";
+import { Select } from "./ui/Select";
 import { extremenessScore } from "@/lib/extremeness";
 import type { Activity } from "@/lib/types";
 
 type SortKey = "default" | "most-extreme" | "least-extreme" | "free-first";
 
-const SORT_LABELS: Record<SortKey, string> = {
-  default: "Default order",
-  "most-extreme": "Most extreme first",
-  "least-extreme": "Least extreme first",
-  "free-first": "Free first",
-};
+const SORT_OPTIONS: { value: SortKey; label: string }[] = [
+  { value: "default", label: "Default order" },
+  { value: "most-extreme", label: "Most extreme first" },
+  { value: "least-extreme", label: "Least extreme first" },
+  { value: "free-first", label: "Free first" },
+];
 
 export function ActivityListSection({
   activities,
@@ -52,17 +53,7 @@ export function ActivityListSection({
   return (
     <div>
       <div className="mb-5 flex justify-end">
-        <select
-          value={sort}
-          onChange={(e) => setSort(e.target.value as SortKey)}
-          className="rounded-full border border-white/15 bg-white/[0.03] px-4 py-1.5 text-xs font-semibold text-white/70 outline-none focus:border-accent"
-        >
-          {(Object.keys(SORT_LABELS) as SortKey[]).map((key) => (
-            <option key={key} value={key}>
-              {SORT_LABELS[key]}
-            </option>
-          ))}
-        </select>
+        <Select value={sort} onChange={(v) => setSort(v as SortKey)} className="w-48" options={SORT_OPTIONS} />
       </div>
       <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
         {sorted.map((activity) => (
