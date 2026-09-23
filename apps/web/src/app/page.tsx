@@ -16,7 +16,7 @@ export default async function HomePage() {
         <p className="mt-5 max-w-2xl text-lg leading-relaxed text-white/70">
           Bivouac on a 500m suspension bridge crossing. Guided ascents that cost more than
           your flight. Outback hunts, cage-free wreck dives, portaledge camps hanging off a
-          cliff. Pick a country, see what it's really got.
+          cliff. Pick a country, see what it&apos;s really got.
         </p>
       </section>
 
@@ -26,7 +26,7 @@ export default async function HomePage() {
         </h2>
         {countries.length === 0 ? (
           <p className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 text-white/60">
-            No countries loaded yet &mdash; is the API running?
+            No countries in the dataset yet.
           </p>
         ) : (
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">

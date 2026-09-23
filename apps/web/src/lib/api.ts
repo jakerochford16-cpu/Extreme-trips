@@ -1,24 +1,39 @@
 import type { ActivityWithCountry, CountryDetail, CountrySummary } from "./types";
+import countriesData from "@/data/countries.json";
 
-const API_BASE = process.env.API_URL ?? "http://localhost:4000";
-
-async function fetchJson<T>(path: string): Promise<T | null> {
-  const res = await fetch(`${API_BASE}${path}`, { cache: "no-store" });
-  if (res.status === 404) return null;
-  if (!res.ok) throw new Error(`API error ${res.status} on ${path}`);
-  return res.json() as Promise<T>;
-}
+// The full curated dataset, baked into the app at build time — see
+// apps/api/prisma/data.ts (source of truth) and
+// apps/api/scripts/build-static-data.ts (regenerates this JSON). No live
+// API or database is involved at runtime, which is what lets this app
+// deploy as a plain static/serverless Next.js site with zero configuration.
+const COUNTRIES = countriesData as CountryDetail[];
 
 export async function getCountries(): Promise<CountrySummary[]> {
-  const countries = await fetchJson<CountrySummary[]>("/api/countries");
-  return countries ?? [];
+  return COUNTRIES.map((c) => ({
+    id: c.id,
+    name: c.name,
+    slug: c.slug,
+    continent: c.continent,
+    summary: c.summary,
+    heroTag: c.heroTag,
+    activityCount: c.activityCount,
+  })).sort((a, b) => a.name.localeCompare(b.name));
 }
 
 export async function getCountry(slug: string): Promise<CountryDetail | null> {
-  return fetchJson<CountryDetail>(`/api/countries/${slug}`);
+  const country = COUNTRIES.find((c) => c.slug === slug);
+  if (!country) return null;
+  return {
+    ...country,
+    activities: [...country.activities].sort((a, b) => a.title.localeCompare(b.title)),
+  };
 }
 
 export async function getActivities(): Promise<ActivityWithCountry[]> {
-  const activities = await fetchJson<ActivityWithCountry[]>("/api/activities");
-  return activities ?? [];
+  return COUNTRIES.flatMap((country) =>
+    country.activities.map((activity) => ({
+      ...activity,
+      country: { name: country.name, slug: country.slug },
+    }))
+  ).sort((a, b) => a.title.localeCompare(b.title));
 }
