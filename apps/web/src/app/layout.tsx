@@ -47,6 +47,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </Link>
             <nav className="flex items-center gap-3 sm:gap-6">
               <Link
+                href="/activities"
+                className="text-xs font-semibold text-white/70 hover:text-white sm:text-sm"
+              >
+                Activities
+              </Link>
+              <Link
                 href="/plan"
                 className="text-xs font-semibold text-white/70 hover:text-white sm:text-sm"
               >
