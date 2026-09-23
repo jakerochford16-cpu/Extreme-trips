@@ -1,0 +1,62 @@
+import { ImageResponse } from "next/og";
+
+export const size = { width: 1200, height: 630 };
+export const contentType = "image/png";
+
+export default function OpengraphImage() {
+  return new ImageResponse(
+    (
+      <div
+        style={{
+          width: "100%",
+          height: "100%",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          padding: "80px",
+          background: "linear-gradient(135deg, #06060a 0%, #17120a 60%, #06060a 100%)",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: 10,
+            color: "#fb923c",
+            fontSize: 28,
+            fontWeight: 800,
+            letterSpacing: 4,
+            textTransform: "uppercase",
+          }}
+        >
+          Not a sightseeing app
+        </div>
+        <div
+          style={{
+            display: "flex",
+            marginTop: 24,
+            fontSize: 76,
+            fontWeight: 900,
+            color: "white",
+            lineHeight: 1.05,
+            maxWidth: 980,
+          }}
+        >
+          Find out what a country actually offers if you want to suffer for it.
+        </div>
+        <div
+          style={{
+            display: "flex",
+            marginTop: 36,
+            fontSize: 32,
+            fontWeight: 700,
+            color: "#fdba74",
+          }}
+        >
+          50 countries &middot; 250+ extreme activities &middot; OUTER LINE
+        </div>
+      </div>
+    ),
+    { ...size }
+  );
+}
