@@ -5,8 +5,11 @@ import { FavoriteButton } from "./FavoriteButton";
 import { ShareButton } from "./ShareButton";
 import { ReviewSection } from "./ReviewSection";
 import { PackingList } from "./PackingList";
+import { InsuranceWarning } from "./InsuranceWarning";
+import { ReadinessCheck } from "./ReadinessCheck";
 import { guideSearchUrl } from "@/lib/guideLinks";
 import { photoForCategoryGroup } from "@/lib/activityPhotos";
+import { likelyExcludedFromStandardInsurance } from "@/lib/insurance";
 
 export function ActivityCard({
   activity,
@@ -67,6 +70,8 @@ export function ActivityCard({
           )}
         </div>
 
+        {likelyExcludedFromStandardInsurance(activity.riskLevel) && <InsuranceWarning />}
+
         <p className="mt-4 text-sm leading-relaxed text-white/75">{activity.description}</p>
 
         <div className="mt-4 flex flex-wrap gap-x-6 gap-y-1 text-xs text-white/50">
@@ -92,6 +97,7 @@ export function ActivityCard({
         )}
 
         <PackingList categoryGroup={activity.categoryGroup} />
+        <ReadinessCheck activity={activity} />
 
         <a
           href={guideSearchUrl(activity.title, activity.region, countryName)}
