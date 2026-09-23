@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ActivityCard } from "@/components/ActivityCard";
+import { ActivityListSection } from "@/components/ActivityListSection";
 import { CategoryFilterChips } from "@/components/CategoryFilterChips";
 import { CountryMapSection } from "@/components/map/CountryMapSection";
+import { ExtremenessBadge } from "@/components/ExtremenessBadge";
 import { getCountry } from "@/lib/api";
 import { CATEGORY_GROUPS, labelForGroup } from "@/lib/categoryGroups";
 import { visualsForCountry } from "@/lib/countryVisuals";
@@ -61,9 +62,12 @@ export default async function CountryPage({
           >
             {country.continent} &middot; {country.heroTag}
           </p>
-          <h1 className="mt-2 text-4xl font-black text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.7)] sm:text-5xl">
-            {country.name}
-          </h1>
+          <div className="mt-2 flex flex-wrap items-center gap-3">
+            <h1 className="text-4xl font-black text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.7)] sm:text-5xl">
+              {country.name}
+            </h1>
+            <ExtremenessBadge rating={country.extremenessRating} />
+          </div>
         </div>
       </section>
 
@@ -91,17 +95,11 @@ export default async function CountryPage({
             {activeGroup ? labelForGroup(activeGroup) : "extreme"}{" "}
             {visibleActivities.length === 1 ? "line" : "lines"}
           </h2>
-          {visibleActivities.length === 0 ? (
-            <p className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 text-white/60">
-              Nothing in this category yet for {country.name}.
-            </p>
-          ) : (
-            <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
-              {visibleActivities.map((activity) => (
-                <ActivityCard key={activity.id} activity={activity} countryName={country.name} />
-              ))}
-            </div>
-          )}
+          <ActivityListSection
+            activities={visibleActivities}
+            countryName={country.name}
+            emptyLabel={`Nothing in this category yet for ${country.name}.`}
+          />
         </section>
       </div>
     </main>

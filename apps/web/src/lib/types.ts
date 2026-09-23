@@ -10,6 +10,7 @@ export type CountrySummary = {
   summary: string;
   heroTag: string;
   activityCount: number;
+  extremenessRating: number;
 };
 
 export type Activity = {

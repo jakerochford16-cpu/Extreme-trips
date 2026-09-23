@@ -7,6 +7,7 @@
     "summary": "The Alps aren't just for postcard hikes — this is glacier ice, 500m suspension bridges, and guided lines up the most famous horn in mountaineering.",
     "heroTag": "Alpine extremes",
     "activityCount": 10,
+    "extremenessRating": 3,
     "activities": [
       {
         "id": "switzerland--bivouac-the-europaweg-past-the-charles-kuonen-suspension-bridge",
@@ -268,6 +269,7 @@
     "summary": "From cage-free shark dives on wreck sites to guided outback hunts and undeveloped cave systems — Queensland's extremes are as much about remoteness as adrenaline.",
     "heroTag": "Outback & reef extremes",
     "activityCount": 10,
+    "extremenessRating": 3,
     "activities": [
       {
         "id": "australia--guided-feral-game-hunt-outback-queensland",
@@ -529,6 +531,7 @@
     "summary": "Glacier ice, canyon swings and cliff-edge camping on the South Island — the birthplace of commercial extreme sport tourism still does it harder than most.",
     "heroTag": "Southern Alps adrenaline",
     "activityCount": 10,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "new-zealand--glacier-ice-climbing-franz-josef",
@@ -789,6 +792,7 @@
     "summary": "Allemannsretten — the right to roam — means free wild camping right up to some of the most vertigo-inducing cliff edges on Earth.",
     "heroTag": "Fjord-edge exposure",
     "activityCount": 10,
+    "extremenessRating": 3,
     "activities": [
       {
         "id": "norway--wild-camp-on-the-edge-of-preikestolen-pulpit-rock",
@@ -1050,6 +1054,7 @@
     "summary": "Home to the world's highest peaks and some of its highest-consequence permits — this is where \"extreme\" stops being a marketing word and starts being an altitude chart.",
     "heroTag": "Himalayan extremes",
     "activityCount": 10,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "nepal--everest-south-col-guided-ascent",
@@ -1311,6 +1316,7 @@
     "summary": "From 5,000m mineral mountains to the world's deepest canyons and Amazon jungle with no roads in — Peru's extremes come from altitude and remoteness as much as technical difficulty.",
     "heroTag": "Andes & Amazon extremes",
     "activityCount": 10,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "peru--rainbow-mountain-trek",
@@ -1572,6 +1578,7 @@
     "summary": "The world's highest bungy jump, great white sharks off two coasts, and walking trails through Big Five territory — South Africa doesn't do gentle adventure tourism.",
     "heroTag": "Cape & bushveld extremes",
     "activityCount": 10,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "south-africa--great-white-shark-cage-diving-gansbaai",
@@ -1833,6 +1840,7 @@
     "summary": "The only place on Earth you can climb inside a volcano — plus glacier ice caves, tectonic-plate diving and lava fields that are still, in places, actively erupting.",
     "heroTag": "Fire & ice extremes",
     "activityCount": 10,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "iceland--ice-cave-exploring-vatnaj-kull",
@@ -2094,6 +2102,7 @@
     "summary": "Heli-skiing was invented here, grizzly and polar bear country you travel through rather than around, and enough frozen vertical ice to keep a climber busy for a lifetime.",
     "heroTag": "Arctic & alpine extremes",
     "activityCount": 10,
+    "extremenessRating": 3,
     "activities": [
       {
         "id": "canada--heli-skiing-columbia-mountains-bugaboos",
@@ -2355,6 +2364,7 @@
     "summary": "A 4,300km ribbon of country that runs from the driest desert on Earth to shattered Patagonian ice fields — sandboard a dune in the morning and be roped up on a glacier a thousand kilometres south a few days later.",
     "heroTag": "Desert-to-ice extremes",
     "activityCount": 7,
+    "extremenessRating": 3,
     "activities": [
       {
         "id": "chile--villarrica-volcano-ascent",
@@ -2541,6 +2551,7 @@
     "summary": "Home to the tallest mountain outside Asia, a glacier you can walk onto without a guide, and Patagonian granite spires that have defined alpine climbing for generations.",
     "heroTag": "Andes & Patagonia extremes",
     "activityCount": 6,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "argentina--aconcagua-summit-expedition",
@@ -2702,6 +2713,7 @@
     "summary": "The world's largest salt flat, a mountain biking road with a body count that gave it its nickname, and 6,000m peaks reachable on a long weekend from the capital.",
     "heroTag": "Altiplano extremes",
     "activityCount": 4,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "bolivia--death-road-descent-yungas-road",
@@ -2813,6 +2825,7 @@
     "summary": "Two of the world's highest volcanoes within a two-hour drive of the capital, hammerhead-shark diving in the Galápagos, and Amazon rainforest that starts where the Andes end.",
     "heroTag": "Volcano & rainforest extremes",
     "activityCount": 5,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "ecuador--cotopaxi-summit-climb",
@@ -2949,6 +2962,7 @@
     "summary": "Colombia leaned all the way into 'extreme sports capital' branding for one whole town — plus a five-day jungle trek to a lost city and hammerhead diving off a Pacific island most travellers have never heard of.",
     "heroTag": "Jungle & adrenaline extremes",
     "activityCount": 5,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "colombia--ciudad-perdida-lost-city-trek",
@@ -3085,6 +3099,7 @@
     "summary": "Underwater cave systems that run for hundreds of kilometres, a canyon system deeper than the Grand Canyon, and great white sharks off a volcanic island most divers have never heard of.",
     "heroTag": "Cave & canyon extremes",
     "activityCount": 5,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "mexico--cenote-cave-diving-riviera-maya",
@@ -3221,6 +3236,7 @@
     "summary": "From Denali's brutal cold to Utah's sandstone canyons and a swarm of tornadoes on the Great Plains — America's extremes are as geographically scattered as the country itself.",
     "heroTag": "Coast-to-coast extremes",
     "activityCount": 7,
+    "extremenessRating": 3,
     "activities": [
       {
         "id": "united-states--denali-summit-expedition",
@@ -3407,6 +3423,7 @@
     "summary": "The world's largest non-continental ice sheet, fjords lined with granite big walls that rival Patagonia, and icebergs the size of buildings calving into the sea in real time.",
     "heroTag": "Arctic ice sheet extremes",
     "activityCount": 5,
+    "extremenessRating": 3,
     "activities": [
       {
         "id": "greenland--ice-cap-ski-traverse",
@@ -3543,6 +3560,7 @@
     "summary": "Eighteen volcanic islands of sheer green sea cliffs and near-constant wind, where the extreme sport is often just getting to the viewpoint without the weather deciding otherwise.",
     "heroTag": "Sea cliff extremes",
     "activityCount": 4,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "faroe-islands--cliff-edge-hike-to-kallur-lighthouse",
@@ -3654,6 +3672,7 @@
     "summary": "Scotland's winter mountains turn into a genuine Arctic-conditions proving ground, Wales invented an entire sport out of jumping into the sea off cliffs, and Yorkshire hides one of Europe's longest cave systems underfoot.",
     "heroTag": "Highland & coastal extremes",
     "activityCount": 4,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "united-kingdom--winter-mountaineering-ice-climbing-ben-nevis",
@@ -3765,6 +3784,7 @@
     "summary": "Chamonix alone justifies the entry — Mont Blanc's glaciers, off-piste that starts literally off the cable car, and a cliff-top BASE jump exit with its own local legend status.",
     "heroTag": "Alpine extremes",
     "activityCount": 5,
+    "extremenessRating": 3,
     "activities": [
       {
         "id": "france--mont-blanc-summit-climb",
@@ -3901,6 +3921,7 @@
     "summary": "Via ferrata was invented here as a WWI military necessity and is now a sport; two of Europe's most active volcanoes sit a short ferry ride apart in Sicily, both still doing what volcanoes do.",
     "heroTag": "Dolomite & volcano extremes",
     "activityCount": 5,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "italy--via-ferrata-dolomites",
@@ -4037,6 +4058,7 @@
     "summary": "Glacier ski touring in the Ötztal, via ferrata routes bolted straight up limestone faces, and whitewater fed by some of the coldest, most reliable glacial melt in the Eastern Alps.",
     "heroTag": "Tyrolean alpine extremes",
     "activityCount": 4,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "austria--glacier-ski-touring-tztal-alps",
@@ -4148,6 +4170,7 @@
     "summary": "A country small enough to cross in a day, with an emerald river rated among the best whitewater in Europe, a cave system that swallows the river whole, and a national tradition of climbing its own highest peak.",
     "heroTag": "Julian Alps & karst extremes",
     "activityCount": 4,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "slovenia--triglav-summit-climb",
@@ -4259,6 +4282,7 @@
     "summary": "The high Caucasus produce some of the most remote, least-visited big mountains in the world — medieval defensive towers standing under peaks few outside serious alpinism circles have heard of.",
     "heroTag": "Caucasus extremes",
     "activityCount": 4,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "georgia--mount-ushba-mountaineering",
@@ -4370,6 +4394,7 @@
     "summary": "The least-visited big mountains left in Asia — Tian Shan peaks with no lift, no cable car and barely any other climbers, reached by horse and jeep track rather than tour bus.",
     "heroTag": "Tian Shan extremes",
     "activityCount": 4,
+    "extremenessRating": 3,
     "activities": [
       {
         "id": "kyrgyzstan--khan-tengri-base-camp-climbing-expedition",
@@ -4481,6 +4506,7 @@
     "summary": "The Karakoram range concentrates more 8,000m peaks and hard technical climbing into one country than almost anywhere else on Earth — including the mountain mountaineers call, without much exaggeration, 'the Savage Mountain.'",
     "heroTag": "Karakoram extremes",
     "activityCount": 3,
+    "extremenessRating": 3,
     "activities": [
       {
         "id": "pakistan--k2-base-camp-trek",
@@ -4567,6 +4593,7 @@
     "summary": "From walking on a frozen Himalayan river to whitewater straight off the Ganges' source glacier — India's extremes run the full length of the Himalaya and then some.",
     "heroTag": "Himalayan extremes",
     "activityCount": 5,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "india--chadar-trek-frozen-river-walk",
@@ -4703,6 +4730,7 @@
     "summary": "Mountaineering is banned outright above 6,000m here out of religious respect for the peaks, which only makes the trekking that skirts those closed summits feel more genuinely untouched.",
     "heroTag": "Forbidden-peak extremes",
     "activityCount": 3,
+    "extremenessRating": 3,
     "activities": [
       {
         "id": "bhutan--snowman-trek",
@@ -4789,6 +4817,7 @@
     "summary": "The most sparsely populated country on Earth — Gobi dunes and canyons with no fences for hundreds of kilometres, and a western frontier where eagle hunters still ride the same steppe their families have worked for generations.",
     "heroTag": "Steppe & desert extremes",
     "activityCount": 4,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "mongolia--gobi-desert-off-road-expedition",
@@ -4900,6 +4929,7 @@
     "summary": "Some of the deepest, most reliable powder snow on the planet, a night climb up an active volcano that's practically a national rite of passage, and dive sites with underwater ruins nobody can quite agree are natural or man-made.",
     "heroTag": "Powder & volcano extremes",
     "activityCount": 4,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "japan--backcountry-powder-skiing-niseko-hakuba",
@@ -5011,6 +5041,7 @@
     "summary": "Blue flames burning at 2 a.m. above a toxic sulphur crater, manta ray drift dives past patrolling Komodo dragons, and some of the heaviest, least crowded reef breaks left in the surfing world.",
     "heroTag": "Volcano & reef extremes",
     "activityCount": 4,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "indonesia--ijen-crater-blue-fire-trek",
@@ -5122,6 +5153,7 @@
     "summary": "A UNESCO reef so remote it's only reachable by multi-day liveaboard, a canyon of waterfall jumps that shut down entirely when the river runs too high, and one of the most consistent reef breaks in Asia.",
     "heroTag": "Reef & waterfall extremes",
     "activityCount": 4,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "philippines--liveaboard-diving-tubbataha-reef",
@@ -5233,6 +5265,7 @@
     "summary": "The largest cave passage on the planet is here, big enough to hold a 40-storey skyscraper and its own weather system, with a permit list so short most people wait years for a slot.",
     "heroTag": "Mega-cave extremes",
     "activityCount": 4,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "vietnam--s-n-o-ng-expedition-caving",
@@ -5344,6 +5377,7 @@
     "summary": "Limestone sea cliffs you can climb straight out of the water at Railay, and a bay so riddled with karst islands and hidden lagoons that sea kayaking here barely feels like the same sport as kayaking anywhere else.",
     "heroTag": "Limestone karst extremes",
     "activityCount": 3,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "thailand--deep-water-solo-climbing-railay-tonsai",
@@ -5430,6 +5464,7 @@
     "summary": "Africa's highest peak, a river crossing where wildebeest gamble against waiting crocodiles by the thousand, and a volcano that erupts liquid carbonate lava cool and black enough to touch a day after it flows.",
     "heroTag": "Kilimanjaro & savanna extremes",
     "activityCount": 4,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "tanzania--kilimanjaro-summit-climb",
@@ -5541,6 +5576,7 @@
     "summary": "A technical glaciated peak on the equator, the other side of the same wildebeest river crossing that made Tanzania famous, and a rift valley gorge where you can rock climb metres from grazing zebra.",
     "heroTag": "Rift Valley extremes",
     "activityCount": 3,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "kenya--mount-kenya-technical-climb-batian-peak",
@@ -5627,6 +5663,7 @@
     "summary": "Some of the tallest sand dunes on Earth, a fog-shrouded shipwreck coast that's swallowed hundreds of vessels, and an underground lake almost nobody has ever seen the far side of.",
     "heroTag": "Desert & coast extremes",
     "activityCount": 4,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "namibia--dune-climbing-sandboarding-sossusvlei",
@@ -5738,6 +5775,7 @@
     "summary": "A river delta that floods backwards into the desert once a year, one of the last true wildernesses left for a multi-day 4x4 crossing, and walking safaris through big-cat country with a San Bushman tracker rather than a Land Cruiser.",
     "heroTag": "Delta & Kalahari extremes",
     "activityCount": 3,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "botswana--okavango-delta-mokoro-walking-safari",
@@ -5824,6 +5862,7 @@
     "summary": "A 'stone forest' of razor-sharp limestone needles that requires via-ferrata cabling just to cross, granite domes rivaling Yosemite, and humpback whales that migrate close enough to the coast to watch from a kayak.",
     "heroTag": "Tsingy & rainforest extremes",
     "activityCount": 3,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "madagascar--tsingy-de-bemaraha-via-ferrata-trek",
@@ -5910,6 +5949,7 @@
     "summary": "North Africa's highest peak under snow half the year, a limestone gorge climbers travel continents for, and a corner of the Sahara where a 4x4 or a camel are genuinely the only ways in.",
     "heroTag": "Atlas & Sahara extremes",
     "activityCount": 4,
+    "extremenessRating": 1,
     "activities": [
       {
         "id": "morocco--mount-toubkal-summit-climb",
@@ -6021,6 +6061,7 @@
     "summary": "A desert so red and alien that Mars films are shot here, a slot canyon you swim and climb your way up rather than down, and Red Sea reefs a fraction of the distance from Europe of anywhere comparable.",
     "heroTag": "Desert & canyon extremes",
     "activityCount": 3,
+    "extremenessRating": 1,
     "activities": [
       {
         "id": "jordan--rock-climbing-trekking-wadi-rum",
@@ -6107,6 +6148,7 @@
     "summary": "A canyon system Omanis call their own Grand Canyon, a cave chamber big enough to lose an entire jumbo jet inside, and turquoise wadi pools reached only by swimming through a rock tunnel.",
     "heroTag": "Wadi & cave extremes",
     "activityCount": 3,
+    "extremenessRating": 3,
     "activities": [
       {
         "id": "oman--canyoning-wadi-shab",
@@ -6193,6 +6235,7 @@
     "summary": "A rainforest river regularly rated one of the best whitewater trips on the planet, two accessible active volcanoes, and a left-hand surf break so long that riding it end to end has become its own bucket-list challenge.",
     "heroTag": "Rainforest & volcano extremes",
     "activityCount": 4,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "costa-rica--whitewater-rafting-pacuare-river",
@@ -6304,6 +6347,7 @@
     "summary": "The Amazon basin at its largest, sheer granite domes rising straight out of the Atlantic coastal rainforest, and a desert of blindingly white dunes that fills with freshwater lagoons every rainy season.",
     "heroTag": "Amazon & granite extremes",
     "activityCount": 4,
+    "extremenessRating": 1,
     "activities": [
       {
         "id": "brazil--big-wall-climbing-dedo-de-deus",
@@ -6415,6 +6459,7 @@
     "summary": "Bull sharks fed by hand in open water, a reef break so heavy and perfect it was kept a surf-charter secret for years, and whitewater carved through a rainforest gorge on an island most people only picture as a beach.",
     "heroTag": "Reef & rainforest extremes",
     "activityCount": 3,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "fiji--shark-diving-beqa-lagoon",
@@ -6501,6 +6546,7 @@
     "summary": "A WWII jungle trail still counted as one of the toughest treks on Earth, reef diving in some of the most biodiverse water on the planet, and an active volcano that once buried its own nearest town in ash.",
     "heroTag": "Jungle & reef extremes",
     "activityCount": 3,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "papua-new-guinea--kokoda-track-trek",
@@ -6587,6 +6633,7 @@
     "summary": "Arctic Sweden hides one of Europe's last roadless, bridgeless wildernesses, a mountain you can only reach by fording rivers on foot, and a national pastime of diving beneath frozen lake ice for fun.",
     "heroTag": "Arctic wilderness extremes",
     "activityCount": 3,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "sweden--kebnekaise-summit-climb",
@@ -6673,6 +6720,7 @@
     "summary": "Lapland wilderness so remote it requires a permit just to enter on foot, ice climbing on man-made and natural falls alike, and a snowmobile-only backcountry that stays under snow for half the year.",
     "heroTag": "Lapland wilderness extremes",
     "activityCount": 3,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "finland--wilderness-ski-trek-kevo-nature-reserve",
@@ -6759,6 +6807,7 @@
     "summary": "Grade 5 whitewater at the actual source of the Nile, mountain gorilla trekking through genuinely impenetrable forest, and a mist-drenched range so consistently wet it earned the nickname the Mountains of the Moon.",
     "heroTag": "Nile source extremes",
     "activityCount": 3,
+    "extremenessRating": 2,
     "activities": [
       {
         "id": "uganda--gorilla-trekking-bwindi-impenetrable-forest",
@@ -6845,6 +6894,7 @@
     "summary": "A country you can drive across in a day, holding one of the last strongholds of the mountain gorilla and a volcano with an active lava lake in its crater rim.",
     "heroTag": "Volcanoes National Park extremes",
     "activityCount": 2,
+    "extremenessRating": 1,
     "activities": [
       {
         "id": "rwanda--gorilla-trekking-volcanoes-national-park",
