@@ -27,6 +27,11 @@ export const COUNTRY_VISUALS: Record<string, { photo: string; accent: string }> 
   greenland: { photo: "/images/categories/polar.jpg", accent: "#7dd3fc" },
   "faroe-islands": { photo: "/images/categories/camping.jpg", accent: "#a3e635" },
   "united-kingdom": { photo: "/images/categories/canyoning-caving.jpg", accent: "#c084fc" },
+  france: { photo: "/images/countries/switzerland.jpg", accent: "#38bdf8" },
+  italy: { photo: "/images/countries/iceland.jpg", accent: "#ef4444" },
+  austria: { photo: "/images/categories/ice-snow.jpg", accent: "#60a5fa" },
+  slovenia: { photo: "/images/categories/diving-whitewater.jpg", accent: "#14b8a6" },
+  georgia: { photo: "/images/categories/mountaineering-climbing.jpg", accent: "#fb923c" },
 };
 
 const FALLBACK = { photo: "/images/countries/switzerland.jpg", accent: "#94a3b8" };
