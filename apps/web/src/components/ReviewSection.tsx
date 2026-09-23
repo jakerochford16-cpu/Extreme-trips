@@ -67,7 +67,7 @@ export function ReviewSection({ activityId }: { activityId: string }) {
           onChange={(e) => setDraftText(e.target.value)}
           placeholder="How did it go? Notes for future-you or anyone else who saves this activity..."
           rows={3}
-          className="mt-3 w-full resize-none rounded-lg border border-white/10 bg-white/[0.03] px-3 py-2 text-sm text-white placeholder:text-white/30 outline-none focus:border-orange-400/60"
+          className="mt-3 w-full resize-none rounded-lg border border-white/10 bg-white/[0.03] px-3 py-2 text-sm text-white placeholder:text-white/30 outline-none focus:border-accent/60"
         />
         <div className="mt-3 flex gap-2">
           <button
@@ -77,7 +77,7 @@ export function ReviewSection({ activityId }: { activityId: string }) {
               setEditing(false);
             }}
             disabled={draftRating === 0}
-            className="rounded-full bg-orange-500 px-4 py-1.5 text-xs font-bold text-white transition hover:bg-orange-400 disabled:cursor-not-allowed disabled:opacity-40"
+            className="rounded-lg bg-accent px-4 py-1.5 text-xs font-bold text-ink transition hover:bg-accent-light disabled:cursor-not-allowed disabled:opacity-40"
           >
             Save
           </button>

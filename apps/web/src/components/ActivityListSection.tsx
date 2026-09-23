@@ -55,7 +55,7 @@ export function ActivityListSection({
         <select
           value={sort}
           onChange={(e) => setSort(e.target.value as SortKey)}
-          className="rounded-full border border-white/15 bg-white/[0.03] px-4 py-1.5 text-xs font-semibold text-white/70 outline-none focus:border-orange-400"
+          className="rounded-full border border-white/15 bg-white/[0.03] px-4 py-1.5 text-xs font-semibold text-white/70 outline-none focus:border-accent"
         >
           {(Object.keys(SORT_LABELS) as SortKey[]).map((key) => (
             <option key={key} value={key}>

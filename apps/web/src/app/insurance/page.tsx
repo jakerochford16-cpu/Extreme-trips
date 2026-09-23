@@ -10,10 +10,10 @@ export default function InsurancePage() {
   return (
     <main className="flex-1">
       <div className="mx-auto w-full max-w-3xl px-6 py-16">
-        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-orange-400">
+        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-accent">
           The gap nobody mentions
         </p>
-        <h1 className="mt-2 text-4xl font-black text-white sm:text-5xl">
+        <h1 className="font-serif mt-2 text-4xl font-semibold text-[#FBF8F3] sm:text-5xl">
           Your travel insurance probably doesn&apos;t cover this.
         </h1>
         <p className="mt-5 text-lg leading-relaxed text-white/75">
@@ -129,7 +129,7 @@ export default function InsurancePage() {
 
         <Link
           href="/"
-          className="mt-8 inline-flex items-center gap-1.5 text-sm font-semibold text-orange-400 hover:text-orange-300"
+          className="mt-8 inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:text-accent-light"
         >
           &larr; Back to all countries
         </Link>

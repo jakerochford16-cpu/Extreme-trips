@@ -11,10 +11,10 @@ export default async function FavoritesPage() {
   return (
     <main className="flex-1">
       <div className="mx-auto w-full max-w-6xl px-6 py-16">
-        <p className="text-xs font-semibold uppercase tracking-widest text-orange-400">
+        <p className="text-xs font-semibold uppercase tracking-widest text-accent">
           Saved
         </p>
-        <h1 className="mt-2 text-3xl font-black text-white sm:text-4xl">Your favorites</h1>
+        <h1 className="font-serif mt-2 text-3xl font-semibold text-[#FBF8F3] sm:text-4xl">Your favorites</h1>
         <p className="mt-3 max-w-2xl text-white/60">
           Saved on this device only — tap the heart on any activity to add or remove it.
         </p>

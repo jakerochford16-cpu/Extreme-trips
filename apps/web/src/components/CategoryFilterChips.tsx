@@ -19,7 +19,7 @@ export function CategoryFilterChips({
 }) {
   const baseChip =
     "inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-semibold transition";
-  const activeChip = "border-orange-400 bg-orange-400/15 text-orange-300";
+  const activeChip = "border-accent bg-accent/15 text-accent-light";
   const inactiveChip = "border-white/15 bg-white/[0.03] text-white/70 hover:border-white/35 hover:text-white";
 
   return (

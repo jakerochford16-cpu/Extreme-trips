@@ -20,13 +20,14 @@ export function CountryBrowse({ countries }: { countries: CountrySummary[] }) {
 
   return (
     <>
-      <div className="mb-6 flex flex-wrap items-center justify-between gap-4">
-        <h2 className="text-sm font-semibold uppercase tracking-widest text-white/40">
-          Countries ({filtered.length}{filtered.length !== countries.length ? ` of ${countries.length}` : ""})
-        </h2>
+      <div className="mb-8 flex flex-wrap items-center justify-between gap-4">
+        <span className="text-xs font-medium text-white/40">
+          {filtered.length} {filtered.length === 1 ? "country" : "countries"}
+          {filtered.length !== countries.length ? ` of ${countries.length}` : ""}
+        </span>
         <div className="relative w-full max-w-xs">
           <svg
-            className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-white/40"
+            className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-white/40"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -43,7 +44,7 @@ export function CountryBrowse({ countries }: { countries: CountrySummary[] }) {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search countries or continents..."
-            className="w-full rounded-full border border-white/15 bg-white/[0.04] py-2.5 pl-10 pr-4 text-sm text-white placeholder:text-white/35 outline-none transition focus:border-orange-400/60 focus:bg-white/[0.06]"
+            className="w-full rounded-lg border border-white/15 bg-white/[0.04] py-2.5 pl-10 pr-4 text-sm text-white placeholder:text-white/35 outline-none transition focus:border-accent/60 focus:bg-white/[0.06]"
           />
         </div>
       </div>

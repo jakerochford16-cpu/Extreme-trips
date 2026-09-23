@@ -27,12 +27,12 @@ export default async function ExtremePage() {
           sizes="100vw"
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#06060a] via-[#06060a]/60 to-[#06060a]/20" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0b0a08] via-[#0b0a08]/65 to-[#0b0a08]/20" />
         <div className="relative mx-auto w-full max-w-4xl px-6 pb-10">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-orange-400">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-accent">
             Ranked by difficulty + risk, across all 50 countries
           </p>
-          <h1 className="mt-2 text-4xl font-black text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.7)] sm:text-5xl">
+          <h1 className="font-serif mt-2 text-4xl font-semibold text-[#FBF8F3] drop-shadow-[0_4px_20px_rgba(0,0,0,0.7)] sm:text-5xl">
             The 10 most extreme things on this site
           </h1>
         </div>

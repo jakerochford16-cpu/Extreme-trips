@@ -14,7 +14,7 @@ export default function OpengraphImage() {
           flexDirection: "column",
           justifyContent: "center",
           padding: "80px",
-          background: "linear-gradient(135deg, #06060a 0%, #17120a 60%, #06060a 100%)",
+          background: "linear-gradient(135deg, #0b0a08 0%, #1c130a 60%, #0b0a08 100%)",
         }}
       >
         <div
@@ -22,7 +22,7 @@ export default function OpengraphImage() {
             display: "flex",
             alignItems: "center",
             gap: 10,
-            color: "#fb923c",
+            color: "#c17f4e",
             fontSize: 28,
             fontWeight: 800,
             letterSpacing: 4,
@@ -50,7 +50,7 @@ export default function OpengraphImage() {
             marginTop: 36,
             fontSize: 32,
             fontWeight: 700,
-            color: "#fdba74",
+            color: "#d99a6c",
           }}
         >
           50 countries &middot; 250+ extreme activities &middot; OUTER LINE

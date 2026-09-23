@@ -37,7 +37,7 @@ export default async function CountryPage({
     ? country.activities.filter((a) => a.categoryGroup === activeGroup)
     : country.activities;
 
-  const { photo, accent } = visualsForCountry(country.slug);
+  const { photo } = visualsForCountry(country.slug);
 
   return (
     <main className="flex-1">
@@ -50,18 +50,15 @@ export default async function CountryPage({
           sizes="100vw"
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#06060a] via-[#06060a]/50 to-[#06060a]/10" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0b0a08] via-[#0b0a08]/55 to-[#0b0a08]/10" />
         <div className="relative mx-auto w-full max-w-6xl px-6 pb-8">
           <Link href="/" className="text-sm font-medium text-white/70 hover:text-white">
             &larr; All countries
           </Link>
-          <p
-            className="mt-3 text-sm font-semibold uppercase tracking-[0.2em]"
-            style={{ color: accent }}
-          >
+          <p className="mt-3 text-sm font-semibold uppercase tracking-[0.2em] text-accent">
             {country.continent} &middot; {country.heroTag}
           </p>
-          <h1 className="mt-2 text-4xl font-black text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.7)] sm:text-5xl">
+          <h1 className="font-serif mt-2 text-4xl font-semibold text-[#FBF8F3] drop-shadow-[0_4px_20px_rgba(0,0,0,0.7)] sm:text-5xl">
             {country.name}
           </h1>
         </div>
