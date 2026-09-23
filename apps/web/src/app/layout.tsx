@@ -13,10 +13,24 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const description =
+  "What a country actually offers extremists: bivouacs, guided climbs, outback hunts, and cliff-edge everything. 50 countries, 250+ real curated activities.";
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://extreme-trips-web.vercel.app"),
   title: "Outer Line — extreme travel by country",
-  description:
-    "What a country actually offers extremists: bivouacs, guided climbs, outback hunts, and cliff-edge everything.",
+  description,
+  openGraph: {
+    title: "Outer Line — extreme travel by country",
+    description,
+    siteName: "Outer Line",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Outer Line — extreme travel by country",
+    description,
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -27,30 +41,30 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-full flex flex-col">
         <header className="border-b border-white/10">
-          <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-5">
-            <Link href="/" className="text-lg font-black tracking-tight text-white">
+          <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-5 sm:px-6">
+            <Link href="/" className="text-base font-black tracking-tight text-white sm:text-lg">
               OUTER LINE
             </Link>
-            <nav className="flex items-center gap-6">
+            <nav className="flex items-center gap-3 sm:gap-6">
               <Link
                 href="/plan"
-                className="text-sm font-semibold text-white/70 hover:text-white"
+                className="text-xs font-semibold text-white/70 hover:text-white sm:text-sm"
               >
                 Plan
               </Link>
               <Link
                 href="/map"
-                className="text-sm font-semibold text-white/70 hover:text-white"
+                className="text-xs font-semibold text-white/70 hover:text-white sm:text-sm"
               >
                 Map
               </Link>
               <Link
                 href="/favorites"
-                className="text-sm font-semibold text-white/70 hover:text-white"
+                className="text-xs font-semibold text-white/70 hover:text-white sm:text-sm"
               >
                 Favorites
               </Link>
-              <p className="hidden text-xs uppercase tracking-widest text-white/40 sm:block">
+              <p className="hidden text-xs uppercase tracking-widest text-white/40 lg:block">
                 Extreme travel, by country
               </p>
             </nav>

@@ -14,20 +14,30 @@ function Stars({
 }) {
   return (
     <div className={`flex items-center gap-0.5 ${size}`}>
-      {[1, 2, 3, 4, 5].map((n) => (
-        <button
-          key={n}
-          type="button"
-          disabled={!onChange}
-          onClick={() => onChange?.(n)}
-          className={`leading-none ${onChange ? "cursor-pointer" : "cursor-default"} ${
-            n <= value ? "text-amber-400" : "text-white/20"
-          }`}
-          aria-label={`${n} star${n > 1 ? "s" : ""}`}
-        >
-          ★
-        </button>
-      ))}
+      {[1, 2, 3, 4, 5].map((n) => {
+        const className = `leading-none ${onChange ? "cursor-pointer" : "cursor-default"} ${
+          n <= value ? "text-amber-400" : "text-white/20"
+        }`;
+        const label = `${n} star${n > 1 ? "s" : ""}`;
+        // Rendered inside a parent <button> in the "no review yet" prompt,
+        // so this can't itself be a <button> there — a span with the same
+        // interaction only when onChange is actually provided.
+        return onChange ? (
+          <button
+            key={n}
+            type="button"
+            onClick={() => onChange(n)}
+            className={className}
+            aria-label={label}
+          >
+            ★
+          </button>
+        ) : (
+          <span key={n} className={className} aria-label={label}>
+            ★
+          </span>
+        );
+      })}
     </div>
   );
 }
