@@ -64,10 +64,10 @@ export default function PlanPage() {
 
   return (
     <main className="mx-auto flex w-full max-w-3xl flex-1 flex-col px-6 py-16">
-      <p className="text-sm font-semibold uppercase tracking-[0.2em] text-orange-400">
+      <p className="text-sm font-semibold uppercase tracking-[0.2em] text-accent">
         Ask it anything
       </p>
-      <h1 className="mt-2 text-4xl font-black text-white sm:text-5xl">Plan a trip</h1>
+      <h1 className="font-serif mt-2 text-4xl font-semibold text-[#FBF8F3] sm:text-5xl">Plan a trip</h1>
       <p className="mt-4 text-lg leading-relaxed text-white/70">
         Tell it where you&apos;re flying and what you want to do. It&apos;ll give you real
         transport options, costs, and a day-by-day breakdown — not just a list of
@@ -80,7 +80,7 @@ export default function PlanPage() {
             type="checkbox"
             checked={useFavoritesContext}
             onChange={(e) => setUseFavoritesContext(e.target.checked)}
-            className="mt-0.5 h-4 w-4 accent-orange-500"
+            className="mt-0.5 h-4 w-4 accent-[#c17f4e]"
           />
           <span>
             <span className="font-semibold text-white">
@@ -98,7 +98,7 @@ export default function PlanPage() {
             <button
               key={prompt}
               onClick={() => send(prompt)}
-              className="rounded-full border border-white/15 bg-white/[0.03] px-4 py-2 text-sm text-white/70 transition hover:border-orange-400/60 hover:text-white"
+              className="rounded-full border border-white/15 bg-white/[0.03] px-4 py-2 text-sm text-white/70 transition hover:border-accent/60 hover:text-white"
             >
               {prompt}
             </button>
@@ -112,7 +112,7 @@ export default function PlanPage() {
             key={i}
             className={`rounded-2xl border p-5 ${
               turn.role === "user"
-                ? "border-orange-400/30 bg-orange-400/10"
+                ? "border-accent/30 bg-accent/10"
                 : "border-white/10 bg-white/[0.03]"
             }`}
           >
@@ -142,7 +142,7 @@ export default function PlanPage() {
           e.preventDefault();
           send(input);
         }}
-        className="sticky bottom-6 mt-8 flex gap-2 rounded-2xl border border-white/15 bg-[#0e0e14] p-2 shadow-2xl"
+        className="sticky bottom-6 mt-8 flex gap-2 rounded-2xl border border-white/15 bg-surface p-2 shadow-2xl"
       >
         <input
           value={input}
@@ -153,7 +153,7 @@ export default function PlanPage() {
         <button
           type="submit"
           disabled={loading || !input.trim()}
-          className="rounded-xl bg-orange-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-orange-400 disabled:cursor-not-allowed disabled:opacity-40"
+          className="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-ink transition hover:bg-accent-light disabled:cursor-not-allowed disabled:opacity-40"
         >
           Send
         </button>

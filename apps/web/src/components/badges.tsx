@@ -1,20 +1,26 @@
 import type { CostType, Difficulty, RiskLevel } from "@/lib/types";
 
-const pill = "inline-flex items-center rounded-full px-2.5 py-1 text-xs font-semibold";
+const pill = "inline-flex items-center rounded-full px-3 py-1 text-[11px] font-bold";
 const base = `${pill} tracking-wide uppercase`;
 
+const stone = "bg-[#a8a294]/[0.14] text-[#d8d1c4] ring-1 ring-[#a8a294]/25";
+const copper = "bg-accent/15 text-accent-light ring-1 ring-accent/35";
+const rust = "bg-[#b24a3a]/15 text-[#e08e7f] ring-1 ring-[#b24a3a]/35";
+const insane = "bg-ink text-accent ring-1 ring-accent";
+const sage = "bg-[#7a9b84]/15 text-[#9fc2ac] ring-1 ring-[#7a9b84]/30";
+
 const difficultyStyles: Record<Difficulty, string> = {
-  ADVANCED: "bg-amber-500/15 text-amber-300 ring-1 ring-amber-500/30",
-  EXPERT: "bg-orange-500/15 text-orange-300 ring-1 ring-orange-500/30",
-  EXTREME: "bg-red-500/15 text-red-300 ring-1 ring-red-500/30",
-  INSANE: "bg-fuchsia-500/15 text-fuchsia-300 ring-1 ring-fuchsia-500/30",
+  ADVANCED: stone,
+  EXPERT: copper,
+  EXTREME: rust,
+  INSANE: insane,
 };
 
 const riskStyles: Record<RiskLevel, string> = {
-  MODERATE: "bg-yellow-500/15 text-yellow-300 ring-1 ring-yellow-500/30",
-  HIGH: "bg-orange-500/15 text-orange-300 ring-1 ring-orange-500/30",
-  SEVERE: "bg-red-500/15 text-red-300 ring-1 ring-red-500/30",
-  EXTREME: "bg-red-700/20 text-red-400 ring-1 ring-red-700/40",
+  MODERATE: stone,
+  HIGH: copper,
+  SEVERE: rust,
+  EXTREME: insane,
 };
 
 export function DifficultyBadge({ difficulty }: { difficulty: Difficulty }) {
@@ -35,18 +41,12 @@ export function CostBadge({
   currency: string | null;
 }) {
   if (costType === "FREE") {
-    return (
-      <span className={`${base} bg-emerald-500/15 text-emerald-300 ring-1 ring-emerald-500/30`}>
-        Free
-      </span>
-    );
+    return <span className={`${base} ${sage}`}>Free</span>;
   }
   const label = costEstimate
     ? `${currency ? currency + " " : ""}${costEstimate}`
     : costType === "VARIES"
       ? "Varies"
       : "Paid";
-  return (
-    <span className={`${pill} bg-sky-500/15 text-sky-300 ring-1 ring-sky-500/30`}>{label}</span>
-  );
+  return <span className={`${pill} ${stone}`}>{label}</span>;
 }

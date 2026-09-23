@@ -44,7 +44,7 @@ export function ExploreMap({ activities }: { activities: ActivityWithCountry[] }
         <select
           value={countrySlug}
           onChange={(e) => setCountrySlug(e.target.value)}
-          className="rounded-full border border-white/15 bg-white/[0.03] px-4 py-2 text-sm text-white/80 outline-none focus:border-orange-400"
+          className="rounded-full border border-white/15 bg-white/[0.03] px-4 py-2 text-sm text-white/80 outline-none focus:border-accent"
         >
           <option value="all">All countries</option>
           {countries.map((c) => (
@@ -56,7 +56,7 @@ export function ExploreMap({ activities }: { activities: ActivityWithCountry[] }
         <select
           value={categorySlug}
           onChange={(e) => setCategorySlug(e.target.value)}
-          className="rounded-full border border-white/15 bg-white/[0.03] px-4 py-2 text-sm text-white/80 outline-none focus:border-orange-400"
+          className="rounded-full border border-white/15 bg-white/[0.03] px-4 py-2 text-sm text-white/80 outline-none focus:border-accent"
         >
           <option value="all">All categories</option>
           {groupsPresent.map((g) => (

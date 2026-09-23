@@ -23,9 +23,9 @@ export function ActivityCard({
   return (
     <article
       id={activity.id}
-      className="scroll-mt-24 overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] target:border-orange-400/60"
+      className="scroll-mt-24 overflow-hidden rounded-2xl border border-white/10 bg-surface shadow-[0_20px_50px_-24px_rgba(0,0,0,0.7)] target:border-accent/60"
     >
-      <div className="relative h-40 w-full">
+      <div className="relative h-44 w-full">
         <Image
           src={photoForCategoryGroup(activity.categoryGroup)}
           alt=""
@@ -33,16 +33,16 @@ export function ActivityCard({
           sizes="(min-width: 1024px) 50vw, 100vw"
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a10]/90 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-surface via-surface/15 to-transparent" />
       </div>
 
       <div className="p-6">
         <div className="flex flex-wrap items-start justify-between gap-3">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-widest text-orange-400">
+            <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-accent">
               {activity.category} &middot; {activity.region}
             </p>
-            <h3 className="mt-1 text-xl font-bold text-white">{activity.title}</h3>
+            <h3 className="font-serif mt-1.5 text-xl font-semibold text-white">{activity.title}</h3>
           </div>
           <div className="flex shrink-0 gap-2">
             <ShareButton title={activity.title} path={`/countries/${countrySlug}#${activity.id}`} />
@@ -50,7 +50,7 @@ export function ActivityCard({
           </div>
         </div>
 
-        <div className="mt-3 flex flex-wrap gap-2">
+        <div className="mt-3.5 flex flex-wrap gap-2">
           <DifficultyBadge difficulty={activity.difficulty} />
           <RiskBadge riskLevel={activity.riskLevel} />
           <CostBadge
@@ -59,12 +59,12 @@ export function ActivityCard({
             currency={activity.currency}
           />
           {activity.permitRequired && (
-            <span className="inline-flex items-center rounded-full bg-purple-500/15 px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-purple-300 ring-1 ring-purple-500/30">
+            <span className="inline-flex items-center rounded-full bg-[#a8a294]/[0.14] px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-[#d8d1c4] ring-1 ring-[#a8a294]/25">
               Permit required
             </span>
           )}
           {activity.guideRequired && (
-            <span className="inline-flex items-center rounded-full bg-teal-500/15 px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-teal-300 ring-1 ring-teal-500/30">
+            <span className="inline-flex items-center rounded-full bg-[#a8a294]/[0.14] px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-[#d8d1c4] ring-1 ring-[#a8a294]/25">
               Guide required
             </span>
           )}
@@ -72,9 +72,9 @@ export function ActivityCard({
 
         {likelyExcludedFromStandardInsurance(activity.riskLevel) && <InsuranceWarning />}
 
-        <p className="mt-4 text-sm leading-relaxed text-white/75">{activity.description}</p>
+        <p className="mt-4 text-[14.5px] leading-relaxed text-white/70">{activity.description}</p>
 
-        <div className="mt-4 flex flex-wrap gap-x-6 gap-y-1 text-xs text-white/50">
+        <div className="mt-4 flex flex-wrap gap-x-6 gap-y-1 text-xs text-white/45">
           {activity.bestSeason && <span>Best season: {activity.bestSeason}</span>}
           {activity.latitude != null && activity.longitude != null && (
             <span>
@@ -88,7 +88,7 @@ export function ActivityCard({
             {activity.tags.map((tag) => (
               <span
                 key={tag}
-                className="rounded-full bg-white/5 px-2.5 py-0.5 text-xs text-white/60"
+                className="rounded-full bg-white/5 px-2.5 py-0.5 text-xs text-white/55"
               >
                 #{tag}
               </span>
@@ -99,17 +99,19 @@ export function ActivityCard({
         <PackingList categoryGroup={activity.categoryGroup} />
         <ReadinessCheck activity={activity} />
 
-        <a
-          href={guideSearchUrl(activity.title, activity.region, countryName)}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-orange-400 hover:text-orange-300"
-        >
-          Find a guide / operator
-          <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth={2}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M7 17L17 7M7 7h10v10" />
-          </svg>
-        </a>
+        <div className="mt-4 flex items-center justify-between border-t border-white/8 pt-4">
+          <a
+            href={guideSearchUrl(activity.title, activity.region, countryName)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:text-accent-light"
+          >
+            Find a guide / operator
+            <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M7 17L17 7M7 7h10v10" />
+            </svg>
+          </a>
+        </div>
 
         <ReviewSection activityId={activity.id} />
       </div>

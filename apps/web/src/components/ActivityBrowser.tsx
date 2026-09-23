@@ -74,13 +74,13 @@ export function ActivityBrowser({ activities }: { activities: ActivityWithCountr
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search activities, regions, tags..."
-            className="w-full rounded-full border border-white/15 bg-white/[0.04] py-2.5 pl-10 pr-4 text-sm text-white placeholder:text-white/35 outline-none transition focus:border-orange-400/60 focus:bg-white/[0.06]"
+            className="w-full rounded-lg border border-white/15 bg-white/[0.04] py-2.5 pl-10 pr-4 text-sm text-white placeholder:text-white/35 outline-none transition focus:border-accent/60 focus:bg-white/[0.06]"
           />
         </div>
         <select
           value={countrySlug}
           onChange={(e) => setCountrySlug(e.target.value)}
-          className="rounded-full border border-white/15 bg-white/[0.03] px-4 py-2 text-sm text-white/80 outline-none focus:border-orange-400"
+          className="rounded-full border border-white/15 bg-white/[0.03] px-4 py-2 text-sm text-white/80 outline-none focus:border-accent"
         >
           <option value="all">All countries</option>
           {countries.map((c) => (
@@ -92,7 +92,7 @@ export function ActivityBrowser({ activities }: { activities: ActivityWithCountr
         <select
           value={categorySlug}
           onChange={(e) => setCategorySlug(e.target.value)}
-          className="rounded-full border border-white/15 bg-white/[0.03] px-4 py-2 text-sm text-white/80 outline-none focus:border-orange-400"
+          className="rounded-full border border-white/15 bg-white/[0.03] px-4 py-2 text-sm text-white/80 outline-none focus:border-accent"
         >
           <option value="all">All categories</option>
           {groupsPresent.map((g) => (
@@ -104,7 +104,7 @@ export function ActivityBrowser({ activities }: { activities: ActivityWithCountr
         <select
           value={sort}
           onChange={(e) => setSort(e.target.value as SortKey)}
-          className="rounded-full border border-white/15 bg-white/[0.03] px-4 py-2 text-sm text-white/80 outline-none focus:border-orange-400"
+          className="rounded-full border border-white/15 bg-white/[0.03] px-4 py-2 text-sm text-white/80 outline-none focus:border-accent"
         >
           <option value="default">Default order</option>
           <option value="most-extreme">Most extreme first</option>

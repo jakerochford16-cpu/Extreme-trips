@@ -64,7 +64,7 @@ export function MarkerMap({
         center={[10, 20]}
         zoom={2}
         scrollWheelZoom
-        className="map-dark-tiles h-full w-full bg-[#0a0a0f]"
+        className="map-dark-tiles h-full w-full bg-[#0b0a08]"
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -83,7 +83,7 @@ export function MarkerMap({
             >
               <Popup>
                 <div className="min-w-[200px] text-sm">
-                  <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-orange-500">
+                  <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-accent-dark">
                     {hasCountry(activity) ? activity.country.name + " · " : ""}
                     {labelForGroup(activity.categoryGroup)}
                   </p>
@@ -91,7 +91,7 @@ export function MarkerMap({
                   <p className="mb-2 text-xs text-neutral-600">{activity.region}</p>
                   <a
                     href={href}
-                    className="text-xs font-semibold text-orange-600 underline underline-offset-2"
+                    className="text-xs font-semibold text-accent-dark underline underline-offset-2"
                   >
                     View details &rarr;
                   </a>

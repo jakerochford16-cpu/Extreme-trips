@@ -69,7 +69,7 @@ export function ReadinessCheck({ activity }: { activity: Activityish }) {
                           onClick={() => setAnswers((a) => ({ ...a, [q.key]: opt.value }))}
                           className={`rounded-full border px-4 py-1.5 text-xs font-semibold transition ${
                             answers[q.key] === opt.value
-                              ? "border-orange-400 bg-orange-400/15 text-orange-300"
+                              ? "border-accent bg-accent/15 text-accent-light"
                               : "border-white/15 bg-white/[0.03] text-white/60 hover:border-white/30 hover:text-white"
                           }`}
                         >
@@ -84,7 +84,7 @@ export function ReadinessCheck({ activity }: { activity: Activityish }) {
                 type="button"
                 onClick={() => setShowVerdict(true)}
                 disabled={!allAnswered}
-                className="mt-4 rounded-full bg-orange-500 px-4 py-1.5 text-xs font-bold text-white transition hover:bg-orange-400 disabled:cursor-not-allowed disabled:opacity-40"
+                className="mt-4 rounded-lg bg-accent px-4 py-1.5 text-xs font-bold text-ink transition hover:bg-accent-light disabled:cursor-not-allowed disabled:opacity-40"
               >
                 See the honest answer
               </button>
