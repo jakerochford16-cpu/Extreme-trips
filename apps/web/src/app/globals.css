@@ -44,3 +44,13 @@ body {
 .map-dark-tiles .leaflet-control-attribution a {
   color: #d4d4d8;
 }
+
+/* Printing/saving as PDF keeps the dark theme as-is (readable as long as
+   the browser's "background graphics" print option is on, which is the
+   default in Chrome/Edge) — just strip the site chrome that isn't useful
+   on paper. */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

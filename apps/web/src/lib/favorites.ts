@@ -48,5 +48,17 @@ export function useFavorites() {
     writeFavorites(next);
   }, []);
 
-  return { favoriteIds: ids, isFavorite, toggle };
+  // Favorite order doubles as a rough itinerary order — reordering here is
+  // what "Move up/down" on the favorites page does.
+  const move = useCallback((activityId: string, direction: -1 | 1) => {
+    const current = readFavorites();
+    const from = current.indexOf(activityId);
+    const to = from + direction;
+    if (from === -1 || to < 0 || to >= current.length) return;
+    const next = [...current];
+    [next[from], next[to]] = [next[to], next[from]];
+    writeFavorites(next);
+  }, []);
+
+  return { favoriteIds: ids, isFavorite, toggle, move };
 }

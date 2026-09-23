@@ -40,7 +40,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <header className="border-b border-white/10">
+        <header className="no-print border-b border-white/10">
           <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-5 sm:px-6">
             <Link href="/" className="text-base font-black tracking-tight text-white sm:text-lg">
               OUTER LINE
