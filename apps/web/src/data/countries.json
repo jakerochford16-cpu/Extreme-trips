@@ -8908,8 +8908,8 @@
     "continent": "Oceania",
     "summary": "Bull sharks fed by hand in open water, a reef break so heavy and perfect it was kept a surf-charter secret for years, and whitewater carved through a rainforest gorge on an island most people only picture as a beach.",
     "heroTag": "Reef & rainforest extremes",
-    "activityCount": 3,
-    "extremenessRating": 2,
+    "activityCount": 7,
+    "extremenessRating": 1,
     "activities": [
       {
         "id": "fiji--shark-diving-beqa-lagoon",
@@ -8985,6 +8985,106 @@
           "waterfalls",
           "roadless"
         ]
+      },
+      {
+        "id": "fiji--diving-rainbow-reef",
+        "countryId": "fiji",
+        "title": "Diving, Rainbow Reef",
+        "region": "Somosomo Strait, Taveuni",
+        "category": "Diving",
+        "categoryGroup": "diving-whitewater",
+        "description": "Nicknamed the \"soft coral capital of the world\" — a strong tidal current through a narrow strait keeps reef walls carpeted in dense, vividly coloured soft coral that needs that same current to feed, making drift diving here as much a current-management skill as a sightseeing dive.",
+        "costType": "PAID",
+        "costEstimate": "2-tank dive FJ$300–400",
+        "currency": "FJD",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "April – October",
+        "latitude": -16.8,
+        "longitude": -179.9167,
+        "tags": [
+          "soft coral",
+          "strong current",
+          "drift diving",
+          "vivid color"
+        ]
+      },
+      {
+        "id": "fiji--sea-kayaking-yasawa-islands",
+        "countryId": "fiji",
+        "title": "Sea kayaking, Yasawa Islands",
+        "region": "Yasawa Islands",
+        "category": "Sea Kayaking",
+        "categoryGroup": "diving-whitewater",
+        "description": "Multi-day, self-supported sea kayak expeditions through a remote volcanic island chain with essentially no infrastructure between villages — open-ocean crossings between islands demand real sea-kayaking competence, not just paddling fitness.",
+        "costType": "PAID",
+        "costEstimate": "5-day guided expedition FJ$1,800–2,600",
+        "currency": "FJD",
+        "difficulty": "EXPERT",
+        "riskLevel": "HIGH",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "May – October",
+        "latitude": -17,
+        "longitude": 177.35,
+        "tags": [
+          "open-ocean crossings",
+          "self-supported",
+          "remote islands",
+          "multi-day"
+        ]
+      },
+      {
+        "id": "fiji--caving-sawa-i-lau",
+        "countryId": "fiji",
+        "title": "Caving, Sawa-i-Lau",
+        "region": "Yasawa Islands",
+        "category": "Caving",
+        "categoryGroup": "canyoning-caving",
+        "description": "A limestone sea cave with a hidden chamber reached by swimming through a short underwater passage — inside, natural skylights and an ancient burial-chamber history give it a genuinely eerie, sacred-site atmosphere unlike a standard show cave.",
+        "costType": "PAID",
+        "costEstimate": "Guided visit FJ$40–70",
+        "currency": "FJD",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": true,
+        "guideRequired": true,
+        "bestSeason": "Year-round",
+        "latitude": -16.9667,
+        "longitude": 177.35,
+        "tags": [
+          "underwater swim-through",
+          "limestone sea cave",
+          "burial-site history",
+          "guided"
+        ]
+      },
+      {
+        "id": "fiji--trekking-mount-tomanivi",
+        "countryId": "fiji",
+        "title": "Trekking, Mount Tomanivi",
+        "region": "Viti Levu highlands",
+        "category": "Wilderness Trekking",
+        "categoryGroup": "trekking",
+        "description": "Fiji's highest peak at 1,324m, climbed through dense, humid rainforest on a trail that's more about relentless mud and root-tangled terrain than elevation — a genuinely demanding day out that most visitors to Fiji never even know exists.",
+        "costType": "PAID",
+        "costEstimate": "Guided day trek FJ$70–110",
+        "currency": "FJD",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": true,
+        "guideRequired": true,
+        "bestSeason": "May – October (dry season)",
+        "latitude": -17.6,
+        "longitude": 178.0167,
+        "tags": [
+          "highest peak Fiji",
+          "dense rainforest",
+          "muddy trail",
+          "day trek"
+        ]
       }
     ]
   },
@@ -8995,7 +9095,7 @@
     "continent": "Oceania",
     "summary": "A WWII jungle trail still counted as one of the toughest treks on Earth, reef diving in some of the most biodiverse water on the planet, and an active volcano that once buried its own nearest town in ash.",
     "heroTag": "Jungle & reef extremes",
-    "activityCount": 3,
+    "activityCount": 7,
     "extremenessRating": 2,
     "activities": [
       {
@@ -9072,6 +9172,106 @@
           "warm ground",
           "sulphur vents"
         ]
+      },
+      {
+        "id": "papua-new-guinea--surfing-vanimo",
+        "countryId": "papua-new-guinea",
+        "title": "Surfing, Vanimo",
+        "region": "Sandaun Province",
+        "category": "Surfing",
+        "categoryGroup": "surfing",
+        "description": "World-class, largely unridden reef breaks along a remote north coast with almost no surf tourism infrastructure — a handful of visiting surfers a year share waves that would draw crowds anywhere in Indonesia or Australia.",
+        "costType": "FREE",
+        "costEstimate": null,
+        "currency": null,
+        "difficulty": "EXPERT",
+        "riskLevel": "HIGH",
+        "permitRequired": false,
+        "guideRequired": false,
+        "bestSeason": "November – March",
+        "latitude": -2.6833,
+        "longitude": 141.3,
+        "tags": [
+          "remote reef break",
+          "almost no surf tourism",
+          "world-class waves",
+          "self-sufficient"
+        ]
+      },
+      {
+        "id": "papua-new-guinea--diving-kimbe-bay",
+        "countryId": "papua-new-guinea",
+        "title": "Diving, Kimbe Bay",
+        "region": "West New Britain",
+        "category": "Diving",
+        "categoryGroup": "diving-whitewater",
+        "description": "A single bay holding roughly half of all known coral species on Earth — a genuinely staggering concentration of reef biodiversity packed into a compact, liveaboard- or resort-accessible area rather than spread across a whole archipelago.",
+        "costType": "PAID",
+        "costEstimate": "2-tank dive US$100–150",
+        "currency": "USD",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "May – November",
+        "latitude": -5.3,
+        "longitude": 150.1333,
+        "tags": [
+          "extreme coral biodiversity",
+          "compact reef system",
+          "liveaboard or resort access",
+          "world-class"
+        ]
+      },
+      {
+        "id": "papua-new-guinea--mount-wilhelm-summit-trek",
+        "countryId": "papua-new-guinea",
+        "title": "Mount Wilhelm summit trek",
+        "region": "Simbu Province, Highlands",
+        "category": "Mountaineering",
+        "categoryGroup": "mountaineering-climbing",
+        "description": "Papua New Guinea's highest peak at 4,509m, climbed through cloud forest and alpine grassland in a country with almost no trekking infrastructure — porters and guides are arranged locally village by village, and the summit push starts in pre-dawn darkness over loose scree.",
+        "costType": "PAID",
+        "costEstimate": "4-day guided trek US$500–800",
+        "currency": "USD",
+        "difficulty": "EXPERT",
+        "riskLevel": "HIGH",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "May – October (dry season)",
+        "latitude": -5.7833,
+        "longitude": 145.0333,
+        "tags": [
+          "highest peak PNG",
+          "village-arranged logistics",
+          "cloud forest",
+          "multi-day"
+        ]
+      },
+      {
+        "id": "papua-new-guinea--sepik-river-cultural-expedition",
+        "countryId": "papua-new-guinea",
+        "title": "Sepik River cultural expedition",
+        "region": "East Sepik Province",
+        "category": "Jungle Expedition",
+        "categoryGroup": "trekking",
+        "description": "A multi-day dugout canoe journey down one of the last great unpolluted rivers on Earth, through villages with living traditions of elaborate spirit-house architecture and historic headhunting culture — genuinely remote, with logistics, health precautions and river-level river travel all demanding serious preparation.",
+        "costType": "PAID",
+        "costEstimate": "Guided multi-day expedition US$1,200–2,000",
+        "currency": "USD",
+        "difficulty": "EXPERT",
+        "riskLevel": "HIGH",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "May – October (dry season)",
+        "latitude": -4.35,
+        "longitude": 143.4,
+        "tags": [
+          "dugout canoe journey",
+          "living traditional culture",
+          "remote river",
+          "multi-day"
+        ]
       }
     ]
   },
@@ -9082,7 +9282,7 @@
     "continent": "Europe",
     "summary": "Arctic Sweden hides one of Europe's last roadless, bridgeless wildernesses, a mountain you can only reach by fording rivers on foot, and a national pastime of diving beneath frozen lake ice for fun.",
     "heroTag": "Arctic wilderness extremes",
-    "activityCount": 3,
+    "activityCount": 7,
     "extremenessRating": 2,
     "activities": [
       {
@@ -9159,6 +9359,106 @@
           "clear winter water",
           "tethered dive"
         ]
+      },
+      {
+        "id": "sweden--backcountry-ski-touring-re",
+        "countryId": "sweden",
+        "title": "Backcountry ski touring, Åre",
+        "region": "Jämtland",
+        "category": "Extreme Skiing",
+        "categoryGroup": "ice-snow",
+        "description": "Skinning up beyond Åre's resort boundary into open sub-Arctic bowls and couloirs, with terrain that stays genuinely wild once you're a short skin from the lifts — Sweden's biggest ski town but with a fraction of the backcountry traffic of comparable Alpine resorts.",
+        "costType": "PAID",
+        "costEstimate": "Guided day ~1,800–2,600",
+        "currency": "SEK",
+        "difficulty": "EXPERT",
+        "riskLevel": "HIGH",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "December – April",
+        "latitude": 63.4,
+        "longitude": 13.0833,
+        "tags": [
+          "backcountry skiing",
+          "sub-Arctic bowls",
+          "uncrowded",
+          "guided"
+        ]
+      },
+      {
+        "id": "sweden--winter-wild-camping-abisko",
+        "countryId": "sweden",
+        "title": "Winter wild camping, Abisko",
+        "region": "Swedish Lapland",
+        "category": "Bivouac & Wild Camping",
+        "categoryGroup": "camping",
+        "description": "Multi-night winter camping inside the Arctic Circle under some of the most reliable aurora borealis viewing conditions in the world, thanks to a local \"blue hole\" microclimate that keeps skies clearer than surrounding areas — genuine cold-weather survival skills, not glamping.",
+        "costType": "PAID",
+        "costEstimate": "Guided 3-night trip ~7,500–11,000",
+        "currency": "SEK",
+        "difficulty": "EXPERT",
+        "riskLevel": "HIGH",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "December – March",
+        "latitude": 68.35,
+        "longitude": 18.8167,
+        "tags": [
+          "aurora borealis",
+          "extreme cold",
+          "multi-night",
+          "Arctic Circle"
+        ]
+      },
+      {
+        "id": "sweden--dog-sledding-swedish-lapland",
+        "countryId": "sweden",
+        "title": "Dog sledding, Swedish Lapland",
+        "region": "Jukkasjärvi / Kiruna region",
+        "category": "Dog Sledding",
+        "categoryGroup": "polar",
+        "description": "Multi-day, self-driven husky sledding expeditions across frozen lakes and boreal forest above the Arctic Circle — mushers manage their own dog teams after a short training session, camping overnight in the wilderness rather than returning to a lodge each night.",
+        "costType": "PAID",
+        "costEstimate": "4-day self-driven expedition ~15,000–22,000",
+        "currency": "SEK",
+        "difficulty": "EXPERT",
+        "riskLevel": "HIGH",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "December – April",
+        "latitude": 67.85,
+        "longitude": 20.3,
+        "tags": [
+          "self-driven sledding",
+          "wilderness camping",
+          "Arctic Circle",
+          "multi-day"
+        ]
+      },
+      {
+        "id": "sweden--rock-climbing-bohusl-n-coast",
+        "countryId": "sweden",
+        "title": "Rock climbing, Bohuslän coast",
+        "region": "Bohuslän, west coast",
+        "category": "Rock Climbing",
+        "categoryGroup": "mountaineering-climbing",
+        "description": "Smooth, weathered granite rising straight out of the sea along Sweden's rocky west coast archipelago — one of Northern Europe's best-known granite climbing destinations, with routes finishing at cliff edges looking straight out over open water.",
+        "costType": "FREE",
+        "costEstimate": null,
+        "currency": null,
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": false,
+        "guideRequired": false,
+        "bestSeason": "April – October",
+        "latitude": 58.35,
+        "longitude": 11.45,
+        "tags": [
+          "granite sea cliffs",
+          "archipelago climbing",
+          "sport and trad",
+          "coastal"
+        ]
       }
     ]
   },
@@ -9169,7 +9469,7 @@
     "continent": "Europe",
     "summary": "Lapland wilderness so remote it requires a permit just to enter on foot, ice climbing on man-made and natural falls alike, and a snowmobile-only backcountry that stays under snow for half the year.",
     "heroTag": "Lapland wilderness extremes",
-    "activityCount": 3,
+    "activityCount": 6,
     "extremenessRating": 2,
     "activities": [
       {
@@ -9246,6 +9546,81 @@
           "multi-day",
           "off-trail"
         ]
+      },
+      {
+        "id": "finland--whitewater-kayaking-oulanka-national-park",
+        "countryId": "finland",
+        "title": "Whitewater kayaking, Oulanka National Park",
+        "region": "Kuusamo, Northern Ostrobothnia",
+        "category": "Whitewater",
+        "categoryGroup": "diving-whitewater",
+        "description": "Rapids cutting through a river gorge on the edge of the Arctic Circle, running through boreal forest and past the famous Kiutaköngäs falls — one of the few genuine whitewater destinations this far north, cold and technical even in peak summer.",
+        "costType": "PAID",
+        "costEstimate": "Guided day ~€120–170",
+        "currency": "EUR",
+        "difficulty": "ADVANCED",
+        "riskLevel": "HIGH",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "May – August",
+        "latitude": 66.3667,
+        "longitude": 29.3167,
+        "tags": [
+          "Arctic Circle river",
+          "boreal gorge",
+          "cold water",
+          "guided"
+        ]
+      },
+      {
+        "id": "finland--wild-camping-urho-kekkonen-national-park",
+        "countryId": "finland",
+        "title": "Wild camping, Urho Kekkonen National Park",
+        "region": "Lapland",
+        "category": "Bivouac & Wild Camping",
+        "categoryGroup": "camping",
+        "description": "One of the largest wilderness areas in Finland, with a network of open wilderness huts but genuine backcountry navigation required between them across fell and bog terrain — Finland's \"everyman's right\" (jokamiehenoikeus) means wild camping here is broadly legal, not just tolerated.",
+        "costType": "FREE",
+        "costEstimate": null,
+        "currency": null,
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": false,
+        "guideRequired": false,
+        "bestSeason": "June – September",
+        "latitude": 68.0333,
+        "longitude": 27.5,
+        "tags": [
+          "wilderness huts",
+          "legal wild camping",
+          "fell and bog terrain",
+          "self-navigated"
+        ]
+      },
+      {
+        "id": "finland--husky-sledding-finnish-lapland",
+        "countryId": "finland",
+        "title": "Husky sledding, Finnish Lapland",
+        "region": "Levi / Saariselkä region",
+        "category": "Dog Sledding",
+        "categoryGroup": "polar",
+        "description": "Multi-day, self-driven husky expeditions across frozen taiga and open fell above the Arctic Circle, sleeping in wilderness cabins or heated tents along the route — a working sled-dog tradition turned into one of Lapland's signature winter expeditions.",
+        "costType": "PAID",
+        "costEstimate": "3-day expedition ~€2,200–3,200",
+        "currency": "EUR",
+        "difficulty": "ADVANCED",
+        "riskLevel": "HIGH",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "December – April",
+        "latitude": 67.8,
+        "longitude": 24.8,
+        "tags": [
+          "self-driven sledding",
+          "frozen taiga",
+          "Arctic Circle",
+          "multi-day"
+        ]
       }
     ]
   },
@@ -9256,7 +9631,7 @@
     "continent": "Africa",
     "summary": "Grade 5 whitewater at the actual source of the Nile, mountain gorilla trekking through genuinely impenetrable forest, and a mist-drenched range so consistently wet it earned the nickname the Mountains of the Moon.",
     "heroTag": "Nile source extremes",
-    "activityCount": 3,
+    "activityCount": 7,
     "extremenessRating": 2,
     "activities": [
       {
@@ -9333,6 +9708,106 @@
           "multi-day",
           "underrated difficulty"
         ]
+      },
+      {
+        "id": "uganda--chimpanzee-trekking-kibale-forest",
+        "countryId": "uganda",
+        "title": "Chimpanzee trekking, Kibale Forest",
+        "region": "Kibale National Park",
+        "category": "Wildlife Expedition",
+        "categoryGroup": "wildlife-hunting",
+        "description": "One of the highest densities of primates anywhere on Earth, with a well-habituated chimpanzee community tracked on foot through dense forest — full-day \"chimp habituation\" permits let visitors follow a group from dawn nesting to dusk rather than the standard one-hour visit.",
+        "costType": "PAID",
+        "costEstimate": "Habituation permit US$220–250",
+        "currency": "USD",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": true,
+        "guideRequired": true,
+        "bestSeason": "December – February, June – August",
+        "latitude": 0.5,
+        "longitude": 30.3833,
+        "tags": [
+          "chimpanzee trekking",
+          "high primate density",
+          "full-day habituation option",
+          "on foot"
+        ]
+      },
+      {
+        "id": "uganda--bungee-jumping-jinja",
+        "countryId": "uganda",
+        "title": "Bungee jumping, Jinja",
+        "region": "Jinja, source of the Nile",
+        "category": "Extreme Jump",
+        "categoryGroup": "air",
+        "description": "A 44m jump directly over the White Nile, with an option to dip into the river itself on the rebound — set at the same spot the Nile's rapids draw whitewater rafters from around the world, making Jinja a genuine multi-sport adrenaline hub.",
+        "costType": "PAID",
+        "costEstimate": "Single jump US$115–140",
+        "currency": "USD",
+        "difficulty": "ADVANCED",
+        "riskLevel": "HIGH",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "Year-round",
+        "latitude": 0.4479,
+        "longitude": 33.2026,
+        "tags": [
+          "bungee jumping",
+          "over the Nile",
+          "river dip rebound",
+          "adrenaline hub"
+        ]
+      },
+      {
+        "id": "uganda--mount-elgon-caldera-trek",
+        "countryId": "uganda",
+        "title": "Mount Elgon caldera trek",
+        "region": "Mbale, eastern Uganda",
+        "category": "Mountaineering",
+        "categoryGroup": "mountaineering-climbing",
+        "description": "An extinct shield volcano holding one of the largest intact calderas in the world, over 8km across — multi-day treks descend into the caldera itself past hot springs, cliffs and Sipi Falls, in a range that sees a fraction of the visitors Uganda's gorilla parks draw.",
+        "costType": "PAID",
+        "costEstimate": "4-day guided trek US$450–650",
+        "currency": "USD",
+        "difficulty": "EXPERT",
+        "riskLevel": "HIGH",
+        "permitRequired": true,
+        "guideRequired": true,
+        "bestSeason": "June – August, December – February",
+        "latitude": 1.1333,
+        "longitude": 34.5333,
+        "tags": [
+          "massive caldera",
+          "extinct volcano",
+          "hot springs",
+          "low visitor traffic"
+        ]
+      },
+      {
+        "id": "uganda--tree-climbing-lion-safari-queen-elizabeth-np",
+        "countryId": "uganda",
+        "title": "Tree-climbing lion safari, Queen Elizabeth NP",
+        "region": "Ishasha sector, Queen Elizabeth National Park",
+        "category": "Wildlife Expedition",
+        "categoryGroup": "wildlife-hunting",
+        "description": "One of only a couple of lion populations on Earth known to regularly climb and rest in trees, a behaviour with no fully agreed explanation — game drives here specifically scan fig tree canopies rather than the ground, a genuinely different safari rhythm.",
+        "costType": "PAID",
+        "costEstimate": "Half-day game drive US$60–100",
+        "currency": "USD",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": true,
+        "guideRequired": true,
+        "bestSeason": "June – September, December – February",
+        "latitude": -0.65,
+        "longitude": 29.7333,
+        "tags": [
+          "tree-climbing lions",
+          "rare behavior",
+          "canopy scanning",
+          "game drive"
+        ]
       }
     ]
   },
@@ -9343,7 +9818,7 @@
     "continent": "Africa",
     "summary": "A country you can drive across in a day, holding one of the last strongholds of the mountain gorilla and a volcano with an active lava lake in its crater rim.",
     "heroTag": "Volcanoes National Park extremes",
-    "activityCount": 2,
+    "activityCount": 6,
     "extremenessRating": 1,
     "activities": [
       {
@@ -9394,6 +9869,106 @@
           "golden monkeys",
           "single-day climb",
           "bamboo forest"
+        ]
+      },
+      {
+        "id": "rwanda--chimpanzee-trekking-nyungwe-forest",
+        "countryId": "rwanda",
+        "title": "Chimpanzee trekking, Nyungwe Forest",
+        "region": "Nyungwe National Park",
+        "category": "Wildlife Expedition",
+        "categoryGroup": "wildlife-hunting",
+        "description": "One of the oldest rainforests in Africa, home to habituated chimpanzee troops tracked through steep, dense montane forest that's genuinely more physically demanding than most gorilla trekking routes — the terrain here is consistently steeper and the chimps move faster and further.",
+        "costType": "PAID",
+        "costEstimate": "Permit + guide US$100–150",
+        "currency": "USD",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": true,
+        "guideRequired": true,
+        "bestSeason": "June – September, December – February",
+        "latitude": -2.5,
+        "longitude": 29.2,
+        "tags": [
+          "chimpanzee trekking",
+          "ancient rainforest",
+          "steep terrain",
+          "physically demanding"
+        ]
+      },
+      {
+        "id": "rwanda--mountain-biking-congo-nile-trail",
+        "countryId": "rwanda",
+        "title": "Mountain biking, Congo Nile Trail",
+        "region": "Along Lake Kivu",
+        "category": "Mountain Biking",
+        "categoryGroup": "mountain-biking",
+        "description": "A multi-day off-road route tracing the shore of Lake Kivu along the Congo-Nile watershed divide — steep, technical singletrack and dirt roads through tea plantations and fishing villages, ridden as one of East Africa's signature multi-day mountain bike routes.",
+        "costType": "PAID",
+        "costEstimate": "Guided 4-day ride US$1,200–1,800",
+        "currency": "USD",
+        "difficulty": "EXPERT",
+        "riskLevel": "HIGH",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "June – September, December – February",
+        "latitude": -2.1,
+        "longitude": 29.25,
+        "tags": [
+          "watershed divide route",
+          "technical singletrack",
+          "lakeside villages",
+          "multi-day"
+        ]
+      },
+      {
+        "id": "rwanda--kayaking-lake-kivu",
+        "countryId": "rwanda",
+        "title": "Kayaking, Lake Kivu",
+        "region": "Lake Kivu",
+        "category": "Sea Kayaking",
+        "categoryGroup": "diving-whitewater",
+        "description": "Multi-day paddling expeditions along the shoreline of one of Africa's Great Lakes, camping on beaches and small islands between villages — Kivu is one of the few great lakes safe for open-water swimming and paddling, with no crocodiles or hippos in most of its depths.",
+        "costType": "PAID",
+        "costEstimate": "3-day guided trip US$600–900",
+        "currency": "USD",
+        "difficulty": "ADVANCED",
+        "riskLevel": "MODERATE",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "June – September, December – February",
+        "latitude": -2.05,
+        "longitude": 29.15,
+        "tags": [
+          "Great Lakes paddling",
+          "island camping",
+          "multi-day",
+          "rare crocodile-free lake"
+        ]
+      },
+      {
+        "id": "rwanda--whitewater-rafting-nyabarongo-river",
+        "countryId": "rwanda",
+        "title": "Whitewater rafting, Nyabarongo River",
+        "region": "Southern Province",
+        "category": "Whitewater",
+        "categoryGroup": "diving-whitewater",
+        "description": "Rwanda's small but emerging whitewater scene, with Class III–IV rapids on the river widely regarded as one of the most distant sources of the Nile — a far quieter, far less developed rafting industry than Uganda's well-established Jinja operations just across the border.",
+        "costType": "PAID",
+        "costEstimate": "Full-day trip US$90–140",
+        "currency": "USD",
+        "difficulty": "ADVANCED",
+        "riskLevel": "HIGH",
+        "permitRequired": false,
+        "guideRequired": true,
+        "bestSeason": "June – September",
+        "latitude": -2.2,
+        "longitude": 29.75,
+        "tags": [
+          "emerging rafting scene",
+          "Nile source tributary",
+          "Class IV rapids",
+          "quiet operation"
         ]
       }
     ]
