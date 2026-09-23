@@ -27,7 +27,7 @@ export function FavoritesList({ activities }: { activities: ActivityWithCountry[
           >
             {activity.country.name} &rarr;
           </Link>
-          <ActivityCard activity={activity} countryName={activity.country.name} />
+          <ActivityCard activity={activity} countryName={activity.country.name} countrySlug={activity.country.slug} />
         </div>
       ))}
     </div>

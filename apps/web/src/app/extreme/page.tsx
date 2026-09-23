@@ -59,7 +59,7 @@ export default async function ExtremePage() {
                   {activity.country.name} &rarr;
                 </Link>
               </div>
-              <ActivityCard activity={activity} countryName={activity.country.name} />
+              <ActivityCard activity={activity} countryName={activity.country.name} countrySlug={activity.country.slug} />
             </li>
           ))}
         </ol>

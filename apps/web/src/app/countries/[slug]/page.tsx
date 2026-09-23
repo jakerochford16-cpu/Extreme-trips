@@ -98,6 +98,7 @@ export default async function CountryPage({
           <ActivityListSection
             activities={visibleActivities}
             countryName={country.name}
+            countrySlug={country.slug}
             emptyLabel={`Nothing in this category yet for ${country.name}.`}
           />
         </section>
