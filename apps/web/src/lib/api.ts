@@ -17,6 +17,7 @@ export async function getCountries(): Promise<CountrySummary[]> {
     summary: c.summary,
     heroTag: c.heroTag,
     activityCount: c.activityCount,
+    extremenessRating: c.extremenessRating,
   })).sort((a, b) => a.name.localeCompare(b.name));
 }
 

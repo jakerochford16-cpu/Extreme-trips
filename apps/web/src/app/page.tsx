@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { CountryBrowse } from "@/components/CountryBrowse";
 import { getCountries } from "@/lib/api";
 
@@ -29,6 +30,15 @@ export default async function HomePage() {
             your flight. Outback hunts, cage-free wreck dives, portaledge camps hanging off a
             cliff. Pick a country, see what it&apos;s really got.
           </p>
+          <Link
+            href="/surprise"
+            className="mt-6 inline-flex items-center gap-2 rounded-full border border-white/25 bg-black/40 px-4 py-2 text-sm font-semibold text-white backdrop-blur-sm transition hover:border-orange-400/60 hover:text-orange-300"
+          >
+            <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M4 4l4 4M4 20l4-4M20 4l-4 4M20 20l-4-4M9 12a3 3 0 106 0 3 3 0 00-6 0z" />
+            </svg>
+            Surprise me with a random one
+          </Link>
         </div>
       </section>
 

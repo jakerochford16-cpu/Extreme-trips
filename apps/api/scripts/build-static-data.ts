@@ -16,6 +16,22 @@ function slugify(input: string): string {
     .replace(/^-+|-+$/g, "");
 }
 
+const DIFFICULTY_RANK: Record<string, number> = { ADVANCED: 1, EXPERT: 2, EXTREME: 3, INSANE: 4 };
+const RISK_RANK: Record<string, number> = { MODERATE: 1, HIGH: 2, SEVERE: 3, EXTREME: 4 };
+
+// A 1-5 "how extreme is this country overall" rating, averaged from each
+// activity's difficulty + risk (see apps/web/src/lib/extremeness.ts for the
+// same per-activity formula used client-side for sorting). Duplicated here
+// rather than shared across the two workspaces, same as categoryGroups.ts.
+function extremenessRating(activities: { difficulty: string; riskLevel: string }[]): number {
+  if (activities.length === 0) return 1;
+  const avg =
+    activities.reduce((sum, a) => sum + DIFFICULTY_RANK[a.difficulty] + RISK_RANK[a.riskLevel], 0) /
+    activities.length;
+  // avg ranges 2-8 (1+1 to 4+4) -> map onto a 1-5 scale
+  return Math.min(5, Math.max(1, Math.round(((avg - 2) / 6) * 4 + 1)));
+}
+
 const output = data.map((country) => {
   const activities = country.activities.map((a) => ({
     id: `${country.slug}--${slugify(a.title)}`,
@@ -46,6 +62,7 @@ const output = data.map((country) => {
     summary: country.summary,
     heroTag: country.heroTag,
     activityCount: activities.length,
+    extremenessRating: extremenessRating(activities),
     activities,
   };
 });
