@@ -77,6 +77,7 @@ const CATEGORY_TO_GROUP: Record<string, string> = {
   "Surfing": "surfing",
 
   "Polar Expedition": "polar",
+  "Dog Sledding": "polar",
 
   "Sandboarding": "other",
 };
