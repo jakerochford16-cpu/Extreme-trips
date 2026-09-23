@@ -41,6 +41,7 @@ const CATEGORY_TO_GROUP: Record<string, string> = {
   "Canyon Trekking": "trekking",
   "Remote Ruins Trekking": "trekking",
   "Jungle Expedition": "trekking",
+  "Camel Trekking": "trekking",
 
   "Ice Climbing": "ice-snow",
   "Ice Caving": "ice-snow",
