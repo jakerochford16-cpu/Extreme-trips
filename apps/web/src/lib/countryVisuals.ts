@@ -47,6 +47,11 @@ export const COUNTRY_VISUALS: Record<string, { photo: string; accent: string }> 
   namibia: { photo: "/images/categories/other.jpg", accent: "#fb923c" },
   botswana: { photo: "/images/categories/wildlife-hunting.jpg", accent: "#a3e635" },
   madagascar: { photo: "/images/categories/canyoning-caving.jpg", accent: "#34d399" },
+  morocco: { photo: "/images/categories/other.jpg", accent: "#f59e0b" },
+  jordan: { photo: "/images/categories/mountaineering-climbing.jpg", accent: "#dc2626" },
+  oman: { photo: "/images/categories/canyoning-caving.jpg", accent: "#0ea5e9" },
+  "costa-rica": { photo: "/images/categories/diving-whitewater.jpg", accent: "#22c55e" },
+  brazil: { photo: "/images/categories/mountaineering-climbing.jpg", accent: "#16a34a" },
 };
 
 const FALLBACK = { photo: "/images/countries/switzerland.jpg", accent: "#94a3b8" };
