@@ -42,6 +42,11 @@ export const COUNTRY_VISUALS: Record<string, { photo: string; accent: string }> 
   philippines: { photo: "/images/categories/diving-whitewater.jpg", accent: "#22d3ee" },
   vietnam: { photo: "/images/categories/canyoning-caving.jpg", accent: "#4ade80" },
   thailand: { photo: "/images/categories/mountaineering-climbing.jpg", accent: "#2dd4bf" },
+  tanzania: { photo: "/images/categories/wildlife-hunting.jpg", accent: "#f59e0b" },
+  kenya: { photo: "/images/countries/south-africa.jpg", accent: "#d97706" },
+  namibia: { photo: "/images/categories/other.jpg", accent: "#fb923c" },
+  botswana: { photo: "/images/categories/wildlife-hunting.jpg", accent: "#a3e635" },
+  madagascar: { photo: "/images/categories/canyoning-caving.jpg", accent: "#34d399" },
 };
 
 const FALLBACK = { photo: "/images/countries/switzerland.jpg", accent: "#94a3b8" };
