@@ -36,3 +36,7 @@ export type Activity = {
 export type CountryDetail = CountrySummary & {
   activities: Activity[];
 };
+
+export type ActivityWithCountry = Activity & {
+  country: { name: string; slug: string };
+};

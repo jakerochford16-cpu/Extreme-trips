@@ -23,12 +23,24 @@ Each **Activity** belongs to a **Country** and carries:
 - `riskLevel` (MODERATE / HIGH / SEVERE / EXTREME)
 - `costType` (FREE / VARIES / PAID) + a human cost estimate
 - `permitRequired`, `guideRequired`, `bestSeason`
-- optional `latitude`/`longitude` for a future map view
+- `latitude`/`longitude`, used by the map view
+- `categoryGroup` — a broad taxonomy (Mountaineering & Climbing, Ice & Snow, Air &
+  Jumps, etc., see `apps/api/src/categoryGroups.ts`) derived from the specific
+  `category` string, used to drive the per-country filter chips and the map legend
 
 Content is hand-curated to start (see `apps/api/prisma/seed.ts`) — it's a real,
-researched dataset for Switzerland, Australia, New Zealand and Norway, not
-placeholder text. Every entry is a **starting point, not an instruction** — verify
-permits, conditions and costs with a local guide or operator before you go.
+researched dataset across 9 countries (Switzerland, Australia, New Zealand,
+Norway, Nepal, Peru, South Africa, Iceland, Canada), not placeholder text. Every
+entry is a **starting point, not an instruction** — verify permits, conditions
+and costs with a local guide or operator before you go.
+
+### Map view
+
+`/map` shows every activity across every country as a pin on one interactive map
+(OpenStreetMap tiles, no API key required, CSS-filtered to match the dark theme),
+filterable by country and category, colored by category, with a popup linking
+into the write-up. Each country page also embeds the same map scoped to its own
+activities (and whatever category filter is active).
 
 ### Running it locally
 
@@ -52,7 +64,6 @@ file until user/community submissions are built.
 
 ### Roadmap (not yet built)
 
-- Map view with pins per activity
 - Accounts + saved trips
 - Community submissions and condition reports
 - Native/mobile client against the same API

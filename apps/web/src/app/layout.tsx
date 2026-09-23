@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -27,12 +28,20 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col">
         <header className="border-b border-white/10">
           <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-5">
-            <a href="/" className="text-lg font-black tracking-tight text-white">
+            <Link href="/" className="text-lg font-black tracking-tight text-white">
               OUTER LINE
-            </a>
-            <p className="hidden text-xs uppercase tracking-widest text-white/40 sm:block">
-              Extreme travel, by country
-            </p>
+            </Link>
+            <nav className="flex items-center gap-6">
+              <Link
+                href="/map"
+                className="text-sm font-semibold text-white/70 hover:text-white"
+              >
+                Map
+              </Link>
+              <p className="hidden text-xs uppercase tracking-widest text-white/40 sm:block">
+                Extreme travel, by country
+              </p>
+            </nav>
           </div>
         </header>
         {children}

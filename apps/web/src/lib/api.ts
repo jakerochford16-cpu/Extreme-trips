@@ -1,4 +1,4 @@
-import type { CountryDetail, CountrySummary } from "./types";
+import type { ActivityWithCountry, CountryDetail, CountrySummary } from "./types";
 
 const API_BASE = process.env.API_URL ?? "http://localhost:4000";
 
@@ -16,4 +16,9 @@ export async function getCountries(): Promise<CountrySummary[]> {
 
 export async function getCountry(slug: string): Promise<CountryDetail | null> {
   return fetchJson<CountryDetail>(`/api/countries/${slug}`);
+}
+
+export async function getActivities(): Promise<ActivityWithCountry[]> {
+  const activities = await fetchJson<ActivityWithCountry[]>("/api/activities");
+  return activities ?? [];
 }

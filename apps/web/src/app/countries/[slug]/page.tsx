@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ActivityCard } from "@/components/ActivityCard";
 import { CategoryFilterChips } from "@/components/CategoryFilterChips";
+import { CountryMapSection } from "@/components/map/CountryMapSection";
 import { getCountry } from "@/lib/api";
 import { CATEGORY_GROUPS, labelForGroup } from "@/lib/categoryGroups";
 
@@ -57,6 +58,10 @@ export default async function CountryPage({
           totalCount={country.activities.length}
           activeSlug={activeGroup}
         />
+      </section>
+
+      <section className="mb-10">
+        <CountryMapSection activities={visibleActivities} />
       </section>
 
       <section>

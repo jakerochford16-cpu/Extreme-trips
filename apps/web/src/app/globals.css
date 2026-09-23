@@ -18,3 +18,29 @@ body {
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
   min-height: 100%;
 }
+
+/* Standard OpenStreetMap tiles inverted to a dark theme so the map matches
+   the rest of the app without relying on a tile provider that needs an
+   API key. */
+.map-dark-tiles .leaflet-tile-pane {
+  filter: invert(1) hue-rotate(180deg) brightness(0.95) contrast(0.9) saturate(0.7);
+}
+
+.map-dark-tiles .leaflet-control-zoom a {
+  background-color: #18181f;
+  color: #ededed;
+  border-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+.map-dark-tiles .leaflet-control-zoom a:hover {
+  background-color: #232330;
+}
+
+.map-dark-tiles .leaflet-control-attribution {
+  background: rgba(10, 10, 15, 0.75);
+  color: #9a9aa5;
+}
+
+.map-dark-tiles .leaflet-control-attribution a {
+  color: #d4d4d8;
+}

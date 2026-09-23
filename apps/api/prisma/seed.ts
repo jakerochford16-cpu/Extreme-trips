@@ -660,8 +660,8 @@ const data: SeedCountry[] = [
         permitRequired: false,
         guideRequired: false,
         bestSeason: "June – September",
-        latitude: 59.0339,
-        longitude: 6.6197,
+        latitude: 59.0345,
+        longitude: 6.6210,
         tags: ["BASE jumping", "1000m exit", "experienced only", "fjord"],
       },
       {
@@ -1292,8 +1292,8 @@ const data: SeedCountry[] = [
         permitRequired: false,
         guideRequired: false,
         bestSeason: "March – May, September – November",
-        latitude: -33.9628,
-        longitude: 18.4098,
+        latitude: -33.9685,
+        longitude: 18.4045,
         tags: ["multi-pitch", "trad and bolted", "sandstone", "urban crag"],
       },
       {

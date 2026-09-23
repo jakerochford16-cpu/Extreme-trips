@@ -3,7 +3,10 @@ import { CostBadge, DifficultyBadge, RiskBadge } from "./badges";
 
 export function ActivityCard({ activity }: { activity: Activity }) {
   return (
-    <article className="rounded-2xl border border-white/10 bg-white/[0.03] p-6">
+    <article
+      id={activity.id}
+      className="scroll-mt-24 rounded-2xl border border-white/10 bg-white/[0.03] p-6 target:border-orange-400/60"
+    >
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div>
           <p className="text-xs font-semibold uppercase tracking-widest text-orange-400">
