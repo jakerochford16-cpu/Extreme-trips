@@ -29,20 +29,7 @@ export default async function ClicksDashboard({
     );
   }
 
-  let clicks: Awaited<ReturnType<typeof getClickCounts>>;
-  let activities: Awaited<ReturnType<typeof getActivities>>;
-  try {
-    [clicks, activities] = await Promise.all([getClickCounts(SINCE_DAYS), getActivities()]);
-  } catch (err) {
-    return (
-      <main className="mx-auto max-w-2xl px-6 py-24">
-        <h1 className="font-serif text-2xl font-semibold text-white">Admin — query failed</h1>
-        <pre className="mt-4 overflow-x-auto rounded-lg bg-black/40 p-4 text-xs text-white/70">
-          {err instanceof Error ? `${err.name}: ${err.message}\n\n${err.stack}` : String(err)}
-        </pre>
-      </main>
-    );
-  }
+  const [clicks, activities] = await Promise.all([getClickCounts(SINCE_DAYS), getActivities()]);
   const activityById = new Map(activities.map((a) => [a.id, a]));
 
   const rows = clicks
