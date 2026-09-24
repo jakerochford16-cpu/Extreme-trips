@@ -7,11 +7,11 @@ import { CATEGORY_GROUPS } from "@/lib/categoryGroups";
 import { colorForGroup } from "@/lib/categoryColors";
 import { Select } from "@/components/ui/Select";
 
-const MarkerMap = dynamic(() => import("./MarkerMap").then((m) => m.MarkerMap), {
+const CountryGlobe = dynamic(() => import("./CountryGlobe").then((m) => m.CountryGlobe), {
   ssr: false,
   loading: () => (
-    <div className="flex h-[70vh] w-full items-center justify-center rounded-2xl border border-white/10 bg-white/[0.03] text-white/50">
-      Loading map&hellip;
+    <div className="flex h-[50vh] w-full items-center justify-center rounded-2xl border border-white/10 bg-white/[0.03] text-white/50 sm:h-[65vh] lg:h-[70vh]">
+      Spinning up the globe&hellip;
     </div>
   ),
 });
@@ -59,7 +59,12 @@ export function ExploreMap({ activities }: { activities: ActivityWithCountry[] }
         </span>
       </div>
 
-      <MarkerMap activities={filtered} heightClassName="h-[50vh] sm:h-[65vh] lg:h-[70vh]" />
+      <CountryGlobe
+        activities={filtered}
+        countryName={countrySlug === "all" ? "" : (countries.find((c) => c.slug === countrySlug)?.name ?? "")}
+        autoRotate={countrySlug === "all"}
+        heightClassName="h-[50vh] sm:h-[65vh] lg:h-[70vh]"
+      />
 
       <div className="mt-4 flex flex-wrap gap-x-5 gap-y-2">
         {groupsPresent.map((g) => (

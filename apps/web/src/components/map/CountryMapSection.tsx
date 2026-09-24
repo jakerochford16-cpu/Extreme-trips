@@ -19,5 +19,12 @@ export function CountryMapSection({
   activities: Activity[];
   countryName: string;
 }) {
-  return <CountryGlobe activities={activities} countryName={countryName} heightClassName="h-[420px]" />;
+  return (
+    <CountryGlobe
+      activities={activities}
+      countryName={countryName}
+      autoRotate={false}
+      heightClassName="h-[420px]"
+    />
+  );
 }
