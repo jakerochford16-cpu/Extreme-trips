@@ -6,7 +6,9 @@ import { extremenessScore } from "@/lib/extremeness";
 import { photoForCategoryGroup } from "@/lib/activityPhotos";
 
 export const metadata = {
-  title: "The 10 most extreme things on the site — Outer Line",
+  title: "The 10 most extreme activities on Earth, ranked | Outer Line",
+  description:
+    "Ranked by difficulty and risk across all 50 countries — BASE jumps, extreme ascents, and worse. Updated automatically as new activities get added.",
 };
 
 export default async function ExtremePage() {

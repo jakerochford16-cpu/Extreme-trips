@@ -3,6 +3,7 @@ import { getActivities } from "@/lib/api";
 
 export const metadata = {
   title: "Favorites — Outer Line",
+  robots: { index: false, follow: true },
 };
 
 export default async function FavoritesPage() {

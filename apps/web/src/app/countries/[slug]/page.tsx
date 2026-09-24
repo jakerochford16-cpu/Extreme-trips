@@ -1,12 +1,33 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import { ActivityListSection } from "@/components/ActivityListSection";
 import { CategoryFilterChips } from "@/components/CategoryFilterChips";
 import { CountryMapSection } from "@/components/map/CountryMapSection";
 import { getCountry } from "@/lib/api";
 import { CATEGORY_GROUPS, labelForGroup } from "@/lib/categoryGroups";
 import { visualsForCountry } from "@/lib/countryVisuals";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const country = await getCountry(slug);
+  if (!country) return {};
+
+  const title = `${country.name} extreme activities — ${country.activities.length} curated lines | Outer Line`;
+  const description = `${country.summary} ${country.activities.length} real, curated extreme activities in ${country.name}, with difficulty, risk, cost and what to pack for each.`;
+
+  return {
+    title,
+    description,
+    openGraph: { title, description, type: "website" },
+    twitter: { card: "summary_large_image", title, description },
+  };
+}
 
 export default async function CountryPage({
   params,
@@ -39,8 +60,34 @@ export default async function CountryPage({
 
   const { photo } = visualsForCountry(country.slug);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "TouristDestination",
+    name: country.name,
+    description: country.summary,
+    url: `https://extreme-trips-web.vercel.app/countries/${country.slug}`,
+    containsPlace: country.activities.map((activity) => ({
+      "@type": "TouristAttraction",
+      name: activity.title,
+      description: activity.description,
+      ...(activity.latitude != null && activity.longitude != null
+        ? {
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: activity.latitude,
+              longitude: activity.longitude,
+            },
+          }
+        : {}),
+    })),
+  };
+
   return (
     <main className="flex-1">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <section className="relative flex h-[300px] items-end overflow-hidden sm:h-[360px]">
         <Image
           src={photo}

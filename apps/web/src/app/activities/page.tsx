@@ -2,7 +2,9 @@ import { ActivityBrowser } from "@/components/ActivityBrowser";
 import { getActivities } from "@/lib/api";
 
 export const metadata = {
-  title: "All activities — Outer Line",
+  title: "All 375 extreme activities, searchable — Outer Line",
+  description:
+    "Search and filter every curated extreme activity across all 50 countries at once — by country, category, difficulty, risk and cost.",
 };
 
 export default async function ActivitiesPage() {

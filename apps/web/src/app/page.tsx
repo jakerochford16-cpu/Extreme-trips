@@ -8,12 +8,25 @@ import { CATEGORY_GROUPS } from "@/lib/categoryGroups";
 
 export const revalidate = 86400; // refresh the "in season now" picks daily
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Outer Line",
+  url: "https://extreme-trips-web.vercel.app",
+  description:
+    "What a country actually offers, if you want to suffer for it — 375 curated extreme activities across 50 countries.",
+};
+
 export default async function HomePage() {
   const [countries, activities] = await Promise.all([getCountries(), getActivities()]);
   const inSeason = pickDiverse(activities.filter((a) => isInSeason(a.bestSeason)), 6);
 
   return (
     <main className="flex-1">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <section className="relative flex min-h-[460px] items-end overflow-hidden sm:min-h-[600px]">
         <Image
           src="/images/hero-iceclimb.jpg"

@@ -1,6 +1,12 @@
 import { ExploreMap } from "@/components/map/ExploreMap";
 import { getActivities } from "@/lib/api";
 
+export const metadata = {
+  title: "Every extreme activity on one map | Outer Line",
+  description:
+    "All 375 curated extreme activities across 50 countries, plotted on one interactive map. Filter by country or category, click a pin for the details.",
+};
+
 export default async function MapPage() {
   const activities = await getActivities();
 
