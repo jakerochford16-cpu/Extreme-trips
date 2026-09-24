@@ -1167,7 +1167,7 @@ export const data: SeedCountry[] = [
         description:
           "The self-proclaimed \"Great White Shark Capital of the World\" — Dyer Island and nearby seal colonies draw some of the most reliable great white sightings anywhere, viewed from a surface cage with no certification required.",
         costType: "PAID",
-        costEstimate: "~1,800–2,500",
+        costEstimate: "~1,450–2,700 (child–adult, international rate)",
         currency: "ZAR",
         difficulty: "ADVANCED",
         riskLevel: "HIGH",
@@ -1185,7 +1185,7 @@ export const data: SeedCountry[] = [
         description:
           "The world's highest commercial bridge bungy at 216m above the Bloukrans River, run since 1997 by Face Adrenalin — a free fall long enough that it's genuinely disorienting, with a \"flying fox\" zipline back as an alternative if you chicken out at the platform edge.",
         costType: "PAID",
-        costEstimate: "~1,350–1,600",
+        costEstimate: "~1,690",
         currency: "ZAR",
         difficulty: "ADVANCED",
         riskLevel: "HIGH",
@@ -1537,7 +1537,7 @@ export const data: SeedCountry[] = [
         description:
           "The birthplace of commercial heli-skiing — helicopters drop skiers onto untracked glaciers and alpine bowls across a permit area the size of a small country, with terrain from mellow powder fields to committing couloirs, all genuinely avalanche country.",
         costType: "PAID",
-        costEstimate: "~1,000–1,600 per day",
+        costEstimate: "~1,500–2,250 per day",
         currency: "CAD",
         difficulty: "EXPERT",
         riskLevel: "HIGH",
@@ -6152,7 +6152,7 @@ export const data: SeedCountry[] = [
         description:
           "Consistently ranked among the best commercially rafted rivers on Earth — Class III–IV rapids run through an undeveloped rainforest gorge with waterfalls dropping directly into the river, often as a multi-day trip with an overnight at a jungle lodge accessible only by raft.",
         costType: "PAID",
-        costEstimate: "2-day trip US$250–350",
+        costEstimate: "2-day raft-in lodge trip ~US$525 (day trip from ~US$145)",
         currency: "USD",
         difficulty: "ADVANCED",
         riskLevel: "HIGH",
