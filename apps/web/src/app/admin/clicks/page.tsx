@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getClickCounts } from "@/lib/clickTracking";
+import { getPageViewStats } from "@/lib/pageViews";
 import { getActivities } from "@/lib/api";
 import { ClicksDashboard, type GlobeActivity } from "@/components/admin/ClicksDashboard";
 
@@ -30,7 +31,11 @@ export default async function ClicksAdminPage({
     );
   }
 
-  const [clicks, activities] = await Promise.all([getClickCounts(SINCE_DAYS), getActivities()]);
+  const [clicks, activities, pageViews] = await Promise.all([
+    getClickCounts(SINCE_DAYS),
+    getActivities(),
+    getPageViewStats(SINCE_DAYS),
+  ]);
   const activityById = new Map(activities.map((a) => [a.id, a]));
 
   const rows = clicks
@@ -71,7 +76,12 @@ export default async function ClicksAdminPage({
       </p>
 
       <div className="mt-8">
-        <ClicksDashboard activities={globeActivities} initialCounts={initialCounts} adminKey={key} />
+        <ClicksDashboard
+          activities={globeActivities}
+          initialCounts={initialCounts}
+          adminKey={key}
+          pageViews={pageViews}
+        />
       </div>
 
       {sponsoredRows.length > 0 && (

@@ -81,7 +81,10 @@ export default function PrivacyPage() {
                 Vercel Analytics and Speed Insights measure which pages get visited and how fast
                 they load, in aggregate — no cookies, no data tied to you individually. This
                 runs regardless of the cookie choice above, since it isn&apos;t a cookie or
-                personal tracking.
+                personal tracking. Separately, we log our own anonymous counters — a page-visit
+                total (just a path and a timestamp) and when a &ldquo;Find a guide /
+                operator&rdquo; link is clicked (just the activity) — with no IP address or
+                identifier attached to either.
               </p>
             </li>
           </ul>

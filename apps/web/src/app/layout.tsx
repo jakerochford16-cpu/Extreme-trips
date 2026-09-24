@@ -8,6 +8,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { AccountSync } from "@/components/AccountSync";
 import { AffiliateScript } from "@/components/AffiliateScript";
 import { CookieConsent } from "@/components/CookieConsent";
+import { PageViewPing } from "@/components/PageViewPing";
 import "./globals.css";
 
 const clerkAppearance = {
@@ -80,6 +81,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} h-full antialiased`}
       >
         <body className="min-h-full flex flex-col">
+          <PageViewPing />
           <AccountSync />
           <AffiliateScript />
           <CookieConsent />

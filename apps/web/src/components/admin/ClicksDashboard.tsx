@@ -46,10 +46,12 @@ export function ClicksDashboard({
   activities,
   initialCounts,
   adminKey,
+  pageViews,
 }: {
   activities: GlobeActivity[];
   initialCounts: Record<string, number>;
   adminKey: string;
+  pageViews: { total: number; today: number };
 }) {
   const activityById = useMemo(() => new Map(activities.map((a) => [a.id, a])), [activities]);
 
@@ -182,6 +184,8 @@ export function ClicksDashboard({
 
       <div className="relative grid grid-cols-1 lg:grid-cols-[220px_1fr_240px]">
         <div className="order-2 flex flex-col gap-3 border-cyan-400/15 p-4 lg:order-1 lg:border-r">
+          <HudStat label="Site visits · 30d" value={pageViews.total} />
+          <HudStat label="Site visits · today" value={pageViews.today} />
           <HudStat label="Total clicks · 30d" value={totalClicks} />
           <HudStat label="Locations live" value={points.length} />
           {topActivity && (
