@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { ActivityCard } from "./ActivityCard";
+import { ActivityCardWithModal } from "./ActivityCardWithModal";
 import { Select } from "./ui/Select";
 import { extremenessScore } from "@/lib/extremeness";
 import type { Activity } from "@/lib/types";
@@ -55,9 +55,9 @@ export function ActivityListSection({
       <div className="mb-5 flex justify-end">
         <Select value={sort} onChange={(v) => setSort(v as SortKey)} className="w-48" options={SORT_OPTIONS} />
       </div>
-      <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
+      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-3">
         {sorted.map((activity) => (
-          <ActivityCard
+          <ActivityCardWithModal
             key={activity.id}
             activity={activity}
             countryName={countryName}

@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { ActivityCard } from "./ActivityCard";
+import { ActivityCardWithModal } from "./ActivityCardWithModal";
 import { Select } from "./ui/Select";
 import { extremenessScore } from "@/lib/extremeness";
 import { CATEGORY_GROUPS, labelForGroup } from "@/lib/categoryGroups";
@@ -110,7 +110,7 @@ export function ActivityBrowser({ activities }: { activities: ActivityWithCountr
           Nothing matches that search. Try a different keyword, country or category.
         </p>
       ) : (
-        <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
+        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-3">
           {filtered.map((activity) => (
             <div key={activity.id}>
               <Link
@@ -119,7 +119,11 @@ export function ActivityBrowser({ activities }: { activities: ActivityWithCountr
               >
                 {activity.country.name} &rarr;
               </Link>
-              <ActivityCard activity={activity} countryName={activity.country.name} countrySlug={activity.country.slug} />
+              <ActivityCardWithModal
+                activity={activity}
+                countryName={activity.country.name}
+                countrySlug={activity.country.slug}
+              />
             </div>
           ))}
         </div>
