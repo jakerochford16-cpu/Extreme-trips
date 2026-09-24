@@ -1,12 +1,19 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
 import * as THREE from "three";
 import type { GlobeInstance } from "globe.gl";
-import type { Activity } from "@/lib/types";
+import type { Activity, ActivityWithCountry } from "@/lib/types";
 import { colorForGroup } from "@/lib/categoryColors";
 import { labelForGroup } from "@/lib/categoryGroups";
 import { getWorldBorders } from "@/lib/worldBorders";
+
+type MapActivity = Activity | ActivityWithCountry;
+
+function hasCountry(a: MapActivity): a is ActivityWithCountry {
+  return "country" in a;
+}
 
 type GlobePoint = {
   id: string;
@@ -60,7 +67,7 @@ function TapToActivate({ active, onActivate }: { active: boolean; onActivate: ()
       onClick={onActivate}
     >
       <span className="rounded-full border border-white/25 bg-black/70 px-4 py-2 text-xs font-semibold uppercase tracking-widest text-white/90">
-        Tap to spin the globe
+        Tap to explore the globe
       </span>
     </div>
   );
@@ -68,28 +75,35 @@ function TapToActivate({ active, onActivate }: { active: boolean; onActivate: ()
 
 export function CountryGlobe({
   activities,
-  countryName,
+  countryName = "",
+  autoRotate = true,
   heightClassName = "h-[420px]",
 }: {
-  activities: Activity[];
-  countryName: string;
+  activities: MapActivity[];
+  countryName?: string;
+  autoRotate?: boolean;
   heightClassName?: string;
 }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const globeRef = useRef<GlobeInstance | null>(null);
   const roRef = useRef<ResizeObserver | null>(null);
   const [gateActive, setGateActive] = useState(() => isTouchDevice());
+  const router = useRouter();
 
-  const points: GlobePoint[] = activities
-    .filter((a) => a.latitude != null && a.longitude != null)
-    .map((a) => ({
-      id: a.id,
-      lat: a.latitude as number,
-      lng: a.longitude as number,
-      label: `${a.title} — ${labelForGroup(a.categoryGroup)}`,
-      color: colorForGroup(a.categoryGroup),
-      href: `#${a.id}`,
-    }));
+  const points: GlobePoint[] = useMemo(
+    () =>
+      activities
+        .filter((a) => a.latitude != null && a.longitude != null)
+        .map((a) => ({
+          id: a.id,
+          lat: a.latitude as number,
+          lng: a.longitude as number,
+          label: `${a.title} — ${labelForGroup(a.categoryGroup)}`,
+          color: colorForGroup(a.categoryGroup),
+          href: hasCountry(a) ? `/countries/${a.country.slug}#${a.id}` : `#${a.id}`,
+        })),
+    [activities]
+  );
 
   useEffect(() => {
     let destroyed = false;
@@ -121,9 +135,13 @@ export function CountryGlobe({
         .pointResolution(16)
         .onPointClick((d) => {
           const href = (d as GlobePoint).href;
-          const el = document.querySelector(href);
-          el?.scrollIntoView({ behavior: "smooth", block: "center" });
-          window.history.replaceState(null, "", href);
+          if (href.startsWith("#")) {
+            const el = document.querySelector(href);
+            el?.scrollIntoView({ behavior: "smooth", block: "center" });
+            window.history.replaceState(null, "", href);
+          } else {
+            router.push(href);
+          }
         })
         .pathPoints((d) => (d as BorderPath).points)
         .pathPointLat((p) => (p as [number, number])[1])
@@ -156,7 +174,7 @@ export function CountryGlobe({
       });
 
       const controls = globe.controls();
-      controls.autoRotate = true;
+      controls.autoRotate = autoRotate;
       controls.autoRotateSpeed = 0.6;
       controls.enableZoom = false;
       // Set directly from the same check that seeded `gateActive`'s initial
@@ -208,6 +226,44 @@ export function CountryGlobe({
     if (!controls) return;
     controls.enabled = !gateActive;
   }, [gateActive]);
+
+  // The world map (/map) keeps one CountryGlobe mounted while the user
+  // switches the country filter, unlike a country page where `activities`
+  // is fixed for the life of the component — so points and the camera need
+  // to react to `points` changing after mount, not just seed it once.
+  useEffect(() => {
+    const globe = globeRef.current;
+    if (!globe) return;
+    globe.pointsData(points);
+    const centerLat = points.reduce((s, p) => s + p.lat, 0) / (points.length || 1);
+    const centerLng = points.reduce((s, p) => s + p.lng, 0) / (points.length || 1);
+    globe.pointOfView({ lat: centerLat || 0, lng: centerLng || 0, altitude: altitudeForSpread(points) }, 1200);
+  }, [points]);
+
+  // Re-highlight the current country's border when the selection changes
+  // (same reason as above) — cheap, since getWorldBorders() resolves
+  // instantly from its module-level cache after the first load.
+  useEffect(() => {
+    const globe = globeRef.current;
+    if (!globe) return;
+    let cancelled = false;
+    getWorldBorders().then((borders) => {
+      if (cancelled) return;
+      const paths: BorderPath[] = borders.flatMap((b) =>
+        b.rings.map((ring) => ({ points: ring, isCurrentCountry: namesMatch(b.name, countryName) }))
+      );
+      globe.pathsData(paths);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [countryName]);
+
+  useEffect(() => {
+    const controls = globeRef.current?.controls();
+    if (!controls) return;
+    controls.autoRotate = autoRotate;
+  }, [autoRotate]);
 
   return (
     <div
