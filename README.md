@@ -9,8 +9,10 @@ see what's on offer, and what it costs, requires, and risks.
 apps/
   web/   Next.js (App Router) site — this is what actually gets deployed.
          Reads the curated data straight from apps/web/src/data/countries.json,
-         bundled at build time. No database, no live API, no env vars needed
-         to run it in production.
+         bundled at build time — no database or env vars needed for that part.
+         Accounts (sign-in, favorites/reviews synced across devices) are the
+         one piece that needs external services: Clerk for auth and a small
+         Postgres database (two tables) for the synced data. See Accounts below.
   api/   Express + Prisma (SQLite) — a local authoring/dev tool, not part of
          the deployed site. apps/api/prisma/data.ts is the single source of
          truth for content; this app seeds a local database from it (handy
@@ -20,12 +22,14 @@ apps/
 
 ### Deploying
 
-`apps/web` is a self-contained Next.js app with no external database or
-backend to stand up — it can be deployed to Vercel (or any Next.js host) by
-pointing at this repo with **Root Directory set to `apps/web`**. Every push to
-the branch Vercel watches redeploys automatically. The only environment
-variable it uses is `GEMINI_API_KEY` (see Trip planner below) — everything
-else works with zero config.
+`apps/web` can be deployed to Vercel (or any Next.js host) by pointing at this
+repo with **Root Directory set to `apps/web`**. Every push to the branch
+Vercel watches redeploys automatically. Browsing, search, favorites-on-this-
+device, and reviews-on-this-device all work with zero config. Two features
+need environment variables set in Vercel (Project Settings → Environment
+Variables): the trip planner (`GEMINI_API_KEY`, see below) and accounts
+(`NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`, `CLERK_SECRET_KEY`, `DATABASE_URL`,
+`DIRECT_URL`, see Accounts below) — everything else works without them.
 
 ### Data model
 
@@ -76,6 +80,30 @@ configured yet" message instead of a reply, rather than erroring out.
 The system prompt (`apps/web/src/app/api/plan/route.ts`) is given a compact
 summary of every activity in the dataset so it can reference and link to
 existing write-ups; the rest of its knowledge is the model's own.
+
+### Accounts
+
+Favorites and reviews always work without signing in — stored on that device
+only, same as before. Signing in (via Clerk, top-right nav) additionally syncs
+both to a Postgres database keyed to your account, so they follow you across
+devices. The first time someone with existing device-only data signs in,
+`AccountSync` (`apps/web/src/components/AccountSync.tsx`) pushes it into their
+new account once, then clears the local copy.
+
+- Get free Clerk keys at [clerk.com](https://clerk.com) → Dashboard → API Keys
+- Get a free Postgres database at [supabase.com](https://supabase.com) → New
+  project → Project Settings → Database → "Connection pooling" for
+  `DATABASE_URL` (port 6543) and the session-mode pooler for `DIRECT_URL`
+  (port 5432)
+- Run `apps/web/scripts/schema.sql` against that database once, before first
+  use (easiest via the Supabase SQL editor — paste and run)
+- Locally: copy `apps/web/.env.local.example` to `apps/web/.env.local` and
+  fill in all four values
+- On Vercel: Project Settings → Environment Variables → add all four, then
+  redeploy
+
+Without these set, the nav's "Sign in" still renders but Clerk has nothing to
+authenticate against — set all four together, not partially.
 
 ### Running it locally
 
