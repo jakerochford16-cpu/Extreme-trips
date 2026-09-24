@@ -3997,7 +3997,7 @@ export const data: SeedCountry[] = [
         description:
           "A multi-day trek along the frozen surface of the Zanskar River itself, since the gorge walls are too steep to build a conventional trail — the ice thickness varies day to day and can crack underfoot, and permits into this restricted border region are mandatory.",
         costType: "PAID",
-        costEstimate: "8-day guided trek ₹45,000–65,000",
+        costEstimate: "8-day guided trek ₹20,000–35,000",
         currency: "INR",
         difficulty: "EXPERT",
         riskLevel: "SEVERE",
