@@ -419,7 +419,7 @@ export const data: SeedCountry[] = [
         description:
           "Helicopter onto the Franz Josef névé and climb real, moving glacier ice — crevasses, seracs and ice walls that reshape year to year, guided by climbers who re-scout routes every trip because the glacier itself changes weekly. Crampons and ice axes provided; fitness and a head for exposure are on you.",
         costType: "PAID",
-        costEstimate: "500–750 for a full-day heli-ice climb",
+        costEstimate: "750–950 for a full-day heli-ice climb",
         currency: "NZD",
         difficulty: "EXPERT",
         riskLevel: "HIGH",
@@ -437,7 +437,7 @@ export const data: SeedCountry[] = [
         description:
           "A 300m fall into the Nevis Canyon before the 70m-radius swing arcs you out over the gorge at speeds over 120km/h. It's a commercial operation with a strong safety record, but the drop and swing profile is more intense than any standard bungy — not for the faint-hearted.",
         costType: "PAID",
-        costEstimate: "~250–300 per jump",
+        costEstimate: "~220 per jump",
         currency: "NZD",
         difficulty: "ADVANCED",
         riskLevel: "HIGH",
@@ -757,7 +757,7 @@ export const data: SeedCountry[] = [
         region: "Spitsbergen, Svalbard",
         category: "Polar Expedition",
         description:
-          "Trekking, ski touring or snowmobiling outside Longyearbyen puts you in the same landscape as roughly 3,000 polar bears — the Governor of Svalbard requires travellers heading outside the settlements to notify authorities, carry adequate insurance, and in practice travel with an armed guide or rifle-trained member, since a bear encounter is a firearms-level emergency, not a wildlife-photo one.",
+          "Trekking, ski touring or snowmobiling outside Longyearbyen puts you in the same landscape as roughly 250–300 polar bears that live on Svalbard year-round — the Governor of Svalbard requires travellers heading outside the settlements to notify authorities, carry adequate insurance, and in practice travel with an armed guide or rifle-trained member, since a bear encounter is a firearms-level emergency, not a wildlife-photo one.",
         costType: "PAID",
         costEstimate: "Guided multi-day expedition from ~15,000+",
         currency: "NOK",
