@@ -2,6 +2,7 @@ import { UserProfile } from "@clerk/nextjs";
 
 export const metadata = {
   title: "Your profile — Outer Line",
+  robots: { index: false, follow: false },
 };
 
 export default function ProfilePage() {
