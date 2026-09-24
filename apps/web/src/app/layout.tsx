@@ -11,17 +11,23 @@ const clerkAppearance = {
   variables: {
     colorPrimary: "#c17f4e",
     colorBackground: "#131009",
-    colorInputBackground: "#1b140d",
-    colorInputText: "#ede8e0",
-    colorText: "#ede8e0",
-    colorTextSecondary: "rgba(237,232,224,0.6)",
+    colorInput: "#1b140d",
+    colorInputForeground: "#ede8e0",
+    colorForeground: "#ede8e0",
+    colorMutedForeground: "#b7ad9d",
     colorNeutral: "#ede8e0",
+    colorBorder: "rgba(237,232,224,0.16)",
+    colorRing: "#c17f4e",
     borderRadius: "0.625rem",
     fontFamily: "var(--font-geist-sans), Arial, Helvetica, sans-serif",
   },
   elements: {
     card: "border border-white/10 shadow-[0_20px_50px_-24px_rgba(0,0,0,0.7)]",
     userButtonPopoverCard: "border border-white/10",
+    navbar: "border-r border-white/10",
+    navbarButton: "text-[#ede8e0]/70 hover:text-[#ede8e0] data-[active]:text-accent",
+    profileSectionTitleText: "text-[#ede8e0]",
+    formFieldLabel: "text-[#ede8e0]/85",
   },
 };
 
