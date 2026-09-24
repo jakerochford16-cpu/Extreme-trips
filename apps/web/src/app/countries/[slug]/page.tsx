@@ -127,7 +127,7 @@ export default async function CountryPage({
         </section>
 
         <section className="mb-10">
-          <CountryMapSection activities={visibleActivities} />
+          <CountryMapSection activities={visibleActivities} countryName={country.name} />
         </section>
 
         <section>

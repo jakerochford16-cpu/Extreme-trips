@@ -12,6 +12,12 @@ const CountryGlobe = dynamic(() => import("./CountryGlobe").then((m) => m.Countr
   ),
 });
 
-export function CountryMapSection({ activities }: { activities: Activity[] }) {
-  return <CountryGlobe activities={activities} heightClassName="h-[420px]" />;
+export function CountryMapSection({
+  activities,
+  countryName,
+}: {
+  activities: Activity[];
+  countryName: string;
+}) {
+  return <CountryGlobe activities={activities} countryName={countryName} heightClassName="h-[420px]" />;
 }
