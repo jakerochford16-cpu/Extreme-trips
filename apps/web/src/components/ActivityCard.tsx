@@ -9,6 +9,7 @@ import { InsuranceWarning } from "./InsuranceWarning";
 import { ReadinessCheck } from "./ReadinessCheck";
 import { guideSearchUrl } from "@/lib/guideLinks";
 import { GuideLinkButton } from "./GuideLinkButton";
+import { operatorReviewFor } from "@/lib/operatorReviews";
 import { photoForCategoryGroup } from "@/lib/activityPhotos";
 import { likelyExcludedFromStandardInsurance } from "@/lib/insurance";
 
@@ -21,6 +22,8 @@ export function ActivityCard({
   countryName: string;
   countrySlug: string;
 }) {
+  const operatorReview = operatorReviewFor(activity.id);
+
   return (
     <article
       id={activity.id}
@@ -107,11 +110,27 @@ export function ActivityCard({
         <PackingList categoryGroup={activity.categoryGroup} />
         <ReadinessCheck activity={activity} />
 
-        <div className="mt-4 flex items-center justify-between border-t border-white/8 pt-4">
+        <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-white/8 pt-4">
           <GuideLinkButton
             activityId={activity.id}
             href={guideSearchUrl(activity.title, activity.region, countryName)}
           />
+          {operatorReview && (
+            <a
+              href={operatorReview.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-white/[0.03] px-3 py-1.5 text-xs font-semibold text-white/70 transition hover:border-white/30 hover:text-white"
+            >
+              <svg viewBox="0 0 24 24" className="h-3.5 w-3.5 text-emerald-400" fill="currentColor">
+                <path d="M12 2l2.9 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l7.1-1.01L12 2z" />
+              </svg>
+              {operatorReview.company} on TripAdvisor
+              <svg viewBox="0 0 24 24" className="h-3 w-3" fill="none" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M7 17L17 7M7 7h10v10" />
+              </svg>
+            </a>
+          )}
         </div>
 
         <ReviewSection activityId={activity.id} />
