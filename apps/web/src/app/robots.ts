@@ -5,7 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/api/", "/profile", "/favorites"],
+      disallow: ["/api/", "/profile", "/favorites", "/admin"],
     },
     sitemap: "https://extreme-trips-web.vercel.app/sitemap.xml",
   };

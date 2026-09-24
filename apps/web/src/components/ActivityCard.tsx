@@ -8,6 +8,7 @@ import { PackingList } from "./PackingList";
 import { InsuranceWarning } from "./InsuranceWarning";
 import { ReadinessCheck } from "./ReadinessCheck";
 import { guideSearchUrl } from "@/lib/guideLinks";
+import { GuideLinkButton } from "./GuideLinkButton";
 import { photoForCategoryGroup } from "@/lib/activityPhotos";
 import { likelyExcludedFromStandardInsurance } from "@/lib/insurance";
 
@@ -107,17 +108,10 @@ export function ActivityCard({
         <ReadinessCheck activity={activity} />
 
         <div className="mt-4 flex items-center justify-between border-t border-white/8 pt-4">
-          <a
+          <GuideLinkButton
+            activityId={activity.id}
             href={guideSearchUrl(activity.title, activity.region, countryName)}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:text-accent-light"
-          >
-            Find a guide / operator
-            <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth={2}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M7 17L17 7M7 7h10v10" />
-            </svg>
-          </a>
+          />
         </div>
 
         <ReviewSection activityId={activity.id} />

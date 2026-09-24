@@ -130,6 +130,13 @@ Three pieces, all off/zero by default and each independent of the others:
   guide links (`lib/guideLinks.ts`) point to a search, not one fixed
   merchant. Sign up with one of those services, get a publisher script URL,
   set the env var in Vercel, redeploy.
+- **Click reporting for sponsors** — every "Find a guide / operator" click is
+  logged (`lib/clickTracking.ts`, `guide_link_clicks` table — run the updated
+  `scripts/schema.sql` once to add it) so a sponsor can be shown real
+  click-through numbers instead of a promise of bookings. View them at
+  `/admin/clicks?key=...`, gated by an `ADMIN_DASHBOARD_KEY` env var you set
+  yourself (any random string) — without it set, the page refuses to render.
+  No PII is stored, just an activity id and a timestamp.
 
 ### Security
 
