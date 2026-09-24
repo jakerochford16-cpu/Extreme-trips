@@ -73,6 +73,18 @@ function TapToActivate({ active, onActivate }: { active: boolean; onActivate: ()
   );
 }
 
+function ZoomHint({ show }: { show: boolean }) {
+  return (
+    <div
+      className={`pointer-events-none absolute bottom-3 left-1/2 z-20 -translate-x-1/2 rounded-full border border-white/20 bg-black/70 px-3 py-1.5 text-[11px] font-semibold text-white/85 transition-opacity duration-200 ${
+        show ? "opacity-100" : "opacity-0"
+      }`}
+    >
+      Hold Ctrl (⌘ on Mac) + scroll to zoom
+    </div>
+  );
+}
+
 export function CountryGlobe({
   activities,
   countryName = "",
@@ -84,10 +96,13 @@ export function CountryGlobe({
   autoRotate?: boolean;
   heightClassName?: string;
 }) {
+  const wrapperRef = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const globeRef = useRef<GlobeInstance | null>(null);
   const roRef = useRef<ResizeObserver | null>(null);
   const [gateActive, setGateActive] = useState(() => isTouchDevice());
+  const [showZoomHint, setShowZoomHint] = useState(false);
+  const zoomHintTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const router = useRouter();
 
   const points: GlobePoint[] = useMemo(
@@ -176,7 +191,12 @@ export function CountryGlobe({
       const controls = globe.controls();
       controls.autoRotate = autoRotate;
       controls.autoRotateSpeed = 0.6;
-      controls.enableZoom = false;
+      controls.enableZoom = true;
+      // Globe radius is a fixed 100 units (three-globe's convention);
+      // distance-from-center = radius * (1 + altitude), so this roughly
+      // spans "just above the surface" to "far enough out to lose detail".
+      controls.minDistance = 105;
+      controls.maxDistance = 500;
       // Set directly from the same check that seeded `gateActive`'s initial
       // state, rather than relying on the other effect below — that effect
       // only re-fires when `gateActive` changes, which on a touch device
@@ -265,12 +285,40 @@ export function CountryGlobe({
     controls.autoRotate = autoRotate;
   }, [autoRotate]);
 
+  // Plain wheel/trackpad scroll over the globe should scroll the page, not
+  // zoom it — the same scroll-trap concern as drag-to-rotate on touch, just
+  // for desktop wheel input. Ctrl/Cmd+scroll (the same convention as Google
+  // Maps) reaches OrbitControls' own zoom handler normally; a bare scroll is
+  // stopped here, in the capture phase on a strict ancestor of wherever
+  // globe.gl attaches its listeners, before it ever reaches them, so the
+  // browser's default scroll behavior is left untouched. A Mac trackpad
+  // pinch is reported as a wheel event with ctrlKey already true, so it
+  // zooms without needing the hint at all.
+  useEffect(() => {
+    const el = wrapperRef.current;
+    if (!el) return;
+    function onWheel(e: WheelEvent) {
+      if (e.ctrlKey || e.metaKey) return;
+      e.stopPropagation();
+      setShowZoomHint(true);
+      if (zoomHintTimer.current) clearTimeout(zoomHintTimer.current);
+      zoomHintTimer.current = setTimeout(() => setShowZoomHint(false), 1500);
+    }
+    el.addEventListener("wheel", onWheel, { capture: true, passive: true });
+    return () => {
+      el.removeEventListener("wheel", onWheel, { capture: true });
+      if (zoomHintTimer.current) clearTimeout(zoomHintTimer.current);
+    };
+  }, []);
+
   return (
     <div
+      ref={wrapperRef}
       className={`relative ${heightClassName} w-full overflow-hidden rounded-2xl border border-white/10 bg-[#050810]`}
     >
       <div ref={containerRef} className="h-full w-full" />
       <TapToActivate active={gateActive} onActivate={() => setGateActive(false)} />
+      <ZoomHint show={showZoomHint} />
     </div>
   );
 }
