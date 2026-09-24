@@ -76,7 +76,10 @@ export default async function HomePage() {
           <Divider />
           <Stat value={CATEGORY_GROUPS.length} label="Categories" />
           <Divider />
-          <Stat value={0} label="Sponsored placements" />
+          <Stat
+            value={activities.filter((a) => a.sponsored).length}
+            label="Sponsored placements"
+          />
         </div>
       </section>
 

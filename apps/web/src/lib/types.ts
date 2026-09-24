@@ -32,6 +32,7 @@ export type Activity = {
   latitude: number | null;
   longitude: number | null;
   tags: string[];
+  sponsored: boolean;
 };
 
 export type CountryDetail = CountrySummary & {
