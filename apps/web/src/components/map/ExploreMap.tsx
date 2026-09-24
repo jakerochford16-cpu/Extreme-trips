@@ -59,7 +59,7 @@ export function ExploreMap({ activities }: { activities: ActivityWithCountry[] }
         </span>
       </div>
 
-      <MarkerMap activities={filtered} heightClassName="h-[70vh]" />
+      <MarkerMap activities={filtered} heightClassName="h-[50vh] sm:h-[65vh] lg:h-[70vh]" />
 
       <div className="mt-4 flex flex-wrap gap-x-5 gap-y-2">
         {groupsPresent.map((g) => (

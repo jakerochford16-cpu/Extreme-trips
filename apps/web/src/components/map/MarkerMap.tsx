@@ -2,11 +2,50 @@
 
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
 import type { Activity, ActivityWithCountry } from "@/lib/types";
 import { colorForGroup } from "@/lib/categoryColors";
 import { labelForGroup } from "@/lib/categoryGroups";
+
+// On a touchscreen, Leaflet's own drag handler eats single-finger swipes
+// anywhere over the map to pan it, instead of letting the page scroll —
+// with a map that fills most of a phone's screen, that reads as the whole
+// page freezing with no way to get past it. So on touch devices we start
+// panning/pinch-zoom disabled and gate them behind one deliberate tap,
+// same pattern Google Maps embeds use; a mouse-driven desktop session never
+// hits this (no touch events), so its map stays interactive immediately.
+function isTouchDevice(): boolean {
+  if (typeof window === "undefined") return false;
+  return "ontouchstart" in window || navigator.maxTouchPoints > 0;
+}
+
+function TapToActivate({ active, onActivate }: { active: boolean; onActivate: () => void }) {
+  const map = useMap();
+
+  useEffect(() => {
+    if (!active) return;
+    map.dragging.disable();
+    map.touchZoom.disable();
+  }, [active, map]);
+
+  if (!active) return null;
+
+  return (
+    <div
+      className="absolute inset-0 z-[1000] flex cursor-pointer items-center justify-center bg-black/25 backdrop-blur-[1px]"
+      onClick={() => {
+        map.dragging.enable();
+        map.touchZoom.enable();
+        onActivate();
+      }}
+    >
+      <span className="rounded-full border border-white/25 bg-black/70 px-4 py-2 text-xs font-semibold uppercase tracking-widest text-white/90">
+        Tap to explore the map
+      </span>
+    </div>
+  );
+}
 
 type MapActivity = Activity | ActivityWithCountry;
 
@@ -51,12 +90,13 @@ function FitBounds({ activities }: { activities: MapActivity[] }) {
 
 export function MarkerMap({
   activities,
-  heightClassName = "h-[70vh]",
+  heightClassName = "h-[50vh] sm:h-[65vh] lg:h-[70vh]",
 }: {
   activities: MapActivity[];
   heightClassName?: string;
 }) {
   const withCoords = activities.filter((a) => a.latitude != null && a.longitude != null);
+  const [gateActive, setGateActive] = useState(() => isTouchDevice());
 
   return (
     <div className={`${heightClassName} w-full overflow-hidden rounded-2xl border border-white/10`}>
@@ -64,12 +104,15 @@ export function MarkerMap({
         center={[10, 20]}
         zoom={2}
         scrollWheelZoom
+        dragging={!gateActive}
+        touchZoom={!gateActive}
         className="map-dark-tiles h-full w-full bg-[#0b0a08]"
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
+        <TapToActivate active={gateActive} onActivate={() => setGateActive(false)} />
         <FitBounds activities={withCoords} />
         {withCoords.map((activity) => {
           const href = hasCountry(activity)

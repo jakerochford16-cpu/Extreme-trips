@@ -39,3 +39,18 @@ CREATE TABLE IF NOT EXISTS page_views (
 );
 
 CREATE INDEX IF NOT EXISTS page_views_viewed_at_idx ON page_views (viewed_at);
+
+-- Inquiries submitted by guide/tour operators via the /partner form, asking
+-- about a featured placement. Reviewed manually from /admin/inquiries.
+CREATE TABLE IF NOT EXISTS operator_inquiries (
+  id         BIGSERIAL PRIMARY KEY,
+  name       TEXT NOT NULL,
+  company    TEXT NOT NULL,
+  email      TEXT NOT NULL,
+  region     TEXT NOT NULL,
+  activity   TEXT NOT NULL,
+  message    TEXT NOT NULL DEFAULT '',
+  created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+CREATE INDEX IF NOT EXISTS operator_inquiries_created_at_idx ON operator_inquiries (created_at);

@@ -6,6 +6,24 @@ const ACTIVITY_ID_RE = /^[a-z0-9-]{1,200}$/;
 const MAX_REVIEW_TEXT_LENGTH = 2000;
 const MAX_SYNC_LIST_LENGTH = 500;
 
+// Deliberately permissive (not RFC 5322) — just enough to reject obvious
+// typos/garbage before a human reads it in the admin inquiries view.
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const MAX_SHORT_FIELD_LENGTH = 200;
+const MAX_INQUIRY_MESSAGE_LENGTH = 4000;
+
+export function isValidShortText(value: unknown, maxLength = MAX_SHORT_FIELD_LENGTH): value is string {
+  return typeof value === "string" && value.trim().length > 0 && value.length <= maxLength;
+}
+
+export function isValidEmail(value: unknown): value is string {
+  return typeof value === "string" && value.length <= MAX_SHORT_FIELD_LENGTH && EMAIL_RE.test(value);
+}
+
+export function isValidInquiryMessage(value: unknown): value is string {
+  return typeof value === "string" && value.length <= MAX_INQUIRY_MESSAGE_LENGTH;
+}
+
 export function isValidActivityId(value: unknown): value is string {
   return typeof value === "string" && ACTIVITY_ID_RE.test(value);
 }
