@@ -3527,7 +3527,7 @@ export const data: SeedCountry[] = [
         region: "Solkan, Goriška",
         category: "Extreme Jump",
         description:
-          "A 42m jump off the world's longest stone-arch railway bridge, spanning the same emerald Soča River the region is famous for paddling — one of Europe's more dramatic bungee settings, jumping directly toward turquoise water below.",
+          "A 55m jump from the modern road bridge beside the world's longest stone-arch railway bridge, spanning the same emerald Soča River the region is famous for paddling — one of Europe's more dramatic bungee settings, jumping directly toward turquoise water below.",
         costType: "PAID",
         costEstimate: "Single jump €80–120",
         currency: "EUR",
