@@ -839,9 +839,9 @@ export const data: SeedCountry[] = [
         region: "Mustang, Gandaki",
         category: "Restricted-Area Trekking",
         description:
-          "A former Tibetan kingdom sealed to outsiders until 1992, still gated by a special restricted-area permit and a minimum group size — high desert canyons, cave monasteries and Tibetan Buddhist villages at altitude, with a much lower foreign footprint than the main trekking circuits.",
+          "A former Tibetan kingdom sealed to outsiders until 1992, still gated by a special restricted-area permit and a mandatory licensed guide — high desert canyons, cave monasteries and Tibetan Buddhist villages at altitude, with a much lower foreign footprint than the main trekking circuits.",
         costType: "PAID",
-        costEstimate: "Special permit ~500 for 10 days plus daily extension fees; guided trek 1,500+",
+        costEstimate: "Restricted-area permit 50/day, no minimum (was a flat 500 for 10 days); guided trek 1,500+",
         currency: "USD",
         difficulty: "ADVANCED",
         riskLevel: "HIGH",
