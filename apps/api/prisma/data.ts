@@ -5403,7 +5403,7 @@ export const data: SeedCountry[] = [
         region: "Otjozondjupa Region",
         category: "Cave Diving",
         description:
-          "The largest known non-subglacial underground lake on the planet, sitting in total darkness roughly 60m below the desert surface — access is via a single vertical shaft, and the full extent of the lake's far side still isn't completely mapped, making this genuine exploratory-grade cave diving.",
+          "The largest known non-subglacial underground lake on the planet, sitting in total darkness roughly 60m below the desert surface — access is via a single vertical shaft, and although a 2019 AI-guided underwater drone expedition finally mapped the lake's full extent, human divers have still only ever reached a fraction of its depth, making this genuine exploratory-grade cave diving.",
         costType: "PAID",
         costEstimate: "Technical expedition access by arrangement",
         difficulty: "INSANE",
