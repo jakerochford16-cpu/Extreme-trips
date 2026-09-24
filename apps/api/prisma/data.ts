@@ -6992,7 +6992,7 @@ export const data: SeedCountry[] = [
         description:
           "One of the highest densities of primates anywhere on Earth, with a well-habituated chimpanzee community tracked on foot through dense forest — full-day \"chimp habituation\" permits let visitors follow a group from dawn nesting to dusk rather than the standard one-hour visit.",
         costType: "PAID",
-        costEstimate: "Habituation permit US$220–250",
+        costEstimate: "Habituation permit US$300",
         currency: "USD",
         difficulty: "ADVANCED",
         riskLevel: "MODERATE",
@@ -7092,7 +7092,7 @@ export const data: SeedCountry[] = [
         description:
           "A dormant volcano climbed in a single steep day to a crater rim holding a still, green crater lake — golden monkeys are frequently spotted in the bamboo forest on the lower slopes, one of the few places on Earth they're regularly encountered on a day hike.",
         costType: "PAID",
-        costEstimate: "Permit + guide US$400–500",
+        costEstimate: "Permit + guide US$75",
         currency: "USD",
         difficulty: "ADVANCED",
         riskLevel: "MODERATE",
