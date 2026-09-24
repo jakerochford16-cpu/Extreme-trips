@@ -93,29 +93,44 @@ export default function InsurancePage() {
             {[
               {
                 name: "World Nomads",
+                url: "https://www.worldnomads.com",
                 blurb:
                   "Markets specifically to independent and adventure travellers, with a published list of covered activities you can check an activity against before buying.",
               },
               {
                 name: "Global Rescue",
+                url: "https://www.globalrescue.com",
                 blurb:
                   "Focused on medical evacuation and rescue membership rather than general trip insurance — often carried alongside a separate travel policy, not instead of one.",
               },
               {
                 name: "IMG (International Medical Group)",
+                url: "https://www.imglobal.com",
                 blurb:
                   "Offers adventure/expedition-specific riders on top of standard travel medical plans, aimed at higher-risk activities and remote expeditions.",
               },
               {
                 name: "Ripcord Rescue Travel Insurance",
+                url: "https://www.ripcordrescuetravelinsurance.com",
                 blurb:
                   "Combines rescue/evacuation with trip insurance in one policy, marketed specifically at travellers heading somewhere remote or doing something risky.",
               },
             ].map((p) => (
-              <div key={p.name} className="rounded-2xl border border-white/10 bg-white/[0.03] p-5">
-                <p className="font-semibold text-white">{p.name}</p>
+              <a
+                key={p.name}
+                href={p.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-2xl border border-white/10 bg-white/[0.03] p-5 transition hover:border-accent/30"
+              >
+                <p className="flex items-center gap-1.5 font-semibold text-white">
+                  {p.name}
+                  <svg viewBox="0 0 24 24" className="h-3.5 w-3.5 text-white/40" fill="none" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M7 17L17 7M7 7h10v10" />
+                  </svg>
+                </p>
                 <p className="mt-1.5 text-sm leading-relaxed text-white/60">{p.blurb}</p>
-              </div>
+              </a>
             ))}
           </div>
         </section>

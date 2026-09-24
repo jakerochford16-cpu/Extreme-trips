@@ -23,7 +23,9 @@ export function ActivityCard({
   return (
     <article
       id={activity.id}
-      className="scroll-mt-24 overflow-hidden rounded-2xl border border-white/10 bg-surface shadow-[0_20px_50px_-24px_rgba(0,0,0,0.7)] target:border-accent/60"
+      className={`scroll-mt-24 overflow-hidden rounded-2xl border bg-surface shadow-[0_20px_50px_-24px_rgba(0,0,0,0.7)] target:border-accent/60 ${
+        activity.sponsored ? "border-accent/35" : "border-white/10"
+      }`}
     >
       <div className="relative h-44 w-full">
         <Image
@@ -34,6 +36,11 @@ export function ActivityCard({
           className="object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-surface via-surface/15 to-transparent" />
+        {activity.sponsored && (
+          <span className="absolute left-3.5 top-3.5 rounded-full bg-accent px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-ink">
+            Featured
+          </span>
+        )}
       </div>
 
       <div className="p-6">

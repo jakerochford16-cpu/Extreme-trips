@@ -105,6 +105,32 @@ new account once, then clears the local copy.
 Without these set, the nav's "Sign in" still renders but Clerk has nothing to
 authenticate against — set all four together, not partially.
 
+### Monetization
+
+Three pieces, all off/zero by default and each independent of the others:
+
+- **Sponsored placements** — `apps/web/src/lib/sponsorships.ts` holds a
+  manually-curated list of activity ids with a paid featured slot (see
+  `/partner`). A sponsored activity gets a "Featured" badge and sorts first
+  in the default browse order everywhere; explicit sorts (most-extreme-first,
+  free-first, etc.) are left un-nudged. Deliberately kept separate from the
+  curated content pipeline in `apps/api` — flipping a placement on/off is
+  just editing that one list and redeploying. Only add an id once someone's
+  actually paid for it (see the honest-reviews reasoning elsewhere in this
+  app); the homepage's "Sponsored placements" stat reflects this list live,
+  so it stays accurate rather than a hardcoded number.
+- **`/partner`** — a page for guide/tour operators to inquire about buying a
+  featured slot, with a mailto CTA. Update `CONTACT_EMAIL` in
+  `apps/web/src/app/partner/page.tsx` if that address changes.
+- **Affiliate script slot** — `apps/web/src/components/AffiliateScript.tsx`
+  renders a single site-wide `<script>` tag when
+  `NEXT_PUBLIC_AFFILIATE_SCRIPT_SRC` is set, for an auto-affiliate network
+  (Skimlinks, VigLink/Sovrn Commerce, etc.) that rewrites eligible outbound
+  links in the browser — no per-link setup needed, which fits this site since
+  guide links (`lib/guideLinks.ts`) point to a search, not one fixed
+  merchant. Sign up with one of those services, get a publisher script URL,
+  set the env var in Vercel, redeploy.
+
 ### Running it locally
 
 Just the website (what's actually deployed — this is normally all you need):
