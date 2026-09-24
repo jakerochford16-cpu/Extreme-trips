@@ -131,6 +131,39 @@ Three pieces, all off/zero by default and each independent of the others:
   merchant. Sign up with one of those services, get a publisher script URL,
   set the env var in Vercel, redeploy.
 
+### Security
+
+- **Auth & access control** — every route that reads/writes account data
+  checks a real Clerk session server-side (`auth()` in each `api/*` route)
+  and scopes every query by that session's `userId`, which is never taken
+  from client input. That's the practical equivalent of row-level security
+  here: this app connects to Postgres directly with a privileged connection
+  (via `pg`, see `lib/db.ts`), not through Supabase's client SDK/PostgREST,
+  so Postgres-level RLS policies would have no effect regardless — the
+  connecting role would bypass them. Passwords, session cookies, login rate
+  limiting and bot protection on sign-in are all handled by Clerk directly;
+  this app never touches a password.
+- **Input validation** — `lib/validation.ts` validates and size-caps every
+  field the account-data routes accept (activity id shape, rating range,
+  review text length, sync payload array sizes) before it reaches a query.
+  All database queries are parameterized (`lib/serverData.ts`) — no string
+  concatenation into SQL anywhere.
+- **Rate limiting** — `lib/rateLimit.ts` is a best-effort, per-instance
+  sliding-window limiter (no external store like Upstash Redis is wired up,
+  so it only throttles requests landing on the same warm serverless
+  instance, not globally) applied to every write endpoint and to `/api/plan`
+  (keyed by IP, since that one has no auth) so it can't be used as a free
+  unlimited LLM proxy.
+- **Headers** — `next.config.ts` sets a Content-Security-Policy scoped to
+  the actual external resources this site loads (Clerk, the Skimlinks
+  affiliate script, OpenStreetMap tiles), plus
+  `X-Content-Type-Options`, `X-Frame-Options: DENY`, `Referrer-Policy`,
+  `Permissions-Policy` and `Strict-Transport-Security`. Verified with zero
+  CSP violations across the homepage, Clerk sign-in, and the map. HTTPS
+  itself is enforced by Vercel at the platform level.
+- **Not applicable** — no file uploads exist anywhere in this app, and there
+  is no "rewards" feature.
+
 ### Running it locally
 
 Just the website (what's actually deployed — this is normally all you need):

@@ -8,6 +8,7 @@ import { CountryMapSection } from "@/components/map/CountryMapSection";
 import { getCountry } from "@/lib/api";
 import { CATEGORY_GROUPS, labelForGroup } from "@/lib/categoryGroups";
 import { visualsForCountry } from "@/lib/countryVisuals";
+import { safeJsonLd } from "@/lib/safeJsonLd";
 
 export async function generateMetadata({
   params,
@@ -86,7 +87,7 @@ export default async function CountryPage({
     <main className="flex-1">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
       <section className="relative flex h-[300px] items-end overflow-hidden sm:h-[360px]">
         <Image

@@ -1,9 +1,13 @@
 import { NextResponse } from "next/server";
 import { GoogleGenAI } from "@google/genai";
 import { DATASET_CONTEXT } from "@/lib/planner/datasetContext";
+import { isRateLimited } from "@/lib/rateLimit";
 
 export const runtime = "nodejs";
 export const maxDuration = 30;
+
+const MAX_MESSAGES = 40;
+const MAX_MESSAGE_LENGTH = 4000;
 
 const MODEL = "gemini-2.5-flash";
 
@@ -44,6 +48,16 @@ export async function POST(request: Request) {
     );
   }
 
+  // Unauthenticated endpoint (the planner works without an account) — rate
+  // limit by client IP so it can't be used as a free unlimited LLM proxy.
+  const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? "unknown";
+  if (isRateLimited(`plan:${ip}`, 10)) {
+    return NextResponse.json(
+      { error: "Too many requests — wait a moment and try again." },
+      { status: 429 }
+    );
+  }
+
   let body: { messages?: ChatTurn[]; favorites?: unknown };
   try {
     body = await request.json();
@@ -54,6 +68,19 @@ export async function POST(request: Request) {
   const messages = body.messages;
   if (!Array.isArray(messages) || messages.length === 0) {
     return NextResponse.json({ error: "No messages provided." }, { status: 400 });
+  }
+  if (messages.length > MAX_MESSAGES) {
+    return NextResponse.json({ error: "Conversation is too long — start a new one." }, { status: 400 });
+  }
+  const hasInvalidMessage = messages.some(
+    (m) =>
+      (m.role !== "user" && m.role !== "model") ||
+      typeof m.text !== "string" ||
+      m.text.length === 0 ||
+      m.text.length > MAX_MESSAGE_LENGTH
+  );
+  if (hasInvalidMessage) {
+    return NextResponse.json({ error: "Invalid message in conversation." }, { status: 400 });
   }
 
   const favorites = Array.isArray(body.favorites)

@@ -5,6 +5,7 @@ import { getCountries, getActivities } from "@/lib/api";
 import { isInSeason, pickDiverse } from "@/lib/seasonality";
 import { photoForCategoryGroup } from "@/lib/activityPhotos";
 import { CATEGORY_GROUPS } from "@/lib/categoryGroups";
+import { safeJsonLd } from "@/lib/safeJsonLd";
 
 export const revalidate = 86400; // refresh the "in season now" picks daily
 
@@ -25,7 +26,7 @@ export default async function HomePage() {
     <main className="flex-1">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
       <section className="relative flex min-h-[460px] items-end overflow-hidden sm:min-h-[600px]">
         <Image
