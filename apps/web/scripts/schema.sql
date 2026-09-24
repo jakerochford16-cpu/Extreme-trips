@@ -20,3 +20,12 @@ CREATE TABLE IF NOT EXISTS reviews (
 );
 
 CREATE INDEX IF NOT EXISTS reviews_user_id_idx ON reviews (user_id);
+
+CREATE TABLE IF NOT EXISTS guide_link_clicks (
+  id          BIGSERIAL PRIMARY KEY,
+  activity_id TEXT NOT NULL,
+  clicked_at  TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+CREATE INDEX IF NOT EXISTS guide_link_clicks_activity_clicked_idx
+  ON guide_link_clicks (activity_id, clicked_at);
