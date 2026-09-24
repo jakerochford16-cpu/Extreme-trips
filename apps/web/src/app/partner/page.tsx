@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { OperatorInquiryForm } from "@/components/OperatorInquiryForm";
 
 export const metadata = {
   title: "Partner with Outer Line — for guide & tour operators",
@@ -80,16 +81,15 @@ export default function PartnerPage() {
           </ol>
         </section>
 
-        <a
-          href={MAILTO}
-          className="mt-10 inline-flex items-center gap-2 rounded-lg bg-accent px-5 py-3 text-sm font-semibold text-ink shadow-[0_8px_24px_-6px_rgba(193,127,78,0.45)] transition hover:bg-accent-light"
-        >
-          Get in touch
-          <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth={2}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14M13 6l6 6-6 6" />
-          </svg>
-        </a>
-        <p className="mt-2 text-xs text-white/50">{CONTACT_EMAIL}</p>
+        <OperatorInquiryForm />
+
+        <p className="mt-4 text-xs text-white/45">
+          Prefer email?{" "}
+          <a href={MAILTO} className="font-semibold text-accent hover:text-accent-light">
+            Get in touch directly
+          </a>{" "}
+          at {CONTACT_EMAIL}.
+        </p>
 
         <p className="mt-12 rounded-2xl border border-white/10 bg-white/[0.02] p-5 text-xs leading-relaxed text-white/45">
           Featured placements are the only paid content on this site — no display ads, no

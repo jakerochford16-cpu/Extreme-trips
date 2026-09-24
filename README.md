@@ -120,7 +120,13 @@ Three pieces, all off/zero by default and each independent of the others:
   app); the homepage's "Sponsored placements" stat reflects this list live,
   so it stays accurate rather than a hardcoded number.
 - **`/partner`** — a page for guide/tour operators to inquire about buying a
-  featured slot, with a mailto CTA. Update `CONTACT_EMAIL` in
+  featured slot. The primary CTA is an inquiry form (name, company, email,
+  region, activity, message) that posts to `/api/operator-inquiries` and is
+  stored in the `operator_inquiries` table (`lib/operatorInquiries.ts` — run
+  the updated `scripts/schema.sql` once to add it); a mailto link stays as a
+  fallback for anyone who'd rather just email. Submissions are reviewed at
+  `/admin/inquiries?key=...`, gated by the same `ADMIN_DASHBOARD_KEY` env var
+  as the clicks dashboard below. Update `CONTACT_EMAIL` in
   `apps/web/src/app/partner/page.tsx` if that address changes.
 - **Affiliate script slot** — `apps/web/src/components/AffiliateScript.tsx`
   renders a single site-wide `<script>` tag when
@@ -152,15 +158,18 @@ Three pieces, all off/zero by default and each independent of the others:
   this app never touches a password.
 - **Input validation** — `lib/validation.ts` validates and size-caps every
   field the account-data routes accept (activity id shape, rating range,
-  review text length, sync payload array sizes) before it reaches a query.
-  All database queries are parameterized (`lib/serverData.ts`) — no string
-  concatenation into SQL anywhere.
+  review text length, sync payload array sizes), plus the `/partner` inquiry
+  form's fields (required short-text caps, a basic email shape check, a
+  message length cap), before any of it reaches a query. All database
+  queries are parameterized (`lib/serverData.ts`) — no string concatenation
+  into SQL anywhere.
 - **Rate limiting** — `lib/rateLimit.ts` is a best-effort, per-instance
   sliding-window limiter (no external store like Upstash Redis is wired up,
   so it only throttles requests landing on the same warm serverless
-  instance, not globally) applied to every write endpoint and to `/api/plan`
-  (keyed by IP, since that one has no auth) so it can't be used as a free
-  unlimited LLM proxy.
+  instance, not globally) applied to every write endpoint, to `/api/plan`
+  and to `/api/operator-inquiries` (all keyed by IP, since those have no
+  auth) so none of them can be used as a free unlimited LLM proxy or a spam
+  vector.
 - **Headers** — `next.config.ts` sets a Content-Security-Policy scoped to
   the actual external resources this site loads (Clerk, the Skimlinks
   affiliate script, OpenStreetMap tiles), plus
