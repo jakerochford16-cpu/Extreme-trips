@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getClickCounts } from "@/lib/clickTracking";
 import { getActivities } from "@/lib/api";
+import { ClicksDashboard, type GlobeActivity } from "@/components/admin/ClicksDashboard";
 
 export const metadata: Metadata = {
   robots: { index: false, follow: false },
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
 
 const SINCE_DAYS = 30;
 
-export default async function ClicksDashboard({
+export default async function ClicksAdminPage({
   searchParams,
 }: {
   searchParams: Promise<{ key?: string }>;
@@ -16,7 +17,7 @@ export default async function ClicksDashboard({
   const { key } = await searchParams;
   const expectedKey = process.env.ADMIN_DASHBOARD_KEY;
 
-  if (!expectedKey || key !== expectedKey) {
+  if (!expectedKey || !key || key !== expectedKey) {
     return (
       <main className="mx-auto max-w-md px-6 py-24">
         <h1 className="font-serif text-2xl font-semibold text-white">Admin</h1>
@@ -48,13 +49,30 @@ export default async function ClicksDashboard({
   const totalClicks = rows.reduce((sum, r) => sum + r.clicks, 0);
   const sponsoredRows = rows.filter((r) => r.sponsored);
 
+  const globeActivities: GlobeActivity[] = activities
+    .filter((a) => a.latitude != null && a.longitude != null)
+    .map((a) => ({
+      id: a.id,
+      title: a.title,
+      country: a.country.name,
+      lat: a.latitude as number,
+      lng: a.longitude as number,
+      sponsored: a.sponsored,
+    }));
+
+  const initialCounts = Object.fromEntries(clicks.map((c) => [c.activityId, c.clicks]));
+
   return (
-    <main className="mx-auto max-w-3xl px-6 py-16">
+    <main className="mx-auto max-w-6xl px-6 py-16">
       <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-accent">Internal · not indexed</p>
       <h1 className="font-serif mt-1.5 text-3xl font-semibold text-white">Guide-link clicks</h1>
       <p className="mt-2 text-sm text-white/50">
         Last {SINCE_DAYS} days · {totalClicks} total clicks across {rows.length} activities
       </p>
+
+      <div className="mt-8">
+        <ClicksDashboard activities={globeActivities} initialCounts={initialCounts} adminKey={key} />
+      </div>
 
       {sponsoredRows.length > 0 && (
         <section className="mt-10">
