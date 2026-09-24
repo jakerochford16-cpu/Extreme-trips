@@ -6,6 +6,7 @@ import type { GlobeInstance } from "globe.gl";
 import type { Activity } from "@/lib/types";
 import { colorForGroup } from "@/lib/categoryColors";
 import { labelForGroup } from "@/lib/categoryGroups";
+import { getWorldBorders } from "@/lib/worldBorders";
 
 type GlobePoint = {
   id: string;
@@ -15,6 +16,23 @@ type GlobePoint = {
   color: string;
   href: string;
 };
+
+type BorderPath = {
+  points: [number, number][];
+  isCurrentCountry: boolean;
+};
+
+// world-atlas's country names are the English short form and occasionally
+// diverge from ours (mostly US) — extend this if another mismatch shows up.
+const BORDER_NAME_OVERRIDES: Record<string, string> = {
+  "united states": "united states of america",
+};
+
+function namesMatch(a: string, b: string): boolean {
+  const na = a.trim().toLowerCase();
+  const nb = b.trim().toLowerCase();
+  return na === nb || BORDER_NAME_OVERRIDES[na] === nb || BORDER_NAME_OVERRIDES[nb] === na;
+}
 
 function isTouchDevice(): boolean {
   if (typeof window === "undefined") return false;
@@ -50,9 +68,11 @@ function TapToActivate({ active, onActivate }: { active: boolean; onActivate: ()
 
 export function CountryGlobe({
   activities,
+  countryName,
   heightClassName = "h-[420px]",
 }: {
   activities: Activity[];
+  countryName: string;
   heightClassName?: string;
 }) {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -104,13 +124,31 @@ export function CountryGlobe({
           const el = document.querySelector(href);
           el?.scrollIntoView({ behavior: "smooth", block: "center" });
           window.history.replaceState(null, "", href);
-        });
+        })
+        .pathPoints((d) => (d as BorderPath).points)
+        .pathPointLat((p) => (p as [number, number])[1])
+        .pathPointLng((p) => (p as [number, number])[0])
+        .pathColor((d: object) => ((d as BorderPath).isCurrentCountry ? "#ffcf6b" : "rgba(63, 224, 255, 0.4)"))
+        .pathStroke((d) => ((d as BorderPath).isCurrentCountry ? 0.9 : 0.32))
+        .pathTransitionDuration(0);
+
+      // World country borders load separately from the rest of the globe
+      // (a ~100KB fetch, cached across every globe on the page) — the globe
+      // renders immediately with its points and fills in outlines once they
+      // arrive, rather than blocking first paint on them.
+      getWorldBorders().then((borders) => {
+        if (destroyed) return;
+        const paths: BorderPath[] = borders.flatMap((b) =>
+          b.rings.map((ring) => ({ points: ring, isCurrentCountry: namesMatch(b.name, countryName) }))
+        );
+        globe.pathsData(paths);
+      });
 
       const scene = globe.scene();
       const graticuleMaterial = new THREE.LineBasicMaterial({
         color: new THREE.Color("#3fe0ff"),
         transparent: true,
-        opacity: 0.1,
+        opacity: 0.06,
       });
       scene.traverse((obj) => {
         const line = obj as unknown as { isLine?: boolean; material?: THREE.Material };
