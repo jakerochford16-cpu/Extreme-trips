@@ -4,7 +4,10 @@ import { useEffect, useRef } from "react";
 import * as THREE from "three";
 import type { GlobeInstance } from "globe.gl";
 
-export type GlobePoint = {
+// A click-bearing activity: brighter, weighted by click volume, individually
+// labeled.
+export type ActivityGlobePoint = {
+  kind: "activity";
   id: string;
   lat: number;
   lng: number;
@@ -12,6 +15,19 @@ export type GlobePoint = {
   weight: number;
   sponsored: boolean;
 };
+
+// A dim, low-altitude "presence" marker at a country's centroid — one per
+// country, shown regardless of click activity, so the globe always looks
+// populated. Rendered beneath the brighter activity points.
+export type CountryGlobePoint = {
+  kind: "country";
+  id: string;
+  lat: number;
+  lng: number;
+  label: string;
+};
+
+export type GlobePoint = ActivityGlobePoint | CountryGlobePoint;
 
 export type GlobePulse = {
   id: string;
@@ -21,6 +37,9 @@ export type GlobePulse = {
 
 const HUD_CYAN = "#3fe0ff";
 const SPONSORED_GOLD = "#ffcf6b";
+const COUNTRY_DIM_CYAN = "rgba(63, 224, 255, 0.35)";
+const COUNTRY_POINT_RADIUS = 0.16;
+const COUNTRY_POINT_ALTITUDE = 0.002;
 
 export function ClicksGlobe({ points, pulses }: { points: GlobePoint[]; pulses: GlobePulse[] }) {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -64,11 +83,22 @@ export function ClicksGlobe({ points, pulses }: { points: GlobePoint[]; pulses: 
           })
         )
         .pointsData(pointsRef.current)
-        .pointAltitude((d) => 0.012 + Math.min((d as GlobePoint).weight, 1) * 0.09)
-        .pointRadius((d) => 0.35 + Math.min((d as GlobePoint).weight, 1) * 0.55)
-        .pointColor((d) => ((d as GlobePoint).sponsored ? SPONSORED_GOLD : HUD_CYAN))
+        .pointAltitude((d) => {
+          const p = d as GlobePoint;
+          return p.kind === "country" ? COUNTRY_POINT_ALTITUDE : 0.012 + Math.min(p.weight, 1) * 0.09;
+        })
+        .pointRadius((d) => {
+          const p = d as GlobePoint;
+          return p.kind === "country" ? COUNTRY_POINT_RADIUS : 0.35 + Math.min(p.weight, 1) * 0.55;
+        })
+        .pointColor((d) => {
+          const p = d as GlobePoint;
+          if (p.kind === "country") return COUNTRY_DIM_CYAN;
+          return p.sponsored ? SPONSORED_GOLD : HUD_CYAN;
+        })
         .pointLabel((d) => {
           const p = d as GlobePoint;
+          if (p.kind === "country") return p.label;
           return `${p.label}${p.sponsored ? " · Featured" : ""}`;
         })
         .pointResolution(12)

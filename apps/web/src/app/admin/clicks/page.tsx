@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
-import { getClickCounts } from "@/lib/clickTracking";
+import { getClickCounts, getDailyClickCounts } from "@/lib/clickTracking";
 import { getPageViewStats } from "@/lib/pageViews";
 import { getActivities } from "@/lib/api";
-import { ClicksDashboard, type GlobeActivity } from "@/components/admin/ClicksDashboard";
+import { ClicksDashboard, type CountryMarker, type GlobeActivity } from "@/components/admin/ClicksDashboard";
+
+const DAILY_TREND_DAYS = 14;
 
 export const metadata: Metadata = {
   robots: { index: false, follow: false },
@@ -31,10 +33,11 @@ export default async function ClicksAdminPage({
     );
   }
 
-  const [clicks, activities, pageViews] = await Promise.all([
+  const [clicks, activities, pageViews, dailyClicks] = await Promise.all([
     getClickCounts(SINCE_DAYS),
     getActivities(),
     getPageViewStats(SINCE_DAYS),
+    getDailyClickCounts(DAILY_TREND_DAYS),
   ]);
   const activityById = new Map(activities.map((a) => [a.id, a]));
 
@@ -54,6 +57,16 @@ export default async function ClicksAdminPage({
   const totalClicks = rows.reduce((sum, r) => sum + r.clicks, 0);
   const sponsoredRows = rows.filter((r) => r.sponsored);
 
+  // Top countries by clicks, for the charts panel — aggregated from `rows`
+  // (already joined against activities above), no new query needed.
+  const countryClicksMap = new Map<string, number>();
+  for (const r of rows) {
+    countryClicksMap.set(r.country, (countryClicksMap.get(r.country) ?? 0) + r.clicks);
+  }
+  const countryClicks = Array.from(countryClicksMap.entries())
+    .map(([country, clicks]) => ({ country, clicks }))
+    .sort((a, b) => b.clicks - a.clicks);
+
   const globeActivities: GlobeActivity[] = activities
     .filter((a) => a.latitude != null && a.longitude != null)
     .map((a) => ({
@@ -64,6 +77,27 @@ export default async function ClicksAdminPage({
       lng: a.longitude as number,
       sponsored: a.sponsored,
     }));
+
+  // One dim "presence" marker per country, at the centroid of that
+  // country's activities with known coordinates, so the globe always looks
+  // populated even when click volume is low — layered under the brighter,
+  // weighted click points in ClicksGlobe.
+  const countryCentroidAcc = new Map<string, { name: string; latSum: number; lngSum: number; count: number }>();
+  for (const a of activities) {
+    if (a.latitude == null || a.longitude == null) continue;
+    const key = a.country.slug;
+    const entry = countryCentroidAcc.get(key) ?? { name: a.country.name, latSum: 0, lngSum: 0, count: 0 };
+    entry.latSum += a.latitude;
+    entry.lngSum += a.longitude;
+    entry.count += 1;
+    countryCentroidAcc.set(key, entry);
+  }
+  const countryMarkers: CountryMarker[] = Array.from(countryCentroidAcc.entries()).map(([slug, e]) => ({
+    id: slug,
+    name: e.name,
+    lat: e.latSum / e.count,
+    lng: e.lngSum / e.count,
+  }));
 
   const initialCounts = Object.fromEntries(clicks.map((c) => [c.activityId, c.clicks]));
 
@@ -81,6 +115,9 @@ export default async function ClicksAdminPage({
           initialCounts={initialCounts}
           adminKey={key}
           pageViews={pageViews}
+          dailyClicks={dailyClicks}
+          countryClicks={countryClicks}
+          countryMarkers={countryMarkers}
         />
       </div>
 
