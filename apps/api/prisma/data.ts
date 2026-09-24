@@ -1723,7 +1723,7 @@ export const data: SeedCountry[] = [
         description:
           "A steep, crampons-and-ice-axe day climb up one of the most active volcanoes in South America, onto a summit rim that regularly vents visible sulphur gas over an active lava lake below — guides carry gas masks and turn groups around fast if venting increases.",
         costType: "PAID",
-        costEstimate: "~90,000–130,000 guided day",
+        costEstimate: "~130,000–150,000 guided day",
         currency: "CLP",
         difficulty: "EXPERT",
         riskLevel: "HIGH",
@@ -1875,7 +1875,7 @@ export const data: SeedCountry[] = [
         description:
           "One of the few advancing glaciers left on Earth, and one of the very few you can walk directly onto with crampons on a short boat transfer from a road — full ice-climbing routes are set on the séracs for those who want more than the standard mini-trek.",
         costType: "PAID",
-        costEstimate: "Big Ice tour ~65,000–90,000",
+        costEstimate: "Big Ice tour ~550,000–700,000",
         currency: "ARS",
         difficulty: "ADVANCED",
         riskLevel: "MODERATE",
@@ -1909,7 +1909,7 @@ export const data: SeedCountry[] = [
         description:
           "Glacial melt off the Andes feeds continuous Class III–IV rapids a short drive from Mendoza's wine country, with the canyon walls closing in tight enough in places that there's no walking out if you swim.",
         costType: "PAID",
-        costEstimate: "Half-day ~15,000–25,000",
+        costEstimate: "Half-day ~24,000–60,000",
         currency: "ARS",
         difficulty: "ADVANCED",
         riskLevel: "HIGH",
@@ -1945,7 +1945,7 @@ export const data: SeedCountry[] = [
         description:
           "One of the only places on Earth where orcas intentionally beach themselves on the shoreline to snatch sea lion pups before wriggling back into the surf — a genuine, unstaged predation event watched from the beach, timed to a narrow tidal and seasonal window each year.",
         costType: "PAID",
-        costEstimate: "Guided coastal tour ~40,000–60,000",
+        costEstimate: "Guided coastal tour ~440,000–635,000",
         currency: "ARS",
         difficulty: "ADVANCED",
         riskLevel: "MODERATE",
@@ -1963,7 +1963,7 @@ export const data: SeedCountry[] = [
         description:
           "Tandem jumps from up to 4,000m with a freefall view straight down the spine of the Andes and across Mendoza's vineyard valleys — clear high-desert air here means visibility regularly exceeds 100km, rare for a skydive anywhere in the world.",
         costType: "PAID",
-        costEstimate: "Tandem jump ~90,000–130,000",
+        costEstimate: "Tandem jump ~550,000–600,000",
         currency: "ARS",
         difficulty: "ADVANCED",
         riskLevel: "HIGH",
@@ -1991,7 +1991,7 @@ export const data: SeedCountry[] = [
         description:
           "A roughly 64km, almost entirely downhill ride from 4,650m to 1,200m down the old Yungas Road — narrow, cliff-edge gravel with thousand-metre drops and no guardrail, historically responsible for hundreds of vehicle deaths a year before a paved bypass diverted most traffic and left it to cyclists and tour trucks.",
         costType: "PAID",
-        costEstimate: "Guided full-day tour US$60–100",
+        costEstimate: "Guided full-day tour US$80–130",
         currency: "USD",
         difficulty: "EXPERT",
         riskLevel: "SEVERE",
@@ -2259,7 +2259,7 @@ export const data: SeedCountry[] = [
         description:
           "A 4–5 day round-trip jungle trek to pre-Columbian ruins older than Machu Picchu, crossing rivers, steep mud trails and over 1,200 stone steps at the end — accessible only on foot, through indigenous Kogi territory, with humidity and terrain that make it a genuine physical test rather than a scenic walk.",
         costType: "PAID",
-        costEstimate: "4–5 day guided trek ~1,400,000–1,900,000",
+        costEstimate: "4–5 day guided trek ~1,860,000–2,150,000",
         currency: "COP",
         difficulty: "ADVANCED",
         riskLevel: "MODERATE",
@@ -2331,7 +2331,7 @@ export const data: SeedCountry[] = [
         description:
           "A UNESCO World Heritage, liveaboard-only rock 500km off Colombia's Pacific coast, surrounded by some of the densest hammerhead shark schooling on the planet along with silky sharks and the occasional whale shark — open only to experienced divers due to strong offshore currents.",
         costType: "PAID",
-        costEstimate: "7-night liveaboard US$3,000–4,500",
+        costEstimate: "7-night liveaboard US$4,950–6,000",
         currency: "USD",
         difficulty: "EXPERT",
         riskLevel: "HIGH",
@@ -2349,7 +2349,7 @@ export const data: SeedCountry[] = [
         description:
           "A multi-hour trek through dense coastal jungle connecting a string of isolated Caribbean beaches, with no road access to most of them — howler monkeys are a near-constant soundtrack, and the trail alternates between jungle canopy and boulder-strewn coastline.",
         costType: "PAID",
-        costEstimate: "Park entry ~65,000–85,000",
+        costEstimate: "Park entry ~73,500–96,500",
         currency: "COP",
         difficulty: "ADVANCED",
         riskLevel: "MODERATE",
@@ -2447,9 +2447,9 @@ export const data: SeedCountry[] = [
         region: "Guadalupe Island, Baja California",
         category: "Diving",
         description:
-          "A remote volcanic island 250km off Baja California with some of the clearest water anywhere great white sharks congregate — liveaboard trips run submerged cages right at the surface and deeper drop cages for extended encounters with sharks that can exceed 5.5m.",
+          "A remote volcanic island 250km off Baja California with some of the clearest water anywhere great white sharks congregate — liveaboard trips used to run submerged cages right at the surface and deeper drop cages for extended encounters with sharks that can exceed 5.5m, but Mexico's government banned commercial shark-cage-diving tourism here in January 2023 and made the ban permanent in 2025, so no trips currently operate.",
         costType: "PAID",
-        costEstimate: "3-night liveaboard US$1,400–2,000",
+        costEstimate: "Not currently bookable — tourism banned since 2023",
         currency: "USD",
         difficulty: "ADVANCED",
         riskLevel: "HIGH",
@@ -2531,7 +2531,7 @@ export const data: SeedCountry[] = [
         description:
           "North America's highest peak at 6,190m, and one of the coldest mountains on Earth relative to its altitude thanks to its extreme sub-Arctic latitude — a 2–3 week self-supported expedition hauling sleds across the Kahiltna Glacier, with wind chill regularly reaching –40°C or lower on the upper mountain.",
         costType: "PAID",
-        costEstimate: "Guided expedition US$8,000–12,000",
+        costEstimate: "Guided expedition US$10,000–19,000",
         currency: "USD",
         difficulty: "INSANE",
         riskLevel: "EXTREME",
