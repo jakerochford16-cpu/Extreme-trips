@@ -82,7 +82,7 @@ export function FavoritesList({ activities }: { activities: ActivityWithCountry[
             <div className="min-w-0 flex-1">
               <Link
                 href={`/countries/${activity.country.slug}#${activity.id}`}
-                className="mb-1.5 inline-block text-xs font-semibold uppercase tracking-widest text-white/40 hover:text-white/70"
+                className="mb-1.5 inline-block text-xs font-semibold uppercase tracking-widest text-white/50 hover:text-white/70"
               >
                 {activity.country.name} &rarr;
               </Link>

@@ -65,7 +65,7 @@ export function ActivityBrowser({ activities }: { activities: ActivityWithCountr
       <div className="mb-6 flex flex-wrap items-center gap-3">
         <div className="relative flex-1 min-w-[220px]">
           <svg
-            className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-white/40"
+            className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-white/50"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -100,7 +100,7 @@ export function ActivityBrowser({ activities }: { activities: ActivityWithCountr
         <Select value={sort} onChange={(v) => setSort(v as SortKey)} className="w-48" options={SORT_OPTIONS} />
       </div>
 
-      <p className="mb-5 text-sm font-semibold uppercase tracking-widest text-white/40">
+      <p className="mb-5 text-sm font-semibold uppercase tracking-widest text-white/50">
         {filtered.length} of {activities.length} activities
         {categorySlug !== "all" ? ` · ${labelForGroup(categorySlug)}` : ""}
       </p>
@@ -115,7 +115,7 @@ export function ActivityBrowser({ activities }: { activities: ActivityWithCountr
             <div key={activity.id}>
               <Link
                 href={`/countries/${activity.country.slug}#${activity.id}`}
-                className="mb-1.5 inline-block text-xs font-semibold uppercase tracking-widest text-white/40 hover:text-white/70"
+                className="mb-1.5 inline-block text-xs font-semibold uppercase tracking-widest text-white/50 hover:text-white/70"
               >
                 {activity.country.name} &rarr;
               </Link>

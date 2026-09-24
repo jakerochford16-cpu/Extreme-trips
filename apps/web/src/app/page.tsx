@@ -31,7 +31,7 @@ export default async function HomePage() {
       <section className="relative flex min-h-[460px] items-end overflow-hidden sm:min-h-[600px]">
         <Image
           src="/images/hero-iceclimb.jpg"
-          alt=""
+          alt="A climber scaling a frozen waterfall"
           fill
           priority
           sizes="100vw"
@@ -100,7 +100,7 @@ export default async function HomePage() {
       {inSeason.length > 0 && (
         <section className="border-b border-white/10 bg-white/[0.02]">
           <div className="mx-auto w-full max-w-6xl px-6 py-10">
-            <h2 className="mb-5 text-xs font-semibold uppercase tracking-[0.16em] text-white/40">
+            <h2 className="mb-5 text-xs font-semibold uppercase tracking-[0.16em] text-white/50">
               In season right now
             </h2>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -113,7 +113,7 @@ export default async function HomePage() {
                   <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-lg">
                     <Image
                       src={photoForCategoryGroup(activity.categoryGroup)}
-                      alt=""
+                      alt={activity.title}
                       fill
                       sizes="56px"
                       className="object-cover"
@@ -142,7 +142,7 @@ export default async function HomePage() {
         ) : (
           <>
             <div className="mb-8">
-              <span className="text-xs font-semibold uppercase tracking-[0.16em] text-white/40">
+              <span className="text-xs font-semibold uppercase tracking-[0.16em] text-white/50">
                 Countries
               </span>
               <h2 className="font-serif mt-1.5 text-3xl font-semibold text-[#FBF8F3]">

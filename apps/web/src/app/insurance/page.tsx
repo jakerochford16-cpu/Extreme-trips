@@ -25,7 +25,7 @@ export default function InsurancePage() {
         </p>
 
         <section className="mt-12">
-          <h2 className="text-sm font-semibold uppercase tracking-widest text-white/40">
+          <h2 className="text-sm font-semibold uppercase tracking-widest text-white/50">
             What that actually means
           </h2>
           <p className="mt-3 leading-relaxed text-white/70">
@@ -39,7 +39,7 @@ export default function InsurancePage() {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-sm font-semibold uppercase tracking-widest text-white/40">
+          <h2 className="text-sm font-semibold uppercase tracking-widest text-white/50">
             What to actually do about it
           </h2>
           <ul className="mt-4 space-y-4">
@@ -80,7 +80,7 @@ export default function InsurancePage() {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-sm font-semibold uppercase tracking-widest text-white/40">
+          <h2 className="text-sm font-semibold uppercase tracking-widest text-white/50">
             Providers that specialize in this
           </h2>
           <p className="mt-3 text-sm leading-relaxed text-white/60">
@@ -125,7 +125,7 @@ export default function InsurancePage() {
               >
                 <p className="flex items-center gap-1.5 font-semibold text-white">
                   {p.name}
-                  <svg viewBox="0 0 24 24" className="h-3.5 w-3.5 text-white/40" fill="none" stroke="currentColor" strokeWidth={2}>
+                  <svg viewBox="0 0 24 24" className="h-3.5 w-3.5 text-white/50" fill="none" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M7 17L17 7M7 7h10v10" />
                   </svg>
                 </p>

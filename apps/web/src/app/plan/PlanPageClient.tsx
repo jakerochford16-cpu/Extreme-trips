@@ -116,7 +116,7 @@ export function PlanPageClient() {
                 : "border-white/10 bg-white/[0.03]"
             }`}
           >
-            <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-white/40">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-white/50">
               {turn.role === "user" ? "You" : "Outer Line"}
             </p>
             <p className="whitespace-pre-wrap text-sm leading-relaxed text-white/85">
@@ -125,7 +125,7 @@ export function PlanPageClient() {
           </div>
         ))}
         {loading && (
-          <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-5 text-sm text-white/40">
+          <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-5 text-sm text-white/50">
             Working it out&hellip;
           </div>
         )}

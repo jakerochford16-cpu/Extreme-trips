@@ -3,8 +3,11 @@ import Link from "next/link";
 import { Geist, Geist_Mono, Fraunces } from "next/font/google";
 import { ClerkProvider, Show, SignInButton, UserButton } from "@clerk/nextjs";
 import { dark } from "@clerk/themes";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { AccountSync } from "@/components/AccountSync";
 import { AffiliateScript } from "@/components/AffiliateScript";
+import { CookieConsent } from "@/components/CookieConsent";
 import "./globals.css";
 
 const clerkAppearance = {
@@ -79,6 +82,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <body className="min-h-full flex flex-col">
           <AccountSync />
           <AffiliateScript />
+          <CookieConsent />
           <header className="no-print border-b border-white/10">
             <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-5 sm:px-6">
               <Link
@@ -146,17 +150,25 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           </header>
           {children}
           <footer className="border-t border-white/10">
-            <div className="mx-auto w-full max-w-6xl px-6 py-8 text-xs leading-relaxed text-white/40">
+            <div className="mx-auto w-full max-w-6xl px-6 py-8 text-xs leading-relaxed text-white/50">
               Curated starting points, not instructions. Conditions, permits, prices and
               regulations change &mdash; verify everything with a local guide or operator
               before you go. Several activities here carry serious risk of injury or death.
-              <div className="mt-3">
+              <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-2">
                 <Link href="/partner" className="font-semibold text-white/50 hover:text-accent">
                   Guide or operator? Partner with us &rarr;
+                </Link>
+                <Link href="/privacy" className="text-white/50 hover:text-white/70">
+                  Privacy Policy
+                </Link>
+                <Link href="/terms" className="text-white/50 hover:text-white/70">
+                  Terms &amp; Conditions
                 </Link>
               </div>
             </div>
           </footer>
+          <Analytics />
+          <SpeedInsights />
         </body>
       </html>
     </ClerkProvider>

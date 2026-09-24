@@ -23,7 +23,7 @@ export default async function ExtremePage() {
       <section className="relative flex min-h-[320px] items-end overflow-hidden sm:min-h-[380px]">
         <Image
           src={photoForCategoryGroup("mountaineering-climbing")}
-          alt=""
+          alt="A climber on an extreme mountaineering route"
           fill
           priority
           sizes="100vw"
@@ -56,7 +56,7 @@ export default async function ExtremePage() {
                 </span>
                 <Link
                   href={`/countries/${activity.country.slug}#${activity.id}`}
-                  className="text-xs font-semibold uppercase tracking-widest text-white/40 hover:text-white/70"
+                  className="text-xs font-semibold uppercase tracking-widest text-white/50 hover:text-white/70"
                 >
                   {activity.country.name} &rarr;
                 </Link>

@@ -92,7 +92,7 @@ export default async function CountryPage({
       <section className="relative flex h-[300px] items-end overflow-hidden sm:h-[360px]">
         <Image
           src={photo}
-          alt=""
+          alt={country.name}
           fill
           priority
           sizes="100vw"
@@ -131,7 +131,7 @@ export default async function CountryPage({
         </section>
 
         <section>
-          <h2 className="mb-5 text-sm font-semibold uppercase tracking-widest text-white/40">
+          <h2 className="mb-5 text-sm font-semibold uppercase tracking-widest text-white/50">
             {visibleActivities.length}{" "}
             {activeGroup ? labelForGroup(activeGroup) : "extreme"}{" "}
             {visibleActivities.length === 1 ? "line" : "lines"}

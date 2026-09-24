@@ -58,7 +58,7 @@ export function ReviewSection({ activityId }: { activityId: string }) {
   if (editing) {
     return (
       <div className="mt-4 rounded-xl border border-white/10 bg-white/[0.02] p-4">
-        <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-white/40">
+        <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-white/50">
           Your rating
         </p>
         <Stars value={draftRating} onChange={setDraftRating} />
@@ -67,8 +67,10 @@ export function ReviewSection({ activityId }: { activityId: string }) {
           onChange={(e) => setDraftText(e.target.value)}
           placeholder="How did it go? Notes for future-you or anyone else who saves this activity..."
           rows={3}
+          maxLength={2000}
           className="mt-3 w-full resize-none rounded-lg border border-white/10 bg-white/[0.03] px-3 py-2 text-sm text-white placeholder:text-white/30 outline-none focus:border-accent/60"
         />
+        <p className="mt-1 text-right text-xs text-white/50">{draftText.length}/2000</p>
         <div className="mt-3 flex gap-2">
           <button
             type="button"
@@ -98,7 +100,7 @@ export function ReviewSection({ activityId }: { activityId: string }) {
       <div className="mt-4 rounded-xl border border-white/10 bg-white/[0.02] p-4">
         <div className="flex items-center justify-between gap-3">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-widest text-white/40">
+            <p className="text-xs font-semibold uppercase tracking-widest text-white/50">
               Your rating
             </p>
             <div className="mt-1">

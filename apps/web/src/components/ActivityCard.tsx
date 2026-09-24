@@ -30,7 +30,7 @@ export function ActivityCard({
       <div className="relative h-44 w-full">
         <Image
           src={photoForCategoryGroup(activity.categoryGroup)}
-          alt=""
+          alt={activity.title}
           fill
           sizes="(min-width: 1024px) 50vw, 100vw"
           className="object-cover"
