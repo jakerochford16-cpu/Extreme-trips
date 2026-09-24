@@ -164,6 +164,36 @@ Three pieces, all off/zero by default and each independent of the others:
 - **Not applicable** — no file uploads exist anywhere in this app, and there
   is no "rewards" feature.
 
+### Legal, compliance & site health
+
+- **`/privacy`** and **`/terms`** — real, specific pages describing what
+  this app actually does (not boilerplate templates), listing the real
+  third parties data passes through (Clerk, Supabase/Postgres, Google
+  Gemini, Skimlinks).
+- **Cookie consent** — `components/CookieConsent.tsx` is a real gate, not
+  decorative: Clerk's session cookie is essential and always active (the
+  site can't function without it), but `AffiliateScript` only loads the
+  Skimlinks script if the visitor has accepted (`lib/cookieConsent.ts`,
+  localStorage-based, same pattern as favorites/reviews). Vercel
+  Analytics/Speed Insights are cookieless and run regardless, per their own
+  design.
+- **Analytics** — `@vercel/analytics` and `@vercel/speed-insights`, added
+  in `app/layout.tsx`. Needs "Web Analytics" enabled in the Vercel project
+  dashboard (Analytics tab) to actually start showing data — the code
+  alone doesn't turn it on.
+- **Images** — source files in `apps/web/public/images` are pre-compressed
+  (resized to the largest size they're ever actually displayed at, then
+  re-encoded); Next.js's Image component further optimizes/resizes what's
+  actually served to each visitor on top of that.
+- **Alt text** — content photos (activity/country cards, hero images) carry
+  descriptive alt text; nothing left as an empty placeholder.
+- **Color contrast** — audited every `text-white/N` opacity value against
+  both background colors used (`#0b0a08` and the `surface` card color
+  `#131009`) against WCAG AA (4.5:1 for normal text); `white/40` was the
+  only value that failed and has been bumped to `white/50` everywhere it
+  was used as real text content (input placeholders, which have looser
+  requirements, were left alone).
+
 ### Running it locally
 
 Just the website (what's actually deployed — this is normally all you need):

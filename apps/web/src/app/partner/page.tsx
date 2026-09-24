@@ -29,7 +29,7 @@ export default function PartnerPage() {
         </p>
 
         <section className="mt-12">
-          <h2 className="text-sm font-semibold uppercase tracking-widest text-white/40">
+          <h2 className="text-sm font-semibold uppercase tracking-widest text-white/50">
             What a featured placement gets you
           </h2>
           <ul className="mt-4 space-y-4">
@@ -61,7 +61,7 @@ export default function PartnerPage() {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-sm font-semibold uppercase tracking-widest text-white/40">
+          <h2 className="text-sm font-semibold uppercase tracking-widest text-white/50">
             How it works
           </h2>
           <ol className="mt-4 space-y-3 text-sm leading-relaxed text-white/70">
@@ -89,7 +89,7 @@ export default function PartnerPage() {
             <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14M13 6l6 6-6 6" />
           </svg>
         </a>
-        <p className="mt-2 text-xs text-white/40">{CONTACT_EMAIL}</p>
+        <p className="mt-2 text-xs text-white/50">{CONTACT_EMAIL}</p>
 
         <p className="mt-12 rounded-2xl border border-white/10 bg-white/[0.02] p-5 text-xs leading-relaxed text-white/45">
           Featured placements are the only paid content on this site — no display ads, no

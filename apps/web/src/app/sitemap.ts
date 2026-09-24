@@ -14,6 +14,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${BASE_URL}/plan`, changeFrequency: "monthly", priority: 0.5 },
     { url: `${BASE_URL}/insurance`, changeFrequency: "monthly", priority: 0.4 },
     { url: `${BASE_URL}/partner`, changeFrequency: "monthly", priority: 0.3 },
+    { url: `${BASE_URL}/privacy`, changeFrequency: "yearly", priority: 0.2 },
+    { url: `${BASE_URL}/terms`, changeFrequency: "yearly", priority: 0.2 },
   ];
 
   const countryRoutes: MetadataRoute.Sitemap = countries.map((country) => ({

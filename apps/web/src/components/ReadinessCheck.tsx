@@ -106,7 +106,7 @@ export function ReadinessCheck({ activity }: { activity: Activityish }) {
               <button
                 type="button"
                 onClick={reset}
-                className="mt-3 text-xs font-semibold text-white/40 hover:text-white/70"
+                className="mt-3 text-xs font-semibold text-white/50 hover:text-white/70"
               >
                 Start over
               </button>
