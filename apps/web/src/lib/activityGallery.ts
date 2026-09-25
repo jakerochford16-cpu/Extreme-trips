@@ -2624,6 +2624,376 @@ const ACTIVITY_GALLERIES: ReadonlyMap<string, GalleryPhoto[]> = new Map([
       { url: IMG("photo-1551171128-1e4fa9a8150a"), photographer: "Andrea Leopardi", photoPageUrl: "https://unsplash.com/photos/DJAbdPLRtw4" },
     ],
   ],
+  [
+    "iceland--ice-cave-exploring-vatnaj-kull",
+    [
+      { url: IMG("photo-1474710820418-dd5406ee35d5"), photographer: "Davide Cantelli", photoPageUrl: "https://unsplash.com/photos/r0q06hjTgOc" },
+      { url: IMG("photo-1517032880222-1afedf8c9d0d"), photographer: "Deborah Diem", photoPageUrl: "https://unsplash.com/photos/ds_NPvoAzro" },
+      { url: IMG("photo-1490143921278-d853145e4977"), photographer: "Jonatan Pie", photoPageUrl: "https://unsplash.com/photos/1hpE3fROU0I" },
+      { url: IMG("photo-1488763882255-3c188b9ff4d2"), photographer: "Adam Jang", photoPageUrl: "https://unsplash.com/photos/zzOPJR7tlK0" },
+      { url: IMG("photo-1517094629229-f5e0c2f88440"), photographer: "Paxson Woelber", photoPageUrl: "https://unsplash.com/photos/kxzt252wB_A" },
+    ],
+  ],
+  [
+    "iceland--descend-into-r-hn-kag-gur-volcano",
+    [
+      { url: IMG("photo-1770411034360-cbd2730c93a2"), photographer: "Lucas Doddema", photoPageUrl: "https://unsplash.com/photos/VttRV6gsDW0" },
+      { url: IMG("photo-1770411034281-0145fa7da4e2"), photographer: "Lucas Doddema", photoPageUrl: "https://unsplash.com/photos/xYBOFG9rOeM" },
+      { url: IMG("photo-1632922350748-5b0e367fff8a"), photographer: "Mick Haupt", photoPageUrl: "https://unsplash.com/photos/6R9IHrvjNqk" },
+      { url: IMG("photo-1680811903915-92cf7e98b99e"), photographer: "With Paul", photoPageUrl: "https://unsplash.com/photos/RFskOemo0Y0" },
+      { url: IMG("photo-1629002919269-74d8089e9db0"), photographer: "Jayy Torres", photoPageUrl: "https://unsplash.com/photos/Qk-rzh44njE" },
+    ],
+  ],
+  [
+    "iceland--glacier-hiking-ice-climbing-s-lheimaj-kull",
+    [
+      { url: IMG("photo-1482778090591-caf9a0149412"), photographer: "Claire Nolan", photoPageUrl: "https://unsplash.com/photos/lawV2zcEGlE" },
+      { url: IMG("photo-1546891155-157e823e329a"), photographer: "Tommy Rodrigue", photoPageUrl: "https://unsplash.com/photos/wS9WlYkGIt8" },
+      { url: IMG("photo-1573041724453-b742a223cf3f"), photographer: "Tamas Tuzes-Katai", photoPageUrl: "https://unsplash.com/photos/PMobLehunro" },
+      { url: IMG("photo-1496552803848-46bd7f2f62d7"), photographer: "Joshua Howey", photoPageUrl: "https://unsplash.com/photos/ErC1njs8LCI" },
+      { url: IMG("photo-1647601294667-5a5948b6cd93"), photographer: "Tom Brunberg", photoPageUrl: "https://unsplash.com/photos/ULXo4fTbBk8" },
+    ],
+  ],
+  [
+    "iceland--diving-snorkelling-the-silfra-fissure",
+    [
+      { url: IMG("photo-1620026040690-3fd11e7b1f00"), photographer: "Bibhash (Polygon.Cafe) Banerjee", photoPageUrl: "https://unsplash.com/photos/MUcVcWuxro4" },
+      { url: IMG("photo-1678016315458-3806831fe7fc"), photographer: "CHUNGHOI KIM", photoPageUrl: "https://unsplash.com/photos/5Oy7eaT7zXg" },
+      { url: IMG("photo-1680026602957-44a26e949f09"), photographer: "Nadine Bliedung", photoPageUrl: "https://unsplash.com/photos/QCvLlqhhq9M" },
+      { url: IMG("photo-1568030057666-2995a76f98c8"), photographer: "Harshil Gudka", photoPageUrl: "https://unsplash.com/photos/xpeg2tyeJNo" },
+      { url: IMG("photo-1603692448891-a01d21d3bb6c"), photographer: "Rowan Simpson", photoPageUrl: "https://unsplash.com/photos/Gj9jD4qPMzs" },
+    ],
+  ],
+  [
+    "iceland--super-jeep-highland-expedition-landmannalaugar",
+    [
+      { url: IMG("photo-1518413380322-fc82a14756f0"), photographer: "yifei liu", photoPageUrl: "https://unsplash.com/photos/nRvwpCrw5Ks" },
+      { url: IMG("photo-1727197093259-e89dc8ccd8ee"), photographer: "Alexander Sinn", photoPageUrl: "https://unsplash.com/photos/bBucmsH9LBc" },
+      { url: IMG("photo-1675024281993-722f642609ff"), photographer: "Lien Van Win", photoPageUrl: "https://unsplash.com/photos/RpiLVTxIQ0o" },
+      { url: IMG("photo-1490902931801-d6f80ca94fe4"), photographer: "Jon Flobrant", photoPageUrl: "https://unsplash.com/photos/lRSChvh1Mhs" },
+      { url: IMG("photo-1696710290015-f48f3466382f"), photographer: "Bernd Dittrich", photoPageUrl: "https://unsplash.com/photos/i62z1_M9lco" },
+    ],
+  ],
+  [
+    "iceland--ice-climbing-skaftafell-frozen-falls",
+    [
+      { url: IMG("photo-1651418260888-ef92733ed24a"), photographer: "Danny Jongerius", photoPageUrl: "https://unsplash.com/photos/ftc5jVdZNwk" },
+      { url: IMG("photo-1755565946250-d5d8ed503db6"), photographer: "Joseph Corl", photoPageUrl: "https://unsplash.com/photos/VQBqshexRBY" },
+      { url: IMG("photo-1783759176378-343f5c0dbe56"), photographer: "Wietse Jongsma", photoPageUrl: "https://unsplash.com/photos/j36M06vUQ0g" },
+      { url: IMG("photo-1709517659991-58d946519556"), photographer: "Chaewool Kim", photoPageUrl: "https://unsplash.com/photos/eFmXUF5HBX8" },
+      { url: IMG("photo-1701491934827-cb2c05b6a887"), photographer: "Chaewool Kim", photoPageUrl: "https://unsplash.com/photos/X5HF9sOufD8" },
+    ],
+  ],
+  [
+    "iceland--wild-camping-hornstrandir-nature-reserve",
+    [
+      { url: IMG("photo-1569097269339-cc3ade80af54"), photographer: "Vince Gx", photoPageUrl: "https://unsplash.com/photos/BfvetQGpD6Y" },
+      { url: IMG("photo-1568087878150-e41d687861a0"), photographer: "Alex Gill", photoPageUrl: "https://unsplash.com/photos/hzSQ2-ADDpE" },
+      { url: IMG("photo-1646497769192-962c330da760"), photographer: "Elin Tabitha", photoPageUrl: "https://unsplash.com/photos/f-k3dnu_g78" },
+      { url: IMG("photo-1643224178202-266fd7f3d4c9"), photographer: "Olga Iacovlenco", photoPageUrl: "https://unsplash.com/photos/w24NBQbRxnc" },
+      { url: IMG("photo-1572443645338-b156bffd7725"), photographer: "Artem Galychyi", photoPageUrl: "https://unsplash.com/photos/vNd7pgWIVHw" },
+    ],
+  ],
+  [
+    "iceland--lava-tube-caving-raufarh-lshellir",
+    [
+      { url: IMG("photo-1760875196897-950d8ce117ec"), photographer: "Wolfgang Hasselmann", photoPageUrl: "https://unsplash.com/photos/nKeclXdmL4g" },
+      { url: IMG("photo-1687969054033-69687defbabf"), photographer: "Mick Haupt", photoPageUrl: "https://unsplash.com/photos/8rZ0VKNbfiY" },
+      { url: IMG("photo-1687969054028-1bbf7fa070a7"), photographer: "Mick Haupt", photoPageUrl: "https://unsplash.com/photos/_G-Bl0LM518" },
+      { url: IMG("photo-1510256506868-484d0db06ee2"), photographer: "Joshua Sortino", photoPageUrl: "https://unsplash.com/photos/rAqzj79GUmA" },
+      { url: IMG("photo-1550075099-60d771b6d997"), photographer: "Aaron Roth", photoPageUrl: "https://unsplash.com/photos/bnJ_47FxOBg" },
+    ],
+  ],
+  [
+    "iceland--iceberg-kayaking-j-kuls-rl-n-glacier-lagoon",
+    [
+      { url: IMG("photo-1733317779655-3b407f90c0f2"), photographer: "Maksim Shutov", photoPageUrl: "https://unsplash.com/photos/-rameOz266g" },
+      { url: IMG("photo-1673209378872-a36ba431f248"), photographer: "Job Savelsberg", photoPageUrl: "https://unsplash.com/photos/DCuXaq5zcWs" },
+      { url: IMG("photo-1760576434956-9e90adad6bf7"), photographer: "Carlota O.", photoPageUrl: "https://unsplash.com/photos/edny0aa6u_Y" },
+      { url: IMG("photo-1708923110024-36f7c4b2c2bd"), photographer: "Karsten Winegeart", photoPageUrl: "https://unsplash.com/photos/kybLwgf_sCw" },
+      { url: IMG("photo-1634993891386-7373babb1625"), photographer: "Mads Schmidt Rasmussen", photoPageUrl: "https://unsplash.com/photos/TGhb-gT97Ng" },
+    ],
+  ],
+  [
+    "iceland--active-lava-field-hike-reykjanes-eruption-sites",
+    [
+      { url: IMG("photo-1616628950295-d3288bd7a96d"), photographer: "Jonatan Pie", photoPageUrl: "https://unsplash.com/photos/g6tqHx0ME1o" },
+      { url: IMG("photo-1518457607834-6e8d80c183c5"), photographer: "Marc Szeglat", photoPageUrl: "https://unsplash.com/photos/Aduh0KXCI1w" },
+      { url: IMG("photo-1623059570754-5462839e76a7"), photographer: "Izabela Kraus", photoPageUrl: "https://unsplash.com/photos/179_TGWlZtQ" },
+      { url: IMG("photo-1617191979724-f755c6d83e01"), photographer: "Ása Steinarsdóttir", photoPageUrl: "https://unsplash.com/photos/_xmAPHUXXiU" },
+      { url: IMG("photo-1636144531938-6ca420941973"), photographer: "J dG", photoPageUrl: "https://unsplash.com/photos/WSOgfx6q_Tc" },
+    ],
+  ],
+  [
+    "faroe-islands--cliff-edge-hike-to-kallur-lighthouse",
+    [
+      { url: IMG("photo-1689924285338-3930bae2064c"), photographer: "Georgi Kalaydzhiev", photoPageUrl: "https://unsplash.com/photos/azEPUeuTKhU" },
+      { url: IMG("photo-1681798091185-0ada52221fc3"), photographer: "Andrew St Lawrence", photoPageUrl: "https://unsplash.com/photos/k8Xhtx7V4TM" },
+      { url: IMG("photo-1708284331141-ff6cd57e49e6"), photographer: "Joshua Kettle", photoPageUrl: "https://unsplash.com/photos/jZXjJ18Bjkk" },
+      { url: IMG("photo-1742161472734-180236054981"), photographer: "Joshua Kettle", photoPageUrl: "https://unsplash.com/photos/iwlNJgbZsYk" },
+      { url: IMG("photo-1557934202-c0ba7f36bcaf"), photographer: "Michael Fousert", photoPageUrl: "https://unsplash.com/photos/749TMfPiMm4" },
+    ],
+  ],
+  [
+    "faroe-islands--sea-kayaking-beneath-the-bird-cliffs-vestmanna",
+    [
+      { url: IMG("photo-1705512604302-3dc9d171832c"), photographer: "David Bottenberg", photoPageUrl: "https://unsplash.com/photos/VQv1N3FOsRg" },
+      { url: IMG("photo-1761468670596-4624159e571a"), photographer: "Rasmus Ødegaard", photoPageUrl: "https://unsplash.com/photos/A_LNIU8_UdU" },
+      { url: IMG("photo-1773613007115-729914834d48"), photographer: "Jordan Cormack", photoPageUrl: "https://unsplash.com/photos/GpWVFvjOirk" },
+      { url: IMG("photo-1770561694208-7fc3e500f9cb"), photographer: "Bernhard", photoPageUrl: "https://unsplash.com/photos/5YiLmhBxqGg" },
+      { url: IMG("photo-1598459070672-bceeea6d895a"), photographer: "Coasteering", photoPageUrl: "https://unsplash.com/photos/hqfQJtA6ahY" },
+    ],
+  ],
+  [
+    "faroe-islands--cold-water-freediving-fjord-sea-caves",
+    [
+      { url: IMG("photo-1628630500614-1c8924c99c3e"), photographer: "Chase Baker", photoPageUrl: "https://unsplash.com/photos/RTtUA2iBwRw" },
+      { url: IMG("photo-1602199926649-2e5e447bab97"), photographer: "Kiril Dobrev", photoPageUrl: "https://unsplash.com/photos/8cQpL8kGqso" },
+      { url: IMG("photo-1462947760324-15811216b688"), photographer: "Jakob Boman", photoPageUrl: "https://unsplash.com/photos/Td9FnTMHu0A" },
+      { url: IMG("photo-1614241580814-477d221ebaeb"), photographer: "Ibrahim Mohamed", photoPageUrl: "https://unsplash.com/photos/DT4S4fCze9s" },
+      { url: IMG("photo-1683009427666-340595e57e43"), photographer: "NEOM", photoPageUrl: "https://unsplash.com/photos/g6Me5mUQQIQ" },
+    ],
+  ],
+  [
+    "faroe-islands--paragliding-off-tindh-lmur-viewpoint",
+    [
+      { url: IMG("photo-1768931841804-1359008b6786"), photographer: "JUAN PABLO padilla DE LA MORA", photoPageUrl: "https://unsplash.com/photos/xF_3dfWKkuU" },
+      { url: IMG("photo-1779637589526-1fa1f0ed16d7"), photographer: "Alexandr Popadin", photoPageUrl: "https://unsplash.com/photos/vj4sVQTFTi0" },
+      { url: IMG("photo-1770916797618-45e670e65e3c"), photographer: "David Zieglgänsberger", photoPageUrl: "https://unsplash.com/photos/Pi6a4P7lMZ8" },
+      { url: IMG("photo-1779637589496-e10cdd649f00"), photographer: "Alexandr Popadin", photoPageUrl: "https://unsplash.com/photos/97hei1gd1aA" },
+      { url: IMG("photo-1779637589533-e15f2a0d52d6"), photographer: "Alexandr Popadin", photoPageUrl: "https://unsplash.com/photos/7Lc7FHQyXac" },
+    ],
+  ],
+  [
+    "faroe-islands--sl-ttaratindur-summit-hike",
+    [
+      { url: IMG("photo-1610962427218-1d6878a96662"), photographer: "Dylan Shaw", photoPageUrl: "https://unsplash.com/photos/AAVR8hB75ko" },
+      { url: IMG("photo-1601928475214-714d2c19c921"), photographer: "Robert Bahn", photoPageUrl: "https://unsplash.com/photos/WRlFWJdPfYU" },
+      { url: IMG("photo-1580119587343-8e597dc4f867"), photographer: "Robert Bahn", photoPageUrl: "https://unsplash.com/photos/domq2x4d4lY" },
+      { url: IMG("photo-1505167112233-7d80351b15bc"), photographer: "Jake Hinds", photoPageUrl: "https://unsplash.com/photos/84X2Ue2yMjA" },
+      { url: IMG("photo-1638190654475-5d59f1f9f178"), photographer: "Andrew Svk", photoPageUrl: "https://unsplash.com/photos/zAgIIx_oL1A" },
+    ],
+  ],
+  [
+    "faroe-islands--coasteering-faroese-sea-cliffs",
+    [
+      { url: IMG("photo-1622319879995-10c710ca5a06"), photographer: "Coasteering", photoPageUrl: "https://unsplash.com/photos/lUq78qc5lQs" },
+      { url: IMG("photo-1622319924081-6075eb4f399b"), photographer: "Coasteering", photoPageUrl: "https://unsplash.com/photos/UixoLJ99YkI" },
+      { url: IMG("photo-1606314629557-411a2e94b356"), photographer: "Coasteering", photoPageUrl: "https://unsplash.com/photos/ymrlecRNbs8" },
+      { url: IMG("photo-1622319879349-8351b9a3f29c"), photographer: "Coasteering", photoPageUrl: "https://unsplash.com/photos/xR2jersqFuU" },
+      { url: IMG("photo-1622319879322-1dbcbc5b2b85"), photographer: "Coasteering", photoPageUrl: "https://unsplash.com/photos/bx-3qYGl5ow" },
+    ],
+  ],
+  [
+    "faroe-islands--base-jumping-sea-cliff-exits",
+    [
+      { url: IMG("photo-1510280781386-572b2438f88b"), photographer: "Lane Smith", photoPageUrl: "https://unsplash.com/photos/wEsqjsjIDLs" },
+      { url: IMG("photo-1520596880803-6ea0113a42d1"), photographer: "Joshua Earle", photoPageUrl: "https://unsplash.com/photos/lKkD6DY7FVw" },
+      { url: IMG("photo-1663741981089-72f7db9a9717"), photographer: "Luis", photoPageUrl: "https://unsplash.com/photos/Me3s2RsyWQY" },
+      { url: IMG("photo-1659205745654-bfc46ce8d3a0"), photographer: "Meg Jenson", photoPageUrl: "https://unsplash.com/photos/56m0ILRa2nE" },
+      { url: IMG("photo-1655288619137-3bc2df3724dc"), photographer: "lucas clarysse", photoPageUrl: "https://unsplash.com/photos/MkHgYVdDrLg" },
+    ],
+  ],
+  [
+    "bhutan--snowman-trek",
+    [
+      { url: IMG("photo-1584007952771-96d1f3866a6b"), photographer: "Nils Leonhardt", photoPageUrl: "https://unsplash.com/photos/gf0rnIB_ZpM" },
+      { url: IMG("photo-1762698336057-05c3260fcd17"), photographer: "abhijeet nadkarni", photoPageUrl: "https://unsplash.com/photos/w4spxZZLibU" },
+      { url: IMG("photo-1662546803799-9a1d5532514f"), photographer: "Pema Gyamtsho", photoPageUrl: "https://unsplash.com/photos/DAbCxnB9e7s" },
+      { url: IMG("photo-1641184916406-12dc8c5b4d13"), photographer: "Ugyen Tenzin", photoPageUrl: "https://unsplash.com/photos/g7XcRzLtjUA" },
+      { url: IMG("photo-1622308933972-d07f377c6161"), photographer: "Joy Amed", photoPageUrl: "https://unsplash.com/photos/kK6y6tjQhjs" },
+    ],
+  ],
+  [
+    "bhutan--jomolhari-trek",
+    [
+      { url: IMG("photo-1729180253308-ebd3852d0ec2"), photographer: "Raul Taciu", photoPageUrl: "https://unsplash.com/photos/42RolzL3rH0" },
+      { url: IMG("photo-1729180253305-23990aee8705"), photographer: "Raul Taciu", photoPageUrl: "https://unsplash.com/photos/Nc_0UwdZG-o" },
+      { url: IMG("photo-1729180253317-93ba9cf4ceb4"), photographer: "Raul Taciu", photoPageUrl: "https://unsplash.com/photos/1eswIwEugnc" },
+      { url: IMG("photo-1729172112500-4ea9a149d9a4"), photographer: "Raul Taciu", photoPageUrl: "https://unsplash.com/photos/w3Fva-pHYaA" },
+      { url: IMG("photo-1637826134825-e54e98a9bce7"), photographer: "Ugyen Tenzin", photoPageUrl: "https://unsplash.com/photos/7tnEpts6UXU" },
+    ],
+  ],
+  [
+    "bhutan--whitewater-kayaking-mo-chhu-river",
+    [
+      { url: IMG("photo-1729905451134-5d73e5a65bef"), photographer: "Emma Renly", photoPageUrl: "https://unsplash.com/photos/f0nzTo0ywrE" },
+      { url: IMG("photo-1729906003626-c867d5dd4b19"), photographer: "Emma Renly", photoPageUrl: "https://unsplash.com/photos/slpIoEoL47E" },
+      { url: IMG("photo-1774244880302-7cc344df5cf7"), photographer: "Bernd Dittrich", photoPageUrl: "https://unsplash.com/photos/MZw4b_rC0yU" },
+      { url: IMG("photo-1774244880780-719d89e40cc3"), photographer: "Bernd Dittrich", photoPageUrl: "https://unsplash.com/photos/SqS0X8lUoZI" },
+      { url: IMG("photo-1774244880750-6c37f8fe08fd"), photographer: "Bernd Dittrich", photoPageUrl: "https://unsplash.com/photos/C0TmA627Cn8" },
+    ],
+  ],
+  [
+    "bhutan--laya-gasa-high-altitude-trek",
+    [
+      { url: IMG("photo-1590580673100-ee7ee687bfa6"), photographer: "Mike Swigunski", photoPageUrl: "https://unsplash.com/photos/ERZ6l2msOZY" },
+      { url: IMG("photo-1700040005384-1fc87f522053"), photographer: "MOHAMED ABDUL RASHEED", photoPageUrl: "https://unsplash.com/photos/fwP7lCNdY2M" },
+      { url: IMG("photo-1641184916406-12dc8c5b4d13"), photographer: "Ugyen Tenzin", photoPageUrl: "https://unsplash.com/photos/g7XcRzLtjUA" },
+      { url: IMG("photo-1584007952771-96d1f3866a6b"), photographer: "Nils Leonhardt", photoPageUrl: "https://unsplash.com/photos/gf0rnIB_ZpM" },
+      { url: IMG("photo-1769726327992-325511e67a41"), photographer: "Anam Ahmed", photoPageUrl: "https://unsplash.com/photos/6R9l64pNoUw" },
+    ],
+  ],
+  [
+    "bhutan--mountain-biking-punakha-to-thimphu",
+    [
+      { url: IMG("photo-1637826134825-e54e98a9bce7"), photographer: "Ugyen Tenzin", photoPageUrl: "https://unsplash.com/photos/7tnEpts6UXU" },
+      { url: IMG("photo-1579611554253-fcee61e1e5a8"), photographer: "Rahul Viswanath", photoPageUrl: "https://unsplash.com/photos/2TOPMZNXHNQ" },
+      { url: IMG("photo-1753541042306-c64117aef2d1"), photographer: "Ashwin N", photoPageUrl: "https://unsplash.com/photos/KiA3WgG36Ko" },
+      { url: IMG("photo-1635755725298-4de2e7f629f9"), photographer: "Passang Tobgay", photoPageUrl: "https://unsplash.com/photos/qGnq9i-3uRE" },
+      { url: IMG("photo-1639623535072-2e53900258af"), photographer: "Ugyen Tenzin", photoPageUrl: "https://unsplash.com/photos/1_bEL1-vasU" },
+    ],
+  ],
+  [
+    "bhutan--dagala-thousand-lakes-trek",
+    [
+      { url: IMG("photo-1769726382906-d0b7726f52c6"), photographer: "Anam Ahmed", photoPageUrl: "https://unsplash.com/photos/BkYXKfT6UVw" },
+      { url: IMG("photo-1729172112500-4ea9a149d9a4"), photographer: "Raul Taciu", photoPageUrl: "https://unsplash.com/photos/w3Fva-pHYaA" },
+      { url: IMG("photo-1646486174281-8e08a2f9329c"), photographer: "Pema Gyamtsho", photoPageUrl: "https://unsplash.com/photos/72AtbRRA8ZQ" },
+      { url: IMG("photo-1729174518995-8c4546b3dd53"), photographer: "Raul Taciu", photoPageUrl: "https://unsplash.com/photos/ugxssrXA6yU" },
+      { url: IMG("photo-1637550667967-9edc9f4e892a"), photographer: "Ugyen Tenzin", photoPageUrl: "https://unsplash.com/photos/2ZX-Jb8fNnY" },
+    ],
+  ],
+  [
+    "bhutan--whitewater-kayaking-pho-chhu-river",
+    [
+      { url: IMG("photo-1774244880305-31b31f91284b"), photographer: "Bernd Dittrich", photoPageUrl: "https://unsplash.com/photos/_FTtAeKGOHA" },
+      { url: IMG("photo-1774244880772-39f90c84ba23"), photographer: "Bernd Dittrich", photoPageUrl: "https://unsplash.com/photos/mut4y6_YLt4" },
+      { url: IMG("photo-1774244880681-7a595f5968f6"), photographer: "Bernd Dittrich", photoPageUrl: "https://unsplash.com/photos/cHWw9ChpG1k" },
+      { url: IMG("photo-1774244880634-45fa212d9cbd"), photographer: "Bernd Dittrich", photoPageUrl: "https://unsplash.com/photos/xXe6lBqL43Y" },
+      { url: IMG("photo-1625704467890-6079f8fdb269"), photographer: "Shui Sim", photoPageUrl: "https://unsplash.com/photos/SrHY7YGFJHY" },
+    ],
+  ],
+  [
+    "botswana--okavango-delta-mokoro-walking-safari",
+    [
+      { url: IMG("photo-1759252973843-957dc1b5e0e5"), photographer: "Ed Wingate", photoPageUrl: "https://unsplash.com/photos/xG-gaNxYjFE" },
+      { url: IMG("photo-1759252973832-617895b7ef4d"), photographer: "Ed Wingate", photoPageUrl: "https://unsplash.com/photos/JUYMh-1k4yw" },
+      { url: IMG("photo-1722645148077-a7f99c8bcef2"), photographer: "Sheila C", photoPageUrl: "https://unsplash.com/photos/jk_2Ak2z3JY" },
+      { url: IMG("photo-1590214780567-b48c7c927b7c"), photographer: "Colin Watts", photoPageUrl: "https://unsplash.com/photos/ToNyXMOZxw8" },
+      { url: IMG("photo-1653900217156-77a588505248"), photographer: "Greg Mei", photoPageUrl: "https://unsplash.com/photos/H2h8MjNXEQg" },
+    ],
+  ],
+  [
+    "botswana--central-kalahari-off-road-expedition",
+    [
+      { url: IMG("photo-1646199805006-30626c687037"), photographer: "Bernd Dittrich", photoPageUrl: "https://unsplash.com/photos/D5GW6tyNn6c" },
+      { url: IMG("photo-1648100112001-98532678c76e"), photographer: "Bernd Dittrich", photoPageUrl: "https://unsplash.com/photos/sJrdf-jPdaM" },
+      { url: IMG("photo-1645500664580-63a1c2ab5f56"), photographer: "Bernd Dittrich", photoPageUrl: "https://unsplash.com/photos/HD7dW15cvxg" },
+      { url: IMG("photo-1648100112023-a95c6c99135c"), photographer: "Bernd Dittrich", photoPageUrl: "https://unsplash.com/photos/CMGkph2lbmI" },
+      { url: IMG("photo-1645339987563-dae2e3a5c84f"), photographer: "Bernd Dittrich", photoPageUrl: "https://unsplash.com/photos/HRfclzbk9-E" },
+    ],
+  ],
+  [
+    "botswana--night-tracking-with-san-bushmen-kalahari",
+    [
+      { url: IMG("photo-1547471080-7cc2caa01a7e"), photographer: "Damian Patkowski", photoPageUrl: "https://unsplash.com/photos/T-LfvX-7IVg" },
+      { url: IMG("photo-1602685234860-3d38ee425ae8"), photographer: "Hana El Zohiry", photoPageUrl: "https://unsplash.com/photos/wEkp5JAAS7E" },
+      { url: IMG("photo-1636871694216-d04517e0d1c2"), photographer: "Bernd Dittrich", photoPageUrl: "https://unsplash.com/photos/MtSNmVcjXa8" },
+      { url: IMG("photo-1655981650217-c091cd205970"), photographer: "Ajeet Panesar", photoPageUrl: "https://unsplash.com/photos/QSZ6agzNg5k" },
+      { url: IMG("photo-1759220842372-59ea95019103"), photographer: "Ed Wingate", photoPageUrl: "https://unsplash.com/photos/xegy8TBmpdk" },
+    ],
+  ],
+  [
+    "botswana--walking-safari-linyanti-reserve",
+    [
+      { url: IMG("photo-1709567484031-87bc70607500"), photographer: "Meg von Haartman", photoPageUrl: "https://unsplash.com/photos/opK3CnyDKDU" },
+      { url: IMG("photo-1580737204647-c30845d38436"), photographer: "Sebastian Canaves", photoPageUrl: "https://unsplash.com/photos/X8EMEo33uyc" },
+      { url: IMG("photo-1755397271926-3681d11c16e8"), photographer: "Jaimy de Hon", photoPageUrl: "https://unsplash.com/photos/xhOU33lkPiA" },
+      { url: IMG("photo-1531210156519-af875520c158"), photographer: "Wynand Uys", photoPageUrl: "https://unsplash.com/photos/DIMLOdrARaw" },
+      { url: IMG("photo-1756820169276-607bee7c0e79"), photographer: "Edmund Loh", photoPageUrl: "https://unsplash.com/photos/6Sll2TNKBi0" },
+    ],
+  ],
+  [
+    "botswana--quad-biking-makgadikgadi-salt-pans",
+    [
+      { url: IMG("photo-1780681425880-153fcf37a392"), photographer: "Jay Thakkar", photoPageUrl: "https://unsplash.com/photos/iBj8CY9carA" },
+      { url: IMG("photo-1647475768006-55a04f9e47a4"), photographer: "Eric Ardito", photoPageUrl: "https://unsplash.com/photos/AZFNCj3jhdk" },
+      { url: IMG("photo-1624062999803-976e1adc8ea2"), photographer: "Haris khan", photoPageUrl: "https://unsplash.com/photos/v40H7tLOZII" },
+      { url: IMG("photo-1624664929003-3da28050c0bf"), photographer: "Haris khan", photoPageUrl: "https://unsplash.com/photos/NJxFMByGd0Y" },
+      { url: IMG("photo-1627760444690-59f0a5fccee6"), photographer: "Nils", photoPageUrl: "https://unsplash.com/photos/5RfEgsnxeHo" },
+    ],
+  ],
+  [
+    "botswana--chobe-river-elephant-safari",
+    [
+      { url: IMG("photo-1590214820030-5da5f4e7f94e"), photographer: "Colin Watts", photoPageUrl: "https://unsplash.com/photos/9f0AchL0eqQ" },
+      { url: IMG("photo-1759215290881-cc6a8ccbb37e"), photographer: "Ed Wingate", photoPageUrl: "https://unsplash.com/photos/5HJXNC5SWtE" },
+      { url: IMG("photo-1732131329988-d0fd7e24603d"), photographer: "Peter Brooker", photoPageUrl: "https://unsplash.com/photos/HOwkihxgVrY" },
+      { url: IMG("photo-1708886196391-0ed2efac7fcc"), photographer: "Ida Kymmer", photoPageUrl: "https://unsplash.com/photos/utr5ifIk19c" },
+      { url: IMG("photo-1595062889972-9c7125152cc0"), photographer: "Chris Stenger", photoPageUrl: "https://unsplash.com/photos/ThxPX8Un1BU" },
+    ],
+  ],
+  [
+    "botswana--horseback-safari-okavango-delta",
+    [
+      { url: IMG("photo-1584237863847-b21b4f7ccd4f"), photographer: "Joseph Daniel", photoPageUrl: "https://unsplash.com/photos/7FprFl6VIu8" },
+      { url: IMG("photo-1632714392887-e10072d37709"), photographer: "Colin Lloyd", photoPageUrl: "https://unsplash.com/photos/gDU1vWoIDGQ" },
+      { url: IMG("photo-1650397306071-d3b39ae77696"), photographer: "Bailey Alexander", photoPageUrl: "https://unsplash.com/photos/mHJ9o0Xc7RU" },
+      { url: IMG("photo-1782045017697-a0a89d50967a"), photographer: "Rafael Peier", photoPageUrl: "https://unsplash.com/photos/2jdiwerTr_4" },
+      { url: IMG("photo-1508937519241-0a9419343eff"), photographer: "Frans Hulet", photoPageUrl: "https://unsplash.com/photos/SCCjoNvGyyc" },
+    ],
+  ],
+  [
+    "finland--wilderness-ski-trek-kevo-nature-reserve",
+    [
+      { url: IMG("photo-1678343753405-4e584ddcb0f6"), photographer: "Harri P", photoPageUrl: "https://unsplash.com/photos/AKzp3KffAtw" },
+      { url: IMG("photo-1678181718356-a53a08c334a8"), photographer: "Harri P", photoPageUrl: "https://unsplash.com/photos/9YZy4-FR0v8" },
+      { url: IMG("photo-1770724472534-891a38d03520"), photographer: "Harri P", photoPageUrl: "https://unsplash.com/photos/xe0dsehNops" },
+      { url: IMG("photo-1678342757192-7174ad655043"), photographer: "Harri P", photoPageUrl: "https://unsplash.com/photos/-jms-ul90Fo" },
+      { url: IMG("photo-1772446148334-bc58c4d2e7cc"), photographer: "Harri P", photoPageUrl: "https://unsplash.com/photos/xC0PjbU_fgM" },
+    ],
+  ],
+  [
+    "finland--ice-climbing-levi-kolari-falls",
+    [
+      { url: IMG("photo-1485872987516-ec9b00fe7a65"), photographer: "Greg Rakozy", photoPageUrl: "https://unsplash.com/photos/GbFCv3Uf2uE" },
+      { url: IMG("photo-1703359328504-452a1d90ab36"), photographer: "Chaewool Kim", photoPageUrl: "https://unsplash.com/photos/IxQTEMWvo3g" },
+      { url: IMG("photo-1547233528-08a0fabc00dd"), photographer: "Jon Hieb", photoPageUrl: "https://unsplash.com/photos/JvyYJl3TFvo" },
+      { url: IMG("photo-1548789997-82da68437ad8"), photographer: "Jon Hieb", photoPageUrl: "https://unsplash.com/photos/LPQcqpbCxeY" },
+      { url: IMG("photo-1641913697698-e7060556eea6"), photographer: "Illia Panasenko", photoPageUrl: "https://unsplash.com/photos/6S5is2ScKwY" },
+    ],
+  ],
+  [
+    "finland--snowmobile-wilderness-expedition",
+    [
+      { url: IMG("photo-1678180670781-bc3321947fd3"), photographer: "Harri P", photoPageUrl: "https://unsplash.com/photos/5h6padYKhRY" },
+      { url: IMG("photo-1678180496735-858d0f6f5899"), photographer: "Harri P", photoPageUrl: "https://unsplash.com/photos/ADCCMKJotHE" },
+      { url: IMG("photo-1678180363254-ede3cd9fbb59"), photographer: "Harri P", photoPageUrl: "https://unsplash.com/photos/xbcAY5MYKRw" },
+      { url: IMG("photo-1549351245-ac6dda50eb92"), photographer: "Nate Johnston", photoPageUrl: "https://unsplash.com/photos/TBRVu6ScH6c" },
+      { url: IMG("photo-1547494668-69e7cca0af05"), photographer: "Spencer Davis", photoPageUrl: "https://unsplash.com/photos/_Wmr8-Qu2PQ" },
+    ],
+  ],
+  [
+    "finland--whitewater-kayaking-oulanka-national-park",
+    [
+      { url: IMG("photo-1686241610492-056d93935fc1"), photographer: "Nicolas Messifet", photoPageUrl: "https://unsplash.com/photos/Lra-LPK8K7A" },
+      { url: IMG("photo-1686241610457-e41f34bda865"), photographer: "Nicolas Messifet", photoPageUrl: "https://unsplash.com/photos/gZ8KXA98k_I" },
+      { url: IMG("photo-1762853047859-95050aed6e3b"), photographer: "Master Unknown", photoPageUrl: "https://unsplash.com/photos/iIiUKMHpDz0" },
+      { url: IMG("photo-1774244880305-31b31f91284b"), photographer: "Bernd Dittrich", photoPageUrl: "https://unsplash.com/photos/_FTtAeKGOHA" },
+      { url: IMG("photo-1774244880772-39f90c84ba23"), photographer: "Bernd Dittrich", photoPageUrl: "https://unsplash.com/photos/mut4y6_YLt4" },
+    ],
+  ],
+  [
+    "finland--wild-camping-urho-kekkonen-national-park",
+    [
+      { url: IMG("photo-1674572271930-4ad298cdfff0"), photographer: "Harri P", photoPageUrl: "https://unsplash.com/photos/ZSV3yvpwIjY" },
+      { url: IMG("photo-1674572272094-27fb63316e6b"), photographer: "Harri P", photoPageUrl: "https://unsplash.com/photos/ytAP28jedzE" },
+      { url: IMG("photo-1674973543867-b7c3864ca853"), photographer: "Harri P", photoPageUrl: "https://unsplash.com/photos/i4sLkFU0MFQ" },
+      { url: IMG("photo-1674475010666-bfab120c8393"), photographer: "Harri P", photoPageUrl: "https://unsplash.com/photos/nXpCGCilveA" },
+      { url: IMG("photo-1674572273177-27739f767209"), photographer: "Harri P", photoPageUrl: "https://unsplash.com/photos/_tvlWhDI-eQ" },
+    ],
+  ],
+  [
+    "finland--husky-sledding-finnish-lapland",
+    [
+      { url: IMG("photo-1647591413270-469a0393da0c"), photographer: "Fredrik Solli Wandem", photoPageUrl: "https://unsplash.com/photos/PsgHfWXjfuc" },
+      { url: IMG("photo-1647591413051-3662ec03bfe8"), photographer: "Fredrik Solli Wandem", photoPageUrl: "https://unsplash.com/photos/OXTCHVt-X6I" },
+      { url: IMG("photo-1647374916354-d956fc7fd995"), photographer: "Fredrik Solli Wandem", photoPageUrl: "https://unsplash.com/photos/Sl2cV_6x3-g" },
+      { url: IMG("photo-1573920932366-2c6d3c67c756"), photographer: "Ugur Arpaci", photoPageUrl: "https://unsplash.com/photos/_UjPlnYdSqU" },
+      { url: IMG("photo-1704242472121-9523c0d88367"), photographer: "Yuhan Du", photoPageUrl: "https://unsplash.com/photos/QP4JQGzKp7A" },
+    ],
+  ],
 ]);
 
 export function galleryForActivity(activityId: string): GalleryPhoto[] | null {
