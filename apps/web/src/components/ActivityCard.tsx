@@ -1,4 +1,3 @@
-import Image from "next/image";
 import type { Activity } from "@/lib/types";
 import { CostBadge, DifficultyBadge, RiskBadge } from "./badges";
 import { FavoriteButton } from "./FavoriteButton";
@@ -12,6 +11,8 @@ import { GuideLinkButton } from "./GuideLinkButton";
 import { operatorReviewFor } from "@/lib/operatorReviews";
 import { VerifiedOperatorPanel } from "./VerifiedOperatorPanel";
 import { photoForCategoryGroup } from "@/lib/activityPhotos";
+import { galleryForActivity } from "@/lib/activityGallery";
+import { ActivityGallery } from "./ActivityGallery";
 import { likelyExcludedFromStandardInsurance } from "@/lib/insurance";
 
 export function ActivityCard({
@@ -24,6 +25,7 @@ export function ActivityCard({
   countrySlug: string;
 }) {
   const operatorReview = operatorReviewFor(activity.id);
+  const gallery = galleryForActivity(activity.id);
 
   return (
     <article
@@ -32,17 +34,10 @@ export function ActivityCard({
         activity.sponsored ? "border-accent/35" : "border-white/10"
       }`}
     >
-      <div className="relative h-44 w-full">
-        <Image
-          src={photoForCategoryGroup(activity.categoryGroup)}
-          alt={activity.title}
-          fill
-          sizes="(min-width: 1024px) 50vw, 100vw"
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-surface via-surface/15 to-transparent" />
+      <div className="relative">
+        <ActivityGallery photos={gallery} fallbackSrc={photoForCategoryGroup(activity.categoryGroup)} title={activity.title} />
         {activity.sponsored && (
-          <span className="absolute left-3.5 top-3.5 rounded-full bg-accent px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-ink">
+          <span className="absolute left-3.5 top-3.5 z-10 rounded-full bg-accent px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-ink">
             Featured
           </span>
         )}
