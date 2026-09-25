@@ -160,6 +160,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 <Link href="/partner" className="font-semibold text-white/50 hover:text-accent">
                   Guide or operator? Partner with us &rarr;
                 </Link>
+                <Link href="/explorers" className="font-semibold text-white/50 hover:text-accent">
+                  Creator? Get featured &rarr;
+                </Link>
                 <Link href="/privacy" className="text-white/50 hover:text-white/70">
                   Privacy Policy
                 </Link>

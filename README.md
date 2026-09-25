@@ -128,6 +128,16 @@ Three pieces, all off/zero by default and each independent of the others:
   `/admin/inquiries?key=...`, gated by the same `ADMIN_DASHBOARD_KEY` env var
   as the clicks dashboard below. Update `CONTACT_EMAIL` in
   `apps/web/src/app/partner/page.tsx` if that address changes.
+- **`/explorers`** — the creator-side counterpart to `/partner`: a page +
+  application form for influencers/creators to be featured (a real
+  `/explorers/<slug>` profile page + a credit on the activity/country they're
+  known for) in exchange for a shoutout, no money involved. Applications post
+  to `/api/creator-applications` and land in the `creator_applications` table
+  (`lib/creatorApplications.ts` — run the updated `scripts/schema.sql` once to
+  add it), reviewed at `/admin/creators?key=...` (same `ADMIN_DASHBOARD_KEY`
+  gate). Approving an application doesn't publish anything automatically —
+  add a hand-written entry to `apps/web/src/data/explorers.ts` for anyone
+  actually accepted; that file is the only thing that renders public profiles.
 - **Affiliate script slot** — `apps/web/src/components/AffiliateScript.tsx`
   renders a single site-wide `<script>` tag when
   `NEXT_PUBLIC_AFFILIATE_SCRIPT_SRC` is set, for an auto-affiliate network

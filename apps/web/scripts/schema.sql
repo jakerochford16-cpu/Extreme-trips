@@ -54,3 +54,22 @@ CREATE TABLE IF NOT EXISTS operator_inquiries (
 );
 
 CREATE INDEX IF NOT EXISTS operator_inquiries_created_at_idx ON operator_inquiries (created_at);
+
+-- Applications submitted by creators/influencers via the /explorers form,
+-- asking to be featured in exchange for a shoutout. Reviewed manually at
+-- /admin/creators; approved ones get a hand-written entry added to
+-- src/data/explorers.ts and a real profile page — this table is just the
+-- inbox, not the published data.
+CREATE TABLE IF NOT EXISTS creator_applications (
+  id           BIGSERIAL PRIMARY KEY,
+  name         TEXT NOT NULL,
+  handle       TEXT NOT NULL,
+  platform     TEXT NOT NULL,
+  follower_count TEXT NOT NULL,
+  niche        TEXT NOT NULL,
+  email        TEXT NOT NULL,
+  message      TEXT NOT NULL DEFAULT '',
+  created_at   TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+CREATE INDEX IF NOT EXISTS creator_applications_created_at_idx ON creator_applications (created_at);
