@@ -1624,6 +1624,386 @@ const ACTIVITY_GALLERIES: ReadonlyMap<string, GalleryPhoto[]> = new Map([
       { url: IMG("photo-1592387220015-601c6c4d3cd8"), photographer: "K. Mitch Hodge", photoPageUrl: "https://unsplash.com/s/photos/sea-cliff-climbing" },
     ],
   ],
+  [
+    "new-zealand--glacier-ice-climbing-franz-josef",
+    [
+      { url: IMG("photo-1643903096045-07741be1f245"), photographer: "Mike Markov", photoPageUrl: "https://unsplash.com/s/photos/ice-climbing" },
+      { url: IMG("photo-1520208422220-d12a3c588e6c"), photographer: "Jackman Chiu", photoPageUrl: "https://unsplash.com/s/photos/ice-climbing" },
+      { url: IMG("photo-1709517659991-58d946519556"), photographer: "Chaewool Kim", photoPageUrl: "https://unsplash.com/s/photos/ice-climbing" },
+      { url: IMG("photo-1485871882310-4ecdab8a6f94"), photographer: "Greg Rakozy", photoPageUrl: "https://unsplash.com/s/photos/ice-climbing" },
+      { url: IMG("photo-1597250861267-429663f244a8"), photographer: "Sylvain Mauroux", photoPageUrl: "https://unsplash.com/s/photos/ice-climbing" },
+    ],
+  ],
+  [
+    "new-zealand--nevis-swing-free-fall-canyon-swing",
+    [
+      { url: IMG("photo-1525208457530-d6b3372fd843"), photographer: "Walker Fenton", photoPageUrl: "https://unsplash.com/s/photos/bungy-jump" },
+      { url: IMG("photo-1454111782563-b8fbc05eacb2"), photographer: "Blake Wheeler", photoPageUrl: "https://unsplash.com/s/photos/rope-swing-adventure" },
+      { url: IMG("photo-1642675484139-67a2ff0eea47"), photographer: "DJ Paine", photoPageUrl: "https://unsplash.com/s/photos/rope-swing-adventure" },
+      { url: IMG("photo-1532105111962-e23707867985"), photographer: "Josiah Gardner", photoPageUrl: "https://unsplash.com/s/photos/bungy-jump" },
+      { url: IMG("photo-1648853070657-6d58398bee93"), photographer: "Ty Downs", photoPageUrl: "https://unsplash.com/s/photos/zip-line" },
+    ],
+  ],
+  [
+    "new-zealand--cliff-edge-portaledge-camping-wanaka-backcountry",
+    [
+      { url: IMG("photo-1784409070709-db0c3fdb1a9f"), photographer: "Xnm Wu", photoPageUrl: "https://unsplash.com/s/photos/cliffside-camping" },
+      { url: IMG("photo-1760294750792-742b6feba106"), photographer: "Anna Hunko", photoPageUrl: "https://unsplash.com/s/photos/cliffside-camping" },
+      { url: IMG("photo-1782465449897-cb16e912ab22"), photographer: "Aznan Nasmi", photoPageUrl: "https://unsplash.com/s/photos/cliffside-camping" },
+      { url: IMG("photo-1455763916899-e8b50eca9967"), photographer: "Ben Duchac", photoPageUrl: "https://unsplash.com/s/photos/rock-climbing-camping" },
+      { url: IMG("photo-1787737850056-ffcc05930aa7"), photographer: "Aznan Nasmi", photoPageUrl: "https://unsplash.com/s/photos/cliffside-camping" },
+    ],
+  ],
+  [
+    "new-zealand--bungy-jump-kawarau-bridge",
+    [
+      { url: IMG("photo-1720671937021-db8f33b2bac0"), photographer: "Wallace Fonseca", photoPageUrl: "https://unsplash.com/s/photos/bungee-jumping-new-zealand" },
+      { url: IMG("photo-1549221360-456a9c197d5b"), photographer: "Laurynas Me", photoPageUrl: "https://unsplash.com/s/photos/bungy-jump" },
+      { url: IMG("photo-1672455892481-b95374a9e57b"), photographer: "James Pere", photoPageUrl: "https://unsplash.com/s/photos/bungee-jumping-new-zealand" },
+      { url: IMG("photo-1604951736469-df9fd1d0126e"), photographer: "Gulfside Mike", photoPageUrl: "https://unsplash.com/s/photos/kawarau-bridge-bungy" },
+      { url: IMG("photo-1706882809719-b228c6e35a7f"), photographer: "Sung Jin Cho", photoPageUrl: "https://unsplash.com/s/photos/bungy-jump" },
+    ],
+  ],
+  [
+    "new-zealand--grade-5-whitewater-kaituna-tongariro-rivers",
+    [
+      { url: IMG("photo-1760904652241-36ad6b4e752f"), photographer: "Michael Clair", photoPageUrl: "https://unsplash.com/s/photos/whitewater-rafting" },
+      { url: IMG("photo-1760904591523-b70b6bceeb1e"), photographer: "Michael Clair", photoPageUrl: "https://unsplash.com/s/photos/whitewater-rafting" },
+      { url: IMG("photo-1629248457649-b082812aea6c"), photographer: "Jackalope West", photoPageUrl: "https://unsplash.com/s/photos/whitewater-rafting" },
+      { url: IMG("photo-1641584495089-5914d85d9bcc"), photographer: "Chandan Chaurasia", photoPageUrl: "https://unsplash.com/s/photos/whitewater-rafting" },
+      { url: IMG("photo-1512675628397-28288d1220ef"), photographer: "Julie Thornton", photoPageUrl: "https://unsplash.com/s/photos/whitewater-rafting" },
+    ],
+  ],
+  [
+    "new-zealand--black-abyss-caving-abseiling-waitomo",
+    [
+      { url: IMG("photo-1782649126392-ec840403a2f4"), photographer: "Alvaro Montoro", photoPageUrl: "https://unsplash.com/s/photos/glowworm-cave" },
+      { url: IMG("photo-1577151187608-c44d60a8fd8e"), photographer: "Nicole Geri", photoPageUrl: "https://unsplash.com/s/photos/glowworm-cave" },
+      { url: IMG("photo-1532980216874-21f93fa9fd15"), photographer: "Ivana Cajina", photoPageUrl: "https://unsplash.com/s/photos/cave-exploring" },
+      { url: IMG("photo-1507707161256-bbcd7fe3359e"), photographer: "Jeremy Bishop", photoPageUrl: "https://unsplash.com/s/photos/cave-exploring" },
+      { url: IMG("photo-1631641551473-fbe46919289d"), photographer: "Intricate Explorer", photoPageUrl: "https://unsplash.com/s/photos/cave-exploring" },
+    ],
+  ],
+  [
+    "new-zealand--skydiving-fox-glacier-franz-josef",
+    [
+      { url: IMG("photo-1630879937467-4afa290b1a6b"), photographer: "Kamil Pietrzak", photoPageUrl: "https://unsplash.com/s/photos/skydiving" },
+      { url: IMG("photo-1659221876406-31a3746f41b9"), photographer: "Kamil Pietrzak", photoPageUrl: "https://unsplash.com/s/photos/skydiving" },
+      { url: IMG("photo-1659901981145-dbc056431a8b"), photographer: "Kamil Pietrzak", photoPageUrl: "https://unsplash.com/s/photos/skydiving" },
+      { url: IMG("photo-1483301563007-8d0161daa1d0"), photographer: "Filipe Dos Santos Mendes", photoPageUrl: "https://unsplash.com/s/photos/skydiving" },
+      { url: IMG("photo-1601024445121-e5b82f020549"), photographer: "Kamil Pietrzak", photoPageUrl: "https://unsplash.com/s/photos/skydiving" },
+    ],
+  ],
+  [
+    "new-zealand--alpine-crossing-cascade-saddle",
+    [
+      { url: IMG("photo-1584874989907-ba4a3a395dd4"), photographer: "Timo Volz", photoPageUrl: "https://unsplash.com/s/photos/mount-aspiring-national-park" },
+      { url: IMG("photo-1610081206176-78b258b9063a"), photographer: "Koon Chakhatrakan", photoPageUrl: "https://unsplash.com/s/photos/mount-aspiring-national-park" },
+      { url: IMG("photo-1589182373726-e4f658ab50f0"), photographer: "Sébastien Goldberg", photoPageUrl: "https://unsplash.com/s/photos/mount-aspiring-national-park" },
+      { url: IMG("photo-1751301216701-1d748333ed7d"), photographer: "Maximilian Brand", photoPageUrl: "https://unsplash.com/s/photos/mount-aspiring-national-park" },
+      { url: IMG("photo-1516051733211-2492fab1d3a5"), photographer: "Tyler Lastovich", photoPageUrl: "https://unsplash.com/s/photos/mount-aspiring-national-park" },
+    ],
+  ],
+  [
+    "new-zealand--heli-skiing-southern-alps",
+    [
+      { url: IMG("photo-1495554698253-681539e9ea84"), photographer: "Cristian Grecu", photoPageUrl: "https://unsplash.com/s/photos/heli-skiing" },
+      { url: IMG("photo-1511049315096-4f3a74b92327"), photographer: "Alessio Soggetti", photoPageUrl: "https://unsplash.com/s/photos/heli-skiing" },
+      { url: IMG("photo-1534621107955-b06bbc17b043"), photographer: "Seb Mooze", photoPageUrl: "https://unsplash.com/s/photos/heli-skiing" },
+      { url: IMG("photo-1507534192483-69914c0692d7"), photographer: "Robson Hatsukami Morgan", photoPageUrl: "https://unsplash.com/s/photos/heli-skiing" },
+      { url: IMG("photo-1616429553002-faf23468952d"), photographer: "Cyprien Delaporte", photoPageUrl: "https://unsplash.com/s/photos/heli-skiing" },
+    ],
+  ],
+  [
+    "new-zealand--great-white-shark-cage-diving-stewart-island",
+    [
+      { url: IMG("photo-1704694214588-24f4bae4757b"), photographer: "Gerald Schömbs", photoPageUrl: "https://unsplash.com/s/photos/great-white-shark-cage-diving" },
+      { url: IMG("photo-1637308111472-fdf4886a2e07"), photographer: "Oleksandr Sushko", photoPageUrl: "https://unsplash.com/s/photos/great-white-shark-cage-diving" },
+      { url: IMG("photo-1563186627-0d185db94083"), photographer: "Marcelo Cidrack", photoPageUrl: "https://unsplash.com/s/photos/great-white-shark-cage-diving" },
+      { url: IMG("photo-1548147433-ef30d17bf028"), photographer: "Alex Steyn", photoPageUrl: "https://unsplash.com/s/photos/great-white-shark-cage-diving" },
+      { url: IMG("photo-1586115457457-b3753fe50cf1"), photographer: "Gerald Schömbs", photoPageUrl: "https://unsplash.com/s/photos/great-white-shark-cage-diving" },
+    ],
+  ],
+  [
+    "ecuador--cotopaxi-summit-climb",
+    [
+      { url: IMG("photo-1643302408853-a0171accc39b"), photographer: "Mauricio Muñoz", photoPageUrl: "https://unsplash.com/s/photos/cotopaxi" },
+      { url: IMG("photo-1694206078595-460a3ec27772"), photographer: "Alain Bonnardeaux", photoPageUrl: "https://unsplash.com/s/photos/cotopaxi" },
+      { url: IMG("photo-1643054159199-46560f98c2f0"), photographer: "Sasha Valle", photoPageUrl: "https://unsplash.com/s/photos/cotopaxi" },
+      { url: IMG("photo-1643302406901-7b6a366f69a5"), photographer: "Mauricio Muñoz", photoPageUrl: "https://unsplash.com/s/photos/cotopaxi" },
+      { url: IMG("photo-1662135083897-0eb6af7e35d5"), photographer: "Jean Woloszczyk", photoPageUrl: "https://unsplash.com/s/photos/cotopaxi" },
+    ],
+  ],
+  [
+    "ecuador--chimborazo-summit-climb",
+    [
+      { url: IMG("photo-1708502784969-edecf4cdfdff"), photographer: "Alexander Van Steenberge", photoPageUrl: "https://unsplash.com/s/photos/chimborazo" },
+      { url: IMG("photo-1651664426321-838ba7c77902"), photographer: "Mateo Coello", photoPageUrl: "https://unsplash.com/s/photos/chimborazo" },
+      { url: IMG("photo-1694900565922-d279cef76fd2"), photographer: "Alain Bonnardeaux", photoPageUrl: "https://unsplash.com/s/photos/chimborazo" },
+      { url: IMG("photo-1641312961118-eda4b3512f43"), photographer: "Jorge Orozco", photoPageUrl: "https://unsplash.com/s/photos/chimborazo" },
+      { url: IMG("photo-1541388810897-3964fe779a8f"), photographer: "Giovanni Poveda", photoPageUrl: "https://unsplash.com/s/photos/chimborazo" },
+    ],
+  ],
+  [
+    "ecuador--hammerhead-diving-wolf-darwin-islands",
+    [
+      { url: IMG("photo-1674786272061-d75d77991cea"), photographer: "Michael Worden", photoPageUrl: "https://unsplash.com/s/photos/hammerhead-shark" },
+      { url: IMG("photo-1511311739545-3e975f9d84f7"), photographer: "David Clode", photoPageUrl: "https://unsplash.com/s/photos/hammerhead-shark" },
+      { url: IMG("photo-1674786272813-dd04d4843752"), photographer: "Michael Worden", photoPageUrl: "https://unsplash.com/s/photos/hammerhead-shark" },
+      { url: IMG("photo-1768961871464-e8fb1b3f5aab"), photographer: "mo mi", photoPageUrl: "https://unsplash.com/s/photos/hammerhead-shark" },
+      { url: IMG("photo-1510965375130-121ce26582db"), photographer: "David Clode", photoPageUrl: "https://unsplash.com/s/photos/hammerhead-shark" },
+    ],
+  ],
+  [
+    "ecuador--canyoning-ba-os-de-agua-santa",
+    [
+      { url: IMG("photo-1690291900903-1bf8f6f54c50"), photographer: "Han-Hsing Tu", photoPageUrl: "https://unsplash.com/s/photos/canyoning" },
+      { url: IMG("photo-1721338752673-91b7603f2ae0"), photographer: "Josh Fotheringham", photoPageUrl: "https://unsplash.com/s/photos/canyoning" },
+      { url: IMG("photo-1739425272573-6232e4751991"), photographer: "Han-Hsing Tu", photoPageUrl: "https://unsplash.com/s/photos/canyoning" },
+      { url: IMG("photo-1769218411838-26a4572fb6d4"), photographer: "Gabrima_", photoPageUrl: "https://unsplash.com/s/photos/canyoning" },
+      { url: IMG("photo-1594270501793-c9b7ce49dfa8"), photographer: "Harry Dona", photoPageUrl: "https://unsplash.com/s/photos/canyoning" },
+    ],
+  ],
+  [
+    "ecuador--amazon-jungle-expedition-yasun-cuyabeno",
+    [
+      { url: IMG("photo-1650733347388-8b4c985a03e6"), photographer: "Patricio Gaibor", photoPageUrl: "https://unsplash.com/s/photos/amazon-rainforest" },
+      { url: IMG("photo-1610413341456-e283a1c6026f"), photographer: "Andres Medina", photoPageUrl: "https://unsplash.com/s/photos/amazon-rainforest" },
+      { url: IMG("photo-1610413310834-c677f3acf391"), photographer: "Andres Medina", photoPageUrl: "https://unsplash.com/s/photos/amazon-rainforest" },
+      { url: IMG("photo-1622541228926-ead8a35fbdd7"), photographer: "Renting C", photoPageUrl: "https://unsplash.com/s/photos/amazon-rainforest" },
+      { url: IMG("photo-1610457379304-c1be61eba3d7"), photographer: "THLT LCX", photoPageUrl: "https://unsplash.com/s/photos/amazon-rainforest" },
+    ],
+  ],
+  [
+    "ecuador--big-wave-surfing-monta-ita",
+    [
+      { url: IMG("photo-1539884262914-358a061d0007"), photographer: "Andres Medina", photoPageUrl: "https://unsplash.com/s/photos/montanita-ecuador" },
+      { url: IMG("photo-1539884199601-dc9bc2ed3e83"), photographer: "Andres Medina", photoPageUrl: "https://unsplash.com/s/photos/montanita-ecuador" },
+      { url: IMG("photo-1669718614058-4be1465c7d67"), photographer: "Adrien Delforge", photoPageUrl: "https://unsplash.com/s/photos/montanita-ecuador" },
+      { url: IMG("photo-1559924465-9377d5afd95b"), photographer: "Mario Guaman", photoPageUrl: "https://unsplash.com/s/photos/montanita-ecuador" },
+      { url: IMG("photo-1565782282798-5b8301c06ff5"), photographer: "Carlos Carrión", photoPageUrl: "https://unsplash.com/s/photos/montanita-ecuador" },
+    ],
+  ],
+  [
+    "ecuador--quilotoa-crater-rim-trek",
+    [
+      { url: IMG("photo-1680775599522-b7722894ee6d"), photographer: "Joris Beugels", photoPageUrl: "https://unsplash.com/s/photos/quilotoa" },
+      { url: IMG("photo-1657853198669-b2fca7af2061"), photographer: "Jose Rueda", photoPageUrl: "https://unsplash.com/s/photos/quilotoa" },
+      { url: IMG("photo-1594383820485-db9ff68bd51d"), photographer: "Omri D. Cohen", photoPageUrl: "https://unsplash.com/s/photos/quilotoa" },
+      { url: IMG("photo-1576333912285-fc883c6896fa"), photographer: "Robinson Recalde", photoPageUrl: "https://unsplash.com/s/photos/quilotoa" },
+      { url: IMG("photo-1587257425343-d4d7f2ee2a83"), photographer: "Jorge Orozco", photoPageUrl: "https://unsplash.com/s/photos/quilotoa" },
+    ],
+  ],
+  [
+    "slovenia--triglav-summit-climb",
+    [
+      { url: IMG("photo-1568206222579-3d32da70596b"), photographer: "Tono Graphy", photoPageUrl: "https://unsplash.com/s/photos/triglav" },
+      { url: IMG("photo-1637579074655-a338c4620a3e"), photographer: "David Bole", photoPageUrl: "https://unsplash.com/s/photos/triglav" },
+      { url: IMG("photo-1496736575916-bc932395087a"), photographer: "Davorin Pavlica", photoPageUrl: "https://unsplash.com/s/photos/triglav" },
+      { url: IMG("photo-1632140596772-05d55d684ce7"), photographer: "Csaba Veres", photoPageUrl: "https://unsplash.com/s/photos/triglav" },
+      { url: IMG("photo-1630101020234-155795bb4e85"), photographer: "Barnabas Hertelendy", photoPageUrl: "https://unsplash.com/s/photos/triglav" },
+    ],
+  ],
+  [
+    "slovenia--whitewater-kayaking-so-a-river",
+    [
+      { url: IMG("photo-1635786881522-d920daac2227"), photographer: "Marko Petek", photoPageUrl: "https://unsplash.com/s/photos/soca-river" },
+      { url: IMG("photo-1783202471318-24380c431bb4"), photographer: "Danny Rienecker", photoPageUrl: "https://unsplash.com/s/photos/soca-river" },
+      { url: IMG("photo-1599129194878-aae4bd2b779d"), photographer: "Miha Rekar", photoPageUrl: "https://unsplash.com/s/photos/soca-river" },
+      { url: IMG("photo-1672657334668-17f107c06a33"), photographer: "Hansjörg Rath", photoPageUrl: "https://unsplash.com/s/photos/soca-river" },
+      { url: IMG("photo-1657686469097-ed8a402328ca"), photographer: "Henry Sonnet", photoPageUrl: "https://unsplash.com/s/photos/soca-river" },
+    ],
+  ],
+  [
+    "slovenia--kocjan-caves-exploration",
+    [
+      { url: IMG("photo-1585194328937-30ffb4529e8f"), photographer: "Bradley Dunn", photoPageUrl: "https://unsplash.com/s/photos/cave-exploring" },
+      { url: IMG("photo-1422452098470-722310d3ad74"), photographer: "Ksenia Kudelkina", photoPageUrl: "https://unsplash.com/s/photos/cave-exploring" },
+      { url: IMG("photo-1459356067573-0a190eb1fcf5"), photographer: "Joshua Sortino", photoPageUrl: "https://unsplash.com/s/photos/cave-exploring" },
+      { url: IMG("photo-1536231450280-744420a90f55"), photographer: "Mario Álvarez", photoPageUrl: "https://unsplash.com/s/photos/cave-exploring" },
+      { url: IMG("photo-1516472151647-6900f65d8975"), photographer: "Ian Chen", photoPageUrl: "https://unsplash.com/s/photos/cave-exploring" },
+    ],
+  ],
+  [
+    "slovenia--via-ferrata-mangart-saddle",
+    [
+      { url: IMG("photo-1543688530-c4c3fcccf984"), photographer: "Maja Kochanowska", photoPageUrl: "https://unsplash.com/s/photos/via-ferrata" },
+      { url: IMG("photo-1545212586-f25d3631b77f"), photographer: "Walther Luecker", photoPageUrl: "https://unsplash.com/s/photos/via-ferrata" },
+      { url: IMG("photo-1556610117-882db3eea2df"), photographer: "Klaus Huber", photoPageUrl: "https://unsplash.com/s/photos/via-ferrata" },
+      { url: IMG("photo-1506370785029-c6f41774f390"), photographer: "Frantisek Duris", photoPageUrl: "https://unsplash.com/s/photos/via-ferrata" },
+      { url: IMG("photo-1788339057252-aea9b003459d"), photographer: "Jakub Velička", photoPageUrl: "https://unsplash.com/s/photos/via-ferrata" },
+    ],
+  ],
+  [
+    "slovenia--bungee-jumping-solkan-bridge",
+    [
+      { url: IMG("photo-1759157199052-375a9c586b54"), photographer: "Ed Wingate", photoPageUrl: "https://unsplash.com/s/photos/bridge-bungee-jumping" },
+      { url: IMG("photo-1759156499320-2fe6cc36d45c"), photographer: "Ed Wingate", photoPageUrl: "https://unsplash.com/s/photos/bridge-bungee-jumping" },
+      { url: IMG("photo-1759157199071-9d83423acdfa"), photographer: "Ed Wingate", photoPageUrl: "https://unsplash.com/s/photos/bridge-bungee-jumping" },
+      { url: IMG("photo-1759260729718-417db15ee6ca"), photographer: "Nathalia Oliveira", photoPageUrl: "https://unsplash.com/s/photos/bridge-bungee-jumping" },
+      { url: IMG("photo-1759156499389-f4118c3e54b1"), photographer: "Ed Wingate", photoPageUrl: "https://unsplash.com/s/photos/bridge-bungee-jumping" },
+    ],
+  ],
+  [
+    "slovenia--paragliding-julian-alps",
+    [
+      { url: IMG("photo-1719949122509-74d0a1d08b44"), photographer: "Ikshit Chaudhari", photoPageUrl: "https://unsplash.com/s/photos/paragliding" },
+      { url: IMG("photo-1471247511763-88a722fc9919"), photographer: "Tomas Sobek", photoPageUrl: "https://unsplash.com/s/photos/paragliding" },
+      { url: IMG("photo-1578312055662-53316197d01e"), photographer: "Marcus Woodbridge", photoPageUrl: "https://unsplash.com/s/photos/paragliding" },
+      { url: IMG("photo-1598209500819-d79a1f16fd4d"), photographer: "Nicolas Lafargue", photoPageUrl: "https://unsplash.com/s/photos/paragliding" },
+      { url: IMG("photo-1694811401894-59f6a0f5237e"), photographer: "Wallace Fonseca", photoPageUrl: "https://unsplash.com/s/photos/paragliding" },
+    ],
+  ],
+  [
+    "slovenia--adventure-caving-postojna-cave-system",
+    [
+      { url: IMG("photo-1782770248174-f4573820b767"), photographer: "Bradley Pritchard Jones", photoPageUrl: "https://unsplash.com/s/photos/postojna-cave" },
+      { url: IMG("photo-1788929862631-95c194921024"), photographer: "Vincent Yap", photoPageUrl: "https://unsplash.com/s/photos/postojna-cave" },
+      { url: IMG("photo-1788929882808-832265ee5a78"), photographer: "Vincent Yap", photoPageUrl: "https://unsplash.com/s/photos/postojna-cave" },
+      { url: IMG("photo-1756320689204-8b3b2ddc848f"), photographer: "Maksim Shutov", photoPageUrl: "https://unsplash.com/s/photos/postojna-cave" },
+      { url: IMG("photo-1756320689173-227422d1280a"), photographer: "Maksim Shutov", photoPageUrl: "https://unsplash.com/s/photos/postojna-cave" },
+    ],
+  ],
+  [
+    "vietnam--s-n-o-ng-expedition-caving",
+    [
+      { url: IMG("photo-1638793774283-8a7b52165430"), photographer: "Andrew Svk", photoPageUrl: "https://unsplash.com/s/photos/son-doong-cave" },
+      { url: IMG("photo-1638793772999-8df79f0ef0b8"), photographer: "Andrew Svk", photoPageUrl: "https://unsplash.com/s/photos/son-doong-cave" },
+      { url: IMG("photo-1638793772352-631e0543c211"), photographer: "Andrew Svk", photoPageUrl: "https://unsplash.com/s/photos/son-doong-cave" },
+      { url: IMG("photo-1638793774468-332888812661"), photographer: "Andrew Svk", photoPageUrl: "https://unsplash.com/s/photos/son-doong-cave" },
+      { url: IMG("photo-1638795062869-e778a0acce74"), photographer: "Andrew Svk", photoPageUrl: "https://unsplash.com/s/photos/son-doong-cave" },
+    ],
+  ],
+  [
+    "vietnam--fansipan-summit-trek",
+    [
+      { url: IMG("photo-1698809807686-42a1f8e14ea3"), photographer: "Vivu Vietnam", photoPageUrl: "https://unsplash.com/s/photos/fansipan" },
+      { url: IMG("photo-1694083151781-946334842033"), photographer: "Vivu Vietnam", photoPageUrl: "https://unsplash.com/s/photos/fansipan" },
+      { url: IMG("photo-1693474358354-f3d31c5c5af8"), photographer: "Vivu Vietnam", photoPageUrl: "https://unsplash.com/s/photos/fansipan" },
+      { url: IMG("photo-1700909342430-768e353b485a"), photographer: "Nicolas Spehler", photoPageUrl: "https://unsplash.com/s/photos/fansipan" },
+      { url: IMG("photo-1694083031889-19cbe295035d"), photographer: "Vivu Vietnam", photoPageUrl: "https://unsplash.com/s/photos/fansipan" },
+    ],
+  ],
+  [
+    "vietnam--sea-kayaking-ha-long-bay-limestone-karsts",
+    [
+      { url: IMG("photo-1643029891412-92f9a81a8c16"), photographer: "Marina Lobato", photoPageUrl: "https://unsplash.com/s/photos/ha-long-bay" },
+      { url: IMG("photo-1764645859246-8c6db98330a7"), photographer: "Vivu Vietnam", photoPageUrl: "https://unsplash.com/s/photos/ha-long-bay" },
+      { url: IMG("photo-1663602020492-ee3aea145f2b"), photographer: "Filipe Freitas", photoPageUrl: "https://unsplash.com/s/photos/ha-long-bay" },
+      { url: IMG("photo-1593994602837-530142086918"), photographer: "Giuliano Gabella", photoPageUrl: "https://unsplash.com/s/photos/ha-long-bay" },
+      { url: IMG("photo-1680896444865-e76d81267f94"), photographer: "Zach Searcy", photoPageUrl: "https://unsplash.com/s/photos/ha-long-bay" },
+    ],
+  ],
+  [
+    "vietnam--off-road-motorbiking-ha-giang-loop",
+    [
+      { url: IMG("photo-1685584280839-a51ba5a1908d"), photographer: "Ryan Le", photoPageUrl: "https://unsplash.com/photos/Ei7mGIWFlt4" },
+      { url: IMG("photo-1682134900019-73bfd00d8289"), photographer: "NAM CZ", photoPageUrl: "https://unsplash.com/s/photos/ha-giang-loop" },
+      { url: IMG("photo-1670654534716-91f59fe06a26"), photographer: "Minh Triet", photoPageUrl: "https://unsplash.com/s/photos/ha-giang-loop" },
+      { url: IMG("photo-1682134899732-424c19de775c"), photographer: "NAM CZ", photoPageUrl: "https://unsplash.com/s/photos/ha-giang-loop" },
+      { url: IMG("photo-1686755500102-427685131202"), photographer: "Ryan Le", photoPageUrl: "https://unsplash.com/s/photos/ha-giang-loop" },
+    ],
+  ],
+  [
+    "vietnam--deep-water-solo-climbing-cat-ba-ha-long-bay",
+    [
+      { url: IMG("photo-1589291539517-2a6a2eda5790"), photographer: "Rowan Heuvel", photoPageUrl: "https://unsplash.com/s/photos/cat-ba-island" },
+      { url: IMG("photo-1589291432463-fbddbfd10bbd"), photographer: "Rowan Heuvel", photoPageUrl: "https://unsplash.com/s/photos/cat-ba-island" },
+      { url: IMG("photo-1761127138372-cad230082b19"), photographer: "Veronica Tironi", photoPageUrl: "https://unsplash.com/s/photos/cat-ba-island" },
+      { url: IMG("photo-1723151814914-97618d71bc7a"), photographer: "Ronin", photoPageUrl: "https://unsplash.com/s/photos/cat-ba-island" },
+      { url: IMG("photo-1560700059-dae0f5daa00e"), photographer: "Krzysztof Grech", photoPageUrl: "https://unsplash.com/s/photos/cat-ba-island" },
+    ],
+  ],
+  [
+    "vietnam--caving-tu-lan-cave-system",
+    [
+      { url: IMG("photo-1719461208381-635ddf0a7b42"), photographer: "Phạm Mạnh", photoPageUrl: "https://unsplash.com/s/photos/phong-nha-cave" },
+      { url: IMG("photo-1719461208440-ae18bcc471bb"), photographer: "Phạm Mạnh", photoPageUrl: "https://unsplash.com/s/photos/phong-nha-cave" },
+      { url: IMG("photo-1719461208300-e9d199bc59f7"), photographer: "Phạm Mạnh", photoPageUrl: "https://unsplash.com/s/photos/phong-nha-cave" },
+      { url: IMG("photo-1698658989153-a60a73549b4a"), photographer: "pen_ash", photoPageUrl: "https://unsplash.com/s/photos/phong-nha-cave" },
+      { url: IMG("photo-1554285859-6ac081ea54b9"), photographer: "Jeppe H. Jensen", photoPageUrl: "https://unsplash.com/s/photos/phong-nha-cave" },
+    ],
+  ],
+  [
+    "vietnam--surfing-da-nang-my-khe-beach",
+    [
+      { url: IMG("photo-1723142282970-1fd415eec1ad"), photographer: "Jess Silaya", photoPageUrl: "https://unsplash.com/s/photos/my-khe-beach" },
+      { url: IMG("photo-1708776480405-7ae14fe1d4c4"), photographer: "Olga Pro", photoPageUrl: "https://unsplash.com/s/photos/my-khe-beach" },
+      { url: IMG("photo-1751809999777-472b2e8d2935"), photographer: "Jamie Trinh", photoPageUrl: "https://unsplash.com/s/photos/da-nang-vietnam" },
+      { url: IMG("photo-1455729552865-3658a5d39692"), photographer: "Vladimir Kudinov", photoPageUrl: "https://unsplash.com/s/photos/big-wave-surfing" },
+      { url: IMG("photo-1455264745730-cb3b76250ae8"), photographer: "Thomas Ashlock", photoPageUrl: "https://unsplash.com/s/photos/big-wave-surfing" },
+    ],
+  ],
+  [
+    "costa-rica--whitewater-rafting-pacuare-river",
+    [
+      { url: IMG("photo-1599443380179-33737c17ca81"), photographer: "Lindsey Erin", photoPageUrl: "https://unsplash.com/s/photos/whitewater-rafting" },
+      { url: IMG("photo-1692095296859-60427614df87"), photographer: "Anna Sullivan", photoPageUrl: "https://unsplash.com/s/photos/whitewater-rafting" },
+      { url: IMG("photo-1658355686821-f412c8397a0d"), photographer: "Megan Nixon", photoPageUrl: "https://unsplash.com/s/photos/whitewater-rafting" },
+      { url: IMG("photo-1629248564797-8c5ba85da9d3"), photographer: "Jackalope West", photoPageUrl: "https://unsplash.com/s/photos/whitewater-rafting" },
+      { url: IMG("photo-1598610882061-bb806386c5fb"), photographer: "NARINDER PAL", photoPageUrl: "https://unsplash.com/s/photos/whitewater-rafting" },
+    ],
+  ],
+  [
+    "costa-rica--arenal-volcano-trekking",
+    [
+      { url: IMG("photo-1651261932254-fd342bc4d999"), photographer: "Sergey Gavrilyuk", photoPageUrl: "https://unsplash.com/s/photos/arenal-volcano" },
+      { url: IMG("photo-1745208746272-8d3b979d5f92"), photographer: "Abhi Verma", photoPageUrl: "https://unsplash.com/s/photos/arenal-volcano" },
+      { url: IMG("photo-1664532869454-53ac5942d959"), photographer: "Patricia Palacín", photoPageUrl: "https://unsplash.com/s/photos/arenal-volcano" },
+      { url: IMG("photo-1557770229-b0d48aa768a6"), photographer: "Diseñando CR", photoPageUrl: "https://unsplash.com/s/photos/arenal-volcano" },
+      { url: IMG("photo-1705351978871-2b3316c25e6d"), photographer: "Daniel Ingersoll", photoPageUrl: "https://unsplash.com/s/photos/arenal-volcano" },
+    ],
+  ],
+  [
+    "costa-rica--canyoning-la-fortuna-waterfalls",
+    [
+      { url: IMG("photo-1628212094540-e65926c9d70b"), photographer: "J. Amill Santiago", photoPageUrl: "https://unsplash.com/s/photos/la-fortuna-waterfall" },
+      { url: IMG("photo-1630023367957-af048d5c08d6"), photographer: "Alexandra Tran", photoPageUrl: "https://unsplash.com/s/photos/la-fortuna-waterfall" },
+      { url: IMG("photo-1580259679654-9276b39fd2d5"), photographer: "Etienne Delorieux", photoPageUrl: "https://unsplash.com/s/photos/la-fortuna-waterfall" },
+      { url: IMG("photo-1739425272573-6232e4751991"), photographer: "Han-Hsing Tu", photoPageUrl: "https://unsplash.com/s/photos/canyoning" },
+      { url: IMG("photo-1592299388725-4e418e60bc54"), photographer: "Bill Peponakis", photoPageUrl: "https://unsplash.com/s/photos/canyoning" },
+    ],
+  ],
+  [
+    "costa-rica--surfing-pavones",
+    [
+      { url: IMG("photo-1717697453509-039c2dd77663"), photographer: "Luis Desiro", photoPageUrl: "https://unsplash.com/s/photos/costa-rica-surfing" },
+      { url: IMG("photo-1684182127593-c669850b325c"), photographer: "César Badilla Miranda", photoPageUrl: "https://unsplash.com/s/photos/puerto-viejo-costa-rica" },
+      { url: IMG("photo-1719719595774-67f961da5d82"), photographer: "Juan Pablo Mascanfroni", photoPageUrl: "https://unsplash.com/s/photos/puerto-viejo-costa-rica" },
+      { url: IMG("photo-1643400811931-77dcd43a609a"), photographer: "Luis Diego Aguilar", photoPageUrl: "https://unsplash.com/s/photos/puerto-viejo-costa-rica" },
+      { url: IMG("photo-1589217599738-0abc0400b6fa"), photographer: "Robin Canfield", photoPageUrl: "https://unsplash.com/s/photos/puerto-viejo-costa-rica" },
+    ],
+  ],
+  [
+    "costa-rica--diving-cocos-island",
+    [
+      { url: IMG("photo-1738610612578-7c31a08c54b4"), photographer: "Sourabh Adhya", photoPageUrl: "https://unsplash.com/s/photos/cocos-island" },
+      { url: IMG("photo-1647797831431-01fc45b34b5d"), photographer: "Corentin Largeron", photoPageUrl: "https://unsplash.com/s/photos/cocos-island" },
+      { url: IMG("photo-1635337754540-c6b3056d834b"), photographer: "Desiree M", photoPageUrl: "https://unsplash.com/s/photos/cocos-island" },
+      { url: IMG("photo-1764469612137-7ac4b5a63ba6"), photographer: "David Clode", photoPageUrl: "https://unsplash.com/s/photos/cocos-island" },
+      { url: IMG("photo-1706957782008-c26bd6c10840"), photographer: "Heidi Bruce", photoPageUrl: "https://unsplash.com/s/photos/hammerhead-shark" },
+    ],
+  ],
+  [
+    "costa-rica--surfing-salsa-brava",
+    [
+      { url: IMG("photo-1536709017021-ce8f99c17e38"), photographer: "Atanas Malamov", photoPageUrl: "https://unsplash.com/s/photos/puerto-viejo-costa-rica" },
+      { url: IMG("photo-1674170110772-2fc6b278658e"), photographer: "Frames For Your Heart", photoPageUrl: "https://unsplash.com/s/photos/puerto-viejo-costa-rica" },
+      { url: IMG("photo-1717697453509-039c2dd77663"), photographer: "Luis Desiro", photoPageUrl: "https://unsplash.com/s/photos/puerto-viejo-costa-rica" },
+      { url: IMG("photo-1657266376745-f9c6c0469679"), photographer: "Lisa van Vliet", photoPageUrl: "https://unsplash.com/s/photos/puerto-viejo-costa-rica" },
+      { url: IMG("photo-1630488991068-d12e7e0dadb7"), photographer: "Joshua Armstrong", photoPageUrl: "https://unsplash.com/s/photos/puerto-viejo-costa-rica" },
+    ],
+  ],
+  [
+    "costa-rica--mountain-biking-la-ruta-de-los-conquistadores",
+    [
+      { url: IMG("photo-1627044185459-09e6dbc39444"), photographer: "Tim Foster", photoPageUrl: "https://unsplash.com/s/photos/mountain-biking-trail" },
+      { url: IMG("photo-1621527225138-b4832a1b3992"), photographer: "Jake Schumacher", photoPageUrl: "https://unsplash.com/s/photos/mountain-biking-trail" },
+      { url: IMG("photo-1605050852571-7bb180ca8d98"), photographer: "Jaime Dantas", photoPageUrl: "https://unsplash.com/s/photos/mountain-biking-trail" },
+      { url: IMG("photo-1683065480640-6c3e20231a7a"), photographer: "Outward Bound Costa Rica", photoPageUrl: "https://unsplash.com/s/photos/mountain-biking-costa-rica" },
+      { url: IMG("photo-1760892472018-9e3bfe540e3b"), photographer: "Sunil Chandra Sharma", photoPageUrl: "https://unsplash.com/s/photos/mountain-biking-trail" },
+    ],
+  ],
 ]);
 
 export function galleryForActivity(activityId: string): GalleryPhoto[] | null {
