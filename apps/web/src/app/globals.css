@@ -34,6 +34,16 @@ body {
   font-family: var(--font-serif), Georgia, serif;
 }
 
+/* Hides the scrollbar on the activity photo gallery's horizontal
+   scroll-snap track — it's swiped/dot-navigated, not scrollbar-dragged. */
+.scrollbar-none {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
 /* Printing/saving as PDF keeps the dark theme as-is (readable as long as
    the browser's "background graphics" print option is on, which is the
    default in Chrome/Edge) — just strip the site chrome that isn't useful
