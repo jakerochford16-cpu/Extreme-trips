@@ -874,6 +874,376 @@ const ACTIVITY_GALLERIES: ReadonlyMap<string, GalleryPhoto[]> = new Map([
       { url: IMG("photo-1784749464827-01a240d6c2ac"), photographer: "Rafael Peier", photoPageUrl: "https://unsplash.com/photos/hz4C4LM1jc8" },
     ],
   ],
+  [
+    "nepal--everest-south-col-guided-ascent",
+    [
+      { url: IMG("photo-1536308998534-ca7106a1d1f1"), photographer: "Classic Outdoors", photoPageUrl: "https://unsplash.com/s/photos/everest-base-camp-trek" },
+      { url: IMG("photo-1544735889-252a626cf188"), photographer: "Sebastian Pena Lambarri", photoPageUrl: "https://unsplash.com/s/photos/everest-base-camp-trek" },
+      { url: IMG("photo-1700556581873-087bde7919a0"), photographer: "Dylan Shaw", photoPageUrl: "https://unsplash.com/s/photos/everest-base-camp-trek" },
+      { url: IMG("photo-1719482969186-e74146efa734"), photographer: "Ratchanon Tisadoldilok", photoPageUrl: "https://unsplash.com/s/photos/everest-base-camp-trek" },
+      { url: IMG("photo-1724341754508-f19ee59541bd"), photographer: "Ganesh Adhikari", photoPageUrl: "https://unsplash.com/s/photos/everest-base-camp-trek" },
+    ],
+  ],
+  [
+    "nepal--island-peak-imja-tse-climb",
+    [
+      { url: IMG("photo-1697746149225-63a33bcb2ea4"), photographer: "Dylan Shaw", photoPageUrl: "https://unsplash.com/s/photos/everest-base-camp-trek" },
+      { url: IMG("photo-1704538349509-d8b14546cbc1"), photographer: "Bibek KC", photoPageUrl: "https://unsplash.com/s/photos/everest-base-camp-trek" },
+      { url: IMG("photo-1661062479980-c519a2f14710"), photographer: "Kubindra Basnet", photoPageUrl: "https://unsplash.com/s/photos/everest-base-camp-trek" },
+      { url: IMG("photo-1719482969011-51a9aaaafeaf"), photographer: "Ratchanon Tisadoldilok", photoPageUrl: "https://unsplash.com/s/photos/everest-base-camp-trek" },
+      { url: IMG("photo-1787336970642-f09f23613a76"), photographer: "Micah Young", photoPageUrl: "https://unsplash.com/s/photos/himalayan-mountaineering-expedition" },
+    ],
+  ],
+  [
+    "nepal--thorong-la-high-pass-crossing-annapurna-circuit",
+    [
+      { url: IMG("photo-1676479642871-82e02e9ae842"), photographer: "Irina Shishkina", photoPageUrl: "https://unsplash.com/s/photos/annapurna-circuit" },
+      { url: IMG("photo-1720810828643-3b70f8e4cb2a"), photographer: "Anja Lee Ming Becker", photoPageUrl: "https://unsplash.com/s/photos/annapurna-circuit" },
+      { url: IMG("photo-1653043506251-05cecdfe9cfd"), photographer: "Alexis Rodriguez", photoPageUrl: "https://unsplash.com/s/photos/annapurna-circuit" },
+      { url: IMG("photo-1723398917299-42ab281e7a72"), photographer: "Kiran Awale", photoPageUrl: "https://unsplash.com/s/photos/annapurna-circuit" },
+      { url: IMG("photo-1635350180477-5a91e936880c"), photographer: "Sanjay Hona", photoPageUrl: "https://unsplash.com/s/photos/annapurna-circuit" },
+    ],
+  ],
+  [
+    "nepal--upper-mustang-restricted-trek",
+    [
+      { url: IMG("photo-1633999672298-ec0096ed5e16"), photographer: "Long Nguyen", photoPageUrl: "https://unsplash.com/s/photos/upper-mustang-nepal" },
+      { url: IMG("photo-1642402734863-15ead077a324"), photographer: "Chandan Chaurasia", photoPageUrl: "https://unsplash.com/s/photos/upper-mustang-nepal" },
+      { url: IMG("photo-1776796201029-6201a8756d8c"), photographer: "Rijan Gurung", photoPageUrl: "https://unsplash.com/s/photos/upper-mustang-nepal" },
+      { url: IMG("photo-1608275565739-c0be72b1da5e"), photographer: "Chandan Chaurasia", photoPageUrl: "https://unsplash.com/s/photos/upper-mustang-nepal" },
+      { url: IMG("photo-1758784448034-c42897fee3a9"), photographer: "ashok acharya", photoPageUrl: "https://unsplash.com/s/photos/upper-mustang-nepal" },
+    ],
+  ],
+  [
+    "nepal--bungee-jump-the-last-resort-bhote-koshi",
+    [
+      { url: IMG("photo-1559677624-3c956f10d431"), photographer: "Anoof Junaid", photoPageUrl: "https://unsplash.com/s/photos/bungee-jump" },
+      { url: IMG("photo-1549221360-456a9c197d5b"), photographer: "Laurynas Me", photoPageUrl: "https://unsplash.com/s/photos/bungee-jump" },
+      { url: IMG("photo-1580473037627-6336da87b7e5"), photographer: "Frans Vledder", photoPageUrl: "https://unsplash.com/s/photos/bungee-jump" },
+      { url: IMG("photo-1595778039451-58a7c2946e7d"), photographer: "Simon Billy", photoPageUrl: "https://unsplash.com/s/photos/bungee-jump" },
+      { url: IMG("photo-1454111782563-b8fbc05eacb2"), photographer: "Blake Wheeler", photoPageUrl: "https://unsplash.com/s/photos/bungee-jump" },
+    ],
+  ],
+  [
+    "nepal--whitewater-rafting-kayaking-sun-kosi",
+    [
+      { url: IMG("photo-1641584495089-5914d85d9bcc"), photographer: "Chandan Chaurasia", photoPageUrl: "https://unsplash.com/s/photos/river-rafting-mountains" },
+      { url: IMG("photo-1641584495061-89b9025f563b"), photographer: "Chandan Chaurasia", photoPageUrl: "https://unsplash.com/s/photos/river-rafting-mountains" },
+      { url: IMG("photo-1663522944122-3581e4902ed3"), photographer: "Patrick Federi", photoPageUrl: "https://unsplash.com/s/photos/river-rafting-mountains" },
+      { url: IMG("photo-1746780700967-28697424841a"), photographer: "koize", photoPageUrl: "https://unsplash.com/s/photos/river-rafting-mountains" },
+      { url: IMG("photo-1616605586215-199845790f43"), photographer: "Aman Upadhyay", photoPageUrl: "https://unsplash.com/s/photos/river-rafting-mountains" },
+    ],
+  ],
+  [
+    "nepal--mera-peak-climb",
+    [
+      { url: IMG("photo-1745677617575-62b14956f2d1"), photographer: "Mayur Arvind", photoPageUrl: "https://unsplash.com/s/photos/mera-peak" },
+      { url: IMG("photo-1584395631446-e41b0fc3f68d"), photographer: "Bisesh Gurung", photoPageUrl: "https://unsplash.com/s/photos/mera-peak" },
+      { url: IMG("photo-1768108072365-28bde53f40e4"), photographer: "Ajay Mishra", photoPageUrl: "https://unsplash.com/s/photos/himalayan-mountaineering-expedition" },
+      { url: IMG("photo-1762487282886-a4e2cb430fd4"), photographer: "Shreyashka Maharjan", photoPageUrl: "https://unsplash.com/s/photos/himalayan-mountaineering-expedition" },
+      { url: IMG("photo-1661062479980-c519a2f14710"), photographer: "Kubindra Basnet", photoPageUrl: "https://unsplash.com/s/photos/everest-base-camp-trek" },
+    ],
+  ],
+  [
+    "nepal--paragliding-sarangkot-pokhara",
+    [
+      { url: IMG("photo-1610997686651-98492fd08108"), photographer: "Kaushal Subedi", photoPageUrl: "https://unsplash.com/s/photos/paragliding-pokhara" },
+      { url: IMG("photo-1704870874099-2528d3b726cd"), photographer: "Dhruvin Pandya", photoPageUrl: "https://unsplash.com/s/photos/paragliding-pokhara" },
+      { url: IMG("photo-1548183995-a770aaf7e6d3"), photographer: "Mamun Srizon", photoPageUrl: "https://unsplash.com/s/photos/paragliding-pokhara" },
+      { url: IMG("photo-1663135628634-347c75f7ea5e"), photographer: "ashok acharya", photoPageUrl: "https://unsplash.com/s/photos/paragliding-pokhara" },
+      { url: IMG("photo-1516182466-8c5f17faaa3b"), photographer: "Sergey Pakhomov", photoPageUrl: "https://unsplash.com/s/photos/paragliding-pokhara" },
+    ],
+  ],
+  [
+    "nepal--manaslu-circuit-larkya-la-crossing",
+    [
+      { url: IMG("photo-1691516347496-f9ada8248715"), photographer: "Bobby", photoPageUrl: "https://unsplash.com/s/photos/manaslu-circuit" },
+      { url: IMG("photo-1687066111672-59a6656037ac"), photographer: "Raj Malla", photoPageUrl: "https://unsplash.com/s/photos/manaslu-circuit" },
+      { url: IMG("photo-1747409601591-9e63a02c5396"), photographer: "Geetangey", photoPageUrl: "https://unsplash.com/s/photos/manaslu-circuit" },
+      { url: IMG("photo-1709305943279-b08fbf071710"), photographer: "Sunil Tamang", photoPageUrl: "https://unsplash.com/s/photos/manaslu-circuit" },
+      { url: IMG("photo-1715746493680-f4529a9f776d"), photographer: "Himalayan Ecological Trekking", photoPageUrl: "https://unsplash.com/s/photos/manaslu-circuit" },
+    ],
+  ],
+  [
+    "nepal--rock-climbing-via-ferrata-kathmandu-valley-crags",
+    [
+      { url: IMG("photo-1601062151723-8f3d96f0ab24"), photographer: "JC Gellidon", photoPageUrl: "https://unsplash.com/s/photos/rock-climbing-kathmandu" },
+      { url: IMG("photo-1585458859260-2981c2a7b665"), photographer: "Puru Timalsena", photoPageUrl: "https://unsplash.com/s/photos/rock-climbing-kathmandu" },
+      { url: IMG("photo-1543688530-c4c3fcccf984"), photographer: "Maja Kochanowska", photoPageUrl: "https://unsplash.com/s/photos/via-ferrata" },
+      { url: IMG("photo-1506370785029-c6f41774f390"), photographer: "Frantisek Duris", photoPageUrl: "https://unsplash.com/s/photos/via-ferrata" },
+      { url: IMG("photo-1680080355670-8e39b114258b"), photographer: "Powrock Mountain Guides", photoPageUrl: "https://unsplash.com/s/photos/via-ferrata" },
+    ],
+  ],
+  [
+    "mexico--cenote-cave-diving-riviera-maya",
+    [
+      { url: IMG("photo-1493508994801-b87b8970d035"), photographer: "Roberto Nickson", photoPageUrl: "https://unsplash.com/s/photos/cenote-diving-mexico" },
+      { url: IMG("photo-1520974822564-9b91874afe9c"), photographer: "Roberto Nickson", photoPageUrl: "https://unsplash.com/s/photos/cenote-diving-mexico" },
+      { url: IMG("photo-1546838849-6eb6269ae2db"), photographer: "Jakob Owens", photoPageUrl: "https://unsplash.com/s/photos/cenote-diving-mexico" },
+      { url: IMG("photo-1546840824-d8a22bbb4f1f"), photographer: "Jakob Owens", photoPageUrl: "https://unsplash.com/s/photos/cenote-diving-mexico" },
+      { url: IMG("photo-1522093243371-296c79a66df4"), photographer: "Earth", photoPageUrl: "https://unsplash.com/s/photos/cenote-diving-mexico" },
+    ],
+  ],
+  [
+    "mexico--copper-canyon-trekking",
+    [
+      { url: IMG("photo-1666198045839-e484533e97d1"), photographer: "Jorge Flores", photoPageUrl: "https://unsplash.com/s/photos/copper-canyon-mexico" },
+      { url: IMG("photo-1666198045864-34c1b3f69124"), photographer: "Jorge Flores", photoPageUrl: "https://unsplash.com/s/photos/copper-canyon-mexico" },
+      { url: IMG("photo-1714437757565-6ef92fb08a95"), photographer: "EJ Strat", photoPageUrl: "https://unsplash.com/s/photos/copper-canyon-mexico" },
+      { url: IMG("photo-1765434941022-d96e5975d4e3"), photographer: "Braulio Gómez", photoPageUrl: "https://unsplash.com/s/photos/copper-canyon-mexico" },
+      { url: IMG("photo-1656065193956-d63e977e4bf6"), photographer: "Florian Delée", photoPageUrl: "https://unsplash.com/s/photos/copper-canyon-mexico" },
+    ],
+  ],
+  [
+    "mexico--pico-de-orizaba-summit-climb",
+    [
+      { url: IMG("photo-1605762830623-bf85bef626ed"), photographer: "Luke Helgeson", photoPageUrl: "https://unsplash.com/s/photos/snow-volcano-climbing" },
+      { url: IMG("photo-1604290516213-be77405ae6aa"), photographer: "Luke Helgeson", photoPageUrl: "https://unsplash.com/s/photos/snow-volcano-climbing" },
+      { url: IMG("photo-1668742237621-7599b6e8862c"), photographer: "Casey Lovegrove", photoPageUrl: "https://unsplash.com/s/photos/snow-volcano-climbing" },
+      { url: IMG("photo-1655366587446-0a7def8c49df"), photographer: "Florian Delée", photoPageUrl: "https://unsplash.com/s/photos/snow-volcano-climbing" },
+      { url: IMG("photo-1655366584809-196f6741d2ac"), photographer: "Florian Delée", photoPageUrl: "https://unsplash.com/s/photos/snow-volcano-climbing" },
+    ],
+  ],
+  [
+    "mexico--great-white-shark-cage-diving-guadalupe-island",
+    [
+      { url: IMG("photo-1704694214588-24f4bae4757b"), photographer: "Gerald Schömbs", photoPageUrl: "https://unsplash.com/s/photos/great-white-shark-cage-diving" },
+      { url: IMG("photo-1637308111472-fdf4886a2e07"), photographer: "Oleksandr Sushko", photoPageUrl: "https://unsplash.com/s/photos/great-white-shark-cage-diving" },
+      { url: IMG("photo-1548147433-ef30d17bf028"), photographer: "Alex Steyn", photoPageUrl: "https://unsplash.com/s/photos/great-white-shark-cage-diving" },
+      { url: IMG("photo-1563186627-0d185db94083"), photographer: "Marcelo Cidrack", photoPageUrl: "https://unsplash.com/s/photos/great-white-shark-cage-diving" },
+      { url: IMG("photo-1598641210001-cde13b3ef0c3"), photographer: "Hunter Newton", photoPageUrl: "https://unsplash.com/s/photos/great-white-shark-cage-diving" },
+    ],
+  ],
+  [
+    "mexico--whitewater-rafting-r-o-filobobos",
+    [
+      { url: IMG("photo-1635429645141-36964dd772b9"), photographer: "Jorge Sánchez", photoPageUrl: "https://unsplash.com/s/photos/whitewater-rafting-mexico" },
+      { url: IMG("photo-1674239437294-c6ec41568773"), photographer: "Brien Peña Santos", photoPageUrl: "https://unsplash.com/s/photos/whitewater-rafting-mexico" },
+      { url: IMG("photo-1561025478-827f5fad6374"), photographer: "Max Böhme", photoPageUrl: "https://unsplash.com/s/photos/whitewater-rafting-mexico" },
+      { url: IMG("photo-1732798573441-71372ffd1890"), photographer: "Marie Volkert", photoPageUrl: "https://unsplash.com/s/photos/whitewater-rafting-mexico" },
+      { url: IMG("photo-1762315906356-c6a07d757c92"), photographer: "Isaac Constantino", photoPageUrl: "https://unsplash.com/s/photos/whitewater-rafting-mexico" },
+    ],
+  ],
+  [
+    "mexico--cliff-diving-la-quebrada",
+    [
+      { url: IMG("photo-1576159599964-9fc3a3c5e4d8"), photographer: "Anngell ✞ Díaz", photoPageUrl: "https://unsplash.com/s/photos/la-quebrada-acapulco" },
+      { url: IMG("photo-1648528577896-152fa44e4728"), photographer: "Zyanya BMO", photoPageUrl: "https://unsplash.com/s/photos/la-quebrada-acapulco" },
+      { url: IMG("photo-1621740007461-47420c6b8d32"), photographer: "Rasimaniel Single", photoPageUrl: "https://unsplash.com/s/photos/la-quebrada-acapulco" },
+      { url: IMG("photo-1624979575293-10e2113ed91d"), photographer: "Daniel Apodaca", photoPageUrl: "https://unsplash.com/s/photos/la-quebrada-acapulco" },
+      { url: IMG("photo-1573067678447-0b769c1cc8ea"), photographer: "Roan Lavery", photoPageUrl: "https://unsplash.com/s/photos/cliff-diving-ocean" },
+    ],
+  ],
+  [
+    "mexico--caving-sistema-huautla",
+    [
+      { url: IMG("photo-1742868119944-511846246ea9"), photographer: "Erik 🖐", photoPageUrl: "https://unsplash.com/s/photos/mexico-sinkhole" },
+      { url: IMG("photo-1532980216874-21f93fa9fd15"), photographer: "Ivana Cajina", photoPageUrl: "https://unsplash.com/s/photos/cave-exploration" },
+      { url: IMG("photo-1464809142576-df63ca4ed7f0"), photographer: "Daniel Burka", photoPageUrl: "https://unsplash.com/s/photos/cave-exploration" },
+      { url: IMG("photo-1521106581851-da5b6457f674"), photographer: "Bruno van der Kraan", photoPageUrl: "https://unsplash.com/s/photos/cave-exploration" },
+      { url: IMG("photo-1459356067573-0a190eb1fcf5"), photographer: "Joshua Sortino", photoPageUrl: "https://unsplash.com/s/photos/cave-exploration" },
+    ],
+  ],
+  [
+    "kyrgyzstan--khan-tengri-base-camp-climbing-expedition",
+    [
+      { url: IMG("photo-1768346131766-67f1566c7c27"), photographer: "Andy Wang", photoPageUrl: "https://unsplash.com/s/photos/tian-shan-mountains" },
+      { url: IMG("photo-1768346131942-15d1d2fa9281"), photographer: "Andy Wang", photoPageUrl: "https://unsplash.com/s/photos/tian-shan-mountains" },
+      { url: IMG("photo-1526816118775-e70736f9beab"), photographer: "Ilnur Kalimullin", photoPageUrl: "https://unsplash.com/s/photos/tian-shan-mountains" },
+      { url: IMG("photo-1682017489597-7c4e73cef222"), photographer: "Sergei Karakulov", photoPageUrl: "https://unsplash.com/s/photos/tian-shan-mountains" },
+      { url: IMG("photo-1768346131565-6b1d6fcfbf2a"), photographer: "Andy Wang", photoPageUrl: "https://unsplash.com/s/photos/tian-shan-mountains" },
+    ],
+  ],
+  [
+    "kyrgyzstan--song-k-l-high-altitude-horse-trek",
+    [
+      { url: IMG("photo-1642514805906-a8307e41c3d7"), photographer: "Azamat Kylychev", photoPageUrl: "https://unsplash.com/s/photos/song-kul-kyrgyzstan" },
+      { url: IMG("photo-1568648523033-eee84d92a0f8"), photographer: "Daniele Nabissi", photoPageUrl: "https://unsplash.com/s/photos/song-kul-kyrgyzstan" },
+      { url: IMG("photo-1511181080793-06dba840a1dd"), photographer: "Frans Hulet", photoPageUrl: "https://unsplash.com/s/photos/song-kul-kyrgyzstan" },
+      { url: IMG("photo-1586635449738-36ba1adce069"), photographer: "Marek Brzóska", photoPageUrl: "https://unsplash.com/s/photos/song-kul-kyrgyzstan" },
+      { url: IMG("photo-1783303391423-0085f18dc50e"), photographer: "T Y", photoPageUrl: "https://unsplash.com/s/photos/song-kul-kyrgyzstan" },
+    ],
+  ],
+  [
+    "kyrgyzstan--ice-climbing-ala-archa-gorge",
+    [
+      { url: IMG("photo-1686287733978-eaa5f6d7f719"), photographer: "Aleksei Zhivilov", photoPageUrl: "https://unsplash.com/s/photos/ala-archa" },
+      { url: IMG("photo-1698302111925-6e74b2c0a822"), photographer: "ra5tel by", photoPageUrl: "https://unsplash.com/s/photos/ala-archa" },
+      { url: IMG("photo-1643903096045-07741be1f245"), photographer: "Mike Markov", photoPageUrl: "https://unsplash.com/s/photos/ice-climbing" },
+      { url: IMG("photo-1709517659991-58d946519556"), photographer: "Chaewool Kim", photoPageUrl: "https://unsplash.com/s/photos/ice-climbing" },
+      { url: IMG("photo-1485872987516-ec9b00fe7a65"), photographer: "Greg Rakozy", photoPageUrl: "https://unsplash.com/s/photos/ice-climbing" },
+    ],
+  ],
+  [
+    "kyrgyzstan--heli-skiing-karakol-valley",
+    [
+      { url: IMG("photo-1608497735578-11912e18ed9f"), photographer: "Above Horizon", photoPageUrl: "https://unsplash.com/s/photos/karakol-kyrgyzstan" },
+      { url: IMG("photo-1639933319952-715226889d30"), photographer: "Vlada Shcherb", photoPageUrl: "https://unsplash.com/s/photos/karakol-kyrgyzstan" },
+      { url: IMG("photo-1595686367407-ee3b933da4e2"), photographer: "Amir Asake", photoPageUrl: "https://unsplash.com/s/photos/karakol-kyrgyzstan" },
+      { url: IMG("photo-1495554698253-681539e9ea84"), photographer: "Cristian Grecu", photoPageUrl: "https://unsplash.com/s/photos/heli-skiing" },
+      { url: IMG("photo-1586348303995-ba0cd4fd8023"), photographer: "Matthieu Pétiard", photoPageUrl: "https://unsplash.com/s/photos/heli-skiing" },
+    ],
+  ],
+  [
+    "kyrgyzstan--ala-kul-pass-trek",
+    [
+      { url: IMG("photo-1595686528907-725bf013cbfd"), photographer: "Amir Asake", photoPageUrl: "https://unsplash.com/s/photos/karakol-kyrgyzstan" },
+      { url: IMG("photo-1724957688151-3c43bc9d8e63"), photographer: "Fernando Paredes Murillo", photoPageUrl: "https://unsplash.com/s/photos/karakol-kyrgyzstan" },
+      { url: IMG("photo-1716058928663-dda190290630"), photographer: "Meder Adabaev", photoPageUrl: "https://unsplash.com/s/photos/karakol-kyrgyzstan" },
+      { url: IMG("photo-1607890276967-31862551e0a3"), photographer: "Raimond Klavins", photoPageUrl: "https://unsplash.com/s/photos/ala-kul-lake" },
+      { url: IMG("photo-1583665470170-92eb0972a9ce"), photographer: "Marek Brzóska", photoPageUrl: "https://unsplash.com/s/photos/ala-kul-lake" },
+    ],
+  ],
+  [
+    "kyrgyzstan--eagle-hunting-experience-bokonbaevo",
+    [
+      { url: IMG("photo-1672939113761-f599cebb325f"), photographer: "Mike Swigunski", photoPageUrl: "https://unsplash.com/s/photos/kazakh-eagle-hunter" },
+      { url: IMG("photo-1508937519241-0a9419343eff"), photographer: "Frans Hulet", photoPageUrl: "https://unsplash.com/s/photos/eagle-hunter-kyrgyzstan" },
+      { url: IMG("photo-1635325522581-4261aac4ba41"), photographer: "Samuel Heard", photoPageUrl: "https://unsplash.com/s/photos/eagle-hunter-kyrgyzstan" },
+      { url: IMG("photo-1759477141176-03365000b5e8"), photographer: "Mikhail Blinov", photoPageUrl: "https://unsplash.com/s/photos/eagle-hunter-kyrgyzstan" },
+      { url: IMG("photo-1700321942503-1c66858a8737"), photographer: "Seval Torun", photoPageUrl: "https://unsplash.com/s/photos/eagle-hunter-kyrgyzstan" },
+    ],
+  ],
+  [
+    "tanzania--kilimanjaro-summit-climb",
+    [
+      { url: IMG("photo-1716404214250-8d34f6b0bc24"), photographer: "Paul Musyoka", photoPageUrl: "https://unsplash.com/s/photos/mount-kilimanjaro" },
+      { url: IMG("photo-1716404211069-dc368a7247fd"), photographer: "Paul Musyoka", photoPageUrl: "https://unsplash.com/s/photos/mount-kilimanjaro" },
+      { url: IMG("photo-1650609344968-b9b52a653ed4"), photographer: "JOHN NJOROGE", photoPageUrl: "https://unsplash.com/s/photos/mount-kilimanjaro" },
+      { url: IMG("photo-1706268630415-e2065afbc7a6"), photographer: "Anthony Njau", photoPageUrl: "https://unsplash.com/s/photos/mount-kilimanjaro" },
+      { url: IMG("photo-1590159247828-50db87c9228e"), photographer: "Yoad Shejtman", photoPageUrl: "https://unsplash.com/s/photos/mount-kilimanjaro" },
+    ],
+  ],
+  [
+    "tanzania--mara-river-wildebeest-crossing-safari",
+    [
+      { url: IMG("photo-1564101160531-4838e8a5f4e7"), photographer: "Jorge Tung", photoPageUrl: "https://unsplash.com/s/photos/wildebeest-migration-mara-river" },
+      { url: IMG("photo-1771922736717-de7bfd486140"), photographer: "Edmund Loh", photoPageUrl: "https://unsplash.com/s/photos/serengeti-wildebeest-crossing" },
+      { url: IMG("photo-1673667618335-face21a8b1a8"), photographer: "Denice Alex", photoPageUrl: "https://unsplash.com/s/photos/wildebeest-migration-mara-river" },
+      { url: IMG("photo-1763675848759-9cdf601bfbc4"), photographer: "Doina Gavrilov", photoPageUrl: "https://unsplash.com/s/photos/arusha-national-park" },
+      { url: IMG("photo-1707386465581-9792fb60430e"), photographer: "Tony Samuel Gachie", photoPageUrl: "https://unsplash.com/s/photos/wildebeest-migration-mara-river" },
+    ],
+  ],
+  [
+    "tanzania--ol-doinyo-lengai-volcano-climb",
+    [
+      { url: IMG("photo-1628632577468-645afac21c82"), photographer: "Toby Elliott", photoPageUrl: "https://unsplash.com/s/photos/volcano-crater-lava" },
+      { url: IMG("photo-1616628950295-d3288bd7a96d"), photographer: "Jonatan Pie", photoPageUrl: "https://unsplash.com/s/photos/volcano-crater-lava" },
+      { url: IMG("photo-1623059570754-5462839e76a7"), photographer: "Izabela Kraus", photoPageUrl: "https://unsplash.com/s/photos/volcano-crater-lava" },
+      { url: IMG("photo-1657092587144-23934fd6784d"), photographer: "Yaniv Cohen", photoPageUrl: "https://unsplash.com/s/photos/volcano-crater-lava" },
+      { url: IMG("photo-1631451095765-2c91616fc9e6"), photographer: "Toby Elliott", photoPageUrl: "https://unsplash.com/s/photos/volcano-crater-lava" },
+    ],
+  ],
+  [
+    "tanzania--diving-with-whale-sharks-mafia-island",
+    [
+      { url: IMG("photo-1540202404-b2979d19ed37"), photographer: "Ishan @seefromthesky", photoPageUrl: "https://unsplash.com/s/photos/whale-shark-diving" },
+      { url: IMG("photo-1544552866-49ce864ff896"), photographer: "Sebastian Pena Lambarri", photoPageUrl: "https://unsplash.com/s/photos/whale-shark-diving" },
+      { url: IMG("photo-1549035092-33b2937b075a"), photographer: "Med J", photoPageUrl: "https://unsplash.com/s/photos/mafia-island-tanzania" },
+      { url: IMG("photo-1733306300778-4e44fb3ff9bd"), photographer: "Yikai Sun", photoPageUrl: "https://unsplash.com/s/photos/mafia-island-tanzania" },
+      { url: IMG("photo-1667377465496-fc7eb96489e4"), photographer: "Uzuri Safaris Tanzania", photoPageUrl: "https://unsplash.com/s/photos/mafia-island-tanzania" },
+    ],
+  ],
+  [
+    "tanzania--wall-diving-pemba-island",
+    [
+      { url: IMG("photo-1549035092-33b2937b075a"), photographer: "Med J", photoPageUrl: "https://unsplash.com/s/photos/zanzibar-scuba-diving" },
+      { url: IMG("photo-1603728450199-fa59664ff482"), photographer: "Richard Glendenning", photoPageUrl: "https://unsplash.com/s/photos/zanzibar-scuba-diving" },
+      { url: IMG("photo-1544551763-46a013bb70d5"), photographer: "Sebastian Pena Lambarri", photoPageUrl: "https://unsplash.com/s/photos/coral-reef-scuba-diver" },
+      { url: IMG("photo-1682687982049-b3d433368cd1"), photographer: "NEOM", photoPageUrl: "https://unsplash.com/s/photos/coral-reef-scuba-diver" },
+      { url: IMG("photo-1637804438194-a638908197b2"), photographer: "Jessie Marie Sorenson", photoPageUrl: "https://unsplash.com/s/photos/coral-reef-scuba-diver" },
+    ],
+  ],
+  [
+    "tanzania--kitesurfing-paje-beach",
+    [
+      { url: IMG("photo-1688807274851-87f0f8a5d39a"), photographer: "Jules Bassoleil", photoPageUrl: "https://unsplash.com/s/photos/kitesurfing-zanzibar" },
+      { url: IMG("photo-1778688326440-eb47d799998e"), photographer: "Ilona K.", photoPageUrl: "https://unsplash.com/s/photos/kitesurfing-zanzibar" },
+      { url: IMG("photo-1580914657768-b0e25e012edf"), photographer: "Bente Hagens", photoPageUrl: "https://unsplash.com/s/photos/kitesurfing-zanzibar" },
+      { url: IMG("photo-1645043222037-c4c3e006f4b0"), photographer: "Sasha Matveeva", photoPageUrl: "https://unsplash.com/s/photos/kitesurfing-zanzibar" },
+      { url: IMG("photo-1665449831038-ba84c387a711"), photographer: "Danai Tsoutreli", photoPageUrl: "https://unsplash.com/s/photos/kitesurfing-zanzibar" },
+    ],
+  ],
+  [
+    "tanzania--mount-meru-summit-climb",
+    [
+      { url: IMG("photo-1673667618122-359046273a77"), photographer: "Denice Alex", photoPageUrl: "https://unsplash.com/s/photos/mount-meru-tanzania" },
+      { url: IMG("photo-1634662058948-a57e356c6935"), photographer: "mtsjrdl", photoPageUrl: "https://unsplash.com/s/photos/arusha-national-park" },
+      { url: IMG("photo-1528277342758-f1d7613953a2"), photographer: "ray rui", photoPageUrl: "https://unsplash.com/s/photos/arusha-national-park" },
+      { url: IMG("photo-1763675848716-d244d7198032"), photographer: "Doina Gavrilov", photoPageUrl: "https://unsplash.com/s/photos/arusha-national-park" },
+      { url: IMG("photo-1706268630415-e2065afbc7a6"), photographer: "Anthony Njau", photoPageUrl: "https://unsplash.com/s/photos/mount-kilimanjaro" },
+    ],
+  ],
+  [
+    "fiji--shark-diving-beqa-lagoon",
+    [
+      { url: IMG("photo-1692658330847-f20b9be36cab"), photographer: "Johnny Africa", photoPageUrl: "https://unsplash.com/s/photos/shark-diving-fiji" },
+      { url: IMG("photo-1487252333087-c353573e2b7c"), photographer: "Jakob Owens", photoPageUrl: "https://unsplash.com/s/photos/shark-diving-fiji" },
+      { url: IMG("photo-1692659505460-0153c4f51a2c"), photographer: "Johnny Africa", photoPageUrl: "https://unsplash.com/s/photos/shark-diving-fiji" },
+      { url: IMG("photo-1594067928360-9e9066e1b633"), photographer: "Josaia Cakacaka", photoPageUrl: "https://unsplash.com/s/photos/shark-diving-fiji" },
+      { url: IMG("photo-1547077664-16bc77c6a523"), photographer: "Lili Ortiz", photoPageUrl: "https://unsplash.com/s/photos/shark-diving-fiji" },
+    ],
+  ],
+  [
+    "fiji--surfing-cloudbreak",
+    [
+      { url: IMG("photo-1668565867790-82c779d61a2d"), photographer: "Colin Hobson", photoPageUrl: "https://unsplash.com/s/photos/cloudbreak-fiji" },
+      { url: IMG("photo-1668565864272-f7054c1a9c57"), photographer: "Colin Hobson", photoPageUrl: "https://unsplash.com/s/photos/cloudbreak-fiji" },
+      { url: IMG("photo-1668565891264-2ffa08a2ce58"), photographer: "Colin Hobson", photoPageUrl: "https://unsplash.com/s/photos/cloudbreak-fiji" },
+      { url: IMG("photo-1449347206122-792f0e389512"), photographer: "Chad McMillan", photoPageUrl: "https://unsplash.com/s/photos/cloudbreak-fiji" },
+      { url: IMG("photo-1668136199068-6cfff3de8b28"), photographer: "Laura Jaeger", photoPageUrl: "https://unsplash.com/s/photos/cloudbreak-fiji" },
+    ],
+  ],
+  [
+    "fiji--whitewater-rafting-upper-navua-gorge",
+    [
+      { url: IMG("photo-1654180674774-45dbe0b3bdca"), photographer: "Colin + Meg", photoPageUrl: "https://unsplash.com/s/photos/navua-river-fiji" },
+      { url: IMG("photo-1654180635272-13fc4be2ecf3"), photographer: "Colin + Meg", photoPageUrl: "https://unsplash.com/s/photos/navua-river-fiji" },
+      { url: IMG("photo-1654180639088-65f1bc3312d6"), photographer: "Colin + Meg", photoPageUrl: "https://unsplash.com/s/photos/navua-river-fiji" },
+      { url: IMG("photo-1664016422278-2ce49aac3d0f"), photographer: "Arie Oldman", photoPageUrl: "https://unsplash.com/s/photos/navua-river-fiji" },
+      { url: IMG("photo-1730946450247-a09fa58fee94"), photographer: "Nik Schmidt", photoPageUrl: "https://unsplash.com/s/photos/navua-river-fiji" },
+    ],
+  ],
+  [
+    "fiji--diving-rainbow-reef",
+    [
+      { url: IMG("photo-1692659505497-a0194332a813"), photographer: "Johnny Africa", photoPageUrl: "https://unsplash.com/s/photos/rainbow-reef-fiji" },
+      { url: IMG("photo-1692659505534-a1abd5eb4c73"), photographer: "Johnny Africa", photoPageUrl: "https://unsplash.com/s/photos/rainbow-reef-fiji" },
+      { url: IMG("photo-1734343470204-2790c780c8fb"), photographer: "Hendrik Morkel", photoPageUrl: "https://unsplash.com/s/photos/rainbow-reef-fiji" },
+      { url: IMG("photo-1692659505460-0153c4f51a2c"), photographer: "Johnny Africa", photoPageUrl: "https://unsplash.com/s/photos/shark-diving-fiji" },
+      { url: IMG("photo-1692658330847-f20b9be36cab"), photographer: "Johnny Africa", photoPageUrl: "https://unsplash.com/s/photos/shark-diving-fiji" },
+    ],
+  ],
+  [
+    "fiji--sea-kayaking-yasawa-islands",
+    [
+      { url: IMG("photo-1654180444273-958864814bb4"), photographer: "Colin + Meg", photoPageUrl: "https://unsplash.com/s/photos/fiji-rainforest" },
+      { url: IMG("photo-1654180444501-633d033d8923"), photographer: "Colin + Meg", photoPageUrl: "https://unsplash.com/s/photos/fiji-rainforest" },
+      { url: IMG("photo-1730440009903-d1e810ead901"), photographer: "Nik Schmidt", photoPageUrl: "https://unsplash.com/s/photos/yasawa-islands" },
+      { url: IMG("photo-1730946483586-17a8b550d0dd"), photographer: "Nik Schmidt", photoPageUrl: "https://unsplash.com/s/photos/yasawa-islands" },
+      { url: IMG("photo-1730440009654-05bd2dc6c05a"), photographer: "Nik Schmidt", photoPageUrl: "https://unsplash.com/s/photos/yasawa-islands" },
+    ],
+  ],
+  [
+    "fiji--caving-sawa-i-lau",
+    [
+      { url: IMG("photo-1762360096227-f142dea4c351"), photographer: "Sergio Aguirre", photoPageUrl: "https://unsplash.com/s/photos/limestone-cave-swimming" },
+      { url: IMG("photo-1770653219427-a423df0c3dd8"), photographer: "Lei Hwang", photoPageUrl: "https://unsplash.com/s/photos/limestone-cave-swimming" },
+      { url: IMG("photo-1764062359349-c5e723c01d4e"), photographer: "Anna Gelibterman", photoPageUrl: "https://unsplash.com/s/photos/limestone-cave-swimming" },
+      { url: IMG("photo-1786285001006-c4da1bee9896"), photographer: "Diego Romeo", photoPageUrl: "https://unsplash.com/s/photos/limestone-cave-swimming" },
+      { url: IMG("photo-1786992817917-0890c5a9dfd5"), photographer: "Jeffrey Eisen", photoPageUrl: "https://unsplash.com/s/photos/limestone-cave-swimming" },
+    ],
+  ],
+  [
+    "fiji--trekking-mount-tomanivi",
+    [
+      { url: IMG("photo-1701766586733-1ad9c96a6f00"), photographer: "Shayal Sharon", photoPageUrl: "https://unsplash.com/s/photos/viti-levu-mountains" },
+      { url: IMG("photo-1584593401421-865fdf856a0f"), photographer: "Manny Moreno", photoPageUrl: "https://unsplash.com/s/photos/viti-levu-mountains" },
+      { url: IMG("photo-1700631102725-7194689f7075"), photographer: "Nem Malosi", photoPageUrl: "https://unsplash.com/s/photos/viti-levu-mountains" },
+      { url: IMG("photo-1654180551628-cb99aba8f782"), photographer: "Colin + Meg", photoPageUrl: "https://unsplash.com/s/photos/fiji-rainforest" },
+      { url: IMG("photo-1654180563895-313d904459a5"), photographer: "Colin + Meg", photoPageUrl: "https://unsplash.com/s/photos/fiji-rainforest" },
+    ],
+  ],
 ]);
 
 export function galleryForActivity(activityId: string): GalleryPhoto[] | null {
