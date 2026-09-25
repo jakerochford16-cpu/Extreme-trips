@@ -494,6 +494,386 @@ const ACTIVITY_GALLERIES: ReadonlyMap<string, GalleryPhoto[]> = new Map([
       { url: IMG("photo-1661882144744-d1c9c6bc0e22"), photographer: "Ivan Sabayuki", photoPageUrl: "https://unsplash.com/s/photos/lion-tree" },
     ],
   ],
+  [
+    "australia--guided-feral-game-hunt-outback-queensland",
+    [
+      { url: IMG("photo-1697503124876-ebaaec451905"), photographer: "Trevor McKinnon", photoPageUrl: "https://unsplash.com/photos/RmfQUfsICo0" },
+      { url: IMG("photo-1687047642386-9ae4dbe53a61"), photographer: "Michael SKOPAL", photoPageUrl: "https://unsplash.com/photos/hFvA-QkyWK4" },
+      { url: IMG("photo-1748251736653-b658a4a2b642"), photographer: "Cameron McPhee", photoPageUrl: "https://unsplash.com/photos/NxgFh299CSE" },
+      { url: IMG("photo-1693736442679-2d9ca2622f81"), photographer: "Kaptured by Kasia", photoPageUrl: "https://unsplash.com/photos/z0-vLkvuQYg" },
+      { url: IMG("photo-1545299871-dfb018cf4c32"), photographer: "Gilles Rolland-Monnet", photoPageUrl: "https://unsplash.com/photos/O8SJH3wDDVY" },
+    ],
+  ],
+  [
+    "australia--cage-free-shark-dive-ss-yongala-wreck",
+    [
+      { url: IMG("photo-1789758612733-756075c4fb4c"), photographer: "Dario Brönnimann", photoPageUrl: "https://unsplash.com/photos/wGvrsVP4TEw" },
+      { url: IMG("photo-1587139223877-04cb899fa3e8"), photographer: "Manny Moreno", photoPageUrl: "https://unsplash.com/photos/X9TEqJWmM6Q" },
+      { url: IMG("photo-1635621265002-eb95cd6365ae"), photographer: "Ahmer Kalam", photoPageUrl: "https://unsplash.com/photos/8zp6MHvg9qY" },
+      { url: IMG("photo-1789758271091-7c30df6a32e1"), photographer: "Queensland, Australia", photoPageUrl: "https://unsplash.com/photos/RCH8OeyH604" },
+      { url: IMG("photo-1613779907266-f85db34edae5"), photographer: "David Clode", photoPageUrl: "https://unsplash.com/photos/Gv-Cx3_clZ4" },
+    ],
+  ],
+  [
+    "australia--wild-caving-chillagoe-mungana-caves",
+    [
+      { url: IMG("photo-1560403442-d141ff60800d"), photographer: "Devon Janse van Rensburg", photoPageUrl: "https://unsplash.com/photos/qjIzxfkoqrI" },
+      { url: IMG("photo-1631641551473-fbe46919289d"), photographer: "Intricate Explorer", photoPageUrl: "https://unsplash.com/photos/hlj6xJG30FE" },
+      { url: IMG("photo-1600201319330-e99245e614c5"), photographer: "Wander Creative", photoPageUrl: "https://unsplash.com/photos/6i3O_w7wOyE" },
+      { url: IMG("photo-1681218865859-6caf8071028f"), photographer: "Kiwihug", photoPageUrl: "https://unsplash.com/photos/3Qq7a-ekbMA" },
+      { url: IMG("photo-1628746404106-4d3843b231b3"), photographer: "Jason Gardner", photoPageUrl: "https://unsplash.com/photos/nju_2fYJyjM" },
+    ],
+  ],
+  [
+    "australia--great-white-shark-cage-diving-neptune-islands",
+    [
+      { url: IMG("photo-1704694214588-24f4bae4757b"), photographer: "Gerald Schömbs", photoPageUrl: "https://unsplash.com/photos/LotoIFYVn6Q" },
+      { url: IMG("photo-1586115457457-b3753fe50cf1"), photographer: "Gerald Schömbs", photoPageUrl: "https://unsplash.com/photos/8DO2XXCoB0Q" },
+      { url: IMG("photo-1597570320000-2a5e64b611fd"), photographer: "Owen Harding", photoPageUrl: "https://unsplash.com/photos/9ymhDpiB_Bw" },
+      { url: IMG("photo-1548147433-ef30d17bf028"), photographer: "Alex Steyn", photoPageUrl: "https://unsplash.com/photos/8S1fN5i2cTU" },
+      { url: IMG("photo-1586115457819-04e914465100"), photographer: "Gerald Schömbs", photoPageUrl: "https://unsplash.com/photos/B2YtN52DdAA" },
+    ],
+  ],
+  [
+    "australia--canyoning-claustral-canyon",
+    [
+      { url: IMG("photo-1690291900903-1bf8f6f54c50"), photographer: "Han-Hsing Tu", photoPageUrl: "https://unsplash.com/photos/K7xhZvei_EI" },
+      { url: IMG("photo-1721338752673-91b7603f2ae0"), photographer: "Josh Fotheringham", photoPageUrl: "https://unsplash.com/photos/GwRlyykKg-M" },
+      { url: IMG("photo-1739425272573-6232e4751991"), photographer: "Han-Hsing Tu", photoPageUrl: "https://unsplash.com/photos/Li1ddHGE4Tg" },
+      { url: IMG("photo-1725953207415-aa2436e45f6b"), photographer: "Pix Tresa", photoPageUrl: "https://unsplash.com/photos/yS-77lMGWF8" },
+      { url: IMG("photo-1594270501793-c9b7ce49dfa8"), photographer: "Harry Dona", photoPageUrl: "https://unsplash.com/photos/9hHTZeKKK8Q" },
+    ],
+  ],
+  [
+    "australia--crocodile-country-wild-kayaking-katherine-gorge-kakadu",
+    [
+      { url: IMG("photo-1623719647321-188ae37d7133"), photographer: "Rod Long", photoPageUrl: "https://unsplash.com/photos/zacVDX85Lfo" },
+      { url: IMG("photo-1696583867494-9c15695edffe"), photographer: "Bart van Griensven", photoPageUrl: "https://unsplash.com/photos/WjslC6WBdjc" },
+      { url: IMG("photo-1589137639779-1d513ce9be18"), photographer: "Vladimir Haltakov", photoPageUrl: "https://unsplash.com/photos/ZynZ3Afw7sA" },
+      { url: IMG("photo-1623719647284-51b4ae0bced4"), photographer: "Rod Long", photoPageUrl: "https://unsplash.com/photos/wuaC2vVwrhQ" },
+      { url: IMG("photo-1623054136003-593696cac477"), photographer: "Rod Long", photoPageUrl: "https://unsplash.com/photos/o6GfsWwA9jk" },
+    ],
+  ],
+  [
+    "australia--cave-diving-cocklebiddy-cave",
+    [
+      { url: IMG("photo-1682687982167-d7fb3ed8541d"), photographer: "NEOM", photoPageUrl: "https://unsplash.com/photos/yx7TJle8LhM" },
+      { url: IMG("photo-1682686580849-3e7f67df4015"), photographer: "NEOM", photoPageUrl: "https://unsplash.com/photos/CuoJHB42D1I" },
+      { url: IMG("photo-1569878698992-c6e8c84bdd4d"), photographer: "Alex Azabache", photoPageUrl: "https://unsplash.com/photos/vHOZ_Sa7N4g" },
+      { url: IMG("photo-1638793771530-a2de5712385a"), photographer: "Andrew Svk", photoPageUrl: "https://unsplash.com/photos/sX5_tmO41vY" },
+      { url: IMG("photo-1510637858650-c3be04731622"), photographer: "Vlad Tchompalov", photoPageUrl: "https://unsplash.com/photos/5G1cHBbQUiY" },
+    ],
+  ],
+  [
+    "australia--skydiving-mission-beach",
+    [
+      { url: IMG("photo-1630879937467-4afa290b1a6b"), photographer: "Kamil Pietrzak", photoPageUrl: "https://unsplash.com/photos/H22w-tq0SeQ" },
+      { url: IMG("photo-1659221876406-31a3746f41b9"), photographer: "Kamil Pietrzak", photoPageUrl: "https://unsplash.com/photos/ht1xt4FfmFs" },
+      { url: IMG("photo-1675645294783-8ae8e106a03a"), photographer: "Lola Prior", photoPageUrl: "https://unsplash.com/photos/UESuCSOlOh8" },
+      { url: IMG("photo-1483301563007-8d0161daa1d0"), photographer: "Filipe Dos Santos Mendes", photoPageUrl: "https://unsplash.com/photos/2s5spoiwX88" },
+      { url: IMG("photo-1591126992157-8f85b3913a7f"), photographer: "Mario Majer", photoPageUrl: "https://unsplash.com/photos/4VFzumAg1nQ" },
+    ],
+  ],
+  [
+    "australia--big-wave-surfing-shipstern-bluff",
+    [
+      { url: IMG("photo-1616141893496-fbc65370493e"), photographer: "Matt Paul Catalano", photoPageUrl: "https://unsplash.com/photos/0QEG_xOoY7Y" },
+      { url: IMG("photo-1559627755-42212e5c5fdf"), photographer: "Silas Baisch", photoPageUrl: "https://unsplash.com/photos/L78RstAZuTY" },
+      { url: IMG("photo-1498330177096-689e3fb901ca"), photographer: "Jeremy Bishop", photoPageUrl: "https://unsplash.com/photos/iftBhUFfecE" },
+      { url: IMG("photo-1601505804121-45e2c5506c94"), photographer: "Lisha Riabinina", photoPageUrl: "https://unsplash.com/photos/stj-A6E6II8" },
+      { url: IMG("photo-1455264745730-cb3b76250ae8"), photographer: "Thomas Ashlock", photoPageUrl: "https://unsplash.com/photos/7G5dkthFyxA" },
+    ],
+  ],
+  [
+    "australia--wilderness-trek-western-arthurs-traverse",
+    [
+      { url: IMG("photo-1618136645012-bac8f3e16587"), photographer: "Laura Barry", photoPageUrl: "https://unsplash.com/photos/qNsXp6J6CqQ" },
+      { url: IMG("photo-1687674108251-ddb7c000a729"), photographer: "Tim Lippis", photoPageUrl: "https://unsplash.com/photos/7Mx3QYl-SOw" },
+      { url: IMG("photo-1687674108236-01ccaf61de08"), photographer: "Tim Lippis", photoPageUrl: "https://unsplash.com/photos/pR8k1ck75aQ" },
+      { url: IMG("photo-1687674108048-04d6bf6b0f71"), photographer: "Tim Lippis", photoPageUrl: "https://unsplash.com/photos/dhb9TqO5jVo" },
+      { url: IMG("photo-1728018967254-2b11c86a915c"), photographer: "Kshithij Chandrashekar", photoPageUrl: "https://unsplash.com/photos/I2-HAfcKog0" },
+    ],
+  ],
+  [
+    "bolivia--death-road-descent-yungas-road",
+    [
+      { url: IMG("photo-1661182868242-4e7194bc9c3d"), photographer: "Florian Delée", photoPageUrl: "https://unsplash.com/photos/aJyuxfwEcTo" },
+      { url: IMG("photo-1521169893116-de8dc1b0ffe3"), photographer: "Kyle Loftus", photoPageUrl: "https://unsplash.com/photos/8Fs2u-4SKrs" },
+      { url: IMG("photo-1661182868298-e9da8421dacd"), photographer: "Florian Delée", photoPageUrl: "https://unsplash.com/photos/P03lWpRRDK8" },
+      { url: IMG("photo-1661182868987-5d5674502dbd"), photographer: "Florian Delée", photoPageUrl: "https://unsplash.com/photos/8dl7jUWlhs8" },
+      { url: IMG("photo-1669768184922-18cd7a5b3b05"), photographer: "Jack Prommel", photoPageUrl: "https://unsplash.com/photos/xLCwe8XKSrk" },
+    ],
+  ],
+  [
+    "bolivia--salar-de-uyuni-off-road-expedition",
+    [
+      { url: IMG("photo-1664272051371-943ce55d7b22"), photographer: "Matheus Oliveira", photoPageUrl: "https://unsplash.com/photos/NiooDGT-Zlk" },
+      { url: IMG("photo-1667759321771-e1016861be32"), photographer: "Karla Robinson", photoPageUrl: "https://unsplash.com/photos/MsXD0hXcX2s" },
+      { url: IMG("photo-1511213574-c6abde530d6f"), photographer: "Fritz Chávez", photoPageUrl: "https://unsplash.com/photos/tbj1zPeil04" },
+      { url: IMG("photo-1551363536-e678b0e47133"), photographer: "Lucas Metz", photoPageUrl: "https://unsplash.com/photos/t2CUAY1J2gQ" },
+      { url: IMG("photo-1641234332283-af77dfe995c7"), photographer: "Catherine Grimes", photoPageUrl: "https://unsplash.com/photos/W4_fmphtyLE" },
+    ],
+  ],
+  [
+    "bolivia--huayna-potos-summit-climb",
+    [
+      { url: IMG("photo-1551439011-4e281482b5cb"), photographer: "Toomas Tartes", photoPageUrl: "https://unsplash.com/photos/KAPzJK3mZAs" },
+      { url: IMG("photo-1701770482442-a59a00c9839f"), photographer: "menderes kahraman", photoPageUrl: "https://unsplash.com/photos/PXp7UtY-9HE" },
+      { url: IMG("photo-1740470144196-50b12c0553cb"), photographer: "Sam", photoPageUrl: "https://unsplash.com/photos/mAj2qzQZ9-c" },
+      { url: IMG("photo-1732966650541-290e1798c2cf"), photographer: "Falco Negenman", photoPageUrl: "https://unsplash.com/photos/c62ZqzfMjZc" },
+      { url: IMG("photo-1669334871995-4867f55ff957"), photographer: "Isaac clinton Suca Fuentes", photoPageUrl: "https://unsplash.com/photos/kxNRXQr7c5c" },
+    ],
+  ],
+  [
+    "bolivia--madidi-jungle-expedition",
+    [
+      { url: IMG("photo-1570219422719-349e82fb0229"), photographer: "Sander Lenaerts", photoPageUrl: "https://unsplash.com/photos/rPqAFdzjW24" },
+      { url: IMG("photo-1654026491854-40df846df2b5"), photographer: "Greg Keelen", photoPageUrl: "https://unsplash.com/photos/xMezAlo8ex0" },
+      { url: IMG("photo-1773047094753-7751ea4db4d6"), photographer: "Andrea Huls Pareja", photoPageUrl: "https://unsplash.com/photos/lTippifEg3U" },
+      { url: IMG("photo-1773047094178-08b5f3ac29e6"), photographer: "Andrea Huls Pareja", photoPageUrl: "https://unsplash.com/photos/EVREAfgBc-g" },
+      { url: IMG("photo-1773047112528-7ef5b5b39f9f"), photographer: "Andrea Huls Pareja", photoPageUrl: "https://unsplash.com/photos/pt6G97Gvtgg" },
+    ],
+  ],
+  [
+    "bolivia--sajama-volcano-climb",
+    [
+      { url: IMG("photo-1582986610555-7f5b1ecabab2"), photographer: "Alain Bonnardeaux", photoPageUrl: "https://unsplash.com/photos/Zd6h7n442Og" },
+      { url: IMG("photo-1703944601178-22d75ffe6f71"), photographer: "Cristhian Guzmán", photoPageUrl: "https://unsplash.com/photos/1GYXp_3qlXc" },
+      { url: IMG("photo-1703944601049-5f3d1ab58bc9"), photographer: "Cristhian Guzmán", photoPageUrl: "https://unsplash.com/photos/d8UZVqPnR-Y" },
+      { url: IMG("photo-1703946004105-2a47e9cd0a3d"), photographer: "Cristhian Guzmán", photoPageUrl: "https://unsplash.com/photos/bLtwjttY9hg" },
+      { url: IMG("photo-1703944601077-013e088c8006"), photographer: "Cristhian Guzmán", photoPageUrl: "https://unsplash.com/photos/Yy9bpMQmXMU" },
+    ],
+  ],
+  [
+    "bolivia--ice-climbing-chacaltaya",
+    [
+      { url: IMG("photo-1643903096045-07741be1f245"), photographer: "Mike Markov", photoPageUrl: "https://unsplash.com/photos/v7BkDZg7pK8" },
+      { url: IMG("photo-1520208422220-d12a3c588e6c"), photographer: "Jackman Chiu", photoPageUrl: "https://unsplash.com/photos/36Vbwo1OiZU" },
+      { url: IMG("photo-1709517659991-58d946519556"), photographer: "Chaewool Kim", photoPageUrl: "https://unsplash.com/photos/eFmXUF5HBX8" },
+      { url: IMG("photo-1579769696606-3a52f6d41b95"), photographer: "Johannes Andersson", photoPageUrl: "https://unsplash.com/photos/IqBsJY-buKo" },
+      { url: IMG("photo-1485871800663-71856dc09ec4"), photographer: "Greg Rakozy", photoPageUrl: "https://unsplash.com/photos/N_3CHNdliVs" },
+    ],
+  ],
+  [
+    "bolivia--paragliding-over-la-paz",
+    [
+      { url: IMG("photo-1719949122509-74d0a1d08b44"), photographer: "Ikshit Chaudhari", photoPageUrl: "https://unsplash.com/photos/xg2R3X6L13U" },
+      { url: IMG("photo-1471247511763-88a722fc9919"), photographer: "Tomas Sobek", photoPageUrl: "https://unsplash.com/photos/jTP3p3tAF-E" },
+      { url: IMG("photo-1573507712396-586c2fc99b36"), photographer: "Eduardo Casajús Gorostiaga", photoPageUrl: "https://unsplash.com/photos/KE_ksBiNgdg" },
+      { url: IMG("photo-1578312055662-53316197d01e"), photographer: "Marcus Woodbridge", photoPageUrl: "https://unsplash.com/photos/0s81Kf6lWzY" },
+      { url: IMG("photo-1694811401894-59f6a0f5237e"), photographer: "Wallace Fonseca", photoPageUrl: "https://unsplash.com/photos/G8dAAP0IrRk" },
+    ],
+  ],
+  [
+    "austria--glacier-ski-touring-tztal-alps",
+    [
+      { url: IMG("photo-1547550105-5acbb34022a5"), photographer: "Dennis Maliepaard", photoPageUrl: "https://unsplash.com/photos/Hw3294vKMp8" },
+      { url: IMG("photo-1604290516761-df484721f04b"), photographer: "Luke Helgeson", photoPageUrl: "https://unsplash.com/photos/LbScmQnQncc" },
+      { url: IMG("photo-1616429553002-faf23468952d"), photographer: "Cyprien Delaporte", photoPageUrl: "https://unsplash.com/photos/cITgqiIsg3c" },
+      { url: IMG("photo-1638914784346-881bcdd56aa7"), photographer: "Andri Klopfenstein", photoPageUrl: "https://unsplash.com/photos/-CpoBwi55dU" },
+      { url: IMG("photo-1585919269458-6259dfe9f21a"), photographer: "Clement Delhaye", photoPageUrl: "https://unsplash.com/photos/cnluLIyhpBA" },
+    ],
+  ],
+  [
+    "austria--ice-climbing-tztal-frozen-falls",
+    [
+      { url: IMG("photo-1485871882310-4ecdab8a6f94"), photographer: "Greg Rakozy", photoPageUrl: "https://unsplash.com/photos/zGORXMe0Wlc" },
+      { url: IMG("photo-1485872987516-ec9b00fe7a65"), photographer: "Greg Rakozy", photoPageUrl: "https://unsplash.com/photos/GbFCv3Uf2uE" },
+      { url: IMG("photo-1647601294667-5a5948b6cd93"), photographer: "Tom Brunberg", photoPageUrl: "https://unsplash.com/photos/ULXo4fTbBk8" },
+      { url: IMG("photo-1548789997-82da68437ad8"), photographer: "Jon Hieb", photoPageUrl: "https://unsplash.com/photos/LPQcqpbCxeY" },
+      { url: IMG("photo-1600198679052-7db2b62635e1"), photographer: "Matt Forster", photoPageUrl: "https://unsplash.com/photos/wQTtONMepCw" },
+    ],
+  ],
+  [
+    "austria--via-ferrata-hoher-dachstein",
+    [
+      { url: IMG("photo-1568046772612-8bb5afe37e51"), photographer: "andreas kretschmer", photoPageUrl: "https://unsplash.com/photos/4VXCQjiyVyc" },
+      { url: IMG("photo-1634150004653-91b5341aa9dd"), photographer: "Bernd Dittrich", photoPageUrl: "https://unsplash.com/photos/YFTHSr9Rvk8" },
+      { url: IMG("photo-1707229219459-03dd69961ab0"), photographer: "Max Fitz", photoPageUrl: "https://unsplash.com/photos/IH5xMFjbIIo" },
+      { url: IMG("photo-1543688530-c4c3fcccf984"), photographer: "Maja Kochanowska", photoPageUrl: "https://unsplash.com/photos/WGc8axC8K5U" },
+      { url: IMG("photo-1556610117-882db3eea2df"), photographer: "Klaus Huber", photoPageUrl: "https://unsplash.com/photos/2KpJ7EpccGQ" },
+    ],
+  ],
+  [
+    "austria--whitewater-rafting-tztaler-ache",
+    [
+      { url: IMG("photo-1629248457649-b082812aea6c"), photographer: "Jackalope West", photoPageUrl: "https://unsplash.com/photos/02HBQ2w_yak" },
+      { url: IMG("photo-1512675628397-28288d1220ef"), photographer: "Julie Thornton", photoPageUrl: "https://unsplash.com/photos/UWdgTvf3m8g" },
+      { url: IMG("photo-1658355686821-f412c8397a0d"), photographer: "Megan Nixon", photoPageUrl: "https://unsplash.com/photos/WVDuKuz22ac" },
+      { url: IMG("photo-1641584495089-5914d85d9bcc"), photographer: "Chandan Chaurasia", photoPageUrl: "https://unsplash.com/photos/z32bIS5O1KQ" },
+      { url: IMG("photo-1692095296859-60427614df87"), photographer: "Anna Sullivan", photoPageUrl: "https://unsplash.com/photos/c_w_Q3kxgic" },
+    ],
+  ],
+  [
+    "austria--ice-caving-eisriesenwelt",
+    [
+      { url: IMG("photo-1601368623158-f2a75120dc87"), photographer: "Lucie Hošová", photoPageUrl: "https://unsplash.com/photos/fVxWuZWmUbk" },
+      { url: IMG("photo-1615797968802-0f6dca65ba38"), photographer: "Lucie Hošová", photoPageUrl: "https://unsplash.com/photos/iCbRhowySWk" },
+      { url: IMG("photo-1600094414900-d4b789da75ad"), photographer: "Lucie Hošová", photoPageUrl: "https://unsplash.com/photos/KtZYQ7CZmkM" },
+      { url: IMG("photo-1601134599067-50e89067b89d"), photographer: "Neda Astani", photoPageUrl: "https://unsplash.com/photos/16TCs5oCBHM" },
+      { url: IMG("photo-1651531381586-6d7b96f5e2b6"), photographer: "Jean Giroux", photoPageUrl: "https://unsplash.com/photos/y9QZ0sZiouo" },
+    ],
+  ],
+  [
+    "austria--skydiving-over-the-alps-salzburg",
+    [
+      { url: IMG("photo-1746971227584-70d3b21494cf"), photographer: "Amir Arsalan Shamsabadi", photoPageUrl: "https://unsplash.com/photos/gn_FNpjORuk" },
+      { url: IMG("photo-1533540760201-950afeb96411"), photographer: "Quaritsch Photography", photoPageUrl: "https://unsplash.com/photos/--mDz7jYPdo" },
+      { url: IMG("photo-1606557093594-459828d5be09"), photographer: "Dominik Kollau", photoPageUrl: "https://unsplash.com/photos/GW_gdbmZ4tw" },
+      { url: IMG("photo-1629141334092-9f57a94b6686"), photographer: "Kamil Pietrzak", photoPageUrl: "https://unsplash.com/photos/UxEdY828JVE" },
+      { url: IMG("photo-1656271220032-3c35f702e384"), photographer: "Kamil Pietrzak", photoPageUrl: "https://unsplash.com/photos/Hwp_4FYAdEM" },
+    ],
+  ],
+  [
+    "austria--canyoning-tztal-side-valleys",
+    [
+      { url: IMG("photo-1647523609181-4e76b144042a"), photographer: "Han-Hsing Tu", photoPageUrl: "https://unsplash.com/photos/toKnZe9kebA" },
+      { url: IMG("photo-1689180983514-ebd9b1e4ba1b"), photographer: "Han-Hsing Tu", photoPageUrl: "https://unsplash.com/photos/9OEviveFbwQ" },
+      { url: IMG("photo-1690292005170-c86f1ebe9acc"), photographer: "Han-Hsing Tu", photoPageUrl: "https://unsplash.com/photos/PZ391SubpcQ" },
+      { url: IMG("photo-1689917216699-f4593d22446c"), photographer: "Han-Hsing Tu", photoPageUrl: "https://unsplash.com/photos/pHayxsTVYmU" },
+      { url: IMG("photo-1592299388725-4e418e60bc54"), photographer: "Bill Peponakis", photoPageUrl: "https://unsplash.com/photos/oVXGQGwnJRY" },
+    ],
+  ],
+  [
+    "philippines--liveaboard-diving-tubbataha-reef",
+    [
+      { url: IMG("photo-1753482771067-a5fff6348471"), photographer: "Matthew Stephenson", photoPageUrl: "https://unsplash.com/photos/TZc-jYhn7wo" },
+      { url: IMG("photo-1753482773877-6b19cb199a7e"), photographer: "Matthew Stephenson", photoPageUrl: "https://unsplash.com/photos/X1muucMODFQ" },
+      { url: IMG("photo-1753482774971-9d99f726bbe0"), photographer: "Matthew Stephenson", photoPageUrl: "https://unsplash.com/photos/L_jCxEvAqmc" },
+      { url: IMG("photo-1753482769870-f15312a34863"), photographer: "Matthew Stephenson", photoPageUrl: "https://unsplash.com/photos/6AwGgbfg-Wk" },
+      { url: IMG("photo-1753482770027-882b342f526f"), photographer: "Matthew Stephenson", photoPageUrl: "https://unsplash.com/photos/Nc8pA0CGmGE" },
+    ],
+  ],
+  [
+    "philippines--canyoneering-kawasan-falls",
+    [
+      { url: IMG("photo-1586263426392-3b3e0748f618"), photographer: "MJ Tangonan", photoPageUrl: "https://unsplash.com/photos/jCIIInzOm-Y" },
+      { url: IMG("photo-1585795361718-2141ba44cbe0"), photographer: "Jake Irish", photoPageUrl: "https://unsplash.com/photos/LmCthCQW6Mg" },
+      { url: IMG("photo-1633984904221-29bb70dffef8"), photographer: "Swapnil kulkarni", photoPageUrl: "https://unsplash.com/photos/Ciifa9kOsn8" },
+      { url: IMG("photo-1495443942462-81f29560f7e0"), photographer: "Toa Heftiba", photoPageUrl: "https://unsplash.com/photos/LBMvueaBKT8" },
+      { url: IMG("photo-1540650444158-8b98c95ea98d"), photographer: "Georgios Domouchtsidis", photoPageUrl: "https://unsplash.com/photos/KAgVKMXQvJg" },
+    ],
+  ],
+  [
+    "philippines--surfing-cloud-9",
+    [
+      { url: IMG("photo-1715883315329-f49e664009f6"), photographer: "Wilfriend Royce Quiras", photoPageUrl: "https://unsplash.com/photos/VRaFUyNhh-A" },
+      { url: IMG("photo-1636014553186-ec01e9e634fd"), photographer: "David Aguilar", photoPageUrl: "https://unsplash.com/photos/B8ab9B_zQKg" },
+      { url: IMG("photo-1636012024603-2361f5e91c89"), photographer: "David Aguilar", photoPageUrl: "https://unsplash.com/photos/-SJ4_k7tm4w" },
+      { url: IMG("photo-1664860792203-80345685f214"), photographer: "Christelle Sison", photoPageUrl: "https://unsplash.com/photos/S475_vu98zw" },
+      { url: IMG("photo-1598607814607-4ab64d4aa8e7"), photographer: "Ivan Torres", photoPageUrl: "https://unsplash.com/photos/cYdfGZrTPnk" },
+    ],
+  ],
+  [
+    "philippines--puerto-princesa-underground-river-caving",
+    [
+      { url: IMG("photo-1660849259228-603fad947b89"), photographer: "Elaine Ore", photoPageUrl: "https://unsplash.com/photos/YsNgfJwUpxQ" },
+      { url: IMG("photo-1581216061628-2187b387eb5c"), photographer: "David Milmont", photoPageUrl: "https://unsplash.com/photos/di6jbU-o3u4" },
+      { url: IMG("photo-1611088223900-9ff3d76f9a70"), photographer: "Secret Travel Guide", photoPageUrl: "https://unsplash.com/photos/x9NyLLQc69g" },
+      { url: IMG("photo-1753482772173-a2514b978110"), photographer: "Matthew Stephenson", photoPageUrl: "https://unsplash.com/photos/CbnFbqY_5zE" },
+      { url: IMG("photo-1753482774953-e03e1f9f1397"), photographer: "Matthew Stephenson", photoPageUrl: "https://unsplash.com/photos/4UvT2R-yXOQ" },
+    ],
+  ],
+  [
+    "philippines--mayon-volcano-trek",
+    [
+      { url: IMG("photo-1632307644226-a3d85fde46a5"), photographer: "Rafael Loreto", photoPageUrl: "https://unsplash.com/photos/vK6E0xSLb9s" },
+      { url: IMG("photo-1660144910841-b9b16aa62de7"), photographer: "Kim Tayona", photoPageUrl: "https://unsplash.com/photos/1BrMHWxsBJQ" },
+      { url: IMG("photo-1555590858-be28a58c2688"), photographer: "Camille San Vicente", photoPageUrl: "https://unsplash.com/photos/Z5xHpUH9o8Y" },
+      { url: IMG("photo-1691349810668-21955efeae93"), photographer: "Taylor Keeran", photoPageUrl: "https://unsplash.com/photos/AeonZEmbHxU" },
+      { url: IMG("photo-1736147936509-09d36c1043da"), photographer: "Ziph", photoPageUrl: "https://unsplash.com/photos/G01Xd4DKk2c" },
+    ],
+  ],
+  [
+    "philippines--freediving-sardine-run-moalboal",
+    [
+      { url: IMG("photo-1697484373501-ed80ff8cca5d"), photographer: "Claus Giering", photoPageUrl: "https://unsplash.com/photos/5raHJCu3GN8" },
+      { url: IMG("photo-1573551089778-46a7abc39d9f"), photographer: "Olga ga", photoPageUrl: "https://unsplash.com/photos/iRgbLpf50IE" },
+      { url: IMG("photo-1637242765834-b566dd5cfdce"), photographer: "Josh Roland", photoPageUrl: "https://unsplash.com/photos/4lrrhfLM86s" },
+      { url: IMG("photo-1578721730435-453c4055edef"), photographer: "Vladislav S", photoPageUrl: "https://unsplash.com/photos/42yTnDolMW4" },
+      { url: IMG("photo-1580603474920-aa3332b2c40f"), photographer: "Jeremiah Del Mar", photoPageUrl: "https://unsplash.com/photos/cndYGSgEQ2E" },
+    ],
+  ],
+  [
+    "philippines--whitewater-rafting-cagayan-de-oro-river",
+    [
+      { url: IMG("photo-1597057773072-20b4e1d137ee"), photographer: "engin akyurt", photoPageUrl: "https://unsplash.com/photos/M4mxTF5IgrY" },
+      { url: IMG("photo-1641584511182-094468c129ed"), photographer: "Chandan Chaurasia", photoPageUrl: "https://unsplash.com/photos/5vUXmVMcubo" },
+      { url: IMG("photo-1625704467890-6079f8fdb269"), photographer: "Shui Sim", photoPageUrl: "https://unsplash.com/photos/SrHY7YGFJHY" },
+      { url: IMG("photo-1598610882061-bb806386c5fb"), photographer: "NARINDER PAL", photoPageUrl: "https://unsplash.com/photos/nswSiXM_to4" },
+      { url: IMG("photo-1760904652241-36ad6b4e752f"), photographer: "Michael Clair", photoPageUrl: "https://unsplash.com/photos/9pHSWcLtRdQ" },
+    ],
+  ],
+  [
+    "oman--canyoning-wadi-shab",
+    [
+      { url: IMG("photo-1763377357842-039959a0012a"), photographer: "Andy Arbeit", photoPageUrl: "https://unsplash.com/photos/wpljRQINqq4" },
+      { url: IMG("photo-1635749688148-3ead1499e58e"), photographer: "Chris Linnett", photoPageUrl: "https://unsplash.com/photos/huEgyVqldr0" },
+      { url: IMG("photo-1597725045620-617c39c7fca9"), photographer: "Mr MaroX", photoPageUrl: "https://unsplash.com/photos/w1Mys5TdNuU" },
+      { url: IMG("photo-1784496087205-0234e00935bb"), photographer: "Rafael Peier", photoPageUrl: "https://unsplash.com/photos/7DW4XVANW3U" },
+      { url: IMG("photo-1784496087033-1a26b0bf355a"), photographer: "Rafael Peier", photoPageUrl: "https://unsplash.com/photos/9KHGiOW1bZY" },
+    ],
+  ],
+  [
+    "oman--balcony-walk-jebel-shams-rim-trek",
+    [
+      { url: IMG("photo-1626095460016-8664dc341f69"), photographer: "machu s", photoPageUrl: "https://unsplash.com/photos/srqswLcyhv8" },
+      { url: IMG("photo-1789677802001-ac897eab537f"), photographer: "Rafael Peier", photoPageUrl: "https://unsplash.com/photos/HcoVnBLHFGw" },
+      { url: IMG("photo-1789677802155-7d6a7029e5e7"), photographer: "Rafael Peier", photoPageUrl: "https://unsplash.com/photos/9EocMd0qGP0" },
+      { url: IMG("photo-1789677801966-6a0d0333b813"), photographer: "Rafael Peier", photoPageUrl: "https://unsplash.com/photos/yJzH8MJ61BM" },
+      { url: IMG("photo-1789677801867-46b678008d30"), photographer: "Rafael Peier", photoPageUrl: "https://unsplash.com/photos/Gj_hgJ1_jSg" },
+    ],
+  ],
+  [
+    "oman--caving-majlis-al-jinn",
+    [
+      { url: IMG("photo-1582120137401-76bb4609397b"), photographer: "Arisa S.", photoPageUrl: "https://unsplash.com/photos/25BFWkmuinA" },
+      { url: IMG("photo-1422452098470-722310d3ad74"), photographer: "Ksenia Kudelkina", photoPageUrl: "https://unsplash.com/photos/Wvas_uTO8wQ" },
+      { url: IMG("photo-1667333112033-85256c4317ba"), photographer: "Adrian Mag", photoPageUrl: "https://unsplash.com/photos/pZISifC4Y2Y" },
+      { url: IMG("photo-1628746402529-658090e3a3e8"), photographer: "Jason Gardner", photoPageUrl: "https://unsplash.com/photos/el88SU3-AQY" },
+      { url: IMG("photo-1533613220915-609f661a6fe1"), photographer: "Cade Roberts", photoPageUrl: "https://unsplash.com/photos/EpIUbeFrqwQ" },
+    ],
+  ],
+  [
+    "oman--diving-musandam-peninsula",
+    [
+      { url: IMG("photo-1615399144021-822ba908c6f3"), photographer: "Julius Yls", photoPageUrl: "https://unsplash.com/photos/VNgMlJhRDM4" },
+      { url: IMG("photo-1632725125505-fc9f4418c36c"), photographer: "Julius Yls", photoPageUrl: "https://unsplash.com/photos/grfqjD9rKnA" },
+      { url: IMG("photo-1624608708049-53587f652e16"), photographer: "Julius Yls", photoPageUrl: "https://unsplash.com/photos/86yYTDJk5FY" },
+      { url: IMG("photo-1582461563126-3a470ec9ecb2"), photographer: "Musandam Dhow Tours", photoPageUrl: "https://unsplash.com/photos/mpAyw_RtiG4" },
+      { url: IMG("photo-1562050506-28d37d99f2a5"), photographer: "Iwona Castiello d'Antonio", photoPageUrl: "https://unsplash.com/photos/qQM9czGe7V4" },
+    ],
+  ],
+  [
+    "oman--trekking-jebel-akhdar-terraces",
+    [
+      { url: IMG("photo-1786300412300-55e0a9d70c80"), photographer: "Rafael Peier", photoPageUrl: "https://unsplash.com/photos/VxxRsbirwGE" },
+      { url: IMG("photo-1786300412237-4eda8f0b7d72"), photographer: "Rafael Peier", photoPageUrl: "https://unsplash.com/photos/AeLnc7KYrGs" },
+      { url: IMG("photo-1789677801935-2786817eee2f"), photographer: "Rafael Peier", photoPageUrl: "https://unsplash.com/photos/jk63P2byAuw" },
+      { url: IMG("photo-1789677802233-e3091a96b68c"), photographer: "Rafael Peier", photoPageUrl: "https://unsplash.com/photos/5EfIofQ5WGw" },
+      { url: IMG("photo-1789677801439-58f6e7953c57"), photographer: "Rafael Peier", photoPageUrl: "https://unsplash.com/photos/Umu7O28EpGc" },
+    ],
+  ],
+  [
+    "oman--dune-bashing-wahiba-sands",
+    [
+      { url: IMG("photo-1579193219623-8ef5f1baa518"), photographer: "Arisa S.", photoPageUrl: "https://unsplash.com/photos/4JoctunuBgw" },
+      { url: IMG("photo-1582617305594-33359380b310"), photographer: "Arisa S.", photoPageUrl: "https://unsplash.com/photos/U5nKyvgjFWc" },
+      { url: IMG("photo-1615246445659-ea5716177645"), photographer: "PHILIP ABDO", photoPageUrl: "https://unsplash.com/photos/O5cFf3V2b8M" },
+      { url: IMG("photo-1553796661-17b7fa359f49"), photographer: "Mike Iukhtenko", photoPageUrl: "https://unsplash.com/photos/zuueig1w8WI" },
+      { url: IMG("photo-1542451542907-6cf80ff362d6"), photographer: "K T", photoPageUrl: "https://unsplash.com/photos/WaUcTYPfiCU" },
+    ],
+  ],
+  [
+    "oman--canyoning-wadi-bani-khalid",
+    [
+      { url: IMG("photo-1579616182483-f0d417a2f773"), photographer: "Dev Mallangada", photoPageUrl: "https://unsplash.com/photos/xZ10Sn6Td9o" },
+      { url: IMG("photo-1579783447342-a64a25d6481b"), photographer: "Silas Baisch", photoPageUrl: "https://unsplash.com/photos/KZCnvR-vdqU" },
+      { url: IMG("photo-1784749464828-b8b0a86b2581"), photographer: "Rafael Peier", photoPageUrl: "https://unsplash.com/photos/efULuzVxGwI" },
+      { url: IMG("photo-1784749464831-c343e6ac3516"), photographer: "Rafael Peier", photoPageUrl: "https://unsplash.com/photos/jthP_WeJxUA" },
+      { url: IMG("photo-1784749464827-01a240d6c2ac"), photographer: "Rafael Peier", photoPageUrl: "https://unsplash.com/photos/hz4C4LM1jc8" },
+    ],
+  ],
 ]);
 
 export function galleryForActivity(activityId: string): GalleryPhoto[] | null {
