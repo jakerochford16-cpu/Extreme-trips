@@ -1244,6 +1244,386 @@ const ACTIVITY_GALLERIES: ReadonlyMap<string, GalleryPhoto[]> = new Map([
       { url: IMG("photo-1654180563895-313d904459a5"), photographer: "Colin + Meg", photoPageUrl: "https://unsplash.com/s/photos/fiji-rainforest" },
     ],
   ],
+  [
+    "south-africa--great-white-shark-cage-diving-gansbaai",
+    [
+      { url: IMG("photo-1604337356887-49ae9d469fd7"), photographer: "Kevin Bessat", photoPageUrl: "https://unsplash.com/s/photos/gansbaai" },
+      { url: IMG("photo-1560275619-4cc5fa59d3ae"), photographer: "Gerald Schömbs", photoPageUrl: "https://unsplash.com/s/photos/shark-diving" },
+      { url: IMG("photo-1637308111472-fdf4886a2e07"), photographer: "Oleksandr Sushko", photoPageUrl: "https://unsplash.com/s/photos/shark-diving" },
+      { url: IMG("photo-1563186627-0d185db94083"), photographer: "Marcelo Cidrack", photoPageUrl: "https://unsplash.com/s/photos/shark-diving" },
+      { url: IMG("photo-1674786272877-98e180235c48"), photographer: "Michael Worden", photoPageUrl: "https://unsplash.com/s/photos/shark-diving" },
+    ],
+  ],
+  [
+    "south-africa--bloukrans-bridge-bungy-jump",
+    [
+      { url: IMG("photo-1559677624-3c956f10d431"), photographer: "Anoof Junaid", photoPageUrl: "https://unsplash.com/photos/J16ep2LfHwY" },
+      { url: IMG("photo-1549221360-456a9c197d5b"), photographer: "Laurynas Me", photoPageUrl: "https://unsplash.com/s/photos/bungee-jumping" },
+      { url: IMG("photo-1595778039451-58a7c2946e7d"), photographer: "Simon Billy", photoPageUrl: "https://unsplash.com/s/photos/bungee-jumping" },
+      { url: IMG("photo-1564797663359-624328971f55"), photographer: "Jeffrey Grospe", photoPageUrl: "https://unsplash.com/s/photos/bungee-jumping" },
+      { url: IMG("photo-1454111782563-b8fbc05eacb2"), photographer: "Blake Wheeler", photoPageUrl: "https://unsplash.com/s/photos/bungee-jumping" },
+    ],
+  ],
+  [
+    "south-africa--kloofing-canyoning-suicide-gorge",
+    [
+      { url: IMG("photo-1690291900903-1bf8f6f54c50"), photographer: "Han-Hsing Tu", photoPageUrl: "https://unsplash.com/s/photos/canyoning" },
+      { url: IMG("photo-1721338752673-91b7603f2ae0"), photographer: "Josh Fotheringham", photoPageUrl: "https://unsplash.com/s/photos/canyoning" },
+      { url: IMG("photo-1594270501793-c9b7ce49dfa8"), photographer: "Harry Dona", photoPageUrl: "https://unsplash.com/s/photos/canyoning" },
+      { url: IMG("photo-1769218411838-26a4572fb6d4"), photographer: "Gabrima_", photoPageUrl: "https://unsplash.com/s/photos/canyoning" },
+      { url: IMG("photo-1659346213185-2fb6639e6ad6"), photographer: "Alena Kol", photoPageUrl: "https://unsplash.com/s/photos/canyoning" },
+    ],
+  ],
+  [
+    "south-africa--extreme-scramble-route-table-mountain-india-venster",
+    [
+      { url: IMG("photo-1580644906000-6e953181e153"), photographer: "Tobias Reich", photoPageUrl: "https://unsplash.com/s/photos/table-mountain-cape-town" },
+      { url: IMG("photo-1721155227599-bfb5e8913fc4"), photographer: "Nico Smit", photoPageUrl: "https://unsplash.com/s/photos/table-mountain-cape-town" },
+      { url: IMG("photo-1733371021248-0986ef2ceeba"), photographer: "Kyle McLeod", photoPageUrl: "https://unsplash.com/s/photos/table-mountain-cape-town" },
+      { url: IMG("photo-1751473681036-fa181075d22d"), photographer: "Asher Pardey", photoPageUrl: "https://unsplash.com/s/photos/table-mountain-cape-town" },
+      { url: IMG("photo-1591296795955-92a580509b82"), photographer: "Thomas Bennie", photoPageUrl: "https://unsplash.com/s/photos/table-mountain-cape-town" },
+    ],
+  ],
+  [
+    "south-africa--big-wave-surfing-dungeons",
+    [
+      { url: IMG("photo-1616141893496-fbc65370493e"), photographer: "Matt Paul Catalano", photoPageUrl: "https://unsplash.com/s/photos/big-wave-surfing" },
+      { url: IMG("photo-1559627755-42212e5c5fdf"), photographer: "Silas Baisch", photoPageUrl: "https://unsplash.com/s/photos/big-wave-surfing" },
+      { url: IMG("photo-1601505804121-45e2c5506c94"), photographer: "Lisha Riabinina", photoPageUrl: "https://unsplash.com/s/photos/big-wave-surfing" },
+      { url: IMG("photo-1476574898132-040f50db0a01"), photographer: "Jeremy Bishop", photoPageUrl: "https://unsplash.com/s/photos/big-wave-surfing" },
+      { url: IMG("photo-1730286855206-3ff94c2fd211"), photographer: "byronetmedia", photoPageUrl: "https://unsplash.com/s/photos/big-wave-surfing" },
+    ],
+  ],
+  [
+    "south-africa--walking-safari-kruger-national-park",
+    [
+      { url: IMG("photo-1612703252506-e2f1f674752d"), photographer: "Andrew Liu", photoPageUrl: "https://unsplash.com/s/photos/kruger-national-park" },
+      { url: IMG("photo-1681829496174-e9b03398a0a9"), photographer: "Theo Topolevsky", photoPageUrl: "https://unsplash.com/s/photos/kruger-national-park" },
+      { url: IMG("photo-1645183979830-b7f96b591026"), photographer: "Jacob Vizek", photoPageUrl: "https://unsplash.com/s/photos/kruger-national-park" },
+      { url: IMG("photo-1496773589367-79ee06195d0b"), photographer: "Tobin Rogers", photoPageUrl: "https://unsplash.com/s/photos/kruger-national-park" },
+      { url: IMG("photo-1509273643562-1e5a5f769955"), photographer: "Yolande Conradie", photoPageUrl: "https://unsplash.com/s/photos/kruger-national-park" },
+    ],
+  ],
+  [
+    "south-africa--sardine-run-freediving",
+    [
+      { url: IMG("photo-1628630500614-1c8924c99c3e"), photographer: "Chase Baker", photoPageUrl: "https://unsplash.com/s/photos/freediving" },
+      { url: IMG("photo-1602199926649-2e5e447bab97"), photographer: "Kiril Dobrev", photoPageUrl: "https://unsplash.com/s/photos/freediving" },
+      { url: IMG("photo-1462947760324-15811216b688"), photographer: "Jakob Boman", photoPageUrl: "https://unsplash.com/s/photos/freediving" },
+      { url: IMG("photo-1503177847378-d2048487fa46"), photographer: "Jeremy Bishop", photoPageUrl: "https://unsplash.com/s/photos/freediving" },
+      { url: IMG("photo-1567628065080-ecdec09a7588"), photographer: "Max Gotts", photoPageUrl: "https://unsplash.com/s/photos/freediving" },
+    ],
+  ],
+  [
+    "south-africa--multi-pitch-rock-climbing-table-mountain",
+    [
+      { url: IMG("photo-1601224748193-d24f166b5c77"), photographer: "Sean Benesh", photoPageUrl: "https://unsplash.com/s/photos/rock-climbing" },
+      { url: IMG("photo-1522163182402-834f871fd851"), photographer: "Hu Chen", photoPageUrl: "https://unsplash.com/s/photos/rock-climbing" },
+      { url: IMG("photo-1507034589631-9433cc6bc453"), photographer: "x )", photoPageUrl: "https://unsplash.com/s/photos/rock-climbing" },
+      { url: IMG("photo-1591296795955-92a580509b82"), photographer: "Thomas Bennie", photoPageUrl: "https://unsplash.com/s/photos/table-mountain-cape-town" },
+      { url: IMG("photo-1580644906000-6e953181e153"), photographer: "Tobias Reich", photoPageUrl: "https://unsplash.com/s/photos/table-mountain-cape-town" },
+    ],
+  ],
+  [
+    "south-africa--chain-ladder-ascent-drakensberg-amphitheatre",
+    [
+      { url: IMG("photo-1625750010410-a9359021775c"), photographer: "Jandré van der Walt", photoPageUrl: "https://unsplash.com/s/photos/drakensberg" },
+      { url: IMG("photo-1566840021296-9c0dfd6ab36d"), photographer: "Arthur Hickinbotham", photoPageUrl: "https://unsplash.com/s/photos/drakensberg" },
+      { url: IMG("photo-1566840021279-9713abd97c05"), photographer: "Arthur Hickinbotham", photoPageUrl: "https://unsplash.com/s/photos/drakensberg" },
+      { url: IMG("photo-1566840009607-bc64a59294a1"), photographer: "Arthur Hickinbotham", photoPageUrl: "https://unsplash.com/s/photos/drakensberg" },
+      { url: IMG("photo-1609521487462-d7712d987a02"), photographer: "Spekboom", photoPageUrl: "https://unsplash.com/s/photos/drakensberg" },
+    ],
+  ],
+  [
+    "south-africa--abseiling-storms-river-gorge",
+    [
+      { url: IMG("photo-1621752028655-de9c96ba8967"), photographer: "Nico Smit", photoPageUrl: "https://unsplash.com/s/photos/abseiling" },
+      { url: IMG("photo-1687177873040-c5e33bcfeb79"), photographer: "Creed Ferguson", photoPageUrl: "https://unsplash.com/s/photos/abseiling" },
+      { url: IMG("photo-1621693113354-8b32a9e0ba39"), photographer: "Chalo Garcia", photoPageUrl: "https://unsplash.com/s/photos/abseiling" },
+      { url: IMG("photo-1547233528-08a0fabc00dd"), photographer: "Jon Hieb", photoPageUrl: "https://unsplash.com/s/photos/abseiling" },
+      { url: IMG("photo-1762717564665-234cd54392df"), photographer: "Corentin Largeron", photoPageUrl: "https://unsplash.com/s/photos/abseiling" },
+    ],
+  ],
+  [
+    "greenland--ice-cap-ski-traverse",
+    [
+      { url: IMG("photo-1476249202953-93ec0d185ab7"), photographer: "Tobias Keller", photoPageUrl: "https://unsplash.com/s/photos/greenland-ice-sheet" },
+      { url: IMG("photo-1564148204877-9bf116988675"), photographer: "Xavier Balderas Cejudo", photoPageUrl: "https://unsplash.com/s/photos/greenland-ice-sheet" },
+      { url: IMG("photo-1640189668430-f9791d4db74a"), photographer: "Johannes Andersson", photoPageUrl: "https://unsplash.com/s/photos/ski-touring" },
+      { url: IMG("photo-1610049957231-1b47d1bc06ad"), photographer: "Shutter Speed", photoPageUrl: "https://unsplash.com/s/photos/ski-touring" },
+      { url: IMG("photo-1529669851596-ba9a5549af95"), photographer: "Yann Allegre", photoPageUrl: "https://unsplash.com/s/photos/ski-touring" },
+    ],
+  ],
+  [
+    "greenland--iceberg-sea-kayaking-ilulissat-icefjord",
+    [
+      { url: IMG("photo-1760576434956-9e90adad6bf7"), photographer: "Carlota O.", photoPageUrl: "https://unsplash.com/s/photos/kayaking-iceberg" },
+      { url: IMG("photo-1673209378872-a36ba431f248"), photographer: "Job Savelsberg", photoPageUrl: "https://unsplash.com/s/photos/kayaking-iceberg" },
+      { url: IMG("photo-1777432047877-5cb1d86b3543"), photographer: "Liosha Shyp", photoPageUrl: "https://unsplash.com/s/photos/kayaking-iceberg" },
+      { url: IMG("photo-1769566364704-3178f4d83619"), photographer: "Kevin Zhou", photoPageUrl: "https://unsplash.com/s/photos/kayaking-iceberg" },
+      { url: IMG("photo-1562106856-928cc668b63d"), photographer: "Kuno Schweizer", photoPageUrl: "https://unsplash.com/s/photos/kayaking-iceberg" },
+    ],
+  ],
+  [
+    "greenland--arctic-winter-bivouac-under-the-aurora",
+    [
+      { url: IMG("photo-1610620746460-de78cf3d1705"), photographer: "Dylan Shaw", photoPageUrl: "https://unsplash.com/s/photos/aurora-borealis-tent" },
+      { url: IMG("photo-1643874626341-86b9b950a675"), photographer: "Hendrik Morkel", photoPageUrl: "https://unsplash.com/s/photos/aurora-borealis-tent" },
+      { url: IMG("photo-1531571065863-3f9e05cc1af2"), photographer: "Lightscape", photoPageUrl: "https://unsplash.com/s/photos/aurora-borealis-tent" },
+      { url: IMG("photo-1526644253653-a411eaafdfe6"), photographer: "David Becker", photoPageUrl: "https://unsplash.com/s/photos/aurora-borealis-tent" },
+      { url: IMG("photo-1663422894740-f4eb70a8e763"), photographer: "Jonatan Pie", photoPageUrl: "https://unsplash.com/s/photos/aurora-borealis-tent" },
+    ],
+  ],
+  [
+    "greenland--big-wall-climbing-tasermiut-fjord",
+    [
+      { url: IMG("photo-1573835541394-3257d2c67993"), photographer: "Visit Greenland", photoPageUrl: "https://unsplash.com/s/photos/greenland-fjord" },
+      { url: IMG("photo-1602842900683-0040b9be5dfe"), photographer: "omid armin", photoPageUrl: "https://unsplash.com/s/photos/big-wall-climbing" },
+      { url: IMG("photo-1600729664711-816e87d1d667"), photographer: "Daniel Jiménez", photoPageUrl: "https://unsplash.com/s/photos/big-wall-climbing" },
+      { url: IMG("photo-1734445559598-39f9329ac7a3"), photographer: "Frederick Shaw", photoPageUrl: "https://unsplash.com/s/photos/mountaineering-rope-team" },
+      { url: IMG("photo-1778661908998-5bc6d747d795"), photographer: "Wan Goth", photoPageUrl: "https://unsplash.com/s/photos/mountaineering-rope-team" },
+    ],
+  ],
+  [
+    "greenland--ice-climbing-calving-glacier-front",
+    [
+      { url: IMG("photo-1709517659991-58d946519556"), photographer: "Chaewool Kim", photoPageUrl: "https://unsplash.com/s/photos/ice-climbing" },
+      { url: IMG("photo-1485871882310-4ecdab8a6f94"), photographer: "Greg Rakozy", photoPageUrl: "https://unsplash.com/s/photos/ice-climbing" },
+      { url: IMG("photo-1485872987516-ec9b00fe7a65"), photographer: "Greg Rakozy", photoPageUrl: "https://unsplash.com/s/photos/ice-climbing" },
+      { url: IMG("photo-1701491934827-cb2c05b6a887"), photographer: "Chaewool Kim", photoPageUrl: "https://unsplash.com/s/photos/ice-climbing" },
+      { url: IMG("photo-1586887507406-3a1fde6dea04"), photographer: "Joe Wagner", photoPageUrl: "https://unsplash.com/s/photos/ice-climbing" },
+    ],
+  ],
+  [
+    "greenland--dog-sledding-ice-cap-margin",
+    [
+      { url: IMG("photo-1618423312079-21884b91f5de"), photographer: "Visit Greenland", photoPageUrl: "https://unsplash.com/s/photos/dog-sledding-greenland" },
+      { url: IMG("photo-1778513810765-c8e3d66e2724"), photographer: "Dave Meckler", photoPageUrl: "https://unsplash.com/s/photos/dog-sledding-greenland" },
+      { url: IMG("photo-1778513810841-62f1b007a40c"), photographer: "Dave Meckler", photoPageUrl: "https://unsplash.com/s/photos/dog-sledding-greenland" },
+      { url: IMG("photo-1621775561024-10392383f588"), photographer: "Naja Bertolt Jensen", photoPageUrl: "https://unsplash.com/s/photos/dog-sledding-greenland" },
+      { url: IMG("photo-1573995974701-1af577c7de08"), photographer: "Visit Greenland", photoPageUrl: "https://unsplash.com/s/photos/dog-sledding-greenland" },
+    ],
+  ],
+  [
+    "greenland--snowmobile-expedition-ice-sheet-margin",
+    [
+      { url: IMG("photo-1549351245-ac6dda50eb92"), photographer: "Nate Johnston", photoPageUrl: "https://unsplash.com/s/photos/snowmobile" },
+      { url: IMG("photo-1547494668-69e7cca0af05"), photographer: "Spencer Davis", photoPageUrl: "https://unsplash.com/s/photos/snowmobile" },
+      { url: IMG("photo-1704242472635-707d1c0d64db"), photographer: "Yuhan Du", photoPageUrl: "https://unsplash.com/s/photos/snowmobile" },
+      { url: IMG("photo-1553406442-34b7abdd556e"), photographer: "Jamie Fenn", photoPageUrl: "https://unsplash.com/s/photos/snowmobile" },
+      { url: IMG("photo-1548978023-78e9b6b082fa"), photographer: "Spencer Davis", photoPageUrl: "https://unsplash.com/s/photos/snowmobile" },
+    ],
+  ],
+  [
+    "india--chadar-trek-frozen-river-walk",
+    [
+      { url: IMG("photo-1702296356665-2893d1100b2c"), photographer: "Joshi Milestoner", photoPageUrl: "https://unsplash.com/s/photos/zanskar-frozen-river" },
+      { url: IMG("photo-1702296365554-b01164502e94"), photographer: "Joshi Milestoner", photoPageUrl: "https://unsplash.com/s/photos/zanskar-frozen-river" },
+      { url: IMG("photo-1702704944450-0f3a575491a2"), photographer: "Joshi Milestoner", photoPageUrl: "https://unsplash.com/s/photos/zanskar-frozen-river" },
+      { url: IMG("photo-1702296397324-1e76d7818559"), photographer: "Joshi Milestoner", photoPageUrl: "https://unsplash.com/s/photos/zanskar-frozen-river" },
+      { url: IMG("photo-1702881958646-ea3402508b95"), photographer: "Joshi Milestoner", photoPageUrl: "https://unsplash.com/s/photos/zanskar-frozen-river" },
+    ],
+  ],
+  [
+    "india--khardung-la-high-altitude-mountain-biking",
+    [
+      { url: IMG("photo-1760892799604-802307592bd4"), photographer: "Sunil Chandra Sharma", photoPageUrl: "https://unsplash.com/s/photos/mountain-biking-himalaya" },
+      { url: IMG("photo-1760892799253-8c860a86f12e"), photographer: "Sunil Chandra Sharma", photoPageUrl: "https://unsplash.com/s/photos/mountain-biking-himalaya" },
+      { url: IMG("photo-1760892799297-b11ce2acca88"), photographer: "Sunil Chandra Sharma", photoPageUrl: "https://unsplash.com/s/photos/mountain-biking-himalaya" },
+      { url: IMG("photo-1760892799351-70a94daa4ac9"), photographer: "Sunil Chandra Sharma", photoPageUrl: "https://unsplash.com/s/photos/mountain-biking-himalaya" },
+      { url: IMG("photo-1760892799189-542f1c3ecac7"), photographer: "Sunil Chandra Sharma", photoPageUrl: "https://unsplash.com/s/photos/mountain-biking-himalaya" },
+    ],
+  ],
+  [
+    "india--whitewater-rafting-rishikesh",
+    [
+      { url: IMG("photo-1718431108073-7f61fb5dfefb"), photographer: "Avinash Kumar", photoPageUrl: "https://unsplash.com/s/photos/rishikesh-rafting" },
+      { url: IMG("photo-1718383537411-6f9e727ae0bb"), photographer: "Avinash Kumar", photoPageUrl: "https://unsplash.com/s/photos/rishikesh-rafting" },
+      { url: IMG("photo-1598610882061-bb806386c5fb"), photographer: "Narinder Pal", photoPageUrl: "https://unsplash.com/s/photos/rishikesh-rafting" },
+      { url: IMG("photo-1711992437606-bd676fb6fdf2"), photographer: "Gokul Gurung", photoPageUrl: "https://unsplash.com/s/photos/rishikesh-rafting" },
+      { url: IMG("photo-1671506320551-49cba39dfb7b"), photographer: "Karthik B K", photoPageUrl: "https://unsplash.com/s/photos/rishikesh-rafting" },
+    ],
+  ],
+  [
+    "india--paragliding-bir-billing",
+    [
+      { url: IMG("photo-1669474643381-9c99377886ed"), photographer: "Rishabh Dharmani", photoPageUrl: "https://unsplash.com/s/photos/bir-billing-paragliding" },
+      { url: IMG("photo-1625124313248-903aa145ac51"), photographer: "Naman Sood", photoPageUrl: "https://unsplash.com/s/photos/bir-billing-paragliding" },
+      { url: IMG("photo-1769963608832-cc25836772e1"), photographer: "Bir Billing India", photoPageUrl: "https://unsplash.com/s/photos/bir-billing-paragliding" },
+      { url: IMG("photo-1719949122509-74d0a1d08b44"), photographer: "Ikshit Chaudhari", photoPageUrl: "https://unsplash.com/s/photos/paragliding" },
+      { url: IMG("photo-1598209500819-d79a1f16fd4d"), photographer: "Nicolas Lafargue", photoPageUrl: "https://unsplash.com/s/photos/paragliding" },
+    ],
+  ],
+  [
+    "india--caving-meghalaya-cave-systems",
+    [
+      { url: IMG("photo-1560403442-d141ff60800d"), photographer: "Devon Janse van Rensburg", photoPageUrl: "https://unsplash.com/s/photos/caving" },
+      { url: IMG("photo-1631641551473-fbe46919289d"), photographer: "Intricate Explorer", photoPageUrl: "https://unsplash.com/s/photos/caving" },
+      { url: IMG("photo-1628746404106-4d3843b231b3"), photographer: "Jason Gardner", photoPageUrl: "https://unsplash.com/s/photos/caving" },
+      { url: IMG("photo-1667333112033-85256c4317ba"), photographer: "Adrian Mag", photoPageUrl: "https://unsplash.com/s/photos/caving" },
+      { url: IMG("photo-1628746403157-e11ee82219a6"), photographer: "Jason Gardner", photoPageUrl: "https://unsplash.com/s/photos/caving" },
+    ],
+  ],
+  [
+    "india--kanchenjunga-base-camp-trek",
+    [
+      { url: IMG("photo-1627119703136-3964f14b7325"), photographer: "NSG", photoPageUrl: "https://unsplash.com/s/photos/kanchenjunga" },
+      { url: IMG("photo-1624725412168-a8e69d4f7b36"), photographer: "Labun Hang Limboo", photoPageUrl: "https://unsplash.com/s/photos/kanchenjunga" },
+      { url: IMG("photo-1662551392187-768334a36d4e"), photographer: "Rudra Gupta", photoPageUrl: "https://unsplash.com/s/photos/kanchenjunga" },
+      { url: IMG("photo-1615459625077-42d2106b34d3"), photographer: "Ajay Kumar Roy", photoPageUrl: "https://unsplash.com/s/photos/kanchenjunga" },
+      { url: IMG("photo-1557871201-d57f1f439b69"), photographer: "Farhan Khan", photoPageUrl: "https://unsplash.com/s/photos/kanchenjunga" },
+    ],
+  ],
+  [
+    "india--diving-andaman-islands",
+    [
+      { url: IMG("photo-1721834058855-b9d0570722b4"), photographer: "Jayanth Muppaneni", photoPageUrl: "https://unsplash.com/s/photos/andaman-islands" },
+      { url: IMG("photo-1586053226626-febc8817962f"), photographer: "tatonomusic", photoPageUrl: "https://unsplash.com/s/photos/andaman-islands" },
+      { url: IMG("photo-1682687981630-cefe9cd73072"), photographer: "NEOM", photoPageUrl: "https://unsplash.com/s/photos/scuba-diving-reef" },
+      { url: IMG("photo-1682687981907-170c006e3744"), photographer: "NEOM", photoPageUrl: "https://unsplash.com/s/photos/scuba-diving-reef" },
+      { url: IMG("photo-1544551763-46a013bb70d5"), photographer: "Sebastian Pena Lambarri", photoPageUrl: "https://unsplash.com/s/photos/scuba-diving-reef" },
+    ],
+  ],
+  [
+    "namibia--dune-climbing-sandboarding-sossusvlei",
+    [
+      { url: IMG("photo-1559160581-44bd4222d397"), photographer: "Ashim D'Silva", photoPageUrl: "https://unsplash.com/s/photos/sossusvlei" },
+      { url: IMG("photo-1613155358090-7365a34ed5ec"), photographer: "Mareike Kramper", photoPageUrl: "https://unsplash.com/s/photos/sossusvlei" },
+      { url: IMG("photo-1706276902620-fc6fa70aedb4"), photographer: "Bernd Dittrich", photoPageUrl: "https://unsplash.com/s/photos/sossusvlei" },
+      { url: IMG("photo-1696104613970-fc7f58d1ff39"), photographer: "Bernd Dittrich", photoPageUrl: "https://unsplash.com/s/photos/sossusvlei" },
+      { url: IMG("photo-1645651758223-32f82d99c43d"), photographer: "Bernd Dittrich", photoPageUrl: "https://unsplash.com/s/photos/sossusvlei" },
+    ],
+  ],
+  [
+    "namibia--skeleton-coast-off-road-expedition",
+    [
+      { url: IMG("photo-1667506609659-599fb1f59f94"), photographer: "Joshua Kettle", photoPageUrl: "https://unsplash.com/s/photos/skeleton-coast-namibia" },
+      { url: IMG("photo-1669492154797-6750000cec29"), photographer: "Joshua Kettle", photoPageUrl: "https://unsplash.com/s/photos/skeleton-coast-namibia" },
+      { url: IMG("photo-1666837147745-1c9dea9908a4"), photographer: "Joshua Kettle", photoPageUrl: "https://unsplash.com/s/photos/skeleton-coast-namibia" },
+      { url: IMG("photo-1601600989147-6ba95406ec1a"), photographer: "Felipe Labate", photoPageUrl: "https://unsplash.com/s/photos/skeleton-coast-namibia" },
+      { url: IMG("photo-1669492223198-0664d4c9d2ab"), photographer: "Joshua Kettle", photoPageUrl: "https://unsplash.com/s/photos/skeleton-coast-namibia" },
+    ],
+  ],
+  [
+    "namibia--fish-river-canyon-trekking",
+    [
+      { url: IMG("photo-1639402478735-7219a7e249ff"), photographer: "Andrew Svk", photoPageUrl: "https://unsplash.com/s/photos/fish-river-canyon" },
+      { url: IMG("photo-1579990555377-c0abf314dcdb"), photographer: "JP Desvigne", photoPageUrl: "https://unsplash.com/s/photos/fish-river-canyon" },
+      { url: IMG("photo-1719145738583-baffef56abb9"), photographer: "Jeandre Kleynhans", photoPageUrl: "https://unsplash.com/s/photos/fish-river-canyon" },
+      { url: IMG("photo-1719145720287-3ec0611cfec4"), photographer: "Jeandre Kleynhans", photoPageUrl: "https://unsplash.com/s/photos/fish-river-canyon" },
+      { url: IMG("photo-1665516627441-3edbd940dbfb"), photographer: "Joshua Kettle", photoPageUrl: "https://unsplash.com/s/photos/fish-river-canyon" },
+    ],
+  ],
+  [
+    "namibia--cave-diving-dragon-s-breath-cave",
+    [
+      { url: IMG("photo-1682687982167-d7fb3ed8541d"), photographer: "NEOM", photoPageUrl: "https://unsplash.com/s/photos/cave-diving" },
+      { url: IMG("photo-1682686580849-3e7f67df4015"), photographer: "NEOM", photoPageUrl: "https://unsplash.com/s/photos/cave-diving" },
+      { url: IMG("photo-1682686581740-2c5f76eb86d1"), photographer: "NEOM", photoPageUrl: "https://unsplash.com/s/photos/cave-diving" },
+      { url: IMG("photo-1682686581660-3693f0c588d2"), photographer: "NEOM", photoPageUrl: "https://unsplash.com/s/photos/cave-diving" },
+      { url: IMG("photo-1682686581484-a220483e6291"), photographer: "NEOM", photoPageUrl: "https://unsplash.com/s/photos/cave-diving" },
+    ],
+  ],
+  [
+    "namibia--rock-climbing-spitzkoppe",
+    [
+      { url: IMG("photo-1639402479828-78bb0b67698d"), photographer: "Andrew Svk", photoPageUrl: "https://unsplash.com/s/photos/spitzkoppe" },
+      { url: IMG("photo-1711092047480-4382d9626abc"), photographer: "m_oros", photoPageUrl: "https://unsplash.com/s/photos/spitzkoppe" },
+      { url: IMG("photo-1669220228835-6c80412646d2"), photographer: "Joshua Kettle", photoPageUrl: "https://unsplash.com/s/photos/spitzkoppe" },
+      { url: IMG("photo-1666993804910-60191605094f"), photographer: "Joshua Kettle", photoPageUrl: "https://unsplash.com/s/photos/spitzkoppe" },
+      { url: IMG("photo-1772289935804-b5218fc435d8"), photographer: "NIR HIMI", photoPageUrl: "https://unsplash.com/s/photos/spitzkoppe" },
+    ],
+  ],
+  [
+    "namibia--quad-biking-namib-dune-sea",
+    [
+      { url: IMG("photo-1624664929003-3da28050c0bf"), photographer: "Haris Khan", photoPageUrl: "https://unsplash.com/s/photos/quad-biking-desert" },
+      { url: IMG("photo-1699691785292-6a8170bb5211"), photographer: "Ibrahim Guetar", photoPageUrl: "https://unsplash.com/s/photos/quad-biking-desert" },
+      { url: IMG("photo-1769450290445-3daed0c8fe63"), photographer: "Luan Fonseca", photoPageUrl: "https://unsplash.com/s/photos/quad-biking-desert" },
+      { url: IMG("photo-1703060565984-cca98b1fa2be"), photographer: "Maxime Galliot", photoPageUrl: "https://unsplash.com/s/photos/quad-biking-desert" },
+      { url: IMG("photo-1765286932220-d2c87cc1c5b0"), photographer: "André Filipe", photoPageUrl: "https://unsplash.com/s/photos/quad-biking-desert" },
+    ],
+  ],
+  [
+    "namibia--diving-shipwrecks-cape-cross",
+    [
+      { url: IMG("photo-1573553467420-b2a90be8d317"), photographer: "Olga ga", photoPageUrl: "https://unsplash.com/s/photos/shipwreck-diving" },
+      { url: IMG("photo-1639707184438-d8f82b0ffdb5"), photographer: "Karl Callwood", photoPageUrl: "https://unsplash.com/s/photos/shipwreck-diving" },
+      { url: IMG("photo-1759676249936-a3da430bb087"), photographer: "Adam Juman", photoPageUrl: "https://unsplash.com/s/photos/shipwreck-diving" },
+      { url: IMG("photo-1784912997229-52e8909758a0"), photographer: "Kemp Fuller", photoPageUrl: "https://unsplash.com/s/photos/shipwreck-diving" },
+      { url: IMG("photo-1544642058-2d2bfc88a86a"), photographer: "Sebastian Pena Lambarri", photoPageUrl: "https://unsplash.com/s/photos/shipwreck-diving" },
+    ],
+  ],
+  [
+    "sweden--kebnekaise-summit-climb",
+    [
+      { url: IMG("photo-1786394880891-5841ddcdcfac"), photographer: "Gabriela", photoPageUrl: "https://unsplash.com/s/photos/kebnekaise" },
+      { url: IMG("photo-1594941178334-5de84024d137"), photographer: "Emil Widlund", photoPageUrl: "https://unsplash.com/s/photos/kebnekaise" },
+      { url: IMG("photo-1498576260462-eefc9d0ce9f7"), photographer: "Alessio Soggetti", photoPageUrl: "https://unsplash.com/s/photos/ski-touring" },
+      { url: IMG("photo-1610049957231-1b47d1bc06ad"), photographer: "Shutter Speed", photoPageUrl: "https://unsplash.com/s/photos/ski-touring" },
+      { url: IMG("photo-1520208422220-d12a3c588e6c"), photographer: "Jackman Chiu", photoPageUrl: "https://unsplash.com/s/photos/ice-climbing" },
+    ],
+  ],
+  [
+    "sweden--sarek-wilderness-trekking",
+    [
+      { url: IMG("photo-1695466915186-34629f87f672"), photographer: "Ville Palmu", photoPageUrl: "https://unsplash.com/s/photos/sarek-national-park" },
+      { url: IMG("photo-1547480251-f733d0cd8bbe"), photographer: "Ville Palmu", photoPageUrl: "https://unsplash.com/s/photos/sarek-national-park" },
+      { url: IMG("photo-1695466915158-71187915c496"), photographer: "Ville Palmu", photoPageUrl: "https://unsplash.com/s/photos/sarek-national-park" },
+      { url: IMG("photo-1695466915160-58ee32759f3f"), photographer: "Ville Palmu", photoPageUrl: "https://unsplash.com/s/photos/sarek-national-park" },
+      { url: IMG("photo-1614587380478-5c9ab5ef1d3e"), photographer: "Nikola Johnny Mirkovic", photoPageUrl: "https://unsplash.com/s/photos/abisko" },
+    ],
+  ],
+  [
+    "sweden--ice-diving-frozen-lake",
+    [
+      { url: IMG("photo-1561983779-7d7e065befa4"), photographer: "Maël BALLAND", photoPageUrl: "https://unsplash.com/s/photos/ice-diving" },
+      { url: IMG("photo-1517032880222-1afedf8c9d0d"), photographer: "Deborah Diem", photoPageUrl: "https://unsplash.com/s/photos/ice-diving" },
+      { url: IMG("photo-1561983273-584475c50236"), photographer: "Maël BALLAND", photoPageUrl: "https://unsplash.com/s/photos/ice-diving" },
+      { url: IMG("photo-1559600837-d0ced1da77d1"), photographer: "Anoof Junaid", photoPageUrl: "https://unsplash.com/s/photos/ice-diving" },
+      { url: IMG("photo-1736943993933-c1a407ed783c"), photographer: "Victor Oonk", photoPageUrl: "https://unsplash.com/s/photos/ice-diving" },
+    ],
+  ],
+  [
+    "sweden--backcountry-ski-touring-re",
+    [
+      { url: IMG("photo-1604290516761-df484721f04b"), photographer: "Luke Helgeson", photoPageUrl: "https://unsplash.com/s/photos/ski-touring" },
+      { url: IMG("photo-1585919269458-6259dfe9f21a"), photographer: "Clement Delhaye", photoPageUrl: "https://unsplash.com/s/photos/ski-touring" },
+      { url: IMG("photo-1717051835101-903456ccf792"), photographer: "Hendrik Morkel", photoPageUrl: "https://unsplash.com/s/photos/ski-touring" },
+      { url: IMG("photo-1640189668430-f9791d4db74a"), photographer: "Johannes Andersson", photoPageUrl: "https://unsplash.com/s/photos/ski-touring" },
+      { url: IMG("photo-1504827274833-7db1774520e3"), photographer: "Ben Koorengevel", photoPageUrl: "https://unsplash.com/s/photos/ski-touring" },
+    ],
+  ],
+  [
+    "sweden--winter-wild-camping-abisko",
+    [
+      { url: IMG("photo-1610620746460-de78cf3d1705"), photographer: "Dylan Shaw", photoPageUrl: "https://unsplash.com/s/photos/abisko" },
+      { url: IMG("photo-1665189329398-381e1f3cef96"), photographer: "Elle Leontiev", photoPageUrl: "https://unsplash.com/s/photos/abisko" },
+      { url: IMG("photo-1614587380478-5c9ab5ef1d3e"), photographer: "Nikola Johnny Mirkovic", photoPageUrl: "https://unsplash.com/s/photos/abisko" },
+      { url: IMG("photo-1665189375277-7fdf9bd5a366"), photographer: "Elle Leontiev", photoPageUrl: "https://unsplash.com/s/photos/abisko" },
+      { url: IMG("photo-1665189375076-848ff291026d"), photographer: "Elle Leontiev", photoPageUrl: "https://unsplash.com/s/photos/abisko" },
+    ],
+  ],
+  [
+    "sweden--dog-sledding-swedish-lapland",
+    [
+      { url: IMG("photo-1594279761639-cb1787798b52"), photographer: "Simon Smith", photoPageUrl: "https://unsplash.com/s/photos/dog-sledding-lapland" },
+      { url: IMG("photo-1573920932366-2c6d3c67c756"), photographer: "Ugur Arpaci", photoPageUrl: "https://unsplash.com/s/photos/dog-sledding-lapland" },
+      { url: IMG("photo-1641646946740-a3aca8f44855"), photographer: "Jørgen Vervliet", photoPageUrl: "https://unsplash.com/s/photos/dog-sledding-lapland" },
+      { url: IMG("photo-1543701131-bbbe3df320b3"), photographer: "Leo Mengoli", photoPageUrl: "https://unsplash.com/s/photos/dog-sledding-lapland" },
+      { url: IMG("photo-1672878198678-d61df5fc791f"), photographer: "Colin White", photoPageUrl: "https://unsplash.com/s/photos/dog-sledding-lapland" },
+    ],
+  ],
+  [
+    "sweden--rock-climbing-bohusl-n-coast",
+    [
+      { url: IMG("photo-1601539080575-37e52344dd14"), photographer: "Alioune Thiam", photoPageUrl: "https://unsplash.com/s/photos/sea-cliff-climbing" },
+      { url: IMG("photo-1641035855175-7e385fc964dc"), photographer: "Nick Russill", photoPageUrl: "https://unsplash.com/s/photos/sea-cliff-climbing" },
+      { url: IMG("photo-1558131716-b88daccd2e36"), photographer: "BEN ELLIOTT", photoPageUrl: "https://unsplash.com/s/photos/sea-cliff-climbing" },
+      { url: IMG("photo-1728863020566-2dc91f1ebce6"), photographer: "Dominic Kurniawan Suryaputra", photoPageUrl: "https://unsplash.com/s/photos/sea-cliff-climbing" },
+      { url: IMG("photo-1592387220015-601c6c4d3cd8"), photographer: "K. Mitch Hodge", photoPageUrl: "https://unsplash.com/s/photos/sea-cliff-climbing" },
+    ],
+  ],
 ]);
 
 export function galleryForActivity(activityId: string): GalleryPhoto[] | null {
