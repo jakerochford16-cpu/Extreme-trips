@@ -8,6 +8,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { AccountSync } from "@/components/AccountSync";
 import { AffiliateScript } from "@/components/AffiliateScript";
 import { CookieConsent } from "@/components/CookieConsent";
+import { FavoriteSignInPrompt } from "@/components/FavoriteSignInPrompt";
 import { PageViewPing } from "@/components/PageViewPing";
 import "./globals.css";
 
@@ -85,6 +86,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <AccountSync />
           <AffiliateScript />
           <CookieConsent />
+          <FavoriteSignInPrompt />
           <header className="no-print border-b border-white/10">
             <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-5 sm:px-6">
               <Link
