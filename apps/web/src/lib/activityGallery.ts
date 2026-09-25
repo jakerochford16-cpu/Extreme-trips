@@ -2004,6 +2004,346 @@ const ACTIVITY_GALLERIES: ReadonlyMap<string, GalleryPhoto[]> = new Map([
       { url: IMG("photo-1760892472018-9e3bfe540e3b"), photographer: "Sunil Chandra Sharma", photoPageUrl: "https://unsplash.com/s/photos/mountain-biking-trail" },
     ],
   ],
+  [
+    "chile--villarrica-volcano-ascent",
+    [
+      { url: IMG("photo-1756826666598-325633ed7912"), photographer: "Ricardo Díaz", photoPageUrl: "https://unsplash.com/photos/n-yrZr-GN-g" },
+      { url: IMG("photo-1665107277506-5f272d52ddb1"), photographer: "Ricardo Díaz", photoPageUrl: "https://unsplash.com/photos/2dzku0uCL7Y" },
+      { url: IMG("photo-1731850449751-c24da2c99efa"), photographer: "Ian Murray", photoPageUrl: "https://unsplash.com/photos/F52I8R_FiXA" },
+      { url: IMG("photo-1573502143827-a16f0ee55a9b"), photographer: "David Vives", photoPageUrl: "https://unsplash.com/photos/EM0aweb3uh4" },
+      { url: IMG("photo-1732117066111-291d021baa79"), photographer: "Ian Murray", photoPageUrl: "https://unsplash.com/photos/imKwUCGS0xE" },
+    ],
+  ],
+  [
+    "chile--torres-del-paine-o-circuit",
+    [
+      { url: IMG("photo-1558517286-6b7b81953cb5"), photographer: "Snowscat", photoPageUrl: "https://unsplash.com/photos/EnFQmcTtsjo" },
+      { url: IMG("photo-1682024619121-aabb0305a496"), photographer: "Paulius Dragunas", photoPageUrl: "https://unsplash.com/photos/14weKuGAe3I" },
+      { url: IMG("photo-1570075017462-b5478b3abfff"), photographer: "Alex Wolowiecki", photoPageUrl: "https://unsplash.com/photos/Zf2mL1gtaVg" },
+      { url: IMG("photo-1658312627438-30d1299683fd"), photographer: "Mario La Pergola", photoPageUrl: "https://unsplash.com/photos/LG3K7bTn-VQ" },
+      { url: IMG("photo-1648953490889-7de7775ee105"), photographer: "Daniel Arroyo", photoPageUrl: "https://unsplash.com/photos/CSRzN5gIj1s" },
+    ],
+  ],
+  [
+    "chile--sandboarding-the-valle-de-la-muerte-dunes",
+    [
+      { url: IMG("photo-1546440002-bc11606f7c2a"), photographer: "Ryan Waring", photoPageUrl: "https://unsplash.com/photos/mBP_MP6F8mc" },
+      { url: IMG("photo-1715876068166-51cffcbb0405"), photographer: "Jorge Otero", photoPageUrl: "https://unsplash.com/photos/NeJ4iSfH_ks" },
+      { url: IMG("photo-1684275749276-ded4f5ab267f"), photographer: "Florian Delée", photoPageUrl: "https://unsplash.com/photos/lbvpO9JQ_7c" },
+      { url: IMG("photo-1684275750835-431f78bc50f4"), photographer: "Florian Delée", photoPageUrl: "https://unsplash.com/photos/b24R95jlapA" },
+      { url: IMG("photo-1643632678416-133e2ff59c52"), photographer: "David Vives", photoPageUrl: "https://unsplash.com/photos/pTp5BpWPNYU" },
+    ],
+  ],
+  [
+    "chile--ojos-del-salado-high-altitude-expedition",
+    [
+      { url: IMG("photo-1559861322-1dacb2b1499d"), photographer: "Bruna Fiscuk", photoPageUrl: "https://unsplash.com/photos/v7a7_vjvTuQ" },
+      { url: IMG("photo-1616847758711-dd290c50c705"), photographer: "Hugo Kruip", photoPageUrl: "https://unsplash.com/photos/wQKQehVb1nM" },
+      { url: IMG("photo-1760726454496-480d7e70a6e4"), photographer: "Darya Luganskaya", photoPageUrl: "https://unsplash.com/photos/mcRrdPEPtKk" },
+      { url: IMG("photo-1671610842447-09f716445b0e"), photographer: "Ignacio Campo", photoPageUrl: "https://unsplash.com/photos/31FSd5UrnZs" },
+      { url: IMG("photo-1650877598331-e8a141cfe505"), photographer: "Florian Delée", photoPageUrl: "https://unsplash.com/photos/g-ZrENNw_z4" },
+    ],
+  ],
+  [
+    "chile--ice-climbing-exploradores-glacier",
+    [
+      { url: IMG("photo-1520208422220-d12a3c588e6c"), photographer: "Jackman Chiu", photoPageUrl: "https://unsplash.com/photos/36Vbwo1OiZU" },
+      { url: IMG("photo-1639883085193-e30df1f66d94"), photographer: "Elise V", photoPageUrl: "https://unsplash.com/photos/39WfE4uVExU" },
+      { url: IMG("photo-1552751753-0fc84ae5b6c8"), photographer: "Hans-Jürgen Weinhardt", photoPageUrl: "https://unsplash.com/photos/5RFMPufTKPA" },
+      { url: IMG("photo-1577373482643-5c7ccf8f0ac9"), photographer: "Hans-Jürgen Weinhardt", photoPageUrl: "https://unsplash.com/photos/fB8AA00lEFk" },
+      { url: IMG("photo-1669910008872-8aa80ab39f6c"), photographer: "Florian Delée", photoPageUrl: "https://unsplash.com/photos/wpCTKnWkeJg" },
+    ],
+  ],
+  [
+    "chile--big-wall-climbing-cocham-valley",
+    [
+      { url: IMG("photo-1520156557489-31c63271fcd4"), photographer: "bady abbas", photoPageUrl: "https://unsplash.com/photos/VmYZe_yqxL0" },
+      { url: IMG("photo-1724615949074-d5ea17327905"), photographer: "Andria Elia Photography", photoPageUrl: "https://unsplash.com/photos/ui54wis17BY" },
+      { url: IMG("photo-1601025678763-e8f5835995db"), photographer: "Petr Slováček", photoPageUrl: "https://unsplash.com/photos/YqVDdDkdFkw" },
+      { url: IMG("photo-1602842900683-0040b9be5dfe"), photographer: "omid armin", photoPageUrl: "https://unsplash.com/photos/f7MjbzHOxNU" },
+      { url: IMG("photo-1602531734042-c565f8365a0b"), photographer: "Patrick Hendry", photoPageUrl: "https://unsplash.com/photos/z1GkShBBJX4" },
+    ],
+  ],
+  [
+    "france--mont-blanc-summit-climb",
+    [
+      { url: IMG("photo-1605128005752-d1714260611e"), photographer: "Marc Kargel", photoPageUrl: "https://unsplash.com/photos/qb3Z5BfiAgg" },
+      { url: IMG("photo-1600588545434-1bcc100f7d58"), photographer: "Andrea Caramello", photoPageUrl: "https://unsplash.com/photos/jBxee1u2RAU" },
+      { url: IMG("photo-1530738270955-2ed78de5c2a9"), photographer: "Jonathan Gallegos", photoPageUrl: "https://unsplash.com/photos/HoMqP_ldh-s" },
+      { url: IMG("photo-1537211568975-f95f2101c8f5"), photographer: "Baptiste Azais", photoPageUrl: "https://unsplash.com/photos/wY2UoTLJiTg" },
+      { url: IMG("photo-1521490188859-2bf9a6660b63"), photographer: "Charlie Hammond", photoPageUrl: "https://unsplash.com/photos/DmJ6yd7th8g" },
+    ],
+  ],
+  [
+    "france--vall-e-blanche-off-piste-descent",
+    [
+      { url: IMG("photo-1675870368254-7aa2e5d72f46"), photographer: "Hongbin", photoPageUrl: "https://unsplash.com/photos/wehBtaV57T8" },
+      { url: IMG("photo-1706044629615-ac93fd845abb"), photographer: "Eric BARBEAU", photoPageUrl: "https://unsplash.com/photos/2NDEjLWp2to" },
+      { url: IMG("photo-1738821107673-98eb81defbae"), photographer: "Krzysztof Kowalik", photoPageUrl: "https://unsplash.com/photos/kepcDGM4HFY" },
+      { url: IMG("photo-1742372116943-89af4cd4d45b"), photographer: "Hanna Gutmann", photoPageUrl: "https://unsplash.com/photos/9jRlV5sLXTU" },
+      { url: IMG("photo-1665488474704-b0f3c26865e6"), photographer: "Estanislau Valmaña", photoPageUrl: "https://unsplash.com/photos/MgP946mPTW4" },
+    ],
+  ],
+  [
+    "france--base-jumping-aiguille-du-midi",
+    [
+      { url: IMG("photo-1510280781386-572b2438f88b"), photographer: "Lane Smith", photoPageUrl: "https://unsplash.com/photos/wEsqjsjIDLs" },
+      { url: IMG("photo-1520596880803-6ea0113a42d1"), photographer: "Joshua Earle", photoPageUrl: "https://unsplash.com/photos/lKkD6DY7FVw" },
+      { url: IMG("photo-1553677856-035da1f4500b"), photographer: "Krzysztof Kowalik", photoPageUrl: "https://unsplash.com/photos/_HLLHiD9Ik4" },
+      { url: IMG("photo-1576933231610-f3068fa67591"), photographer: "Matteo Max Putzolu", photoPageUrl: "https://unsplash.com/photos/ouK5qJHtRws" },
+      { url: IMG("photo-1641157139251-22bf0c71d1d1"), photographer: "Claudio Schwarz", photoPageUrl: "https://unsplash.com/photos/TRZ8ow1MM7Q" },
+    ],
+  ],
+  [
+    "france--canyoning-climbing-verdon-gorge",
+    [
+      { url: IMG("photo-1725522355814-5686fa611a63"), photographer: "Simon Spring", photoPageUrl: "https://unsplash.com/photos/YvMlixoAER0" },
+      { url: IMG("photo-1725522149699-ab14bd6f2c22"), photographer: "Simon Spring", photoPageUrl: "https://unsplash.com/photos/VNdCjOjW5Ys" },
+      { url: IMG("photo-1650394588205-a222c7e78270"), photographer: "Bananna Wintour", photoPageUrl: "https://unsplash.com/photos/nRzXyBvZCXU" },
+      { url: IMG("photo-1595497083600-d613d93aa534"), photographer: "Gontran Isnard", photoPageUrl: "https://unsplash.com/photos/mRTmkX1vvSI" },
+      { url: IMG("photo-1725953937866-a3a40f4c831b"), photographer: "Pix Tresa", photoPageUrl: "https://unsplash.com/photos/ZcVQ4xA5LuI" },
+    ],
+  ],
+  [
+    "france--caving-gouffre-berger",
+    [
+      { url: IMG("photo-1560403442-d141ff60800d"), photographer: "Devon Janse van Rensburg", photoPageUrl: "https://unsplash.com/photos/qjIzxfkoqrI" },
+      { url: IMG("photo-1631641551473-fbe46919289d"), photographer: "Intricate Explorer", photoPageUrl: "https://unsplash.com/photos/hlj6xJG30FE" },
+      { url: IMG("photo-1510256506868-484d0db06ee2"), photographer: "Joshua Sortino", photoPageUrl: "https://unsplash.com/photos/rAqzj79GUmA" },
+      { url: IMG("photo-1459356067573-0a190eb1fcf5"), photographer: "Joshua Sortino", photoPageUrl: "https://unsplash.com/photos/lRA_WTczjgw" },
+      { url: IMG("photo-1536231450280-744420a90f55"), photographer: "Mario Álvarez", photoPageUrl: "https://unsplash.com/photos/T6MvL65lWmI" },
+    ],
+  ],
+  [
+    "france--paragliding-over-lake-annecy",
+    [
+      { url: IMG("photo-1471247511763-88a722fc9919"), photographer: "Tomas Sobek", photoPageUrl: "https://unsplash.com/photos/jTP3p3tAF-E" },
+      { url: IMG("photo-1603098091396-98fc15ec5ce3"), photographer: "George Bakos", photoPageUrl: "https://unsplash.com/photos/mdkmFNuXH38" },
+      { url: IMG("photo-1594056466093-52bcbc7f5e4b"), photographer: "Aurélien Krier", photoPageUrl: "https://unsplash.com/photos/pwyueOgekMM" },
+      { url: IMG("photo-1660601634773-ec3018945bc3"), photographer: "Mariana Cassini", photoPageUrl: "https://unsplash.com/photos/DSKJvbbgyLQ" },
+      { url: IMG("photo-1618320892478-99cbf91b3c5b"), photographer: "Robin GAILLOT-DREVON", photoPageUrl: "https://unsplash.com/photos/Lm4KMeIa-Ws" },
+    ],
+  ],
+  [
+    "france--big-wave-surfing-hossegor",
+    [
+      { url: IMG("photo-1652442627729-288177475ce4"), photographer: "Guille Martinez", photoPageUrl: "https://unsplash.com/photos/h2r3k7d3gUM" },
+      { url: IMG("photo-1699883814546-0fb9595fe5df"), photographer: "Jarno Colijn", photoPageUrl: "https://unsplash.com/photos/hVf7Gtpfdx8" },
+      { url: IMG("photo-1699883815067-e48996c32217"), photographer: "Jarno Colijn", photoPageUrl: "https://unsplash.com/photos/2HZd9HxF0X4" },
+      { url: IMG("photo-1699883814405-17d4a0dbe8b0"), photographer: "Jarno Colijn", photoPageUrl: "https://unsplash.com/photos/9aShb0YueiA" },
+      { url: IMG("photo-1705168824360-5d502e0ed113"), photographer: "Luis K", photoPageUrl: "https://unsplash.com/photos/D5XuNGEAy7Y" },
+    ],
+  ],
+  [
+    "japan--backcountry-powder-skiing-niseko-hakuba",
+    [
+      { url: IMG("photo-1695059564034-a6f547b330cd"), photographer: "Luis Reid", photoPageUrl: "https://unsplash.com/photos/HfRi_D2fVDs" },
+      { url: IMG("photo-1708115106914-65655e8414da"), photographer: "Jeremy Bishop", photoPageUrl: "https://unsplash.com/photos/JjT0fv5KlhM" },
+      { url: IMG("photo-1674297026373-6e2b74da47b6"), photographer: "Kristian Klausen", photoPageUrl: "https://unsplash.com/photos/mpengvZIQyg" },
+      { url: IMG("photo-1587436925429-b02d58e19d0e"), photographer: "Jasper Wilde", photoPageUrl: "https://unsplash.com/photos/9MQY3jRQM5s" },
+      { url: IMG("photo-1686672712107-d2d4b269b124"), photographer: "Catriona Palo", photoPageUrl: "https://unsplash.com/photos/z3vZramK67A" },
+    ],
+  ],
+  [
+    "japan--mount-fuji-overnight-summit-climb",
+    [
+      { url: IMG("photo-1610375229632-c7158c35a537"), photographer: "Filiz Elaerts", photoPageUrl: "https://unsplash.com/photos/J_C3_JpJMms" },
+      { url: IMG("photo-1649583693539-f36f908da137"), photographer: "Sora Sagano", photoPageUrl: "https://unsplash.com/photos/tlCzX-8iwx4" },
+      { url: IMG("photo-1705481109538-fb7edf4a5758"), photographer: "Alison Pang", photoPageUrl: "https://unsplash.com/photos/xt5xG-fEj0M" },
+      { url: IMG("photo-1719890153193-5b5adcb8cbd5"), photographer: "Ian Chen", photoPageUrl: "https://unsplash.com/photos/YdCikkkhy7E" },
+      { url: IMG("photo-1627052862140-069bd225b3b2"), photographer: "robin inizan", photoPageUrl: "https://unsplash.com/photos/NkjBHu7lc-I" },
+    ],
+  ],
+  [
+    "japan--diving-yonaguni-s-underwater-monument",
+    [
+      { url: IMG("photo-1682687982167-d7fb3ed8541d"), photographer: "NEOM", photoPageUrl: "https://unsplash.com/photos/yx7TJle8LhM" },
+      { url: IMG("photo-1544551763-46a013bb70d5"), photographer: "Sebastian Pena Lambarri", photoPageUrl: "https://unsplash.com/photos/7i5HMCGupVw" },
+      { url: IMG("photo-1682687981630-cefe9cd73072"), photographer: "NEOM", photoPageUrl: "https://unsplash.com/photos/jTxhUMyPTrE" },
+      { url: IMG("photo-1583364493238-248032147fbd"), photographer: "Subtle Cinematics", photoPageUrl: "https://unsplash.com/photos/O5Fr1BZ-aR4" },
+      { url: IMG("photo-1682687981907-170c006e3744"), photographer: "NEOM", photoPageUrl: "https://unsplash.com/photos/_tDdlCJIwOA" },
+    ],
+  ],
+  [
+    "japan--whitewater-rafting-yoshino-river",
+    [
+      { url: IMG("photo-1629248564797-8c5ba85da9d3"), photographer: "Jackalope West", photoPageUrl: "https://unsplash.com/photos/nBNROOkE0W8" },
+      { url: IMG("photo-1658355691173-88dbb2dce6f6"), photographer: "Megan Nixon", photoPageUrl: "https://unsplash.com/photos/RVw8GvUwDj4" },
+      { url: IMG("photo-1641584495061-89b9025f563b"), photographer: "Chandan Chaurasia", photoPageUrl: "https://unsplash.com/photos/kTRFDUBBRdI" },
+      { url: IMG("photo-1598610882061-bb806386c5fb"), photographer: "NARINDER PAL", photoPageUrl: "https://unsplash.com/photos/nswSiXM_to4" },
+      { url: IMG("photo-1623306463113-f847a58c35b4"), photographer: "Dan Congdon", photoPageUrl: "https://unsplash.com/photos/vzZXeYmxqIs" },
+    ],
+  ],
+  [
+    "japan--rock-climbing-mizugaki-granite",
+    [
+      { url: IMG("photo-1522362485439-83fcff4673f0"), photographer: "Mike Kotsch", photoPageUrl: "https://unsplash.com/photos/A9dNMBX9Zm4" },
+      { url: IMG("photo-1691617169942-a62b096d430a"), photographer: "Chaewool Kim", photoPageUrl: "https://unsplash.com/photos/h-8tlWFatdQ" },
+      { url: IMG("photo-1691617169732-26d4068f6055"), photographer: "Chaewool Kim", photoPageUrl: "https://unsplash.com/photos/xDfxuQ9mYXY" },
+      { url: IMG("photo-1602541422885-be64c039f371"), photographer: "Stephanie Klepacki", photoPageUrl: "https://unsplash.com/photos/jrcPBMnoIIM" },
+      { url: IMG("photo-1579411289246-03df15f104c1"), photographer: "Greg Rosenke", photoPageUrl: "https://unsplash.com/photos/3Q30KIQeX5Q" },
+    ],
+  ],
+  [
+    "japan--sea-kayaking-through-drift-ice-shiretoko",
+    [
+      { url: IMG("photo-1716128611979-9e888259d224"), photographer: "Delvin Abdiel", photoPageUrl: "https://unsplash.com/photos/rwajwflPZdQ" },
+      { url: IMG("photo-1614599348190-2bc18b02b318"), photographer: "Pratik Bisht", photoPageUrl: "https://unsplash.com/photos/68JRxjYlDVM" },
+      { url: IMG("photo-1723727910541-86c13ad5eb51"), photographer: "Kris Tian", photoPageUrl: "https://unsplash.com/photos/dIe1yIoi-Dk" },
+      { url: IMG("photo-1723727909906-dfb6f3ff256f"), photographer: "Kris Tian", photoPageUrl: "https://unsplash.com/photos/j79BIgEAoSA" },
+      { url: IMG("photo-1723727909106-464b2f8556fb"), photographer: "Kris Tian", photoPageUrl: "https://unsplash.com/photos/d1kZb41yWFo" },
+    ],
+  ],
+  [
+    "japan--canyoning-okutama",
+    [
+      { url: IMG("photo-1654077916976-8e835a133181"), photographer: "Jonny Gios", photoPageUrl: "https://unsplash.com/photos/WI7BPBRkyt4" },
+      { url: IMG("photo-1589989615298-b6968cbc2865"), photographer: "Julia Weihe", photoPageUrl: "https://unsplash.com/photos/03Y9eHq8hRo" },
+      { url: IMG("photo-1739425272573-6232e4751991"), photographer: "Han-Hsing Tu", photoPageUrl: "https://unsplash.com/photos/Li1ddHGE4Tg" },
+      { url: IMG("photo-1740880160651-a7fb1e6fe127"), photographer: "Han-Hsing Tu", photoPageUrl: "https://unsplash.com/photos/s1M-0M3vyOc" },
+      { url: IMG("photo-1762717564665-234cd54392df"), photographer: "Corentin Largeron", photoPageUrl: "https://unsplash.com/photos/x1CauB4SEqM" },
+    ],
+  ],
+  [
+    "morocco--mount-toubkal-summit-climb",
+    [
+      { url: IMG("photo-1738412349443-359e6935422d"), photographer: "Othman Alghanmi", photoPageUrl: "https://unsplash.com/photos/p2NgMfbJsxs" },
+      { url: IMG("photo-1661166024469-932383cb86fb"), photographer: "M. Ed.", photoPageUrl: "https://unsplash.com/photos/2_Ff2c5KVbE" },
+      { url: IMG("photo-1632309776371-7bbf10dbc97c"), photographer: "Rihards Sarma", photoPageUrl: "https://unsplash.com/photos/JHeCuXiERFo" },
+      { url: IMG("photo-1737846064347-1247dd0af495"), photographer: "M. Ed.", photoPageUrl: "https://unsplash.com/photos/KLg2xnoHPAA" },
+      { url: IMG("photo-1783199110968-c53d431627a6"), photographer: "Achraf Talha", photoPageUrl: "https://unsplash.com/photos/l04TPqN5GHA" },
+    ],
+  ],
+  [
+    "morocco--sahara-desert-expedition-erg-chebbi",
+    [
+      { url: IMG("photo-1664346582394-1f38bdb31d02"), photographer: "Polina Kocheva", photoPageUrl: "https://unsplash.com/photos/pN3s5UAV2io" },
+      { url: IMG("photo-1664346757095-1fd3cfb45a60"), photographer: "Polina Kocheva", photoPageUrl: "https://unsplash.com/photos/GpJjEffLbwM" },
+      { url: IMG("photo-1677836292241-42a980172dd9"), photographer: "Desert Morocco Adventure", photoPageUrl: "https://unsplash.com/photos/cvucpKVTsUo" },
+      { url: IMG("photo-1677838735467-29ad0c3af6d5"), photographer: "Desert Morocco Adventure", photoPageUrl: "https://unsplash.com/photos/9sSh2nXjQWM" },
+      { url: IMG("photo-1731169243672-9f935e40b6c8"), photographer: "Women Travel Abroad", photoPageUrl: "https://unsplash.com/photos/B9BcucWyFrY" },
+    ],
+  ],
+  [
+    "morocco--canyoning-paradise-valley",
+    [
+      { url: IMG("photo-1581080565335-47b4b5e7abf1"), photographer: "Cristiano Pinto", photoPageUrl: "https://unsplash.com/photos/knB5iCogf5Q" },
+      { url: IMG("photo-1437449425920-24bfcdf58bcf"), photographer: "Anes El bardoudi", photoPageUrl: "https://unsplash.com/photos/IAGXZM7Av24" },
+      { url: IMG("photo-1654077916976-8e835a133181"), photographer: "Jonny Gios", photoPageUrl: "https://unsplash.com/photos/WI7BPBRkyt4" },
+      { url: IMG("photo-1739425272573-6232e4751991"), photographer: "Han-Hsing Tu", photoPageUrl: "https://unsplash.com/photos/Li1ddHGE4Tg" },
+      { url: IMG("photo-1762717564665-234cd54392df"), photographer: "Corentin Largeron", photoPageUrl: "https://unsplash.com/photos/x1CauB4SEqM" },
+    ],
+  ],
+  [
+    "morocco--rock-climbing-todra-gorge",
+    [
+      { url: IMG("photo-1603982626518-eff2f11a4e70"), photographer: "Ansgar Scheffold", photoPageUrl: "https://unsplash.com/photos/ME0R8rzD4Jg" },
+      { url: IMG("photo-1553523291-8bac4d75344d"), photographer: "rigel", photoPageUrl: "https://unsplash.com/photos/eR7AhcdD-qg" },
+      { url: IMG("photo-1553523291-1362983cd319"), photographer: "rigel", photoPageUrl: "https://unsplash.com/photos/PAlgFQ_sfVM" },
+      { url: IMG("photo-1624802310746-73f453682d23"), photographer: "rigel", photoPageUrl: "https://unsplash.com/photos/3wbmtGlzfR0" },
+      { url: IMG("photo-1661979275873-cb9c8404356d"), photographer: "Khalid El Hadrami", photoPageUrl: "https://unsplash.com/photos/KY94NFY1Ja8" },
+    ],
+  ],
+  [
+    "morocco--surfing-taghazout",
+    [
+      { url: IMG("photo-1538053367502-742497073841"), photographer: "Louis Hansel", photoPageUrl: "https://unsplash.com/photos/wgsJ52gCXuw" },
+      { url: IMG("photo-1538050558691-dfaad62c8ea0"), photographer: "Louis Hansel", photoPageUrl: "https://unsplash.com/photos/YHEGboFZ3g8" },
+      { url: IMG("photo-1706007473856-14c727df7da5"), photographer: "Jarno Colijn", photoPageUrl: "https://unsplash.com/photos/ccjwGOPku04" },
+      { url: IMG("photo-1741692052559-5e19fa9c035b"), photographer: "Chloe Boulos", photoPageUrl: "https://unsplash.com/photos/r1gITDvPIro" },
+      { url: IMG("photo-1667143297520-382b68c0dc7c"), photographer: "sander traa", photoPageUrl: "https://unsplash.com/photos/Agjn51YQrwM" },
+    ],
+  ],
+  [
+    "morocco--big-wall-climbing-taghia-gorge",
+    [
+      { url: IMG("photo-1600729664711-816e87d1d667"), photographer: "Daniel Jiménez", photoPageUrl: "https://unsplash.com/photos/DazNmzbwC1w" },
+      { url: IMG("photo-1697456642802-59bfd518d5a2"), photographer: "Curdin", photoPageUrl: "https://unsplash.com/photos/n1X4gx-dc-M" },
+      { url: IMG("photo-1583178180198-0cf050dc2bbf"), photographer: "Patrick Hendry", photoPageUrl: "https://unsplash.com/photos/8O_YsnQv74g" },
+      { url: IMG("photo-1508287459906-37445322fdf6"), photographer: "Jonathan Ouimet", photoPageUrl: "https://unsplash.com/photos/qcXff4UhZ-4" },
+      { url: IMG("photo-1501450626433-39bbf117090e"), photographer: "roya ann miller", photoPageUrl: "https://unsplash.com/photos/G2QYE9czCEw" },
+    ],
+  ],
+  [
+    "morocco--mountain-biking-high-atlas",
+    [
+      { url: IMG("photo-1739464889400-e87ec57f246d"), photographer: "Saban Onay", photoPageUrl: "https://unsplash.com/photos/JCGDd-IRFpM" },
+      { url: IMG("photo-1560789590-ee4cc7125967"), photographer: "Patrick Ogilvie", photoPageUrl: "https://unsplash.com/photos/lP3COOnx-Oc" },
+      { url: IMG("photo-1559315390-1065ae6b47c0"), photographer: "imane ag", photoPageUrl: "https://unsplash.com/photos/REPFlPjU7ec" },
+      { url: IMG("photo-1739464889767-b805389a5e3f"), photographer: "Saban Onay", photoPageUrl: "https://unsplash.com/photos/NU01b86F1OU" },
+      { url: IMG("photo-1560789627-eed2d32f7326"), photographer: "Patrick Ogilvie", photoPageUrl: "https://unsplash.com/photos/KHcyx3gGtJI" },
+    ],
+  ],
+  [
+    "rwanda--gorilla-trekking-volcanoes-national-park",
+    [
+      { url: IMG("photo-1581281863883-2469417a1668"), photographer: "Laura Seaman", photoPageUrl: "https://unsplash.com/photos/j-LQfH_zjX8" },
+      { url: IMG("photo-1509897739002-791fa79aac9b"), photographer: "Mike Arney", photoPageUrl: "https://unsplash.com/photos/rJ5vHo8gr2U" },
+      { url: IMG("photo-1590692994802-fc18443010a3"), photographer: "Joshua J. Cotten", photoPageUrl: "https://unsplash.com/photos/8kXdIXob78U" },
+      { url: IMG("photo-1614528767034-70de9fe166e0"), photographer: "Max Christian", photoPageUrl: "https://unsplash.com/photos/sMjVNtvYkD0" },
+      { url: IMG("photo-1722384034934-72f5f5c3b87c"), photographer: "Tim Mossholder", photoPageUrl: "https://unsplash.com/photos/8pvuxTJRgEg" },
+    ],
+  ],
+  [
+    "rwanda--mount-bisoke-volcano-climb",
+    [
+      { url: IMG("photo-1649594540637-837ba4901b44"), photographer: "Thoeun Ratana", photoPageUrl: "https://unsplash.com/photos/xwV6Wckfmkc" },
+      { url: IMG("photo-1754779470166-90c18833a392"), photographer: "Nate Blank", photoPageUrl: "https://unsplash.com/photos/f1VbACAoqr4" },
+      { url: IMG("photo-1699335057922-be0df1b7dcc6"), photographer: "liliia", photoPageUrl: "https://unsplash.com/photos/lo9-kiRMuWo" },
+      { url: IMG("photo-1710168833758-3cdceee3b8b7"), photographer: "Mayur Arvind", photoPageUrl: "https://unsplash.com/photos/fKlyO2W9nBI" },
+      { url: IMG("photo-1594383820485-db9ff68bd51d"), photographer: "Omri D. Cohen", photoPageUrl: "https://unsplash.com/photos/MzeSloMrFTY" },
+    ],
+  ],
+  [
+    "rwanda--chimpanzee-trekking-nyungwe-forest",
+    [
+      { url: IMG("photo-1489640818597-89b1edc97db5"), photographer: "Faustin T", photoPageUrl: "https://unsplash.com/photos/cryqKSeLX74" },
+      { url: IMG("photo-1654630122082-68aeda5c27ea"), photographer: "David Trinks", photoPageUrl: "https://unsplash.com/photos/pFEKeg4xjUA" },
+      { url: IMG("photo-1707658247333-4502df290598"), photographer: "Fabiana Rizzi", photoPageUrl: "https://unsplash.com/photos/XQZv-zYOFyM" },
+      { url: IMG("photo-1704265586677-eb11980c5c42"), photographer: "William Warby", photoPageUrl: "https://unsplash.com/photos/fk3Th0qLoDw" },
+      { url: IMG("photo-1557978556-b33c86cbeeae"), photographer: "mwangi gatheca", photoPageUrl: "https://unsplash.com/photos/hvvNY6b8pE0" },
+    ],
+  ],
+  [
+    "rwanda--mountain-biking-congo-nile-trail",
+    [
+      { url: IMG("photo-1706977570024-fefa419c48c8"), photographer: "Derricks Nature Book", photoPageUrl: "https://unsplash.com/photos/WnGwfbViulY" },
+      { url: IMG("photo-1647891684895-15c5b831fde1"), photographer: "Ifeoluwa B.", photoPageUrl: "https://unsplash.com/photos/OQrOSZovusw" },
+      { url: IMG("photo-1627044185459-09e6dbc39444"), photographer: "Tim Foster", photoPageUrl: "https://unsplash.com/photos/k_76BsRGSWM" },
+      { url: IMG("photo-1621527225138-b4832a1b3992"), photographer: "Jake Schumacher", photoPageUrl: "https://unsplash.com/photos/r92CDGlpMQE" },
+      { url: IMG("photo-1645520719499-6856445fe4ad"), photographer: "Richard Bell", photoPageUrl: "https://unsplash.com/photos/CWq4F0TD-eo" },
+    ],
+  ],
+  [
+    "rwanda--kayaking-lake-kivu",
+    [
+      { url: IMG("photo-1514548383638-cef9251a73ec"), photographer: "Serrah Galos", photoPageUrl: "https://unsplash.com/photos/bVMnhNOfFCo" },
+      { url: IMG("photo-1706977570024-fefa419c48c8"), photographer: "Derricks Nature Book", photoPageUrl: "https://unsplash.com/photos/WnGwfbViulY" },
+      { url: IMG("photo-1514547085879-968fe519da2c"), photographer: "Serrah Galos", photoPageUrl: "https://unsplash.com/photos/zDFIlyeGeP4" },
+      { url: IMG("photo-1647849975193-bf78bd1cbf4d"), photographer: "Ifeoluwa B.", photoPageUrl: "https://unsplash.com/photos/OYeYN7TmU-g" },
+      { url: IMG("photo-1647891684895-15c5b831fde1"), photographer: "Ifeoluwa B.", photoPageUrl: "https://unsplash.com/photos/OQrOSZovusw" },
+    ],
+  ],
+  [
+    "rwanda--whitewater-rafting-nyabarongo-river",
+    [
+      { url: IMG("photo-1641584511182-094468c129ed"), photographer: "Chandan Chaurasia", photoPageUrl: "https://unsplash.com/photos/5vUXmVMcubo" },
+      { url: IMG("photo-1658355719713-f510a3ce1c23"), photographer: "Megan Nixon", photoPageUrl: "https://unsplash.com/photos/G0irMwic9Zs" },
+      { url: IMG("photo-1620398619122-4da4f7bea2e3"), photographer: "Jason Buscema", photoPageUrl: "https://unsplash.com/photos/4F29nHH2q8w" },
+      { url: IMG("photo-1626738534164-11830dea29ea"), photographer: "Megan Nixon", photoPageUrl: "https://unsplash.com/photos/llepl3Zt-eQ" },
+      { url: IMG("photo-1626738534119-3a96819ea985"), photographer: "Megan Nixon", photoPageUrl: "https://unsplash.com/photos/AcTwixeUzDE" },
+    ],
+  ],
+  [
+    "chile--futaleuf-whitewater-rafting",
+    [
+      { url: IMG("photo-1629248457649-b082812aea6c"), photographer: "Jackalope West", photoPageUrl: "https://unsplash.com/photos/02HBQ2w_yak" },
+      { url: IMG("photo-1658355686821-f412c8397a0d"), photographer: "Megan Nixon", photoPageUrl: "https://unsplash.com/photos/WVDuKuz22ac" },
+      { url: IMG("photo-1599443380179-33737c17ca81"), photographer: "Lindsey Erin", photoPageUrl: "https://unsplash.com/photos/ayhiuTdcUEk" },
+      { url: IMG("photo-1641584495089-5914d85d9bcc"), photographer: "Chandan Chaurasia", photoPageUrl: "https://unsplash.com/photos/z32bIS5O1KQ" },
+      { url: IMG("photo-1760904652241-36ad6b4e752f"), photographer: "Michael Clair", photoPageUrl: "https://unsplash.com/photos/9pHSWcLtRdQ" },
+    ],
+  ],
 ]);
 
 export function galleryForActivity(activityId: string): GalleryPhoto[] | null {
