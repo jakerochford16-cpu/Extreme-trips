@@ -7,6 +7,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { AccountSync } from "@/components/AccountSync";
 import { AffiliateScript } from "@/components/AffiliateScript";
+import { BrandMark } from "@/components/BrandMark";
 import { CookieConsent } from "@/components/CookieConsent";
 import { FavoriteSignInPrompt } from "@/components/FavoriteSignInPrompt";
 import { PageViewPing } from "@/components/PageViewPing";
@@ -91,8 +92,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-5 sm:px-6">
               <Link
                 href="/"
-                className="font-serif text-lg font-semibold tracking-wide text-white sm:text-xl"
+                className="flex items-center gap-2.5 font-serif text-lg font-semibold tracking-wide text-white sm:text-xl"
               >
+                <BrandMark size={26} strokeWidth={4.5} />
                 Outer Line
               </Link>
               <nav className="flex items-center gap-3 sm:gap-7">

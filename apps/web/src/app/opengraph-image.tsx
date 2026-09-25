@@ -1,4 +1,5 @@
 import { ImageResponse } from "next/og";
+import { BrandMark } from "@/components/BrandMark";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
@@ -47,13 +48,15 @@ export default function OpengraphImage() {
         <div
           style={{
             display: "flex",
+            alignItems: "center",
+            gap: 16,
             marginTop: 36,
-            fontSize: 32,
-            fontWeight: 700,
-            color: "#d99a6c",
           }}
         >
-          50 countries &middot; 250+ extreme activities &middot; OUTER LINE
+          <BrandMark size={44} strokeWidth={4.5} />
+          <div style={{ display: "flex", fontSize: 32, fontWeight: 700, color: "#d99a6c" }}>
+            50 countries &middot; 250+ extreme activities &middot; OUTER LINE
+          </div>
         </div>
       </div>
     ),
