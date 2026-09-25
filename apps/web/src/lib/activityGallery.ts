@@ -3354,6 +3354,386 @@ const ACTIVITY_GALLERIES: ReadonlyMap<string, GalleryPhoto[]> = new Map([
       { url: IMG("photo-1673377659382-01d66c35b3dc"), photographer: "André Tavares", photoPageUrl: "https://unsplash.com/photos/IZjE3nSoMnM" },
     ],
   ],
+  [
+    "peru--rainbow-mountain-trek",
+    [
+      { url: IMG("photo-1545330785-15356daae141"), photographer: "McKayla Crump", photoPageUrl: "https://unsplash.com/photos/hjanvZlqoB8" },
+      { url: IMG("photo-1503027075-f790a0a2dcb6"), photographer: "Roi Dimor", photoPageUrl: "https://unsplash.com/photos/iuxltY6fXkI" },
+      { url: IMG("photo-1516061603506-fd4dc1932278"), photographer: "Johnson Wang", photoPageUrl: "https://unsplash.com/photos/sJa0qmawWnM" },
+      { url: IMG("photo-1744295816404-4c73fd69e0f2"), photographer: "Justin Eloo", photoPageUrl: "https://unsplash.com/photos/kTbZ0n9MzqI" },
+      { url: IMG("photo-1645740713736-67fb33117b97"), photographer: "Alvaro Palacios", photoPageUrl: "https://unsplash.com/photos/XgJjcV0KLhc" },
+    ],
+  ],
+  [
+    "peru--ausangate-trek",
+    [
+      { url: IMG("photo-1632864279384-0e809affd4dd"), photographer: "Ausangate Peru", photoPageUrl: "https://unsplash.com/photos/8j1WiTU620s" },
+      { url: IMG("photo-1632864255114-a85930657e05"), photographer: "Ausangate Peru", photoPageUrl: "https://unsplash.com/photos/34lEimFWHpE" },
+      { url: IMG("photo-1632864255136-ddfb54b320f7"), photographer: "Ausangate Peru", photoPageUrl: "https://unsplash.com/photos/n1V0dTx-al0" },
+      { url: IMG("photo-1632864255359-fede0152a809"), photographer: "Ausangate Peru", photoPageUrl: "https://unsplash.com/photos/SwycNawR9ss" },
+      { url: IMG("photo-1632864363155-edc6cfdcee37"), photographer: "Ausangate Peru", photoPageUrl: "https://unsplash.com/photos/f3O1pC1KUN8" },
+    ],
+  ],
+  [
+    "peru--colca-canyon-trek",
+    [
+      { url: IMG("photo-1563106254-9bffcc4994fa"), photographer: "Jean Vella", photoPageUrl: "https://unsplash.com/photos/XRW0ryFeizI" },
+      { url: IMG("photo-1663188632079-b284e13f0f7c"), photographer: "WILLIAN REIS", photoPageUrl: "https://unsplash.com/photos/IaHHoMFNzlA" },
+      { url: IMG("photo-1570958295340-278c2ad5f639"), photographer: "Sander Lenaerts", photoPageUrl: "https://unsplash.com/photos/koNXLJwpXFQ" },
+      { url: IMG("photo-1552491740-f814dc946946"), photographer: "Mikołaj Idziak", photoPageUrl: "https://unsplash.com/photos/kvG7MKLH-4E" },
+      { url: IMG("photo-1620925492457-802978df8072"), photographer: "Pedro Lumbre", photoPageUrl: "https://unsplash.com/photos/vlP5pjj2DS0" },
+    ],
+  ],
+  [
+    "peru--choquequirao-trek",
+    [
+      { url: IMG("photo-1687057348329-6b5c7c4c8104"), photographer: "Alex Lenz", photoPageUrl: "https://unsplash.com/photos/tO_URzDd_x4" },
+      { url: IMG("photo-1532889417458-eb7d03c8d7ed"), photographer: "Guthrie Kuckes", photoPageUrl: "https://unsplash.com/photos/KRHkiedJgqw" },
+      { url: IMG("photo-1578314835584-2e16aae87166"), photographer: "Guido Coppa", photoPageUrl: "https://unsplash.com/photos/9oyWDL41eUs" },
+      { url: IMG("photo-1593461068644-c3fdf4fc8c45"), photographer: "Janaya Dasiuk", photoPageUrl: "https://unsplash.com/photos/KrtmDdA9Y4w" },
+      { url: IMG("photo-1601226261548-82fa0b3e8e91"), photographer: "Louis LB", photoPageUrl: "https://unsplash.com/photos/Ije2QufiA00" },
+    ],
+  ],
+  [
+    "peru--sandboarding-huacachina-dunes",
+    [
+      { url: IMG("photo-1723134087756-3fdd46625a84"), photographer: "Ed Wingate", photoPageUrl: "https://unsplash.com/photos/Q-bULd2CYds" },
+      { url: IMG("photo-1566835503018-b8cdbb0a2555"), photographer: "domenica basantes", photoPageUrl: "https://unsplash.com/photos/NFog4EzxZPg" },
+      { url: IMG("photo-1643856545126-a20f97392fc9"), photographer: "Alvaro Palacios", photoPageUrl: "https://unsplash.com/photos/5GHdVZU0ii0" },
+      { url: IMG("photo-1569359271440-30c84eb4ab1f"), photographer: "Alex Azabache", photoPageUrl: "https://unsplash.com/photos/4_5SEmawYno" },
+      { url: IMG("photo-1739519310027-fe3fd9b04cdd"), photographer: "Sam", photoPageUrl: "https://unsplash.com/photos/_wqjX4MauzA" },
+    ],
+  ],
+  [
+    "peru--jungle-survival-trek-manu-national-park",
+    [
+      { url: IMG("photo-1622894808816-f3696b964af5"), photographer: "Renting C", photoPageUrl: "https://unsplash.com/photos/SZEuqdnfy-8" },
+      { url: IMG("photo-1622894809004-87c81c4a48b1"), photographer: "Renting C", photoPageUrl: "https://unsplash.com/photos/bth9eOeGljs" },
+      { url: IMG("photo-1622894840931-a133d10ee731"), photographer: "Renting C", photoPageUrl: "https://unsplash.com/photos/KupR1fsZN4I" },
+      { url: IMG("photo-1622894828020-adec58fa6a9c"), photographer: "Renting C", photoPageUrl: "https://unsplash.com/photos/YjLJWohbO3s" },
+      { url: IMG("photo-1622894830890-ad564b5136ed"), photographer: "Renting C", photoPageUrl: "https://unsplash.com/photos/DGZ_0ggy42I" },
+    ],
+  ],
+  [
+    "peru--huayna-picchu-climb",
+    [
+      { url: IMG("photo-1565451987600-ea251b7eabcf"), photographer: "Karson", photoPageUrl: "https://unsplash.com/photos/qRF1XSmmwOM" },
+      { url: IMG("photo-1565452122372-c38b171b9629"), photographer: "Karson", photoPageUrl: "https://unsplash.com/photos/cTz7mNKKHWM" },
+      { url: IMG("photo-1729157752785-060aefe43e3a"), photographer: "Letian Zhang", photoPageUrl: "https://unsplash.com/photos/q5rISRG0iWY" },
+      { url: IMG("photo-1717883909643-8e040e14e9a5"), photographer: "Daisy Chen", photoPageUrl: "https://unsplash.com/photos/_px-rvHI1Fg" },
+      { url: IMG("photo-1725197896738-76024a19016a"), photographer: "Meg von Haartman", photoPageUrl: "https://unsplash.com/photos/jehMHldSgWI" },
+    ],
+  ],
+  [
+    "peru--huascar-n-guided-ascent",
+    [
+      { url: IMG("photo-1761170570475-46caf0d2b3e8"), photographer: "ÁLVARO MENDOZA", photoPageUrl: "https://unsplash.com/photos/Y9kJwk5tywE" },
+      { url: IMG("photo-1599883617830-751287e2a87e"), photographer: "Tamara Bravo", photoPageUrl: "https://unsplash.com/photos/HJco5HA2KoA" },
+      { url: IMG("photo-1780686222756-25e093375676"), photographer: "Sophia DiDonato", photoPageUrl: "https://unsplash.com/photos/r-sdKAiGWe4" },
+      { url: IMG("photo-1733015046646-4fb34d64d75f"), photographer: "Melissa Crovetto", photoPageUrl: "https://unsplash.com/photos/iJ2wTF5LgE4" },
+      { url: IMG("photo-1518081125676-71b905e428b5"), photographer: "Paul Lequay", photoPageUrl: "https://unsplash.com/photos/D1op55EJ_ps" },
+    ],
+  ],
+  [
+    "peru--paragliding-miraflores-coastal-cliffs",
+    [
+      { url: IMG("photo-1766953943358-52b39ede8a48"), photographer: "Katherine Bandin", photoPageUrl: "https://unsplash.com/photos/DJ8_WGFZVbo" },
+      { url: IMG("photo-1577587230708-187fdbef4d91"), photographer: "Aarom Ore", photoPageUrl: "https://unsplash.com/photos/Yrqyn1Gb80k" },
+      { url: IMG("photo-1786476803182-16ec11f7582d"), photographer: "Josh", photoPageUrl: "https://unsplash.com/photos/U6aemySegzQ" },
+      { url: IMG("photo-1776443425246-5895db2e365e"), photographer: "Will Goodman", photoPageUrl: "https://unsplash.com/photos/7LF8fQufcpk" },
+      { url: IMG("photo-1786477836233-e8363e2e68d6"), photographer: "Josh", photoPageUrl: "https://unsplash.com/photos/3iam0_poluk" },
+    ],
+  ],
+  [
+    "peru--cotahuasi-canyon-whitewater-rafting",
+    [
+      { url: IMG("photo-1725149570748-adee857ce8b7"), photographer: "Meg von Haartman", photoPageUrl: "https://unsplash.com/photos/DEJEyTs0mC0" },
+      { url: IMG("photo-1725149570478-0169c3764869"), photographer: "Meg von Haartman", photoPageUrl: "https://unsplash.com/photos/WsNMG40DLmM" },
+      { url: IMG("photo-1725149573403-3582ce3b0005"), photographer: "Meg von Haartman", photoPageUrl: "https://unsplash.com/photos/s5fIdvccD6k" },
+      { url: IMG("photo-1701726218693-2d81fd87289f"), photographer: "Bibiana Davila", photoPageUrl: "https://unsplash.com/photos/olavBoLHRPc" },
+      { url: IMG("photo-1660966237650-be9c6e8af3ab"), photographer: "Max", photoPageUrl: "https://unsplash.com/photos/tsewgxr8cKo" },
+    ],
+  ],
+  [
+    "united-states--denali-summit-expedition",
+    [
+      { url: IMG("photo-1624469600761-6acd071481d9"), photographer: "Jacob Vizek", photoPageUrl: "https://unsplash.com/photos/qH70Bp7mjyU" },
+      { url: IMG("photo-1611963060099-e08069953044"), photographer: "Bryson Beaver", photoPageUrl: "https://unsplash.com/photos/qRKBRsmeLPg" },
+      { url: IMG("photo-1604180989431-aa4e1ab13847"), photographer: "Patrick Federi", photoPageUrl: "https://unsplash.com/photos/wMhj9icaHhA" },
+      { url: IMG("photo-1614891264575-4385b57101c9"), photographer: "Landon Arnold", photoPageUrl: "https://unsplash.com/photos/ZtOcWht8r34" },
+      { url: IMG("photo-1507939040444-21d4dca3781e"), photographer: "Bryan Goff", photoPageUrl: "https://unsplash.com/photos/Er5b_Fu2H5A" },
+    ],
+  ],
+  [
+    "united-states--big-wall-climbing-el-capitan",
+    [
+      { url: IMG("photo-1549221838-126dc3ebf29f"), photographer: "Robby McCullough", photoPageUrl: "https://unsplash.com/photos/_rLDh9IFHf8" },
+      { url: IMG("photo-1569936398649-71ffd5218a7e"), photographer: "Sam Forrest", photoPageUrl: "https://unsplash.com/photos/1sQMDxS-cfw" },
+      { url: IMG("photo-1454982606560-be985251f5b4"), photographer: "Christian Joudrey", photoPageUrl: "https://unsplash.com/photos/yCCZvWbah_g" },
+      { url: IMG("photo-1691088986876-f2b1b30f690f"), photographer: "Jezael Melgoza", photoPageUrl: "https://unsplash.com/photos/o78EWx9Oz0Y" },
+      { url: IMG("photo-1745173036546-c56551790fb8"), photographer: "Steve Gribble", photoPageUrl: "https://unsplash.com/photos/tuRraTuflBA" },
+    ],
+  ],
+  [
+    "united-states--whitewater-rafting-grand-canyon",
+    [
+      { url: IMG("photo-1597758812648-b474225b9cbb"), photographer: "Nick Fewings", photoPageUrl: "https://unsplash.com/photos/S6k4vSWrIzA" },
+      { url: IMG("photo-1757219764584-cf9f9018164a"), photographer: "Steve Gribble", photoPageUrl: "https://unsplash.com/photos/Fo7eFLXwloQ" },
+      { url: IMG("photo-1769736080630-cc2182800123"), photographer: "Kyle Mesdag", photoPageUrl: "https://unsplash.com/photos/bsnZl9uCkHA" },
+      { url: IMG("photo-1789067409629-b46d33503fd9"), photographer: "Hanna Howell", photoPageUrl: "https://unsplash.com/photos/JnDyYJMqAUg" },
+      { url: IMG("photo-1757655679613-4bcff814efb8"), photographer: "Steve Gribble", photoPageUrl: "https://unsplash.com/photos/ZdTxxKNY90A" },
+    ],
+  ],
+  [
+    "united-states--base-jumping-cliff-diving-moab",
+    [
+      { url: IMG("photo-1543682388-4b46a14c91db"), photographer: "Tom Gainor", photoPageUrl: "https://unsplash.com/photos/N9PCtj8wdFg" },
+      { url: IMG("photo-1504282706065-f5866e9cbeeb"), photographer: "Andrey Grinkevich", photoPageUrl: "https://unsplash.com/photos/rIDE73mqi2s" },
+      { url: IMG("photo-1678114842860-620d83cfd083"), photographer: "Brian Stevens", photoPageUrl: "https://unsplash.com/photos/bJZwndQO1Tw" },
+      { url: IMG("photo-1520596880803-6ea0113a42d1"), photographer: "Joshua Earle", photoPageUrl: "https://unsplash.com/photos/lKkD6DY7FVw" },
+      { url: IMG("photo-1573067678447-0b769c1cc8ea"), photographer: "Roan Lavery", photoPageUrl: "https://unsplash.com/photos/AI1c6zVlsZc" },
+    ],
+  ],
+  [
+    "united-states--ice-climbing-ouray-ice-park",
+    [
+      { url: IMG("photo-1643903096045-07741be1f245"), photographer: "Mike Markov", photoPageUrl: "https://unsplash.com/photos/v7BkDZg7pK8" },
+      { url: IMG("photo-1520208422220-d12a3c588e6c"), photographer: "Jackman Chiu", photoPageUrl: "https://unsplash.com/photos/36Vbwo1OiZU" },
+      { url: IMG("photo-1709517659991-58d946519556"), photographer: "Chaewool Kim", photoPageUrl: "https://unsplash.com/photos/eFmXUF5HBX8" },
+      { url: IMG("photo-1579769696606-3a52f6d41b95"), photographer: "Johannes Andersson", photoPageUrl: "https://unsplash.com/photos/IqBsJY-buKo" },
+      { url: IMG("photo-1597250861267-429663f244a8"), photographer: "Sylvain Mauroux", photoPageUrl: "https://unsplash.com/photos/m6wbWMF6p9s" },
+    ],
+  ],
+  [
+    "united-states--storm-chasing-tornado-alley",
+    [
+      { url: IMG("photo-1702432665495-38902d6e5633"), photographer: "Raychel Sanner", photoPageUrl: "https://unsplash.com/photos/nqu5L_xc6bc" },
+      { url: IMG("photo-1527483006794-aceb6c9043a8"), photographer: "Nikolas Noonan", photoPageUrl: "https://unsplash.com/photos/Uw0FsLHXKLM" },
+      { url: IMG("photo-1643440733595-5700c1a6cf8c"), photographer: "Ash Hayes", photoPageUrl: "https://unsplash.com/photos/FIbTKOxTK7I" },
+      { url: IMG("photo-1696785011852-73f3e26be0a0"), photographer: "Greg Johnson", photoPageUrl: "https://unsplash.com/photos/IdOhJ1BKNcQ" },
+      { url: IMG("photo-1696831388415-c9439da22a87"), photographer: "Greg Johnson", photoPageUrl: "https://unsplash.com/photos/nc4dznQkm-M" },
+    ],
+  ],
+  [
+    "united-states--lava-viewing-k-lauea",
+    [
+      { url: IMG("photo-1518457607834-6e8d80c183c5"), photographer: "Marc Szeglat", photoPageUrl: "https://unsplash.com/photos/Aduh0KXCI1w" },
+      { url: IMG("photo-1759710900747-c2f17cdb1707"), photographer: "James Lee", photoPageUrl: "https://unsplash.com/photos/-_qvFpQh_-A" },
+      { url: IMG("photo-1475598322381-f1b499717dda"), photographer: "Buzz Andersen", photoPageUrl: "https://unsplash.com/photos/E4944K_4SvI" },
+      { url: IMG("photo-1576941026827-bccc82341bdd"), photographer: "Cedric Letsch", photoPageUrl: "https://unsplash.com/photos/yxrXBQVwx48" },
+      { url: IMG("photo-1518457901585-7ef149f860f9"), photographer: "Marc Szeglat", photoPageUrl: "https://unsplash.com/photos/NysO5Rdn7Mc" },
+    ],
+  ],
+  [
+    "pakistan--k2-base-camp-trek",
+    [
+      { url: IMG("photo-1627896107356-be2fc8606d29"), photographer: "Daniel Born", photoPageUrl: "https://unsplash.com/photos/3hd-RwMC7zk" },
+      { url: IMG("photo-1627896131686-31af2d09930a"), photographer: "Daniel Born", photoPageUrl: "https://unsplash.com/photos/6XS0j1ledgg" },
+      { url: IMG("photo-1627896141076-32f188a9b2b9"), photographer: "Daniel Born", photoPageUrl: "https://unsplash.com/photos/au2mOQkAzQE" },
+      { url: IMG("photo-1627896126682-63cb0c154fcf"), photographer: "Daniel Born", photoPageUrl: "https://unsplash.com/photos/67NoyvuSXDk" },
+      { url: IMG("photo-1627896116660-ea9619608271"), photographer: "Daniel Born", photoPageUrl: "https://unsplash.com/photos/DjA4HpZFIEM" },
+    ],
+  ],
+  [
+    "pakistan--k2-summit-expedition",
+    [
+      { url: IMG("photo-1632133915653-8ded5c72e329"), photographer: "Umar Farooq", photoPageUrl: "https://unsplash.com/photos/hiRWHuUzRqU" },
+      { url: IMG("photo-1632133915388-39c34b27cf72"), photographer: "Umar Farooq", photoPageUrl: "https://unsplash.com/photos/fe-X9_uLU30" },
+      { url: IMG("photo-1632133915194-1128e6ec0ad3"), photographer: "Umar Farooq", photoPageUrl: "https://unsplash.com/photos/Ey9jYru0aSs" },
+      { url: IMG("photo-1632133915728-b8ad1b82b870"), photographer: "Umar Farooq", photoPageUrl: "https://unsplash.com/photos/vmFyn0kSgv4" },
+      { url: IMG("photo-1632133914463-2dfb789c0eea"), photographer: "Umar Farooq", photoPageUrl: "https://unsplash.com/photos/HvAlDglbsIk" },
+    ],
+  ],
+  [
+    "pakistan--nanga-parbat-base-camp-trek",
+    [
+      { url: IMG("photo-1653163517210-2e3b56190680"), photographer: "Adnan Temur Barcha", photoPageUrl: "https://unsplash.com/photos/TV2lul3yFxs" },
+      { url: IMG("photo-1657121924484-03bee946d245"), photographer: "Shujaat Muzaffar", photoPageUrl: "https://unsplash.com/photos/FhE2XuXUbVY" },
+      { url: IMG("photo-1585646688592-0d53a03e2d12"), photographer: "Shahzad Riaz", photoPageUrl: "https://unsplash.com/photos/tvEQJPcYLOE" },
+      { url: IMG("photo-1653163539948-a87817ba6b0f"), photographer: "Adnan Temur Barcha", photoPageUrl: "https://unsplash.com/photos/e3kDTIYmZFc" },
+      { url: IMG("photo-1664872749442-01507d1f1c6e"), photographer: "Aqib Bilal", photoPageUrl: "https://unsplash.com/photos/k47C3UYHUFg" },
+    ],
+  ],
+  [
+    "pakistan--big-wall-climbing-trango-towers",
+    [
+      { url: IMG("photo-1769052120520-c50bddfd67de"), photographer: "Josh Behunin", photoPageUrl: "https://unsplash.com/photos/Kth-W3clBR8" },
+      { url: IMG("photo-1661456998617-0c32479cf87a"), photographer: "Daniel Heritage", photoPageUrl: "https://unsplash.com/photos/Or0WQLsrFZ0" },
+      { url: IMG("photo-1602531734042-c565f8365a0b"), photographer: "Patrick Hendry", photoPageUrl: "https://unsplash.com/photos/z1GkShBBJX4" },
+      { url: IMG("photo-1697456642802-59bfd518d5a2"), photographer: "Curdin", photoPageUrl: "https://unsplash.com/photos/n1X4gx-dc-M" },
+      { url: IMG("photo-1583178180198-0cf050dc2bbf"), photographer: "Patrick Hendry", photoPageUrl: "https://unsplash.com/photos/8O_YsnQv74g" },
+    ],
+  ],
+  [
+    "pakistan--nanga-parbat-summit-expedition",
+    [
+      { url: IMG("photo-1760216004376-d8b028010814"), photographer: "Asim Rehman", photoPageUrl: "https://unsplash.com/photos/NvNX8TTpgXA" },
+      { url: IMG("photo-1760216004374-efe6d592f1d1"), photographer: "Asim Rehman", photoPageUrl: "https://unsplash.com/photos/pt4ojBDmL9o" },
+      { url: IMG("photo-1720908670652-620c6e0948e5"), photographer: "Anees Ur Rehman", photoPageUrl: "https://unsplash.com/photos/wmeKp3w_6qc" },
+      { url: IMG("photo-1760366371766-1feff5bf14be"), photographer: "Asim Rehman", photoPageUrl: "https://unsplash.com/photos/9YdPLMYLShM" },
+      { url: IMG("photo-1657121924484-03bee946d245"), photographer: "Shujaat Muzaffar", photoPageUrl: "https://unsplash.com/photos/FhE2XuXUbVY" },
+    ],
+  ],
+  [
+    "pakistan--deosai-plains-high-altitude-trek",
+    [
+      { url: IMG("photo-1672940139420-143f859a3548"), photographer: "Shehzy Alam", photoPageUrl: "https://unsplash.com/photos/GC019Mh6G9w" },
+      { url: IMG("photo-1522075646656-6cc7dc117480"), photographer: "Waqas Akhtar", photoPageUrl: "https://unsplash.com/photos/CVIdZ1ZZBXQ" },
+      { url: IMG("photo-1677621632981-e4978a762b03"), photographer: "Shoaib KHAN", photoPageUrl: "https://unsplash.com/photos/EMmKJxFPND0" },
+      { url: IMG("photo-1701763572611-b4cc5a72b2f7"), photographer: "Najmul Hasan", photoPageUrl: "https://unsplash.com/photos/v3bYNfmlVDc" },
+      { url: IMG("photo-1634630484149-317cedb7a054"), photographer: "Umar Farooq", photoPageUrl: "https://unsplash.com/photos/5H4pKOJGnUY" },
+    ],
+  ],
+  [
+    "pakistan--whitewater-rafting-indus-river",
+    [
+      { url: IMG("photo-1619837374214-f5b9eb80876d"), photographer: "Prabhav Kashyap Godavarthy", photoPageUrl: "https://unsplash.com/photos/XTroPPNq6JA" },
+      { url: IMG("photo-1647628135714-9e0b2f4e989c"), photographer: "Ayanava Mallick", photoPageUrl: "https://unsplash.com/photos/esCoU5j0MOg" },
+      { url: IMG("photo-1538794436234-cb4c548f31b9"), photographer: "Shreya Kollipara", photoPageUrl: "https://unsplash.com/photos/SN6aD7sqzD4" },
+      { url: IMG("photo-1719682261399-ca48aa70859d"), photographer: "Lori Ayre", photoPageUrl: "https://unsplash.com/photos/Fv9EMIzhmUw" },
+      { url: IMG("photo-1710882110841-eabfd7e6d54a"), photographer: "Alex Moliski", photoPageUrl: "https://unsplash.com/photos/DxYfNWVozSU" },
+    ],
+  ],
+  [
+    "kenya--mount-kenya-technical-climb-batian-peak",
+    [
+      { url: IMG("photo-1721171260453-00a76bbda91a"), photographer: "Steve Enoch", photoPageUrl: "https://unsplash.com/photos/d1dkuog8Sbs" },
+      { url: IMG("photo-1646159755791-54e741749028"), photographer: "Alcock Muller", photoPageUrl: "https://unsplash.com/photos/3GEyU1IYfzM" },
+      { url: IMG("photo-1618856445394-259e67220916"), photographer: "Leon Pauleikhoff", photoPageUrl: "https://unsplash.com/photos/eHo9sAfMN6Q" },
+      { url: IMG("photo-1740343328268-0a126bf87c58"), photographer: "Tourite Safaris", photoPageUrl: "https://unsplash.com/photos/3pBIRy6vX20" },
+      { url: IMG("photo-1740343328279-0ca00ac74cdd"), photographer: "Tourite Safaris", photoPageUrl: "https://unsplash.com/photos/8GW1O_YYEbg" },
+    ],
+  ],
+  [
+    "kenya--mara-river-crossing-safari-maasai-mara",
+    [
+      { url: IMG("photo-1518709766631-a6a7f45921c3"), photographer: "sutirta budiman", photoPageUrl: "https://unsplash.com/photos/PdiOj8kRy28" },
+      { url: IMG("photo-1518709594023-6eab9bab7b23"), photographer: "sutirta budiman", photoPageUrl: "https://unsplash.com/photos/Jgiv1rSIpVM" },
+      { url: IMG("photo-1517118828960-de5ea37d8ae6"), photographer: "sutirta budiman", photoPageUrl: "https://unsplash.com/photos/H9CUOsPXBjw" },
+      { url: IMG("photo-1559494487-a5bbc635ed2b"), photographer: "Sneha Cecil", photoPageUrl: "https://unsplash.com/photos/DEBrMzu-D8I" },
+      { url: IMG("photo-1650936374671-6d6f95c0bbb7"), photographer: "Ahmed Galal", photoPageUrl: "https://unsplash.com/photos/B2ixJqf-qzU" },
+    ],
+  ],
+  [
+    "kenya--rock-climbing-among-wildlife-hell-s-gate-gorge",
+    [
+      { url: IMG("photo-1763910496046-c750ea8bb5e2"), photographer: "Julian Zwengel", photoPageUrl: "https://unsplash.com/photos/nk789Z3OAnc" },
+      { url: IMG("photo-1786445495879-c4790766033e"), photographer: "snap wander", photoPageUrl: "https://unsplash.com/photos/3_p_Qo1je8A" },
+      { url: IMG("photo-1595844922501-10c3eadcad66"), photographer: "James Kingham", photoPageUrl: "https://unsplash.com/photos/116BvWzGEIk" },
+      { url: IMG("photo-1780505538991-4d7d5069b558"), photographer: "Eliot", photoPageUrl: "https://unsplash.com/photos/5-ppILKZ6kA" },
+      { url: IMG("photo-1784895791885-713d2fe5d52f"), photographer: "Dhiemas Afif Febriyan", photoPageUrl: "https://unsplash.com/photos/I9sZGj2zJ-w" },
+    ],
+  ],
+  [
+    "kenya--whitewater-rafting-tana-river",
+    [
+      { url: IMG("photo-1699951035290-938500735135"), photographer: "Paddy Pohlod", photoPageUrl: "https://unsplash.com/photos/Nsh5rwnIISY" },
+      { url: IMG("photo-1710882110697-ed82c5cca043"), photographer: "Alex Moliski", photoPageUrl: "https://unsplash.com/photos/vHUk2AvsI-g" },
+      { url: IMG("photo-1710882110716-e1620827bfa7"), photographer: "Alex Moliski", photoPageUrl: "https://unsplash.com/photos/nkdkpbODDVc" },
+      { url: IMG("photo-1710882112160-f511e2a9b62d"), photographer: "Alex Moliski", photoPageUrl: "https://unsplash.com/photos/QIWm_kIDLGk" },
+      { url: IMG("photo-1692837824408-38c37f1d32f3"), photographer: "Joss Broward", photoPageUrl: "https://unsplash.com/photos/E8vba3U40rs" },
+    ],
+  ],
+  [
+    "kenya--diving-watamu-marine-park",
+    [
+      { url: IMG("photo-1692935045168-c80632f56b06"), photographer: "Abdul Noor", photoPageUrl: "https://unsplash.com/photos/5nzBUd3NleA" },
+      { url: IMG("photo-1757143767669-20648e9eb96d"), photographer: "Victor Mshindi", photoPageUrl: "https://unsplash.com/photos/De_X043uaiI" },
+      { url: IMG("photo-1690305530718-9a89aa186560"), photographer: "Abdul Noor", photoPageUrl: "https://unsplash.com/photos/cGOVWwGKmwM" },
+      { url: IMG("photo-1708649290066-5f617003b93f"), photographer: "NEOM", photoPageUrl: "https://unsplash.com/photos/HYHYGLs-Rp8" },
+      { url: IMG("photo-1544551763-46a013bb70d5"), photographer: "Sebastian Pena Lambarri", photoPageUrl: "https://unsplash.com/photos/7i5HMCGupVw" },
+    ],
+  ],
+  [
+    "kenya--paragliding-kerio-valley",
+    [
+      { url: IMG("photo-1677820915325-d8ce3184c2a4"), photographer: "Aditya Chache", photoPageUrl: "https://unsplash.com/photos/suhH6C9U7rs" },
+      { url: IMG("photo-1713063968789-adf139c4a1eb"), photographer: "Komal N", photoPageUrl: "https://unsplash.com/photos/Ww1ZFZzChiY" },
+      { url: IMG("photo-1655469795420-31a4cefc79e4"), photographer: "Aditya Chache", photoPageUrl: "https://unsplash.com/photos/3DQZtSwnd3M" },
+      { url: IMG("photo-1655809061885-a41e3827019f"), photographer: "Aditya Chache", photoPageUrl: "https://unsplash.com/photos/qoDr8-hkUBg" },
+      { url: IMG("photo-1761416351501-a9a2e51310f3"), photographer: "Josip Ivanković", photoPageUrl: "https://unsplash.com/photos/MBXxydGwQOo" },
+    ],
+  ],
+  [
+    "kenya--camel-trekking-chalbi-desert",
+    [
+      { url: IMG("photo-1700299926955-d68c16ba107b"), photographer: "Hongbin", photoPageUrl: "https://unsplash.com/photos/heNpLRaLDNw" },
+      { url: IMG("flagged/photo-1550489518-40f49ba4bf20"), photographer: "Vera Davidova", photoPageUrl: "https://unsplash.com/photos/syADksVMrKk" },
+      { url: IMG("photo-1599475504246-11c1217748c2"), photographer: "Saj Shafique", photoPageUrl: "https://unsplash.com/photos/de7Zqg3j3FI" },
+      { url: IMG("photo-1592172578991-51bac865e437"), photographer: "Juli Kosolapova", photoPageUrl: "https://unsplash.com/photos/be5B3YGDmtc" },
+      { url: IMG("photo-1547234936-74a4b1ee7f42"), photographer: "Tatiana Zanon", photoPageUrl: "https://unsplash.com/photos/VP2mjtJqWvY" },
+    ],
+  ],
+  [
+    "papua-new-guinea--kokoda-track-trek",
+    [
+      { url: IMG("photo-1658167210874-f3679e784425"), photographer: "Amos Tade", photoPageUrl: "https://unsplash.com/photos/SAUCDsjtPAY" },
+      { url: IMG("photo-1724032755824-5a2e3eb46f9e"), photographer: "Aileen Kombia", photoPageUrl: "https://unsplash.com/photos/Sh5TsPoNTO8" },
+      { url: IMG("photo-1613183919710-2ff7b3bec845"), photographer: "Ganda Lukman", photoPageUrl: "https://unsplash.com/photos/H23hvjgZo8I" },
+      { url: IMG("photo-1615608178738-37d47d27c13d"), photographer: "Asso Myron", photoPageUrl: "https://unsplash.com/photos/n1LrwXzsnuU" },
+      { url: IMG("photo-1722688010304-bdb181fbda3a"), photographer: "Afriyandi Setiawan", photoPageUrl: "https://unsplash.com/photos/hd4Nyl6EHfk" },
+    ],
+  ],
+  [
+    "papua-new-guinea--muck-diving-milne-bay",
+    [
+      { url: IMG("photo-1657284915482-41ebb71216e5"), photographer: "Amos Tade", photoPageUrl: "https://unsplash.com/photos/sR5_GODYkyo" },
+      { url: IMG("photo-1517627043994-b991abb62fc8"), photographer: "Francisco Jesús Navarro Hernández", photoPageUrl: "https://unsplash.com/photos/dtCTfjTEOgg" },
+      { url: IMG("photo-1570367364062-4ab01ebf0954"), photographer: "Bobbi Wu", photoPageUrl: "https://unsplash.com/photos/3_h9trxhQmY" },
+      { url: IMG("photo-1628630500614-1c8924c99c3e"), photographer: "Chase Baker", photoPageUrl: "https://unsplash.com/photos/RTtUA2iBwRw" },
+      { url: IMG("photo-1586508577428-120d6b072945"), photographer: "Aviv Perets", photoPageUrl: "https://unsplash.com/photos/eLfDul2Uu8k" },
+    ],
+  ],
+  [
+    "papua-new-guinea--mount-tavurvur-volcano-trek",
+    [
+      { url: IMG("photo-1506467493604-25d7861a6703"), photographer: "Gary Saldana", photoPageUrl: "https://unsplash.com/photos/KRttQCXUjNI" },
+      { url: IMG("photo-1475776408506-9a5371e7a068"), photographer: "Yosh Ginsu", photoPageUrl: "https://unsplash.com/photos/qexZLgMcbPc" },
+      { url: IMG("photo-1616860895045-13553f397d64"), photographer: "Ása Steinarsdóttir", photoPageUrl: "https://unsplash.com/photos/NUDZ0D3ySAA" },
+      { url: IMG("photo-1589825969834-e24c6859ac7a"), photographer: "Meddy Huduti", photoPageUrl: "https://unsplash.com/photos/IxzmRd9YiBE" },
+      { url: IMG("photo-1657092587270-3c9d9a138f50"), photographer: "Yaniv Cohen", photoPageUrl: "https://unsplash.com/photos/GFvZPI0QkSQ" },
+    ],
+  ],
+  [
+    "papua-new-guinea--surfing-vanimo",
+    [
+      { url: IMG("photo-1616141893496-fbc65370493e"), photographer: "Matt Paul Catalano", photoPageUrl: "https://unsplash.com/photos/0QEG_xOoY7Y" },
+      { url: IMG("photo-1459745930869-b3d0d72c3cbb"), photographer: "Jeremy Bishop", photoPageUrl: "https://unsplash.com/photos/pikyGuAmwpM" },
+      { url: IMG("photo-1455264745730-cb3b76250ae8"), photographer: "Thomas Ashlock", photoPageUrl: "https://unsplash.com/photos/7G5dkthFyxA" },
+      { url: IMG("photo-1476574898132-040f50db0a01"), photographer: "Jeremy Bishop", photoPageUrl: "https://unsplash.com/photos/zam3m6W2npM" },
+      { url: IMG("photo-1498330177096-689e3fb901ca"), photographer: "Jeremy Bishop", photoPageUrl: "https://unsplash.com/photos/iftBhUFfecE" },
+    ],
+  ],
+  [
+    "papua-new-guinea--diving-kimbe-bay",
+    [
+      { url: IMG("photo-1561983779-7d7e065befa4"), photographer: "Maël BALLAND", photoPageUrl: "https://unsplash.com/photos/s2_f4ijsGHs" },
+      { url: IMG("photo-1682687981674-0927add86f2b"), photographer: "NEOM", photoPageUrl: "https://unsplash.com/photos/V1NTzSrnXvw" },
+      { url: IMG("photo-1544551763-8dd44758c2dd"), photographer: "Sebastian Pena Lambarri", photoPageUrl: "https://unsplash.com/photos/44r12Ck_CoI" },
+      { url: IMG("photo-1608209957132-587daea098f3"), photographer: "Jesse van Vliet", photoPageUrl: "https://unsplash.com/photos/VF9AbHHuWrg" },
+      { url: IMG("photo-1682687982107-14492010e05e"), photographer: "NEOM", photoPageUrl: "https://unsplash.com/photos/numwIW6i8Iw" },
+    ],
+  ],
+  [
+    "papua-new-guinea--mount-wilhelm-summit-trek",
+    [
+      { url: IMG("photo-1700144068853-671567b77ea8"), photographer: "Dicky Wauyari", photoPageUrl: "https://unsplash.com/photos/SUUYUt5lK6A" },
+      { url: IMG("photo-1586094332115-680788e0182f"), photographer: "Weronika", photoPageUrl: "https://unsplash.com/photos/wSEv7Nanuxc" },
+      { url: IMG("photo-1551221236-f7722decfe63"), photographer: "Jason Miller", photoPageUrl: "https://unsplash.com/photos/9unTadqm2GI" },
+      { url: IMG("photo-1671390989624-49bc7308dc95"), photographer: "Gerda", photoPageUrl: "https://unsplash.com/photos/1c043XiIAA0" },
+      { url: IMG("photo-1788552297323-4a6061fa5b86"), photographer: "Joshua Shocklee", photoPageUrl: "https://unsplash.com/photos/rN6fw_SGfco" },
+    ],
+  ],
+  [
+    "papua-new-guinea--sepik-river-cultural-expedition",
+    [
+      { url: IMG("photo-1631601522517-eeeddf1a078d"), photographer: "Jelilah Kum", photoPageUrl: "https://unsplash.com/photos/p6QMSY1Tg00" },
+      { url: IMG("photo-1621214564272-c2dddb92a3b9"), photographer: "Osbourne Wangillen", photoPageUrl: "https://unsplash.com/photos/m8kQGygT8KY" },
+      { url: IMG("photo-1600891406749-c179609d8475"), photographer: "Bob Brewer", photoPageUrl: "https://unsplash.com/photos/tGfB7t4L1JY" },
+      { url: IMG("photo-1600891567289-b26e474f2cf7"), photographer: "Bob Brewer", photoPageUrl: "https://unsplash.com/photos/4dCB0Yek9GQ" },
+      { url: IMG("photo-1717759200663-c60f44e65d92"), photographer: "Spencer Wungin", photoPageUrl: "https://unsplash.com/photos/LPI79dMg19A" },
+    ],
+  ],
 ]);
 
 export function galleryForActivity(activityId: string): GalleryPhoto[] | null {
